@@ -1,11 +1,13 @@
 # Compiled and build artifacts
-*.class
+*.pyc
+__pycache__/
 dist/
 build/
 
 # Dependencies
-target/
-.gradle/
+node_modules/
+.venv/
+venv/
 
 # Logs and temp files
 *.log
@@ -21,6 +23,9 @@ target/
 .vscode/
 .idea/
 
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
+
+# Original rules preserved
+*.log
