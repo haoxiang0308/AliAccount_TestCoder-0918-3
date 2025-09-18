@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <name>Иван Петров</name>
+    <age>20</age>
+    <faculty>Информационные технологии</faculty>
+    <course>3</course>
+    <group>ИТ-301</group>
+</student>
