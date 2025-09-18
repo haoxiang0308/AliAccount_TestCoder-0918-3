@@ -1,7 +1,8 @@
 # Compiled and build artifacts
-*.m
 *.pyc
 __pycache__/
+*.o
+*.obj
 dist/
 build/
 
