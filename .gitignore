@@ -1,4 +1,5 @@
 # Compiled and build artifacts
+*.ex
 *.o
 *.obj
 dist/
@@ -22,10 +23,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
-
-# Original rules preserved
-*.log
