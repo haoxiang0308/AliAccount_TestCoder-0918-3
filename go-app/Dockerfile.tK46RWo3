@@ -1,0 +1,56 @@
+# Multi-stage Dockerfile for Go Application
+
+# --- Stage 1: Builder ---
+# Start from the official Golang image to build our application.
+FROM golang:1.21-alpine AS builder
+
+# Install git, which is sometimes needed for fetching dependencies.
+RUN apk add --no-cache git
+
+# Set the working directory inside the container.
+WORKDIR /app
+
+# Copy go mod and sum files first to leverage Docker cache.
+# This will only re-run 'go mod download' if these files change.
+COPY go.mod go.sum ./
+RUN go mod download
+
+# Copy the source code into the container.
+COPY . .
+
+# Build the Go app, outputting the binary to /app/main.
+# CGO_ENABLED=0: Disable cgo to create a static binary.
+# GOOS=linux: Set the target OS to Linux.
+# -a: Force rebuilding of packages.
+# -o main: Specify the output file name.
+# .: The source code is in the current directory.
+RUN CGO_ENABLED=0 GOOS=linux go build -a -o main .
+
+# --- Stage 2: Runtime ---
+# Start from a minimal image for running the application.
+FROM alpine:latest
+
+# Install ca-certificates, which are often needed for HTTPS requests.
+# Update the package index and install ca-certificates in one layer.
+RUN apk --no-cache add ca-certificates
+
+# Create a non-root user for better security.
+RUN adduser -D -s /bin/sh appuser
+
+# Set the working directory.
+WORKDIR /app
+
+# Copy the pre-built binary file from the builder stage.
+COPY --from=builder /app/main .
+
+# Change ownership of the binary to the non-root user.
+RUN chown appuser:appuser main
+
+# Switch to the non-root user.
+USER appuser
+
+# Expose port 8080 to the outside world.
+EXPOSE 8080
+
+# Command to run the executable.
+CMD ["./main"]
