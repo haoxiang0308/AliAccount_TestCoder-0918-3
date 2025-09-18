@@ -1,12 +1,11 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+*.dart
+greeting_widget_*
 
 # Dependencies
-vendor/
-node_modules/
+.dart_tool/
+build/
+pubspec.lock
 
 # Logs and temp files
 *.log
@@ -21,9 +20,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# System files
-.DS_Store
-Thumbs.db
