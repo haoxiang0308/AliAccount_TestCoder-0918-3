@@ -1,24 +1,43 @@
-# MATLAB compiled files
-*.mex*
-*.mexw*
-*.mexglx
-*.mexa64
-*.mexmaci64
-*.asv
-
-# Temporary and log files
-*.tmp
+# Compiled and build artifacts
+*.aux
 *.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
+
+# LaTeX specific
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.thm
+*.toc
+*.loa
+*.loe
+*.loq
+*.los
+*.lou
+*.lta
+*.ltb
+*.ltx
+*.pdfsync
+*.synctex
+*.gz
+
+# Editors
 *.swp
 *.swo
-
-# Environment files
-.env
-.env.local
-.env.*
-
-# IDE and editor files
-.vscode/
-.idea/
 .DS_Store
 Thumbs.db
+
+# Temp files
+*.tmp
