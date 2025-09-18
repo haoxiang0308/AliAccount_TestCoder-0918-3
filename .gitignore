@@ -1,18 +1,25 @@
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
-Makefile_XYZ123
+dist/
+build/
 
 # Dependencies
+.venv/
 venv/
-.env
-.env.local
-.env.*
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
