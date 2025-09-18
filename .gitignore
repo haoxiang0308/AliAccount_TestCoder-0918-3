@@ -1,0 +1,52 @@
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.pyc
+__pycache__/
+*.class
+
+# Build and distribution directories
+build/
+dist/
+target/
+.gradle/
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+julia-*/
+zig-cache/
+zig-out/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage and cache
+coverage/
+htmlcov/
+.coverage
+.mypy_cache/
+.pytest_cache/

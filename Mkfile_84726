@@ -1,0 +1,33 @@
+# Simple Makefile for C++ project
+# Random name: Mkfile_84726
+
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++17 -Iinclude
+SRCDIR = src
+TESTDIR = tests
+BUILDDIR = build
+TARGET = $(BUILDDIR)/main
+TESTTARGET = $(BUILDDIR)/test_main
+
+# Default target
+all: build
+
+# Build target
+build: 
+	mkdir -p $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRCDIR)/main.cpp $(SRCDIR)/app_main.cpp
+
+# Test target
+test: 
+	mkdir -p $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -o $(TESTTARGET) $(TESTDIR)/test_main.cpp $(SRCDIR)/main.cpp
+	@echo "Running tests..."
+	./$(TESTTARGET)
+
+# Clean target
+clean:
+	rm -rf $(BUILDDIR)
+	@echo "Cleaned build directory"
+
+# Phony targets
+.PHONY: all build test clean

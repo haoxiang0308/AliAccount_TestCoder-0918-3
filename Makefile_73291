@@ -1,0 +1,57 @@
+# Simple Makefile for C++ project
+# Random name: Makefile_73291
+
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++17 -Iinclude
+SRCDIR = src
+TESTDIR = tests
+BUILDDIR = build
+TARGET = $(BUILDDIR)/main
+TESTTARGET = $(BUILDDIR)/test_main
+
+# Source files
+SOURCES = $(SRCDIR)/main.cpp
+TEST_SOURCES = $(TESTDIR)/test_main.cpp
+
+# Object files
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(BUILDDIR)/%.o)
+TEST_OBJECTS = $(TEST_SOURCES:$(TESTDIR)/%.cpp=$(BUILDDIR)/%.o)
+
+# Default target
+all: build
+
+# Build target
+build: $(TARGET)
+
+# Test target
+test: $(TESTTARGET)
+	@echo "Running tests..."
+	./$(TESTTARGET)
+
+# Create build directory (prerequisite for object files)
+$(BUILDDIR):
+	mkdir -p $(BUILDDIR)
+
+# Link the main executable
+$(TARGET): $(OBJECTS)
+	$(CXX) $(CXXFLAGS) -o $@ $^
+
+# Link the test executable
+$(TESTTARGET): $(TEST_OBJECTS) $(filter-out $(BUILDDIR)/main.o, $(OBJECTS))
+	$(CXX) $(CXXFLAGS) -o $@ $^
+
+# Compile source files (depend on build directory)
+$(BUILDDIR)/%.o: $(SRCDIR)/%.cpp | $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# Compile test files (depend on build directory)
+$(BUILDDIR)/%.o: $(TESTDIR)/%.cpp | $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -c -o $@ $<
+
+# Clean target
+clean:
+	rm -rf $(BUILDDIR)
+	@echo "Cleaned build directory"
+
+# Phony targets
+.PHONY: all build test clean
