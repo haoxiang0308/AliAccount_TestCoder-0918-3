@@ -1,27 +1,24 @@
-#Compiled and build artifacts
-*.cr
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
+# MATLAB compiled files
+*.mex*
+*.mexw*
+*.mexglx
+*.mexa64
+*.mexmaci64
+*.asv
 
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Logs and temp files
-*.log
+# Temporary and log files
 *.tmp
+*.log
 *.swp
+*.swo
 
-#Environment
+# Environment files
 .env
 .env.local
 .env.*
 
-#Editors
+# IDE and editor files
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+% Generate x values from 0 to 2*pi
+x = linspace(0, 2*pi, 100);
+
+% Calculate y values (sine of x)
+y = sin(x);
+
+% Create a new figure
+figure;
+
+% Plot the sine wave
+plot(x, y, 'b-', 'LineWidth', 2);
+
+% Add labels and title
+xlabel('x (radians)');
+ylabel('sin(x)');
+title('Sine Wave');
+
+% Add grid for better readability
+grid on;
