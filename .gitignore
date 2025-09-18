@@ -1,6 +1,6 @@
 # Compiled and build artifacts
 *.pyc
-pycache/
+__pycache__/
 dist/
 build/
 
