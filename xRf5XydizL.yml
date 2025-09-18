@@ -1,0 +1,15 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the specified service
+      ansible.builtin.service:
+        name: apache2
+        state: restarted
+      notify: Service restarted notification
+
+  handlers:
+    - name: Service restarted notification
+      ansible.builtin.debug:
+        msg: "The service has been successfully restarted"
