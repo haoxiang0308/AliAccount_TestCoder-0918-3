@@ -1,19 +1,16 @@
-# Compiled and build artifacts
-*.css
-
-# Logs and temp files
-*.log
-*.tmp
+# Temporary and backup files
 *.swp
+*.swo
+*.tmp
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
+# IDE and editor files
 .vscode/
 .idea/
 
-# Original rules preserved
-*.log
+# Shell scripts (if generated or temporary)
+disk_check_2mFgDC.sh
