@@ -1,46 +1,63 @@
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.so
-*.dll
-*.exe
-*.out
-*.pyc
-__pycache__/
-dist/
-build/
-target/
-.gradle/
+*.proto
+*.pb.go
+*.pb.h
+*.pb.cc
+*.pb.c
+*.pb.swift
+*.pb.dart
+*.pb.java
+*.pb.js
+*.pb.ts
+*.pb.rb
+*.pb.php
+*.pb.py
+*.pb.rs
+*.pb.kt
+*.pb.scala
+*.pb.sh
+*.pb.bzl
+*.pb.bzl.go
+*.pb.bzl.py
+*.pb.bzl.java
+*.pb.bzl.js
+*.pb.bzl.ts
+*.pb.bzl.rb
+*.pb.bzl.php
+*.pb.bzl.swift
+*.pb.bzl.kt
+*.pb.bzl.scala
+*.pb.bzl.dart
+*.pb.bzl.c
+*.pb.bzl.cc
+*.pb.bzl.h
+*.pb.bzl.sh
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-.m2/
-.julia/
-.zig/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.gradle/
+target/
+dist/
+build/
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
-*.iml
-*.iws
-*.ipr
+*.swp
+*.swo
 
-# System files
+# Logs and temp files
+*.log
+*.tmp
 .DS_Store
 Thumbs.db
-desktop.ini
