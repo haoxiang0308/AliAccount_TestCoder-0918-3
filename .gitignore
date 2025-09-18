@@ -12,15 +12,9 @@ node_modules/
 #Environment
 .env
 .env.local
-.env.*
 
 #Editors
 .vscode/
-.idea/
 
-#System/Temp files
-*.log
-*.tmp
-*.swp
-.DS_Store
-Thumbs.db
+#Database
+*.db
