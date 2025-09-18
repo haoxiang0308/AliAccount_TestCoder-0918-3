@@ -1,24 +1,17 @@
-#Dependencies
-node_modules/
+# Backup files
+*.tar.gz
+backups/
 
-#Compiled and build artifacts
-dist/
-build/
-
-#Environment
+# Environment files
 .env
 .env.local
 .env.*
 
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Editors
+# IDE and editor files
 .vscode/
-.idea/
 
-#System files
-.DS_Store
-Thumbs.db
+# Scripts (optional: only if not part of source)
+*.sh
+
+# Original rules preserved
+*.log
