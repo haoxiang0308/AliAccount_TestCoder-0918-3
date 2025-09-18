@@ -5,11 +5,25 @@ dist/
 build/
 
 #Dependencies
+.venv/
+venv/
 node_modules/
 
 #Environment
 .env
 .env.local
+.env.*
 
 #Editors
 .vscode/
+.idea/
+
+#System
+.DS_Store
+Thumbs.db
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
