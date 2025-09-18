@@ -1,8 +1,6 @@
 # Compiled and build artifacts
 *.pyc
-pycache/
-*.o
-*.obj
+__pycache__/
 dist/
 build/
 
@@ -19,11 +17,14 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
 
 # Original rules preserved
 *.log
