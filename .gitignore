@@ -1,25 +1,17 @@
-# Compiled and build artifacts
-*.m
-*.pyc
-__pycache__/
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
+# Node.js specific
 node_modules/
+
+# Environment files
+.env
+.env.local
+
+# VS Code
+.vscode/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
+# Original rules preserved
+*.log
