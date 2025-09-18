@@ -1,16 +1,48 @@
 # Compiled and build artifacts
-*.pyc
-dist/
-build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
 .venv/
 venv/
 node_modules/
+dist/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
+.idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
+
+# Fortran-specific
+*.mod
+*.smod
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.obj
+*.out
+
+# Original rules preserved
+*.log
