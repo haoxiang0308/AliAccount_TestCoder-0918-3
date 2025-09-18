@@ -1,0 +1,27 @@
+# Simple Makefile for compiling a C program
+
+# Compiler
+CC = gcc
+
+# Compiler flags
+CFLAGS = -Wall -Wextra -std=c99
+
+# Target executable name
+TARGET = my_program
+
+# Source file
+SOURCE = main.c
+
+# Default rule
+all: $(TARGET)
+
+# Rule to compile the program
+$(TARGET): $(SOURCE)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCE)
+
+# Clean rule to remove the compiled executable
+clean:
+	rm -f $(TARGET)
+
+# Phony targets
+.PHONY: all clean
