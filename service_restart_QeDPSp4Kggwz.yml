@@ -1,0 +1,33 @@
+---
+- name: Restart a service
+  hosts: all
+  become: yes
+  vars:
+    service_name: nginx
+
+  tasks:
+    - name: Check if service is installed
+      ansible.builtin.systemd:
+        name: "{{ service_name }}"
+        state: started
+        enabled: yes
+      ignore_errors: yes
+      register: service_status
+
+    - name: Restart service
+      ansible.builtin.systemd:
+        name: "{{ service_name }}"
+        state: restarted
+      when: service_status is not failed
+      register: restart_result
+
+    - name: Verify service status after restart
+      ansible.builtin.systemd:
+        name: "{{ service_name }}"
+        state: started
+      when: restart_result is changed
+      register: verify_result
+
+    - name: Report service restart status
+      ansible.builtin.debug:
+        msg: "Service {{ service_name }} restart: {{ 'SUCCESS' if verify_result is not failed else 'FAILED' }}"
