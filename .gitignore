@@ -1,29 +1,17 @@
-# Compiled and build artifacts
-*.aux
-*.log
-*.out
-*.toc
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.run.xml
-*.bbl
-*.blg
-*.lof
-*.lot
-*.nav
-*.snm
-*.vrb
-*.thm
-*.toc
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# LaTeX build directories
-latex_docs/latex_document_*.tex
+#Dependencies
+.venv/
+venv/
+node_modules/
 
-# Environment
+#Environment
 .env
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
