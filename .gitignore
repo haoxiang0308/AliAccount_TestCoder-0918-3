@@ -1,14 +1,27 @@
-#Compiled and build artifacts
-*.sql~*
-*.sql-e*
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-#Environment
+# Dependency directories
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment files
 .env
 .env.local
 .env.*
 
-#Editors
+# IDE and editor files
 .vscode/
-
-#Original rules preserved
-*.log
+.idea/
+*.swo
