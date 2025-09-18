@@ -1,0 +1,36 @@
+# Randomly named Makefile for C++ project
+
+# Compiler and flags
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -g
+INCLUDES = -Iinclude
+
+# Directories
+SRCDIR = src
+TESTDIR = tests
+BUILDDIR = build
+TARGET = $(BUILDDIR)/main
+TESTTARGET = $(BUILDDIR)/test_runner
+
+# Default target
+all: build
+
+# Build target - compiles the main application
+build: 
+	mkdir -p $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) $(SRCDIR)/main.cpp -o $(TARGET)
+
+# Test target - compiles and runs tests
+test: 
+	mkdir -p $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) $(TESTDIR)/test_main.cpp -o $(TESTTARGET)
+	@echo "Running tests..."
+	./$(TESTTARGET)
+
+# Clean target - removes build artifacts
+clean:
+	rm -rf $(BUILDDIR)
+	@echo "Cleaned build directory"
+
+# Phony targets
+.PHONY: all build test clean
