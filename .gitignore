@@ -1,36 +1,21 @@
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.so
-*.dll
-*.exe
-*.out
+# Puppet-specific ignores
+puppet_manifests/*.pp
 
-# Fortran specific
-*.smod
-*.f90~
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
+# Environment files
 .env
 .env.local
 .env.*
 
-# Editors
+# IDE and editor files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System
+# OS-generated files
 .DS_Store
 Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
