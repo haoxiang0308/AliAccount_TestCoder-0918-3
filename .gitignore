@@ -1,5 +1,15 @@
 # Compiled and build artifacts
-*.asm
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -14,6 +24,10 @@
 # Editors
 .vscode/
 .idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
 
 # Original rules preserved
 *.log
