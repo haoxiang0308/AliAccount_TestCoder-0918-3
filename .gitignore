@@ -1,27 +1,20 @@
 # Compiled and build artifacts
+*.pyc
+pycache/
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.class
 dist/
 build/
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-target/
-.gradle/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
@@ -35,3 +28,6 @@ target/
 # System/Environment files
 .DS_Store
 Thumbs.db
+
+# Original rules preserved
+*.log
