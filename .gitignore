@@ -1,29 +1,8 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
+#MATLAB generated files
+*.m
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+#Environment
 .env
-.env.local
-.env.*
 
-# Editors
+#IDE
 .vscode/
-.idea/
-
-# Original rules preserved
-*.log
