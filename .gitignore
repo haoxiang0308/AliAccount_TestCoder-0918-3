@@ -1,14 +1,45 @@
-#Dependencies
-node_modules/
+# Build artifacts and temporary files
+dist/
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-#Environment
+# Compiled and cache files
+*.pyc
+__pycache__/
+*.class
+.mypy_cache/
+.pytest_cache/
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+.gradle/
+target/
+julia-*/
+zig*/
+
+# Environment and local config
 .env
 .env.local
 .env.*
 
-#Logs and temp files
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+*.swo
 
-#Editors
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
 .vscode/
 .idea/
