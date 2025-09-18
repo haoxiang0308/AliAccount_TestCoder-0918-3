@@ -1,0 +1,36 @@
+# Sample Makefile with build and clean targets
+
+# Compiler and flags
+CC = gcc
+CFLAGS = -Wall -Wextra -std=c99 -O2
+TARGET = myprogram
+SRCDIR = src
+OBJDIR = obj
+SOURCES = $(wildcard $(SRCDIR)/*.c)
+OBJECTS = $(SOURCES:$(SRCDIR)/%.c=$(OBJDIR)/%.o)
+
+# Default target
+all: $(TARGET)
+
+# Create necessary directories
+$(OBJDIR):
+	mkdir -p $(OBJDIR)
+
+# Link object files to create executable
+$(TARGET): $(OBJDIR) $(OBJECTS)
+	$(CC) $(OBJECTS) -o $@
+
+# Compile source files to object files
+$(OBJDIR)/%.o: $(SRCDIR)/%.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Clean build artifacts
+clean:
+	rm -rf $(OBJDIR) $(TARGET)
+
+# Install the program (optional)
+install: $(TARGET)
+	cp $(TARGET) /usr/local/bin/
+
+# Phony targets
+.PHONY: all clean install
