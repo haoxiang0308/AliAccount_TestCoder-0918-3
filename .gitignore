@@ -1,40 +1,14 @@
-# Compiled and build artifacts
-*.dll
-*.exe
-*.o
-*.obj
-*.so
-*.a
-*.out
-*.class
-*.pyc
-__pycache__/
-dist/
-build/
-obj/
+#Compiled and build artifacts
+*.sql~*
+*.sql-e*
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
+#Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+#Editors
 .vscode/
-.idea/
 
-# System files
-.DS_Store
-Thumbs.db
+#Original rules preserved
+*.log
