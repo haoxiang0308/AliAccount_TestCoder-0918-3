@@ -1,5 +1,23 @@
-# Backup files
-*.backup_*
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Shell scripts
-*.sh
+#Dependencies
+.venv/
+venv/
+node_modules/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#Environment
+.env
+.env.local
+
+#Editors
+.vscode/
+.idea/
