@@ -1,15 +1,12 @@
 # Compiled and build artifacts
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
+*.dart_tool/
+.dart_tool/
 build/
+dist/
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+.dart_tool/
+pubspec.lock
 
 # Logs and temp files
 *.log
@@ -25,5 +22,6 @@ node_modules/
 .vscode/
 .idea/
 
-# Original rules preserved
-*.log
+# System files
+.DS_Store
+Thumbs.db
