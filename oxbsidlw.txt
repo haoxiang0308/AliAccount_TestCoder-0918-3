@@ -1,0 +1,15 @@
+Web Scraping Results - 2025-09-18 20:41:03
+==================================================
+
+URL: https://www.python.org
+Title: Welcome to Python.org
+------------------------------
+URL: https://www.github.com
+Title: GitHub · Build and ship software on a single, collaborative platform · GitHub
+------------------------------
+URL: https://www.stackoverflow.com
+Title: Error scraping https://www.stackoverflow.com: 403 Client Error: Forbidden for url: https://stackoverflow.com/
+------------------------------
+URL: https://www.wikipedia.org
+Title: Wikipedia
+------------------------------
