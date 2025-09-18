@@ -1,18 +1,69 @@
 # Compiled and build artifacts
-*.pyc
-pycache/
-dist/
-build/
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# LaTeX temporary files
+*.lof
+*.lot
+*.bbl
+*.blg
+*.idx
+*.ilg
+*.ind
+*.loe
+*.los
+*.lol
+*.gz
+*.nav
+*.snm
+*.vrb
+*.thm
+*.toc
+*.loa
+*.lom
+*.loe
+*.loq
+*.lou
+*.lsp
+*.luc
+*.lud
+*.lue
+*.luf
+*.lug
+*.luh
+*.lui
+*.luj
+*.luk
+*.lul
+*.lum
+*.lun
+*.luo
+*.lup
+*.luq
+*.lur
+*.lus
+*.lut
+*.luu
+*.luv
+*.luw
+*.lux
+*.luy
+*.luz
 
-# Environment
+# Environment and editor files
 .env
 .env.local
 .env.*
-
-# Editors
 .vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
