@@ -1,6 +1,9 @@
 # Compiled and build artifacts
+*.proto
 *.pyc
 __pycache__/
+*.o
+*.obj
 dist/
 build/
 
@@ -17,6 +20,7 @@ node_modules/
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
