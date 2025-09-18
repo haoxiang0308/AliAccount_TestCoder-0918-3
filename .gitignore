@@ -1,20 +1,23 @@
 # Compiled and build artifacts
-*.php
 *.pyc
 __pycache__/
 dist/
 build/
 
 # Dependencies
-vendor/
-.env
-.env.local
-.env.*
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
@@ -23,3 +26,6 @@ vendor/
 # System/Environment files
 .DS_Store
 Thumbs.db
+
+# Original rules preserved
+*.log
