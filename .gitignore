@@ -1,29 +1,29 @@
-# Compiled and build artifacts
+#Database and sensitive files
+*.db
+.env
+
+#Compiled and build artifacts
 *.pyc
-pycache/
+__pycache__/
 *.o
 *.obj
 dist/
 build/
 
-# Dependencies
+#Dependencies
 .venv/
 venv/
 node_modules/
 
-# Logs and temp files
+#Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
+#Environment
 .env.local
 .env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
-
-# Original rules preserved
-*.log
