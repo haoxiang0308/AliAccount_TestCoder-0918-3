@@ -20,6 +20,6 @@ node_modules/
 .vscode/
 .idea/
 
-# System/Environment files
+# System files
 .DS_Store
 Thumbs.db
