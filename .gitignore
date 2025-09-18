@@ -1,14 +1,10 @@
 # Compiled and build artifacts
-*.o
-*.obj
 *.pyc
 __pycache__/
 dist/
 build/
 
 # Dependencies
-venv/
-.venv/
 node_modules/
 
 # Environment
@@ -17,3 +13,7 @@ node_modules/
 
 # Editors
 .vscode/
+
+# Temp files
+*.swp
+*.tmp
