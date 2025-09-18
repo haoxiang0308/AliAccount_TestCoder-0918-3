@@ -1,33 +1,31 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Go project
+*.exe
+*.dll
+*.so
+*.a
 *.o
 *.obj
-dist/
-build/
+*.out
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+go.mod
+go.sum
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Build artifacts
+dist/
+build/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System/Environment files
-.DS_Store
-Thumbs.db
-
-# Original rules preserved
+# Logs and temp files
 *.log
+*.tmp
