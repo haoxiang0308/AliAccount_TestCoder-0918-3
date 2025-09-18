@@ -1,22 +1,31 @@
-# Serverless Framework
-.serverless/
-serverless-config-*.yml
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Environment variables
-.env
-.env.local
-.env.*
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
-*.code-workspace
 
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
+
+# VBA project specific
+*.zip
