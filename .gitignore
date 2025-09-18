@@ -15,3 +15,7 @@ node_modules/
 
 #Editors
 .vscode/
+.idea/
+
+#Docker
+Dockerfile_*
