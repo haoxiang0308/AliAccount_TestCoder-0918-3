@@ -1,0 +1,30 @@
+service: my-nodejs-lambda-service
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+  stage: dev
+  memorySize: 128
+  timeout: 10
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - httpApi:
+          path: /hello
+          method: get
+
+plugins:
+  - serverless-offline
+
+custom:
+  serverless-offline:
+    httpPort: 3000
+
+resources:
+  Resources:
+    # Add additional AWS resources here if needed
