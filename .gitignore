@@ -5,9 +5,22 @@ dist/
 build/
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+flutter/ephemeral/
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
 
 # Logs and temp files
 *.log
@@ -17,7 +30,17 @@ node_modules/
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Original rules preserved
+*.log
