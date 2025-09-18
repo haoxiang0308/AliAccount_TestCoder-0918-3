@@ -1,12 +1,13 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+*.class
+*.jar
+*.war
+*.ear
+target/
 
 # Dependencies
-vendor/
-node_modules/
+.gradle/
+build/
 
 # Logs and temp files
 *.log
@@ -21,9 +22,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# System files
-.DS_Store
-Thumbs.db
