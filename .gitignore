@@ -1,16 +1,26 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+*.o
+*.obj
+*.mod
+*.so
+*.dll
+*.exe
+*.out
+
+# Fortran specific
+*.smod
+*.f90~
 
 # Dependencies
-vendor/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -21,6 +31,6 @@ vendor/
 .vscode/
 .idea/
 
-# System/Environment files
+# System
 .DS_Store
 Thumbs.db
