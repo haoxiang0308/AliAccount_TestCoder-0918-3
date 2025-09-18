@@ -1,0 +1,22 @@
+# Application Configuration
+
+[server]
+host = "localhost"
+port = 8080
+debug = false
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp"
+user = "dbuser"
+password = "dbpassword"
+
+[logging]
+level = "info"
+file = "app.log"
+
+[features]
+enable_auth = true
+enable_cache = true
+max_connections = 100

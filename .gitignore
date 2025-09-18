@@ -1,2 +1,10 @@
-# Docker artifacts
-Dockerfile_*
+# Compiled and build artifacts
+*.pyc
+pycache/
+dist/
+
+# Environment
+.env.local
+
+# Editors
+.vscode/
