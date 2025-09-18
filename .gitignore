@@ -1,0 +1,30 @@
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+build/
+dist/
+target/
+
+# Dependency directories
+.gradle/
+.m2/
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# IDE/Editor files
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
