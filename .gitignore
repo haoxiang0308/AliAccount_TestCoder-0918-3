@@ -6,8 +6,6 @@ build/
 
 # Dependencies
 node_modules/
-.venv/
-venv/
 
 # Logs and temp files
 *.log
