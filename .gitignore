@@ -1,5 +1,29 @@
 # Compiled and build artifacts
-*.asm
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
+*.bbl
+*.blg
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.pyg
+*.pyc
+pycache/
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -14,6 +38,3 @@
 # Editors
 .vscode/
 .idea/
-
-# Original rules preserved
-*.log
