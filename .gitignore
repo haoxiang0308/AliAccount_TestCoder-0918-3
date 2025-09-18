@@ -1,10 +1,26 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-dist/
+# Swift build artifacts and Xcode files
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+*.xcuserdata/
+*.xcodeproj/xcuserdata/
+.build/
+DerivedData/
 
-# Environment
-.env.local
+# Dependency directories
+Pods/
+Carthage/Build/
 
-# Editors
+# Editor files
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
