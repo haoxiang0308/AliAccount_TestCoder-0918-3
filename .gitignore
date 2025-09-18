@@ -1,8 +1,28 @@
-#MATLAB generated files
-*.m
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-#Environment
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
+.env.local
+.env.*
 
-#IDE
+# Editors
 .vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
