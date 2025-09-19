@@ -1,43 +1,24 @@
 # Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 *.class
-*.pyc
-__pycache__/
-dist/
-build/
 target/
-.gradle/
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-julia-*/
-zig*/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
-*.code-workspace
 
 # System files
 .DS_Store
 Thumbs.db
-desktop.ini
