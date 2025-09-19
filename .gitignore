@@ -1,15 +1,15 @@
 # Compiled and build artifacts
-*.dart.js
-*.dart.js.map
-*.dart.tools.json
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
-.dart_tool/
-.packages
-.pub-cache/
-.pub/
-build/
-flutter_*
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
