@@ -1,10 +1,10 @@
-# Compiled and build artifacts
-*.php
-dist/
-build/
-
-# Dependencies
-vendor/
+# Terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+terraform.tfstate.d/
+terraform_project/terraform_vm_project_*.tar.gz
 
 # Logs and temp files
 *.log
@@ -19,7 +19,3 @@ vendor/
 # Editors
 .vscode/
 .idea/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
