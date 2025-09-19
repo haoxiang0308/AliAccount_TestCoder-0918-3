@@ -1,38 +1,17 @@
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.swiftsourceinfo
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Dependencies
-.Python
+#Dependencies
+.venv/
 venv/
-env/
-ENV/
-.pyenv/
-.pyvenv.cfg
+node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
+#Environment
 .env
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# OS generated
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
