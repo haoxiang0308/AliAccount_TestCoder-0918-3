@@ -1,1 +1,36 @@
-(empty — output nothing)
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Compiled and build artifacts
+dist/
+build/
+*.o
+*.obj
+
+# Python specific
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+coverage/
+htmlcov/
+.coverage
+
+# OS generated files
+.DS_Store
+Thumbs.db
