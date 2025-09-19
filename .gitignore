@@ -1,27 +1,16 @@
-# Compiled and build artifacts
-*.php
-*.pyc
-pycache/
-*.o
-*.obj
+#Compiled and build artifacts
+*.jsx
 dist/
 build/
 
-# Dependencies
-.venv/
-venv/
+#Dependencies
 node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+#Environment
 .env
 .env.local
 .env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
