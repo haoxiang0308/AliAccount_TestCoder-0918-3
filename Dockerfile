@@ -1,20 +1,20 @@
-# Use an official Python runtime as the base image
-FROM python:3.9-slim
+# Используем официальный образ Node.js
+FROM node:18
 
-# Set the working directory in the container
+# Устанавливаем рабочую директорию
 WORKDIR /app
 
-# Copy the requirements file into the container
-COPY requirements.txt .
+# Копируем package.json и package-lock.json (если есть)
+COPY package*.json ./
 
-# Install the dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Устанавливаем зависимости
+RUN npm ci --only=production
 
-# Copy the rest of the application code
+# Копируем исходный код приложения
 COPY . .
 
-# Expose the port that Flask runs on
-EXPOSE 5000
+# Открываем порт
+EXPOSE 3000
 
-# Define the command to run the application
-CMD ["python", "app.py"]
+# Команда для запуска приложения
+CMD ["npm", "start"]
