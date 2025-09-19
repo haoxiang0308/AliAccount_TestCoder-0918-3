@@ -1,23 +1,72 @@
-#Compiled and build artifacts
+# Temporary and system files
+*.tmp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.log
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.class
 *.pyc
 __pycache__/
 dist/
 build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
-#Dependencies
-.venv/
-venv/
+# Dependency directories
 node_modules/
+venv/
+.venv/
+julia-*/
+zig*/
 
-#Environment
-.env
-.env.local
+# Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
 
-#Editors
-.vscode/
-.idea/
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-#Logs and temp files
-*.log
-*.tmp
-*.swp
+# System files
+.DS_Store
+Thumbs.db
