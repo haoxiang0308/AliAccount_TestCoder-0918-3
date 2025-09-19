@@ -1,24 +1,18 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-dist/
-build/
+# Temp files and artifacts
+greeting_widget_*.*
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Common ignores
+*.tmp
+*.log
+*.swp
+*.swo
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
+# IDE/Editor
 .vscode/
 .idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+*.code-workspace
