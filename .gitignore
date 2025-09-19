@@ -1,24 +1,15 @@
-# Compiled and build artifacts
-*.mex*
-*.asv
-*.mat
-*.fig
-*.m~
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Environment
+#Dependencies
+vendor/
+
+#Environment
 .env
 .env.local
-.env.*
 
-# Editors
+#IDE/Editor
 .vscode/
-.idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
-.DS_Store
-Thumbs.db
