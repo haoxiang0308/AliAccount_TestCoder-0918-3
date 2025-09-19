@@ -1,16 +1,25 @@
-# Deployment files
-*nodejs-deployment-*.yaml
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Logs and temp files
+#Dependencies
+node_modules/
+
+#Environment
+.env
+.env.local
+
+#Editors
+.vscode/
+.idea/
+
+#Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
+#System files
+.DS_Store
+Thumbs.db
