@@ -1,2 +1,17 @@
-#Kubernetes
-*.yaml
+# Compiled and build artifacts
+*.pl~
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
