@@ -1,10 +1,27 @@
-*.tex~*
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
+
+#Dependencies
+.venv/
+venv/
+node_modules/
+
+#Environment
+.env
+.env.local
+
+#Editors
+.vscode/
+.idea/
+
+#System files
+.DS_Store
+Thumbs.db
+
+#Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-.DS_Store
-Thumbs.db
-.env
-.env.local
-.env.*
