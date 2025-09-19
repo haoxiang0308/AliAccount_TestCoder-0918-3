@@ -1,0 +1,6 @@
+This is a sample text file.
+This file is for testing the word frequency counter.
+The word "this" appears multiple times in this file.
+We also have the word "file" appearing more than once.
+Perl is a powerful language for text processing.
+Word frequency counting is useful for text analysis.
