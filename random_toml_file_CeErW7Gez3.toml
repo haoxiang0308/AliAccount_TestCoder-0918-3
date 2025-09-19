@@ -1,0 +1,31 @@
+# Application Configuration
+
+[server]
+host = "localhost"
+port = 8080
+debug = false
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp"
+user = "dbuser"
+password = "dbpassword"
+timeout = 30
+
+[logging]
+level = "INFO"
+file = "/var/log/myapp.log"
+max_size = "10MB"
+backup_count = 5
+
+[features]
+enable_cache = true
+cache_ttl = 3600
+enable_metrics = true
+metrics_port = 9090
+
+[api]
+rate_limit = 1000
+rate_limit_window = 3600
+cors_origins = ["https://example.com", "https://sub.example.com"]
