@@ -1,0 +1,9 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the apache service
+      ansible.builtin.service:
+        name: apache2
+        state: restarted
