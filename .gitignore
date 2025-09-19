@@ -1,1 +1,18 @@
-*.tex
+# Temporary and environment files
+*.tmp
+.env.local
+
+# JSON response files (likely temporary or sensitive)
+api_response_*.json
+
+# Logs and temp files
+*.log
+*.swp
+*.swo
+
+# Environment
+.env
+.env.*
+
+# Editors
+.vscode/
