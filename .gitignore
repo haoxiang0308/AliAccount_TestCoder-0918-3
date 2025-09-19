@@ -1,6 +1,15 @@
+# R plot outputs
+r_plots/*.pdf
+r_plots/*.png
+
+# R script temp files
+r_plots/*_abc123.r
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
+*.o
+*.obj
 dist/
 build/
 
