@@ -1,31 +1,21 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
 
 # Dependencies
-.dart_tool/
-.pub-cache/
-.pub/
-build/
-flutter/ephemeral/
-android/.gradle/
-android/app/build/
-ios/Pods/
-ios/.symlinks/
-ios/Flutter/App.framework/
-ios/Flutter/Flutter.framework/
-ios/Flutter/Generated.xcconfig
-ios/Flutter/app.flx
-ios/Flutter/app.zip
-ios/Flutter/flutter_assets/
-ios/Flutter/flutter_export_environment.sh
+.Python
+venv/
+env/
+ENV/
+.pyenv/
+.pyvenv.cfg
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -40,7 +30,9 @@ ios/Flutter/flutter_export_environment.sh
 
 # OS generated
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-
-# Original rules preserved
-*.log
