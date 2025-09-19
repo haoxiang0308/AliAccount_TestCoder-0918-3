@@ -1,0 +1,1 @@
+function filterEvenNumbers(arr) {\n  return arr.filter(num => num % 2 === 0);\n}\n\n// Example usage:\nconst numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];\nconst evenNumbers = filterEvenNumbers(numbers);\nconsole.log(evenNumbers); // Output: [2, 4, 6, 8, 10]\n
