@@ -1,1 +1,24 @@
-(empty — output nothing)
+# Compiled and build artifacts
+*.crystal
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+lib/
+.jenv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
