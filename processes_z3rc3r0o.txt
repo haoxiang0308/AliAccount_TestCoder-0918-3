@@ -1,0 +1,8 @@
+PID	Name	Status	CPU %	Memory (MB)
+--------------------------------------------------
+1	sudo	sleeping	0.00	3.57
+2	sudo	sleeping	0.00	0.38
+3	python	sleeping	0.00	310.48
+28	tmux: server	sleeping	0.00	3.97
+37	bash	sleeping	0.00	3.68
+355	python	running	0.00	12.79
