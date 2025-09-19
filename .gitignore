@@ -1,21 +1,16 @@
-# Build artifacts
-dist/
-build/
+# Compiled and build artifacts
+*.cr
 
-# Compiled/Binary files
-*.pyc
-__pycache__/
-
-# Environment files
-.env
-.env.local
-
-# IDE/Editor files
-.vscode/
-
-# Temp files
+# Logs and temp files
+*.log
 *.tmp
 *.swp
 
-# Original rules preserved
-*.log
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
