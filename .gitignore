@@ -1,14 +1,17 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-dist/
+# GitHub Actions
+.github/workflows/
 
-# Dependencies
-vendor/
-
-# Environment
+# Environment files
 .env
 .env.local
+.env.*
 
-# Editors
+# IDE and editor files
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
