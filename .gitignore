@@ -1,23 +1,31 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
+#Temporary files and build artifacts
+*.php
 dist/
 build/
 
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Environment
+#Environment files
 .env
 .env.local
+.env.*
 
-#Editors
+#IDE and editor files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.log
+*.tmp
+
+#System files
+.DS_Store
+Thumbs.db
+
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
