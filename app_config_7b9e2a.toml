@@ -1,0 +1,22 @@
+# Конфигурация приложения
+
+[server]
+host = "localhost"
+port = 8080
+debug = true
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+user = "admin"
+password = "secret123"
+
+[features]
+enable_logging = true
+max_connections = 100
+timeout = 30
+
+[api]
+version = "v1"
+rate_limit = 1000
