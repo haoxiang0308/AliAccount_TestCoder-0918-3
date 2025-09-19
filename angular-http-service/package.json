@@ -1,0 +1,22 @@
+{
+  "name": "angular-http-service-random",
+  "version": "1.0.0",
+  "description": "An Angular service for handling HTTP requests with a random name",
+  "main": "src/app/services/h8oe5grjgu.service.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "http",
+    "service"
+  ],
+  "author": "Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {}
+}
