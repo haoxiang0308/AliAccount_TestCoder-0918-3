@@ -1,30 +1,20 @@
-#Puppet manifests and temp files
-puppet_manifests/*.pp
-puppet_manifests/*.txt
+# PowerShell script artifacts
+*.ps1
 
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
-
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-#Environment
+# Environment files
 .env
 .env.local
 .env.*
 
-#Editors
+# Editor/IDE files
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
