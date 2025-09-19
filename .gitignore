@@ -1,26 +1,6 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
+*.pdf
+Rplots.pdf
 
 # Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
+r_plots/
