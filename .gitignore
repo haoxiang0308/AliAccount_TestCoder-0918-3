@@ -1,20 +1,10 @@
-#Dependencies
-node_modules/
-
-#Environment
-.env
-.env.local
-.env.*
-
-#Compiled and build artifacts
-dist/
-build/
-
-#Logs and temp files
-*.log
+# Temporary and system files
+*.sh
 *.tmp
-*.swp
+*.log
 
-#Editors
+# Environment files
+.env*
+
+# IDE and editor files
 .vscode/
-.idea/
