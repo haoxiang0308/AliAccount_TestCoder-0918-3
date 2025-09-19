@@ -1,2 +1,17 @@
-#Kubernetes
-*.yaml
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
+
+#Dependencies
+node_modules/
+.venv/
+venv/
+
+#Environment
+.env
+.env.local
+
+#Editors
+.vscode/
