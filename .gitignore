@@ -1,2 +1,25 @@
-# Build and deployment artifacts
-Jenkinsfile_*
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
+
+#Dependencies
+vendor/
+
+#Environment
+.env
+.env.local
+
+#Editors
+.vscode/
+.idea/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#System files
+.DS_Store
+Thumbs.db
