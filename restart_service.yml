@@ -1,0 +1,22 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the apache2 service
+      ansible.builtin.service:
+        name: apache2
+        state: restarted
+      ignore_errors: yes
+
+    - name: Restart the nginx service
+      ansible.builtin.service:
+        name: nginx
+        state: restarted
+      ignore_errors: yes
+
+    - name: Restart the ssh service
+      ansible.builtin.service:
+        name: ssh
+        state: restarted
+      ignore_errors: yes
