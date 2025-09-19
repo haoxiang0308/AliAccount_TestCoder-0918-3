@@ -1,22 +1,8 @@
-# Backup files and scripts
-backups/
-*.sh
+#Puppet manifests and temp files
+puppet_manifests/*.pp
+puppet_manifests/*.txt
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
@@ -24,7 +10,21 @@ __pycache__/
 dist/
 build/
 
-# Dependencies
+#Dependencies
 .venv/
 venv/
 node_modules/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#Environment
+.env
+.env.local
+.env.*
+
+#Editors
+.vscode/
+.idea/
