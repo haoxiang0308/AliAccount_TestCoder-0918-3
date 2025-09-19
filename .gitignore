@@ -1,5 +1,8 @@
 # Compiled and build artifacts
+*.pyc
+pycache/
 *.o
+*.obj
 dist/
 build/
 
@@ -21,6 +24,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# Assembly-specific
-*.asm
