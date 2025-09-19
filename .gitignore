@@ -1,10 +1,5 @@
 #Compiled and build artifacts
-*.pl
-
-#Dependencies
-.venv/
-venv/
-node_modules/
+*.sql
 
 #Logs and temp files
 *.log
@@ -23,6 +18,21 @@ node_modules/
 #System files
 .DS_Store
 Thumbs.db
+
+#Dependencies
+.venv/
+venv/
+node_modules/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
+dist/
+build/
+target/
+.gradle/
 
 #Compressed files
 *.zip
