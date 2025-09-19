@@ -1,46 +1,20 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+#Temp files
+Jenkinsfile_DtUQXwCZ4W
 
-# Dependencies
-.dart_tool/
-.pub-cache/
-.pub/
-build/
-flutter/ephemeral/
-android/.gradle/
-android/app/build/
-ios/Pods/
-ios/.symlinks/
-ios/Flutter/App.framework/
-ios/Flutter/Flutter.framework/
-ios/Flutter/Generated.xcconfig
-ios/Flutter/app.flx
-ios/Flutter/app.zip
-ios/Flutter/flutter_assets/
-ios/Flutter/flutter_export_environment.sh
-
-# Logs and temp files
+#Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
+#Environment
 .env
 .env.local
 .env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
 
-# OS generated
+#System files
 .DS_Store
 Thumbs.db
-
-# Original rules preserved
-*.log
