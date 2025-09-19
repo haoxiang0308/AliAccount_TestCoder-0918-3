@@ -1,31 +1,23 @@
-# Compiled and build artifacts
-*.o
-*.obj
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
+#Dependencies
 node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+#Environment
 .env
 .env.local
 .env.*
 
-# Editors
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#Editors
 .vscode/
 .idea/
 
-# System/Environment files
-.DS_Store
-Thumbs.db
+#Compiled and build artifacts
+dist/
+build/
 
-# Original rules preserved
+#Original rules preserved
 *.log
