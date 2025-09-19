@@ -1,13 +1,25 @@
-#Compiled and build artifacts
+# Compiled and build artifacts
+*.class
 *.pyc
-pycache/
+__pycache__/
 dist/
+build/
 
-#Dependencies
+# Dependencies
+.venv/
+venv/
 node_modules/
 
-#Environment
-.env.local
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-#Editors
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
 .vscode/
+.idea/
