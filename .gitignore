@@ -1,10 +1,25 @@
-# System/Environment files
-*.xml
+# Compiled and build artifacts
+*.ts
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
+# System files
+.DS_Store
+Thumbs.db
