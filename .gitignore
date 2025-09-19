@@ -1,5 +1,13 @@
+# Kubernetes deployment artifacts
+*.yaml
+
 # Compiled and build artifacts
-*.pl
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
 .venv/
