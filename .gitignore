@@ -1,12 +1,5 @@
-# Compiled and build artifacts
-*.class
-dist/
-build/
-
-# Dependencies
-node_modules/
-.venv/
-venv/
+# Deployment files
+*nodejs-deployment-*.yaml
 
 # Logs and temp files
 *.log
@@ -16,6 +9,7 @@ venv/
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
