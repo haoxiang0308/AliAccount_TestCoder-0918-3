@@ -1,23 +1,12 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Compressed files
+*.tar.gz
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Puppet and template files
+*.pp
+templates/network_config/*.erb
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+# Environment files
 .env
-.env.local
 
-# Editors
+# IDE and editor files
 .vscode/
-.idea/
