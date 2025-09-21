@@ -1,12 +1,10 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-dist/
+# Solidity and build artifacts
+*.solc
+*.sol.js
 build/
+artifacts/
 
 # Dependencies
-.venv/
-venv/
 node_modules/
 
 # Environment
