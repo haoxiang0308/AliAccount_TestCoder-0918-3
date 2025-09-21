@@ -1,0 +1,5 @@
+This is a sample text file for testing the word frequency counter.
+This file contains several words, and some words are repeated.
+The script should count how many times each word appears.
+Words, words, words - they are all over this file.
+This is the end of the sample text.
