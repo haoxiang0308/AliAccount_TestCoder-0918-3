@@ -1,34 +1,16 @@
-# Terraform
-*.tfstate
-*.tfstate.backup
-*.tfvars
-*.tfvars.json
-terraform.tfstate.d/
-.terraform/
-
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.pyc
-__pycache__/
-*.o
-*.obj
+pycache/
 dist/
-build/
 
-# Dependencies
+#Dependencies
 .venv/
 venv/
 node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+#Environment
 .env
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
-.idea/
