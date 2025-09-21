@@ -1,46 +1,29 @@
-# Compiled and build artifacts
-*.class
+#Kubernetes
+*.yaml
+
+#Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 dist/
 build/
-target/
-.gradle/
 
-# Dependencies
-node_modules/
-venv/
+#Dependencies
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-julia-*/
-zig-*/
+venv/
+node_modules/
 
-# Logs and temp files
+#Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
-# Environment
+#Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors and IDEs
+#Editors
 .vscode/
 .idea/
-*.iml
-*.iws
-*.ipr
-
-# System files
-.DS_Store
-Thumbs.db
-desktop.ini
