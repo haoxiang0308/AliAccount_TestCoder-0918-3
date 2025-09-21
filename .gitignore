@@ -1,13 +1,37 @@
-# Temp files and logs
-*.tmp
-*.log
+# Compiled and build artifacts
+*.dart.js
+*.dart.js.map
+*.dart.deps
+*.dart.digests
+*.dart.info
+*.dart.manifest
+*.dart.metadata
+*.dart.sizes
+*.dart.stack_trace
+*.dart.symbolmap
+*.dart.tar.gz
+*.dart.zip
+greeting_widget_*.dart.js
+greeting_widget_*.dart.js.map
 
-# Environment files
+# Dependencies
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
+.env.*
 
-# IDE files
+# Editors
 .vscode/
-
-# Server config files (likely generated)
-server_config_*
+.idea/
