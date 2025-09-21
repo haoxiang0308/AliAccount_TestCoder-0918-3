@@ -1,23 +1,21 @@
-#Compiled and build artifacts
-*.pl~
+# Compiled and build artifacts
+*.jsx
+dist/
+build/
 
-#Temporary and backup files
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
 
-#Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-#IDE and editor files
+# Editors
 .vscode/
 .idea/
-
-#Log files
-*.log
-
-#OS generated files
-.DS_Store
-Thumbs.db
