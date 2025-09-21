@@ -1,11 +1,5 @@
 # Compiled and build artifacts
-*.php
-*.pyc
-pycache/
-*.o
-*.obj
-dist/
-build/
+*.erl
 
 # Dependencies
 .venv/
