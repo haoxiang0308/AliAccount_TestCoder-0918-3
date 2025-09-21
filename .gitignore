@@ -2,7 +2,6 @@
 *.pyc
 __pycache__/
 dist/
-build/
 
 #Dependencies
 .venv/
@@ -15,9 +14,3 @@ node_modules/
 
 #Editors
 .vscode/
-.idea/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
