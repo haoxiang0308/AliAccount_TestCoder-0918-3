@@ -1,18 +1,19 @@
-# Temp files and artifacts
-greeting_widget_*.*
+# Compiled and build artifacts
+*.html
 
-# Common ignores
-*.tmp
+# Logs and temp files
 *.log
+*.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# IDE/Editor
+# Editors
 .vscode/
 .idea/
-*.code-workspace
+
+# Original rules preserved
+*.log
