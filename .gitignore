@@ -1,12 +1,21 @@
-# Dependency directories
-node_modules/
+# Build artifacts
+*.json
 
-# Environment files
+# Dependencies
+node_modules/
+venv/
+.venv/
+dist/
+build/
+target/
+.gradle/
+
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# IDE and editor files
+# IDE/Editor
 .vscode/
 .idea/
 *.swp
@@ -16,21 +25,6 @@ node_modules/
 *.log
 *.tmp
 
-# Compiled and build artifacts
-dist/
-build/
-*.o
-*.obj
-
-# Python specific
-__pycache__/
-*.pyc
-.pytest_cache/
-.mypy_cache/
-coverage/
-htmlcov/
-.coverage
-
-# OS generated files
+# System
 .DS_Store
 Thumbs.db
