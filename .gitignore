@@ -1,2 +1,14 @@
-#Kubernetes
-*.yaml
+# Temp files and build artifacts
+Dockerfile_*
+
+# Common ignores
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*
