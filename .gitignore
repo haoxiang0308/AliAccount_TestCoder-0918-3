@@ -1,25 +1,12 @@
 #Compiled and build artifacts
-*.js
-dist/
-build/
+*.solc
+*.solc-cache
 
 #Dependencies
 node_modules/
 
 #Environment
 .env
-.env.local
-.env.*
 
 #Editors
 .vscode/
-.idea/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#System files
-.DS_Store
-Thumbs.db
