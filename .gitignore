@@ -1,5 +1,13 @@
 # Compiled and build artifacts
-*.pl
+*.class
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+target/
+.gradle/
 
 # Logs and temp files
 *.log
@@ -9,11 +17,11 @@
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Original rules preserved
-*.log
+# System/Environment files
+.DS_Store
+Thumbs.db
