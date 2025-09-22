@@ -1,2 +1,23 @@
 # Compiled and build artifacts
-*.php~
+__pycache__/
+*.pyc
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+
+# Editors
+.vscode/
+.idea/
