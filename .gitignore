@@ -1,6 +1,14 @@
+# Images
+*.png
+
+# R script artifacts
+*.RData
+*.Rhistory
+*.Rproj.user/
+
 # Compiled and build artifacts
 *.pyc
-pycache/
+__pycache__/
 *.o
 *.obj
 dist/
@@ -19,11 +27,8 @@ node_modules/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Original rules preserved
-*.log
