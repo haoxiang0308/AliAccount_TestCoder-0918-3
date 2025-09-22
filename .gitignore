@@ -1,49 +1,22 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Environment and sensitive files
+.env
+.env.local
+*.env.*
 
-# Dependencies
-node_modules/
+# Configuration files (potentially sensitive or generated)
+db_config_*.ini
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
-# Environment
-.env
-.env.local
-
-# Editors
+# Editors and IDEs
 .vscode/
 .idea/
+*.code-workspace
 
-# System/Environment files
+# System files
 .DS_Store
 Thumbs.db
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
