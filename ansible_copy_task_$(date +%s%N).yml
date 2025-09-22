@@ -1,0 +1,11 @@
+---
+- name: Copy a file
+  hosts: localhost
+  tasks:
+    - name: Copy file
+      copy:
+        src: /path/to/source/file.txt
+        dest: /path/to/destination/file.txt
+        owner: root
+        group: root
+        mode: '0644'
