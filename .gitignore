@@ -1,29 +1,21 @@
-#Config files
-*.yaml
+# Compiled and build artifacts
+*.class
+target/
 
-#Environment
-.env
-.env.local
-.env.*
+# Dependencies
+.m2/
+.gradle/
 
-#Editors
-.vscode/
-.idea/
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
+# Environment
+.env
+.env.local
+.env.*
 
-#Dependencies
-.venv/
-venv/
-node_modules/
+# Editors
+.vscode/
+.idea/
