@@ -1,27 +1,25 @@
-# Compiled and build artifacts
-*.ts
-dist/
-build/
+# Backup files and scripts
+backup_script.sh
+backups/
 
-# Dependencies
-node_modules/
-.venv/
-venv/
+# Shell scripts
+*.sh
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+# Environment files
 .env
 .env.local
 .env.*
 
-# Editors
+# IDE and editor files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System/Environment files
+# OS generated files
 .DS_Store
 Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
