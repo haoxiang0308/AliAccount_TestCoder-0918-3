@@ -1,1 +1,13 @@
-(empty — output nothing)
+# Compiled and build artifacts
+*.pyc
+pycache/
+dist/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env.local
+
+# Editors
+.vscode/
