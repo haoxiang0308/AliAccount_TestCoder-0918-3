@@ -1,1 +1,12 @@
-(empty — output nothing)
+# Compiled and build artifacts
+*.zig-cache/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+zig-*/
