@@ -1,15 +1,5 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
-
-#Dependencies
-.venv/
-venv/
-node_modules/
+#Temporary and system files
+*.r
 
 #Logs and temp files
 *.log
@@ -24,3 +14,16 @@ node_modules/
 #Editors
 .vscode/
 .idea/
+
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+
+#Dependencies
+.venv/
+venv/
+node_modules/
