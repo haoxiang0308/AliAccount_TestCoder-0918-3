@@ -1,70 +1,16 @@
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.class
-*.jar
-*.war
-*.ear
-*.pyc
-__pycache__/
-dist/
-build/
-target/
-.gradle/
+#Ansible temporary files
+*.yml.swp
+*.yml.swo
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-julia-*/
-zig-cache/
-zig-out/
-
-# Logs and temp files
+#Logs and temp files
 *.log
 *.tmp
-*.swp
-*.swo
 
-# Environment
+#Environment
 .env
 .env.local
 .env.*
 
-# Editors and IDEs
+#Editors
 .vscode/
 .idea/
-*.code-workspace
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst

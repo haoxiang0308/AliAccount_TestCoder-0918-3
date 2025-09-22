@@ -1,0 +1,12 @@
+---
+- name: Копирование файла на удаленные хосты
+  hosts: all
+  become: yes
+  tasks:
+    - name: Копирование файла
+      copy:
+        src: /path/to/local/file.txt
+        dest: /path/to/remote/file.txt
+        owner: user
+        group: user
+        mode: '0644'
