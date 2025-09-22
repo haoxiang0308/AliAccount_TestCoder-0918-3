@@ -1,12 +1,27 @@
 # Compiled and build artifacts
-*.zig-cache/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+*.class
+dist/
+build/
+target/
 
 # Dependencies
-zig-*/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
