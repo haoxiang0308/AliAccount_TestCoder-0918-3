@@ -1,23 +1,11 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-dist/
-build/
+# GitHub workflows
+.github/workflows/
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Environment variables
+.env.local
+
+# IDE settings
+.vscode/
 
 # Logs and temp files
 *.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-
-# Editors
-.vscode/
-.idea/
