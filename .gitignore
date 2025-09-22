@@ -1,10 +1,13 @@
-# R project artifacts
-r_plots/*.pdf
-r_plots/*.png
+# Compiled and build artifacts
+*.o
+*.obj
+dist/
+build/
 
-# Temporary and generated files
-r_plots/*.R
-r_plots/*.txt
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -15,3 +18,14 @@ r_plots/*.txt
 .env
 .env.local
 .env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
+
+# Original rules preserved
+*.log
