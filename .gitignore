@@ -1,20 +1,10 @@
-# Temporary files
-*.mk
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Compiled and build artifacts
+*.pyc
+pycache/
+dist/
 
 # Environment
-.env
 .env.local
-.env.*
 
 # Editors
 .vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
