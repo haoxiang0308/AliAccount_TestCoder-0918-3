@@ -1,1 +1,8 @@
-(empty — output nothing)
+#Puppet
+*.pp
+
+#Environment
+.env
+
+#Editors
+.vscode/
