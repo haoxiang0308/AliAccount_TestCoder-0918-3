@@ -1,21 +1,9 @@
-# Compiled and build artifacts
-*.beam
-*.erl~
+# Temp files and backups
+*.backup.*
+*.*.tmp
 
-# Dependencies
-deps/
-_build/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
+# Environment files
 .env.local
-.env.*
 
-# Editors
+# IDE files
 .vscode/
-.idea/
