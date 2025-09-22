@@ -1,0 +1,5 @@
+This is a sample text file.
+This file is for testing the word frequency counter.
+The word "is" appears multiple times in this file.
+We can use this file to test our Perl script.
+The Perl script will count how many times each word appears.
