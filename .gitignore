@@ -1,14 +1,28 @@
+# Configuration files
+*.toml
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
 # Compiled and build artifacts
 *.pyc
-pycache/
+__pycache__/
+*.o
+*.obj
 dist/
 build/
 
 # Dependencies
+.venv/
+venv/
 node_modules/
-
-# Environment
-.env.local
-
-# Editors
-.vscode/
