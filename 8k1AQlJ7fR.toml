@@ -1,0 +1,24 @@
+# Конфигурация приложения
+
+[server]
+host = "0.0.0.0"
+port = 8080
+debug = false
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+user = "myapp_user"
+password = "myapp_password"
+pool_size = 10
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+file = "/var/log/myapp/app.log"
+
+[features]
+enable_cache = true
+cache_ttl = 300
+max_upload_size = "10MB"
