@@ -1,26 +1,35 @@
 # Compiled and build artifacts
-*.pyc
-pycache/
+*.beam
+*.so
+*.dll
+*.exe
 *.o
 *.obj
-dist/
-build/
+*.out
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+*.ez
+*.app
+*.appup
+
+# Editors
+*.swp
+*.swo
+*~
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
+*.env.*
 .env
-.env.local
-.env.*
 
-# Editors
-.vscode/
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs
 .idea/
+.vscode/
+.erlang.cookie
