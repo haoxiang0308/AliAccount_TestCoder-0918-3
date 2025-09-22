@@ -1,33 +1,17 @@
-# Swift build artifacts
-*.swiftmodule
-*.swiftdoc
-*.swiftinterface
-*.swiftsourceinfo
-*.swiftdeps
-*.dSYM
-*.dSYM/
+# Docker artifacts
+*.dockerfile
 
-# Xcode
-*.xcodeproj/xcuserdata/
-*.xcodeproj/project.xcworkspace/xcuserdata/
-*.xcworkspace/xcuserdata/
-*.xcuserdata/
+# Environment files
+.env
+.env.local
+.env.*
 
-# Editors
+# IDE/Editor files
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
