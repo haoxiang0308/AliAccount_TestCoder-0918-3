@@ -1,24 +1,9 @@
-# Compiled and build artifacts
-*.o
-*.obj
-dist/
-build/
+# GitHub workflows
+.github/workflows/
 
-# Dependencies
-venv/
-.go/
-vendor/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+# Environment variables
 .env
 .env.local
-.env.*
 
-# Editors
+# IDE and editor files
 .vscode/
-.idea/
