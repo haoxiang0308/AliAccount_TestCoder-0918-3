@@ -1,0 +1,32 @@
+# Application Configuration File
+# This is a sample TOML configuration for a web application
+
+[server]
+host = "0.0.0.0"
+port = 8080
+debug = false
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+user = "admin"
+password = "secure_password"
+pool_size = 10
+
+[cache]
+provider = "redis"
+host = "localhost"
+port = 6379
+ttl = 3600
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+file = "/var/log/myapp/app.log"
+
+[features]
+enable_api = true
+enable_ui = true
+max_upload_size = "10MB"
+rate_limit = 1000
