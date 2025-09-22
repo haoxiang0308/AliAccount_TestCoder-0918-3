@@ -1,1 +1,10 @@
-(empty — output nothing)
+#Environment
+.env
+.env.local
+.env.*
+
+#Editors
+.vscode/
+
+#Config files (likely contains sensitive information)
+config/db_config_*.ini
