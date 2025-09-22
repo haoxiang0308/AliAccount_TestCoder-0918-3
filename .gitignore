@@ -1,26 +1,72 @@
-#Compiled and build artifacts
-*.solc
-*.sol.js
-build/
-dist/
+# Serverless configuration
+serverless-config-*.yml
 
-#Dependencies
-node_modules/
-
-#Environment
+# Environment variables
 .env
 .env.local
 .env.*
 
-#Editors
+# Editor/IDE files
 .vscode/
-.idea/
 
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-#System files
+# Compiled/Binary files
+*.pyc
+__pycache__/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+dist/
+build/
+target/
+.gradle/
+julia-*/
+zig-cache/
+zig-out/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# System files
 .DS_Store
 Thumbs.db
