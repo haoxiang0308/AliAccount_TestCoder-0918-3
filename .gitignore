@@ -1,8 +1,29 @@
-# GitHub workflows
-.github/workflows/
+#Temporary and system files
+*.sh
 
-# Environment files
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+
+#Environment
+.env
 .env.local
+.env.*
 
-# Editor files
+#Editors
 .vscode/
+.idea/
+
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+
+#Dependencies
+.venv/
+venv/
+node_modules/
