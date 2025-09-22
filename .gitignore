@@ -1,20 +1,29 @@
-# Docker
-docker-compose-random12345.yml
-
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.class
+*.jar
+*.war
+*.ear
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
 *.o
 *.obj
+*.pyc
+__pycache__/
 dist/
 build/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
 target/
 .gradle/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+julia-*/
+zig-*/
 
 # Logs and temp files
 *.log
@@ -27,11 +36,14 @@ target/
 .env.local
 .env.*
 
-# Editors
+# Editors and IDEs
 .vscode/
 .idea/
+*.iml
+*.iws
+*.ipr
 
-# System/Environment files
+# System files
 .DS_Store
 Thumbs.db
 
@@ -58,3 +70,10 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+.mypy_cache/
+.pytest_cache/
