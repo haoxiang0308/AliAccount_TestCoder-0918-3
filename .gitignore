@@ -1,9 +1,25 @@
-# Environment variables
+# Compiled and build artifacts
+*.php
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+vendor/
 .env
 .env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
+.idea/
 
-# Original rules preserved
-*.log
+# System/Environment files
+.DS_Store
+Thumbs.db
