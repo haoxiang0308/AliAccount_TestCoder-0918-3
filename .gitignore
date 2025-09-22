@@ -1,31 +1,29 @@
-# Terraform
-*.tfstate
-*.tfstate.backup
-*.tfvars
-*.tfvars.json
-terraform.tfstate.d/
-terraform.tfstate.backup/
-
 # Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-.venv/
-venv/
-node_modules/
+*.pyc
 __pycache__/
-.mypy_cache/
-.pytest_cache/
 dist/
 build/
 target/
 .gradle/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+julia-*/
+zig-*/
 
 # Logs and temp files
 *.log
@@ -42,9 +40,14 @@ target/
 .vscode/
 .idea/
 
-# System/Environment files
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
