@@ -1,12 +1,21 @@
-# Temp files and logs
-*.tmp
+#Compiled and build artifacts
+*.bas
+
+#Dependencies
+.venv/
+venv/
+node_modules/
+
+#Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment files
+#Environment
+.env
 .env.local
+.env.*
 
-# IDE files
+#Editors
 .vscode/
-
-# Process list files (likely temporary or system-generated)
-process_list_*.txt
+.idea/
