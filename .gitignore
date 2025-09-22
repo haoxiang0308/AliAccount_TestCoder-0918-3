@@ -1,29 +1,23 @@
-#Model artifacts and environment files
-*.pkl
-.env
-.env.local
-.env.*
-
-#Compiled and build artifacts
-__pycache__/
+# Compiled and build artifacts
 *.pyc
+__pycache__/
 dist/
 build/
 
-#Dependencies
+# Dependencies
 .venv/
 venv/
 node_modules/
 
-#Editors
-.vscode/
-.idea/
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-#System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+
+# Editors
+.vscode/
+.idea/
