@@ -1,15 +1,12 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Temp files and logs
+*.tmp
+*.log
 
-# Dependencies
-node_modules/
-
-# Environment
-.env
+# Environment files
 .env.local
 
-# Editors
+# IDE files
 .vscode/
+
+# Process list files (likely temporary or system-generated)
+process_list_*.txt
