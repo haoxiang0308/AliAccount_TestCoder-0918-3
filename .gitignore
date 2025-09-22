@@ -1,17 +1,19 @@
-#Scripts and temporary files
-*.sh
-*.tmp
-*.log
+# Dependencies
+node_modules/
 
-#Environment
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 .env.*
 
-#Editors
+# Editors
 .vscode/
 .idea/
 
-#System files
-.DS_Store
-Thumbs.db
+# Original rules preserved
+*.log
