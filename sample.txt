@@ -1,0 +1,5 @@
+This is a sample text file for testing the word frequency counter.
+This file contains several words, and some words are repeated.
+The counter should correctly count how many times each word appears.
+Words are separated by spaces, and the counter should handle punctuation.
+This is the end of the sample file.
