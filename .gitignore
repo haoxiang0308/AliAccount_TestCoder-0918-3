@@ -1,11 +1,1 @@
-# GitHub workflows
-.github/workflows/
-
-# Environment variables
-.env.local
-
-# IDE settings
-.vscode/
-
-# Logs and temp files
-*.log
+(empty — output nothing)
