@@ -1,6 +1,12 @@
-# Haskell build artifacts
-*.hi
-*.o
+# Compiled and build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
 
-# Temporary files
-list_length_0SLPppa9NL
+# LaTeX specific
+*.latexmkrc
+latex.out/
