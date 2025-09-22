@@ -1,23 +1,12 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Build artifacts and temporary files
+Jenkinsfile_*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
+# Environment files
 .env
 .env.local
-
-# Editors
-.vscode/
-.idea/
+.env.*
