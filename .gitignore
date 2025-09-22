@@ -1,8 +1,15 @@
-# Compiled and build artifacts
-*.sql~
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Environment
+#Dependencies
+node_modules/
+
+#Environment
+.env
 .env.local
 
-# Editors
+#Editors
 .vscode/
