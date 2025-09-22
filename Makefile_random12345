@@ -1,0 +1,18 @@
+# Simple Makefile for compiling a C program
+
+CC = gcc
+CFLAGS = -Wall -Wextra -std=c99
+
+# Default target
+all: hello
+
+# Rule to compile hello.c to hello executable
+hello: hello.c
+	$(CC) $(CFLAGS) -o hello hello.c
+
+# Clean up generated files
+clean:
+	rm -f hello
+
+# Phony targets
+.PHONY: all clean

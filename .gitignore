@@ -1,27 +1,30 @@
 # Compiled and build artifacts
-*.class
+*.o
 dist/
 build/
-target/
 
 # Dependencies
-.gradle/
+venv/
+.venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
+
+# Original rules preserved
+*.log
