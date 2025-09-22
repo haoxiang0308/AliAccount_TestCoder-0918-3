@@ -1,20 +1,17 @@
-# Compiled and build artifacts
-*.css
-
-# Logs and temp files
-*.log
+#Scripts and temporary files
+*.sh
 *.tmp
-*.swp
+*.log
 
-# Environment
+#Environment
 .env
 .env.local
 .env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
 
-# System/Environment files
+#System files
 .DS_Store
 Thumbs.db
