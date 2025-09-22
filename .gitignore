@@ -1,11 +1,29 @@
-# GitHub workflows
-.github/workflows/
+#Config files
+*.yaml
 
-# Environment variables
+#Environment
+.env
 .env.local
+.env.*
 
-# IDE settings
+#Editors
 .vscode/
+.idea/
 
-# Logs and temp files
+#Logs and temp files
 *.log
+*.tmp
+*.swp
+
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+
+#Dependencies
+.venv/
+venv/
+node_modules/
