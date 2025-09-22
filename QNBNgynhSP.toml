@@ -1,0 +1,30 @@
+# App Configuration File
+
+[app]
+name = "MyAwesomeApp"
+version = "1.0.0"
+debug = false
+
+[server]
+host = "0.0.0.0"
+port = 8080
+ssl_enabled = true
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+username = "dbuser"
+password = "dbpassword"
+pool_size = 10
+
+[logging]
+level = "INFO"
+file = "/var/log/myapp/app.log"
+max_size = "10MB"
+backup_count = 5
+
+[features]
+enable_feature_x = true
+enable_feature_y = false
+max_items_per_page = 50
