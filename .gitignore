@@ -1,6 +1,13 @@
 # Compiled and build artifacts
-*.o
-*.s
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -10,11 +17,7 @@
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Original rules preserved
-*.log
