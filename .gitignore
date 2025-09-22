@@ -1,1 +1,14 @@
-*.html
+#Compiled and build artifacts
+*.pyc
+pycache/
+dist/
+
+#Dependencies
+vendor/
+
+#Environment
+.env
+.env.local
+
+#Editors
+.vscode/
