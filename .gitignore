@@ -1,9 +1,15 @@
-# Environment variables
+# Temp files and build artifacts
+*.txt
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment files
 .env
 .env.local
+.env.*
 
-# Editors
+# IDE/Editor files
 .vscode/
-
-# Original rules preserved
-*.log
