@@ -1,15 +1,10 @@
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.pyc
-__pycache__/
+pycache/
 dist/
-build/
 
-# Dependencies
-node_modules/
-
-# Environment
-.env
+#Environment
 .env.local
 
-# Editors
+#Editors
 .vscode/
