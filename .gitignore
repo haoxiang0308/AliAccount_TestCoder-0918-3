@@ -1,6 +1,6 @@
 # Compiled and build artifacts
-*.css.map
-dist/
+*.ts
+date-format-V4vEqTQG.ts
 
 # Dependencies
 node_modules/
@@ -12,6 +12,7 @@ node_modules/
 
 # Editors
 .vscode/
+.idea/
 
 # Logs and temp files
 *.log
