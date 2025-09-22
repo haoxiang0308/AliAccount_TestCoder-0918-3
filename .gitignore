@@ -1,53 +1,31 @@
 # Compiled and build artifacts
-*.csproj.user
-*.user
-*.suo
-*.pdb
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-*.class
-*.jar
-*.war
-*.ear
 *.pyc
-__pycache__/
+pycache/
 *.o
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-env/
-.conda/
-julia-*/
-zig-*/
-target/
-.gradle/
+*.obj
 dist/
 build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
 
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
 
@@ -74,12 +52,3 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# MyPy and PyTest caches
-.mypy_cache/
-.pytest_cache/
