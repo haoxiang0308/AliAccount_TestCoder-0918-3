@@ -1,9 +1,18 @@
 # Compiled and build artifacts
-*.css.map
-dist/
+*.ktclass
+FilterStrings_pKdApavv.kt
 
 # Dependencies
-node_modules/
+.gradle/
+target/
+julia-*/
+zig-*/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
@@ -12,12 +21,32 @@ node_modules/
 
 # Editors
 .vscode/
+.idea/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
