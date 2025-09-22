@@ -1,29 +1,27 @@
-# System/Environment files
-*.xml
+# Compiled and build artifacts
+*.class
+dist/
+build/
+target/
+
+# Dependencies
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
+# System/Environment files
+.DS_Store
+Thumbs.db
