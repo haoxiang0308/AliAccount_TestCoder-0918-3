@@ -1,4 +1,5 @@
 # Compiled and build artifacts
+*.class
 *.pyc
 __pycache__/
 dist/
@@ -17,7 +18,6 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
