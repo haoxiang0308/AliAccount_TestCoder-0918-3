@@ -1,1 +1,31 @@
-Nothing should be ignored based on the provided file changes. The added files (`backup_script.sh` and `test_file.txt`) are regular source/config files that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.obj
+
+# Dependencies
+.opam/
+.dune/
+_build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
