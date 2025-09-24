@@ -1,20 +1,35 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
-*.out
-
-# Dependencies
-build/
-
-# Logs and temp files
-*.log
+# VBA/Office files
+*.bas
+*.frm
+*.cls
+*.vba
+*.wbk
+*.dot
+*.dotx
 *.tmp
-*.swp
+
+# Backup files
+*~
+*.bak
+*.old
+*.orig
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
 ```
