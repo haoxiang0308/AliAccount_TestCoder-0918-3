@@ -1,39 +1,16 @@
 ```
-# Compiled files
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.exe
-*.out
-*.o
-*.obj
+# R plots and generated images
+*.pdf
+*.png
 
-# Build artifacts
-_build/
-_dbuild/
-*.native
-*.byte
+# R build artifacts
+Rplots.pdf
 
-# Dependencies
-.opam/
-.dune/
-esy.lock/
-
-# Editors
-.vscode/
-.idea/
+# Temporary files
+*.tmp
 *.swp
 *.swo
 
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
