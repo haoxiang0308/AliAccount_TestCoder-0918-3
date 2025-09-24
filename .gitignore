@@ -1,1 +1,37 @@
-Nothing needs to be added to .gitignore for this change list. The added file 'list_files_2.sh' is a shell script source file, which should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Executables
+sort_array_12345
+*.exe
+*.out
+
+# C++ build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+```
