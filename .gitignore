@@ -1,28 +1,9 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Compressed files
+*.tar
+*.gz
+*.tar.gz
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Test files
-*.py~test*
-test_*.py
+# Julia specific
+julia-*/
 ```
