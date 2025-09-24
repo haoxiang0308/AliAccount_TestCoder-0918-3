@@ -1,33 +1,19 @@
 ```
-# Elixir specific ignores
-*.beam
-*.ez
-ebin/
-_build/
-cover/
-.erlang.cookie
-.rebar3/
-.deps/
+# VBA/Office files
+*.bas
+*.frm
+*.cls
+*.vba
+*.vbs
+*.bas~
+*.frm~
+*.cls~
 
-# Dependencies
-deps/
-node_modules/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System
-.DS_Store
-Thumbs.db
+# Backup files
+*~
+*.bak
+*.tmp
 
 # Logs
 *.log
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
