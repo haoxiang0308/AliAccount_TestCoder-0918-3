@@ -1,32 +1,48 @@
 ```
-# Compiled and build artifacts
+# Compiled files
 *.o
 *.obj
-*.out
+*.hi
+*.chi
+*.chs
+*.hcr
+
+# Build artifacts
+dist/
+build/
+*.so
+*.dylib
+*.dll
 
 # Dependencies
-vendor/
+cabal-dist/
+.cabal-sandbox/
+cabal-dev/
+*.o-boot
+*.hi-boot
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# OS
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS generated files
 .DS_Store
 Thumbs.db
 ```
