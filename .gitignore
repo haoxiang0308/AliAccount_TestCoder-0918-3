@@ -1,42 +1,59 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
 # Dependencies
 node_modules/
-venv/
-.venv/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# Environment
 .env
 .env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.ipynb_checkpoints
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.dll
+*.so
+*.a
+*.class
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
 
 # Compressed files
 *.zip
@@ -61,4 +78,32 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Test and coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Rust
+target/
+
+# Julia
+julia-*/
+
+# Zig
+zig*/
 ```
