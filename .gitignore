@@ -1,1 +1,34 @@
-(matrix_mult_9f3b1a.py is a source file, and there are no build artifacts, dependencies, or temporary files in the changes)
+```
+# Elixir/OTP build artifacts
+ebin/
+*.beam
+*.app
+*.ez
+
+# Dependencies
+deps/
+_build/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+log/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+cover/
+.coverage
+```
