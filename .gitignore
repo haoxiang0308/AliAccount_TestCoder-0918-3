@@ -1,21 +1,26 @@
 ```
 # Compiled files
-*.class
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.obj
+
+# Build artifacts
+_build/
+_dbuild/
+*.native
+*.byte
 
 # Dependencies
-__pycache__/
-*.pyc
-*.pyo
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
+.opam/
+.dune/
+esy.lock/
 
 # Editors
 .vscode/
@@ -23,7 +28,12 @@ __pycache__/
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
