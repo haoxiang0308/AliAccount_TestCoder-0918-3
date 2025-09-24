@@ -1,51 +1,48 @@
 ```
-# Temporary files
-*.tmp
-temp_*
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.log
+.terraform.lock.hcl
 
-# Python
+# Compiled and build artifacts
 *.pyc
 __pycache__/
-*.pyo
-*.pyd
-
-# Environment
-.env
-.env.local
-.env.
-
-# Logs
-*.log
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Build artifacts
-dist/
-build/
-target/
-*.out
+*.o
+*.obj
 *.exe
 *.dll
 *.so
 *.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
 
 # Coverage
-.coverage
 coverage/
 htmlcov/
+.coverage
 
 # Compressed files
 *.zip
