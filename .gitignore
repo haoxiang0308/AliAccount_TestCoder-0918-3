@@ -1,5 +1,33 @@
-(user_profile_component_2.ts is a source file, no build artifacts, dependencies, or temp files detected in the changes, so no ignores are needed)
+```
+# Elixir/Erlang specific ignores
+*.beam
+*.ez
+ebin/
+_build/
+cover/
+.erlang.cookie
 
-```ts
+# Dependencies
+deps/
+_build/
 
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
