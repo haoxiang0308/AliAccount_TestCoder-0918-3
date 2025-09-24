@@ -1,27 +1,4 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.ez
-*.plt
-*.dump
-
-# Dependencies
-deps/
-_build/
-ebin/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
+# GraphQL schema
+schema.graphql
 ```
