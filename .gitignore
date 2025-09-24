@@ -1,4 +1,51 @@
 ```
-# Configuration files
-*.xml
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Distribution artifacts
+dist/
+build/
+*.egg
+*.egg-info/
+*.whl
+
+# Testing
+.pytest_cache/
+.mypy_cache/
 ```
