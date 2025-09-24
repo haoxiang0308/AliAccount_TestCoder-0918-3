@@ -1,23 +1,4 @@
 ```
-# Compiled and build artifacts
-*.plc
-*.plx
-*.plo
-
-# Dependencies
-cpan/
-lib/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# GraphQL schema
+schema.graphql
 ```
