@@ -1,13 +1,87 @@
 ```
-# Backup files
-*.bak
-backup_*.sh
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Temporary files
+# Dependencies
+target/
+.gradle/
+build/
+dist/
+
+# Logs and temp files
+*.log
 *.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Logs
-*.log
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Java specific
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
