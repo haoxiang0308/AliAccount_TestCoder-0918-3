@@ -1,45 +1,10 @@
 ```
-# Puppet-related ignores
-*.pp.bak
-*.pp~
-
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
+# Database files
+*.db
+*.sql
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
