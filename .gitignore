@@ -1,1 +1,30 @@
-(index.html is just a source file, no build artifacts, dependencies, or temp files in the changes, so output nothing)
+```
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# Dependencies
+.zig-cache/
+deps/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
