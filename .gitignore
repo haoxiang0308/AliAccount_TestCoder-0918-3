@@ -1,93 +1,12 @@
 ```
-# Compiled and build artifacts
-*.vcd
-*.vvp
-*.o
-*.obj
-*.bin
-*.out
+# Backup files
+*backup_*.sh
 
-# Dependencies
-lib/
-deps/
-build/
-target/
-
-# Logs and temp files
-*.log
+# Temporary and generated files
 *.tmp
 *.swp
-*.bak
+*.swo
 
-# Editors
-.vscode/
-.idea/
-
-# Simulation and synthesis tools
-*.fst
-*.ghw
-*.sdf
-*.spef
-*.vcd
-*.vpd
-*.wlf
-*.dsn
+# Logs
 *.log
-*.lst
-*.mif
-*.hex
-*.mem
-*.bin
-*.bit
-*.sof
-*.jed
-*.svf
-*.pof
-*.gdf
-*.edf
-*.ngc
-*.bit
-*.mcs
-*.hex
-*.bin
-*.sof
-*.jic
-*.jed
-*.svf
-*.pcf
-*.ucf
-*.xdc
-*.sdc
-*.sdf
-*.spef
-*.vcd
-*.vpd
-*.wlf
-*.dsn
-*.lst
-*.mif
-*.mem
-*.hex
-*.bit
-*.sof
-*.jed
-*.svf
-*.pof
-*.gdf
-*.edf
-*.ngc
-*.bit
-*.mcs
-*.hex
-*.bin
-*.sof
-*.jic
-*.jed
-*.svf
-*.pcf
-*.ucf
-*.xdc
-*.sdc
-*.sdf
-*.spef
 ```
