@@ -1,5 +1,54 @@
-(user_profile_component_2.ts is a source file, no build artifacts, dependencies, or temp files detected in the changes, so no ignores are needed)
+```
+# Compiled and build artifacts
+*.dll
+*.exe
+*.obj
+*.pdb
+*.sln
+*.user
+*.userosscache
+*.suo
+bin/
+obj/
+out/
 
-```ts
+# Dependencies
+packages/
+node_modules/
+bower_components/
+jspm_packages/
 
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+TestResults/
+coverage/
+*.coverage
+htmlcov/
+
+# Build results
+dist/
+build/
+target/
 ```
