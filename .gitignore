@@ -1,1 +1,5 @@
-Nothing to output - the change list contains only a source file (.R file) and no build artifacts, dependencies, or temp files that need to be ignored.
+(book_data.xml is a source data file, not a build artifact or temporary file, so no .gitignore rules needed)
+
+```gitignore
+
+```
