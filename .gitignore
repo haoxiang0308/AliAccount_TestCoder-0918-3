@@ -1,1 +1,4 @@
-Nothing should be ignored since only a source code file (.m) was added without any build artifacts, dependencies, or temporary files.
+```
+# SQL output files
+sql_outputs/
+```
