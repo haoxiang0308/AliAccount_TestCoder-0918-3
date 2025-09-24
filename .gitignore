@@ -1,15 +1,18 @@
 ```
-# LaTeX build artifacts
-*.aux
+# Backup and temp files
+*backup*.sh
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
 *.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+
+# Editors
+.vscode/
+.idea/
 ```
