@@ -1,23 +1,4 @@
 ```
-# VBA/Office files
-*.obj
-*.tlb
-*.frx
-*.vba
-*.bas
-*.cls
-*.frm
-
-# Editor/IDE files
-*.tmp
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
+# Generated from added files
+*.thrift
 ```
