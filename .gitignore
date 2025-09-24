@@ -1,12 +1,1 @@
-```
-# Backup files
-*backup_*.sh
-
-# Temporary and generated files
-*.tmp
-*.swp
-*.swo
-
-# Logs
-*.log
-```
+(empty)
