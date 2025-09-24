@@ -1,8 +1,27 @@
 ```
-# R-specific ignores
-*.rds
-*.RData
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
+# Ada package files
+*.ads
+*.adb
+*.ali
+*.o
+*.ali~
+
+# Dependencies
+.gpr/
+obj/
+lib/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
