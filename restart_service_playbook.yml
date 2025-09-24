@@ -1,0 +1,23 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the specified service
+      systemd:
+        name: "{{ service_name | default('caddy') }}"
+        state: restarted
+      notify: "Verify service status"
+
+    - name: Wait for service to be active
+      wait_for:
+        path: /var/run/{{ service_name | default('caddy') }}.pid
+        state: present
+        timeout: 30
+      delegate_to: localhost
+
+  handlers:
+    - name: Verify service status
+      systemd:
+        name: "{{ service_name | default('caddy') }}"
+        state: started
