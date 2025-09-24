@@ -1,20 +1,23 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
-*.out
+# Zig build artifacts
+zig-cache/
+zig-out/
 
 # Dependencies
-build/
+deps/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 ```
