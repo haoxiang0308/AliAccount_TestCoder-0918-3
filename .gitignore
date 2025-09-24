@@ -1,5 +1,1 @@
-(data-fetch.service.ts is a source file, no build artifacts, dependencies, or temp files detected in the changes)
-
-```ts
-
-```
+Nothing should be ignored based on the provided changes. The added file `demo_ownership_2025.rs` is a source code file that should be tracked in version control.
