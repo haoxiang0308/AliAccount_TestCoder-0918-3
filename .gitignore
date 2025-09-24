@@ -1,15 +1,6 @@
 ```
-# Ada package files
-*.ads
-*.adb
-*.ali
-*.o
-*.ali~
-
-# Dependencies
-.gpr/
-obj/
-lib/
+# Build artifacts
+*.js
 
 # Logs and temp files
 *.log
@@ -19,9 +10,25 @@ lib/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
