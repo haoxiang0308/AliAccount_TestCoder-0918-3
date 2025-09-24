@@ -1,1 +1,28 @@
-Nothing should be ignored based on the provided changes. The added file `MyPlayerController.cpp` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.beam
+*.app
+*.appup
+ebin/
+_build/
+
+# Dependencies
+deps/
+_rebar/
+.rebar3/
+
+# Logs and temp files
+*.log
+erl_crash.dump
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+```
