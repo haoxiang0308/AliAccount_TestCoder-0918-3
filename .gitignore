@@ -1,1 +1,24 @@
-(matrix_mult_9f3b1a.py is a source file, and there are no build artifacts, dependencies, or temporary files in the changes)
+```
+# Compiled files
+*.class
+
+# Dependencies
+target/
+lib/
+deps/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
