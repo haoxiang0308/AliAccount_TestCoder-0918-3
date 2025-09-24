@@ -1,18 +1,21 @@
 ```
-# Erlang/OTP
-*.beam
-*.app
-*.appup
-*.rel
-*.script
-*.boot
-*.plt
-.erlang.cookie
+# Compiled files
+*.class
 
 # Dependencies
-rebar3/
-_build/
-ebin/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
@@ -20,12 +23,7 @@ ebin/
 *.swp
 *.swo
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
+# OS
+.DS_Store
+Thumbs.db
 ```
