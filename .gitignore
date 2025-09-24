@@ -1,3 +1,42 @@
-(book.xml is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
 
-(empty — output nothing)
+# Dependencies
+target/
+build/
+dist/
+lib/
+*.jar
+*.war
+*.ear
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+.coverage
+```
