@@ -1,1 +1,5 @@
-Nothing needs to be ignored for this change list. The added file 'sine_wave_plot_2847.m' appears to be a MATLAB source file, which should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Configuration files
+*.yml
+*.yaml
+```
