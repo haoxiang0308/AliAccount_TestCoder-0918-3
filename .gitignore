@@ -1,3 +1,1 @@
-```
-# Configuration and source files only - no build artifacts or dependencies detected
-```
+Nothing should be ignored based on the provided changes. The added file `keras_model_12345.py` is a source code file that should be tracked in version control.
