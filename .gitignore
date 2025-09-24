@@ -1,1 +1,41 @@
-Nothing should be ignored based on the provided file changes. The added files (`backup_script.sh` and `test_file.txt`) are regular source/config files that should be tracked in version control.
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
+
+# Distribution files
+dist/
+build/
+*.egg-info/
+```
