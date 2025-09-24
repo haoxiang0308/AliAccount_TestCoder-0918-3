@@ -1,1 +1,12 @@
-Nothing should be ignored based on the provided file changes. The added file `backup_script.sh` is a source file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.cpp
+*.o
+*.obj
+*.out
+output/
+
+# Temp files
+*.tmp
+*~
+```
