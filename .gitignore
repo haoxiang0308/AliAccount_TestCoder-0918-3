@@ -1,69 +1,27 @@
 ```
 # Compiled and build artifacts
-*.class
 *.o
 *.obj
+*.out
 
 # Dependencies
-lib/
-target/
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
 *.env.*
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Editors
+.vscode/
+.idea/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage*
-.nox/
-.pytest_cache/
-.mypy_cache/
-
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-node_modules/
-dist/
-build/
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
+# System files
 .DS_Store
-*.swp
-*.swo
-
-# Build directories
-build/
-dist/
-target/
+Thumbs.db
 ```
