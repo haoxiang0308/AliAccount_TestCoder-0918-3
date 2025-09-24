@@ -1,12 +1,30 @@
 ```
-# Vue.js/JavaScript build artifacts
-dist/
-build/
-*.js.map
-*.css.map
+# Assembly build artifacts
+*.o
+*.obj
+*.out
+
+# Compiled files
+*.pyc
+*.class
+*.exe
+*.dll
+*.so
+*.a
 
 # Dependencies
 node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Build directories
+dist/
+build/
 
 # Editor/IDE files
 .vscode/
@@ -15,30 +33,20 @@ node_modules/
 *.swo
 *.tmp
 
-# Logs
-*.log
-
-# Environment
+# System files
+.DS_Store
+Thumbs.db
 .env
 .env.local
 *.env.*
 
+# Logs
+*.log
+
 # Coverage
 coverage/
 htmlcov/
-*.coverage
-
-# Python artifacts (if any Python files exist)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# System files
-.DS_Store
-Thumbs.db
+.coverage
 
 # Compressed files
 *.zip
@@ -59,8 +67,4 @@ Thumbs.db
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
