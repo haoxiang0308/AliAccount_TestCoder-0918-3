@@ -1,1 +1,24 @@
-(service_config_2.yaml is a config file, so output nothing)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
+# Dependencies
+chef_recipes/.chef/
+chef_recipes/cookbooks/
+chef_recipes/roles/
+chef_recipes/environments/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
