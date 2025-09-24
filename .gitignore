@@ -1,34 +1,3 @@
-```
-# R-specific files
-*.RData
-*.Rhistory
-.Rproj.user/
-.Rprofile.swp
+(book.xml is a source/config file, no build artifacts, dependencies, or temp files detected in changes)
 
-# Compiled and build artifacts
-*.o
-*.so
-*.dll
-*.dylib
-*.a
-
-# Dependencies
-library/
-lib/
-libs/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.Renviron
-.Rprofile
-```
-
-Wait, let me reconsider. The added files are just `analysis_12345.r` (R source file) and `data.csv` (data file). These are source/config files, not build artifacts or dependencies. According to rule #6, if the change list contains ONLY source or config files and NO build artifacts, dependencies, or temp files, I should output an EMPTY .gitignore.
-
-```
-
-```
+(empty - no output)
