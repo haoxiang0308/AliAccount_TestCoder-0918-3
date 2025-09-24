@@ -1,1 +1,30 @@
-Nothing to output - the change list contains only a source code file (.py) with no build artifacts, dependencies, or temp files that need to be ignored.
+(ts - Project with artifacts):
+Input:
+### Added files:
+[OrderStatus_3k9p2.ts]
+
+### Deleted files:
+[]
+
+### Modified files:
+[]
+
+###current .gitignore Content
+
+
+Expected Output:
+(ts - Project with artifacts):
+Input:
+### Added files:
+[OrderStatus_3k9p2.ts]
+
+### Deleted files:
+[]
+
+### Modified files:
+[]
+
+###current .gitignore Content
+
+
+Expected Output:
