@@ -1,22 +1,38 @@
 ```
-# Build artifacts
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+
+# Compiled/Artifacts
+*.pyc
+*.class
 *.o
 *.obj
-*.out
 *.exe
 *.dll
 *.so
 *.a
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+*.out
 
 # Editors
 .vscode/
@@ -27,15 +43,10 @@ target/
 # System
 .DS_Store
 Thumbs.db
-*.tmp
 
 # Logs
 *.log
-
-# Environment
-.env
-.env.local
-*.env.*
+*.tmp
 
 # Coverage
 coverage/
