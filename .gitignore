@@ -1,9 +1,20 @@
 ```
-# Compressed files
-*.tar
-*.gz
-*.tar.gz
+# PowerShell/Windows specific
+*.tmp
+*.log
+Thumbs.db
 
-# Julia specific
-julia-*/
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
 ```
