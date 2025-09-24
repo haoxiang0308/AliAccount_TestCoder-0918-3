@@ -1,3 +1,32 @@
-(person_12345.rb is a source code file, and there are no build artifacts, dependencies, or temp files in the changes - only a Ruby source file was added, so no ignores are needed)
+```
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.obj
 
-(empty - output nothing)
+# Dependencies
+_dune/
+.opam/
+esy.lock/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+```
