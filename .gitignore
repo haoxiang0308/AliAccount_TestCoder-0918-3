@@ -1,18 +1,1 @@
-```
-# Backup and temp files
-*backup*.sh
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Editors
-.vscode/
-.idea/
-```
+Nothing should be ignored based on the provided changes. The added file 'factorial_5643.ml' is a source code file that should be tracked in version control.
