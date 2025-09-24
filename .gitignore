@@ -1,4 +1,8 @@
 ```
-# XML files
-*.xml
+# R-specific ignores
+*.rds
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
 ```
