@@ -2,10 +2,13 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.out
+*.hi
 
 # Dependencies
-julia-*/
+.cabal-sandbox/
+dist/
+dist-newstyle/
+.stack-work/
 
 # Logs and temp files
 *.log
@@ -16,8 +19,7 @@ julia-*/
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
+# System files
+.DS_Store
+Thumbs.db
 ```
