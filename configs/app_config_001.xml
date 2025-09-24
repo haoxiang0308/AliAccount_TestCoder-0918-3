@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appSettings>
+        <param name="appName" value="MySampleApp"/>
+        <param name="version" value="1.0.0"/>
+        <param name="debugMode" value="true"/>
+        <param name="maxConnections" value="100"/>
+        <param name="logLevel" value="INFO"/>
+    </appSettings>
+    <databaseSettings>
+        <param name="host" value="localhost"/>
+        <param name="port" value="5432"/>
+        <param name="username" value="dbuser"/>
+        <param name="password" value="secret"/>
+        <param name="databaseName" value="myapp_db"/>
+    </databaseSettings>
+</configuration>
