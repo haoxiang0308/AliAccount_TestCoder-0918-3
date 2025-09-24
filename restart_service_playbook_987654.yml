@@ -1,0 +1,9 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the specified service
+      systemd:
+        name: "{{ service_name | default('httpd') }}"
+        state: restarted
