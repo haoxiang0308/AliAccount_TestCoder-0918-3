@@ -1,34 +1,79 @@
 ```
-# R-specific files
-*.RData
-*.Rhistory
-.Rproj.user/
-.Rprofile.swp
-
-# Compiled and build artifacts
-*.o
-*.so
-*.dll
-*.dylib
-*.a
-
 # Dependencies
-library/
-lib/
-libs/
+node_modules/
 
-# Logs and temp files
+# Build artifacts
+dist/
+build/
+target/
+
+# Package lock files
+package-lock.json
+
+# Logs
 *.log
-*.tmp
-*.swp
 
 # Environment
-.Renviron
-.Rprofile
-```
+.env
+.env.local
+*.env.*
 
-Wait, let me reconsider. The added files are just `analysis_12345.r` (R source file) and `data.csv` (data file). These are source/config files, not build artifacts or dependencies. According to rule #6, if the change list contains ONLY source or config files and NO build artifacts, dependencies, or temp files, I should output an EMPTY .gitignore.
+# Editors
+.vscode/
+.idea/
 
-```
+# Temp files
+*.tmp
+*.swp
+*.swo
 
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
