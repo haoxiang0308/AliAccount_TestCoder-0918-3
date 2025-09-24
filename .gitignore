@@ -1,24 +1,8 @@
 ```
-# Compiled Java files
-*.class
-
-# Dependencies
-target/
-build/
-
-# IDE
-.vscode/
-.idea/
-
-# System
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
+#Ada build artifacts
+*.ali
+*.ads~
+*.adb~
+obj/
+exec/
 ```
