@@ -1,1 +1,19 @@
-Nothing should be ignored based on the provided changes. The added file `plot_bars.r` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.ji
+*.o
+*.obj
+
+# Dependencies
+.julia/
+*.jl.cov
+*.jl.info
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.julia_scratch/
+```
