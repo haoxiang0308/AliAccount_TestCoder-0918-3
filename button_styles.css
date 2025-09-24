@@ -1,0 +1,45 @@
+/* CSS-код для стилизации кнопки с тенью */
+
+/* Базовый стиль для кнопки */
+.styled-button {
+  /* Размеры и внутренние отступы */
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px; /* Скругленные углы */
+  cursor: pointer;
+  background-color: #4CAF50; /* Цвет фона */
+  color: white; /* Цвет текста */
+  transition: all 0.3s ease; /* Плавный переход для hover и active состояний */
+
+  /* Основная тень */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  /* Внутренняя тень для объема */
+  /* inset добавляет внутреннюю тень */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), inset 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+/* Состояние при наведении */
+.styled-button:hover {
+  background-color: #45a049; /* Темнее фон при наведении */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Более выраженная тень */
+  transform: translateY(-2px); /* Легкий подъем при наведении */
+}
+
+/* Состояние при нажатии */
+.styled-button:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Уменьшенная тень при нажатии */
+  transform: translateY(0); /* Возврат в исходное положение */
+  background-color: #3d8b40; /* Еще темнее фон при нажатии */
+}
+
+/* Необязательно: Стиль для отключенной кнопки */
+.styled-button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: none; /* Отключить трансформации */
+}
