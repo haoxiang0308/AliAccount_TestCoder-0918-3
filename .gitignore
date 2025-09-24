@@ -1,53 +1,37 @@
 ```
 # Compiled and build artifacts
-*.dll
-*.exe
-*.obj
-*.pdb
-*.sln
-*.user
-*.userosscache
-*.suo
-bin/
-obj/
-out/
+*.pyc
+__pycache__/
 
 # Dependencies
-packages/
+.venv/
+venv/
 node_modules/
-bower_components/
-jspm_packages/
 
 # Logs and temp files
 *.log
 *.tmp
-*.temp
-*.cache
+*.swp
 
 # Environment
 .env
 .env.local
-.env.
+.env.*
 
 # Editors
-.vs/
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Testing
-TestResults/
+# Coverage
 coverage/
-*.coverage
 htmlcov/
+.coverage
 
-# Build results
+# Build directories
 dist/
 build/
 target/
