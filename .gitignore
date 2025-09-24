@@ -1,5 +1,1 @@
-(button_styles.css is a source file, so no ignores needed)
-
-```css
-
-```
+Nothing should be ignored based on the provided changes. The added file 'WelcomeComponent.jsx' is a source code file that should be tracked in version control.
