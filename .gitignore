@@ -1,17 +1,11 @@
 ```
 # Compiled and build artifacts
-target/
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
 *.out
 
 # Dependencies
-Cargo.lock
-vendor/
+.nimble/
 
 # Logs and temp files
 *.log
@@ -21,48 +15,4 @@ vendor/
 # Editors
 .vscode/
 .idea/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python (in case Python files are added later)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage*
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
-
-# Node.js (in case JS files are added later)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-node_modules/
-dist/
-build/
-*.min.js
-*.min.css
-
-# Rust-specific
-Cargo.lock
-target/
-**/*.rs.bk
-```
 ```
