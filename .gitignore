@@ -1,3 +1,1 @@
-terraform_config.hcl is a source configuration file, not a build artifact, dependency, or temporary file. No files in the change list require ignoring based on the rules provided.
-
-(empty — output nothing)
+Nothing to output - the change list contains only a source code file (.rb) with no build artifacts, dependencies, or temp files that need to be ignored.
