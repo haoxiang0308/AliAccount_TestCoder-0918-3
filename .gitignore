@@ -1,30 +1,3 @@
-```
-# Zig build artifacts
-zig-cache/
-zig-out/
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
+(button_style_12345.css is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
 
-# Dependencies
-.zig-cache/
-deps/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-```
+(empty — output nothing)
