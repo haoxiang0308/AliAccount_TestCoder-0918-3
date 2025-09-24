@@ -1,1 +1,56 @@
-Nothing to output - the change list contains only a source code file (.jl) with no build artifacts, dependencies, or temporary files that need to be ignored.
+```
+# Configuration and deployment files
+*.yaml
+*.yml
+*.json
+*.toml
+*.cfg
+*.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts and dependencies (if any common ones exist)
+node_modules/
+__pycache__/
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Distribution/Build directories
+dist/
+build/
+target/
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+.gradle/
+
+# Virtual environments
+venv/
+.venv/
+```
