@@ -4,51 +4,38 @@
 *.exe
 *.obj
 *.pdb
-*.sln
 *.user
-*.userosscache
 *.suo
 bin/
 obj/
-out/
 
 # Dependencies
 packages/
 node_modules/
-bower_components/
-jspm_packages/
 
 # Logs and temp files
 *.log
 *.tmp
-*.temp
 *.cache
 
 # Environment
 .env
 .env.local
-.env.
+*.env.*
 
 # Editors
 .vs/
 .vscode/
-.idea/
-*.swp
-*.swo
+*.userprefs
 
 # OS generated files
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Testing
-TestResults/
-coverage/
-*.coverage
-htmlcov/
-
-# Build results
-dist/
-build/
-target/
+# Build output
+Debug/
+Release/
+x64/
+x86/
 ```
