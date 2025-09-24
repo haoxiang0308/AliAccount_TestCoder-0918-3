@@ -1,10 +1,26 @@
 ```
-#Temp files
-temp_filename.txt
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.so
+*.dylib
+*.dll
 
-#Verilog build artifacts
-*.vcd
-*.fst
+# Dependencies
+deps/
+
+# Logs and temp files
 *.log
-*.txt
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
