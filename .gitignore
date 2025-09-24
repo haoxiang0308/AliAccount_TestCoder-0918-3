@@ -1,37 +1,47 @@
 ```
-# Compiled and build artifacts
-*.vcd
-*.bin
-*.out
-*.obj
-*.o
-*.a
-*.so
-*.dll
-*.exe
-
-# Dependencies
-*.lib
-*.so
-*.dylib
-
-# Logs and temp files
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
 *.log
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Images and media
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.webp
+
+# Temporary files
 *.tmp
-*.swp
-*.swo
+*.temp
+*~
+.DS_Store
+Thumbs.db
 
-# Editors
-.vscode/
-.idea/
-
-# Simulation and synthesis outputs
-sim/
-syn/
-work/
-*.fst
-*.ghw
-*.vvp
-*.elab
-*.ghdl
+# Environment files
+.env
+.env.local
+.env.*
+!.env.example
 ```
