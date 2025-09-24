@@ -1,16 +1,16 @@
 ```
 # Compiled and build artifacts
+*.vcd
+*.fst
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
+*.bin
 *.out
 
-# Dependencies
+# Dependencies and build directories
+build/
+dist/
 target/
-Cargo.lock
 
 # Logs and temp files
 *.log
@@ -25,12 +25,4 @@ Cargo.lock
 .env
 .env.local
 *.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Rust specific
-**/*.rs.bk
 ```
