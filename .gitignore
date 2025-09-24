@@ -1,8 +1,19 @@
 ```
-# PowerShell/Windows specific
-*.tmp
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
 *.log
-Thumbs.db
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -12,9 +23,9 @@ Thumbs.db
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System files
-.DS_Store
+# Distribution and build directories
+dist/
+build/
+target/
 ```
