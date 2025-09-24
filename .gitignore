@@ -1,4 +1,35 @@
 ```
-# SQL output files
-sql_outputs/
+# Compiled and build artifacts
+*.nimble
+*.nims
+*.so
+*.dll
+*.exe
+*.o
+*.obj
+*.out
+
+# Dependencies
+.nimble/
+nimcache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
