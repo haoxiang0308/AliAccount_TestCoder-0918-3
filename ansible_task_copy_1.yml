@@ -1,0 +1,17 @@
+---
+- name: Copy file with random name
+  hosts: localhost
+  tasks:
+    - name: Generate random filename
+      set_fact:
+        random_filename: "{{ ''.join(['output_file_', (lookup('pipe', 'echo $RANDOM') | to_uuid)[:8], '.txt']) }}"
+
+    - name: Copy source file to destination with random name
+      copy:
+        src: /workspace/source_file.txt
+        dest: "/workspace/{{ random_filename }}"
+      register: copy_result
+
+    - name: Print the name of the created file
+      debug:
+        msg: "Скопирован файл в: {{ copy_result.dest }}"

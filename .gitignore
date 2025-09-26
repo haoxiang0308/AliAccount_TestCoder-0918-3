@@ -1,1 +1,47 @@
-(empty)
+```
+# Temporary files
+*.tmp
+*.temp
+
+# Output files
+output_file_*.txt
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+python/
+venv/
+.venv/
+.env
+
+# Build directories
+dist/
+build/
+*.egg-info/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
