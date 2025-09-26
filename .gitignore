@@ -1,3 +1,1 @@
-```
-*.toml
-```
+Nothing should be ignored since only a source file (`greeting_function.py`) was added without any build artifacts, dependencies, or temporary files.
