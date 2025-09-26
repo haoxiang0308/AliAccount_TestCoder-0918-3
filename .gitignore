@@ -1,12 +1,19 @@
 ```
-# Backup files
-backup_*.sh
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Temporary and generated files
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
 
-# Logs
-*.log
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
