@@ -1,13 +1,1 @@
-```
-# Elixir build artifacts
-*.beam
-*.ez
-ebin/
-_build/
-cover/
-.erlang.cookie
-
-# Dependencies
-deps/
-_hex/
-```
+Nothing needs to be added to .gitignore for this change list. The added file `list_files_9234.sh` is a shell script source file, which should not be ignored according to the rules.
