@@ -1,4 +1,120 @@
 ```
-# Configuration backup files
-config_*.toml
+# Julia installation
+julia-*/
+!julia-*/share/julia/stdlib/**
+!julia-*/share/julia/test/**
+!julia-*/share/julia/base.cache
+
+# Julia build artifacts and compiled files
+*.ji
+*.so
+
+# Compressed files
+*.tar.gz
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Test files and temporary files
+*.tmp
+*.log
+
+# Julia-specific temp files
+*.jl.bak
+*.jl~
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Julia package manager files
+.julia/
+
+# Build directories
+build/
+dist/
+target/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.conda/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Julia-specific build artifacts
+julia-1.*/share/julia/compiled/**
+julia-1.*/share/julia/base.cache
+
+# Julia package artifacts
+*.tar.gz
+resolvedata.tar.gz
+
+# Julia config files
+julia-*/share/julia/julia-config.jl
+
+# Julia appdata
+julia-*/share/appdata/
+
+# Julia package test files
+julia-1.*/share/julia/stdlib/v1.10/Pkg/test/test_packages/**
+
+# Julia core test files
+julia-1.*/share/julia/test/depot/packages/**
+
+# Julia embedding test
+julia-1.*/share/julia/test/embedding/**
+
+# Julia gcext test
+julia-1.*/share/julia/test/gcext/**
+
+# Julia llvmpasses test
+julia-1.*/share/julia/test/llvmpasses/**
+
+# Julia clangsa test
+julia-1.*/share/julia/test/clangsa/**
+
+# Julia project test
+julia-1.*/share/julia/test/project/Extensions/**
+
+# Julia test helpers
+julia-1.*/share/julia/test/testhelpers/**
+
+# Julia test manifest
+julia-1.*/share/julia/test/manifest/**
+
+# Julia test config
+julia-1.*/share/julia/test/TestPkg/**
+
+# Julia test source
+julia_quad_solver_*.jl
+
 ```
