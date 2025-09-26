@@ -1,21 +1,25 @@
 ```
-# Compiled and build artifacts
-*.rs.bk
-target/
+# VBA specific ignores
+*.frx
+*.bas
+*.cls
+*.frm
+*.vbw
+*.vba
+*.ds_store
+Thumbs.db
 
-# Dependencies
-Cargo.lock
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
 
-# Environment
-.env
-.env.local
-*.env.*
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
 ```
