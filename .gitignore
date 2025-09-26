@@ -1,3 +1,52 @@
-(database_config.ini is a config file, not a build artifact, dependency, or temp file - so no ignores needed)
+```
+# Build artifacts and compiled files
+*.dll
+*.exe
+*.pdb
+*.unity3d
+*.asset
+*.prefab
+*.meta
 
-(empty output)
+# Unity specific
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+MemoryCaptures/
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.unity
+*.unitypackage
+
+# Dependencies
+Packages/
+ProjectSettings/
+
+# Environment
+.env
+.env.local
+.env.
+
+# Logs
+*.log
+crashlytics-build.properties
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS generated
+.DS_Store
+Thumbs.db
+```
