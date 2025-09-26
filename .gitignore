@@ -1,51 +1,41 @@
 ```
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Jenkins artifacts
+Jenkinsfile_*
 
-#Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
-#Environment
+# Environment
 .env
 .env.local
 *.env.*
 
-#Editors
+# Editors
 .vscode/
 .idea/
 
-#System files
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# OS generated files
 .DS_Store
 Thumbs.db
 
-#Coverage
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-#Compressed files
+# Compressed files
 *.zip
 *.gz
 *.tar
