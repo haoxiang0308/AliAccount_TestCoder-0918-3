@@ -1,15 +1,26 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
-*.class
-*.dll
-*.so
-*.a
-*.exe
 *.out
+*.bin
+*.hex
+*.vcd
+*.fst
+*.lxt
+*.lx2
+*.lxt2
+*.vvp
+*.svi
+
+# Simulation and synthesis outputs
+sim/
+sim_build/
+build/
+dist/
+target/
+*.log
+*.tmp
 
 # Dependencies
 node_modules/
@@ -19,43 +30,13 @@ venv/
 .env.local
 .env.*
 
-# Build directories
-dist/
-build/
-target/
-*.jar
-*.war
-*.zip
-*.tar
-*.gz
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-
 # Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Cache
-.mypy_cache/
-.pytest_cache/
-.gradle/
 ```
