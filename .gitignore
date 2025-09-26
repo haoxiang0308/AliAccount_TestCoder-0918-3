@@ -1,1 +1,36 @@
-Nothing should be ignored based on the provided changes. The added file `ViewController.swift` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.bin
+*.hex
+*.vcd
+*.fst
+*.log
+
+# Simulation and synthesis outputs
+sim/
+synth/
+work/
+*.vvp
+*.ghw
+*.vcd
+*.fst
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Environment
+.env
+.env.local
+*.env.*
+```
