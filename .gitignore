@@ -1,36 +1,5 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.bin
-*.hex
-*.vcd
-*.fst
-*.log
+(binary_classifier_model_4567.py is a source code file, so no ignores needed)
 
-# Simulation and synthesis outputs
-sim/
-synth/
-work/
-*.vvp
-*.ghw
-*.vcd
-*.fst
+```python
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-*.bak
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
