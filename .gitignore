@@ -2,9 +2,9 @@
 # Compiled and build artifacts
 *.pyc
 __pycache__/
+*.class
 *.o
 *.obj
-*.class
 *.exe
 *.dll
 *.so
@@ -17,7 +17,7 @@ venv/
 .venv/
 .env
 .env.local
-.env.*
+.env.
 
 # Logs and temp files
 *.log
@@ -39,17 +39,10 @@ build/
 target/
 .gradle/
 
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-.coverage
+# Coverage
+coverage/
 htmlcov/
-.mypy_cache/
-.pytest_cache/
+.coverage
 
 # Compressed files
 *.zip
