@@ -1,4 +1,1 @@
-```
-# GraphQL schema
-schema.graphql
-```
+Nothing to ignore - the added file `ruby_array_iteration.rb` is a source code file that should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
