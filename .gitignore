@@ -1,51 +1,51 @@
 ```
-# Dependencies
-node_modules/
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Build artifacts
+#Dependencies
+.venv/
+venv/
+node_modules/
 dist/
 build/
 target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 
-# Package lock files
-package-lock.json
-
-# Temporary files
+#Logs and temp files
+*.log
 *.tmp
 *.swp
 *.swo
 
-# Logs
-*.log
-
-# Environment
+#Environment
 .env
 .env.local
 *.env.*
 
-# Editors
+#Editors
 .vscode/
 .idea/
 
-# OS generated files
+#System files
 .DS_Store
 Thumbs.db
 
-# Python related (if Python project detected)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env/
-.pytest_cache/
-.mypy_cache/
-.coverage
+#Coverage
+coverage/
 htmlcov/
+.coverage
 
-# Compressed files
+#Compressed files
 *.zip
 *.gz
 *.tar
