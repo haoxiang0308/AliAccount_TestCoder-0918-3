@@ -1,48 +1,36 @@
 ```
-# Erlang/OTP
-*.beam
-*.app
-*.app.src
-ebin/
-deps/
-_build/
-.rebar3/
-erl_crash.dump
-
 # Compiled and build artifacts
-*.o
-*.obj
-*.so
-*.a
-*.dll
-*.exe
-
-# Dependencies
-node_modules/
-venv/
-.venv/
+*.pyc
 __pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Editors
+.vscode/
+.idea/
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 
-# System files
-.DS_Store
-Thumbs.db
+# Dependency directories
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+
+# Distribution files
+dist/
+build/
+target/
 ```
