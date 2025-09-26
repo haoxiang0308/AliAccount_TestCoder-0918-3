@@ -1,24 +1,72 @@
 ```
-# Temp files
+# VBA/Office files
+*.vba
+*.bas
+*.cls
+*.frm
+*.vbs
+*.wsf
+*.wsc
+*.msi
+*.msp
+*.mst
 *.tmp
-*.swp
-*.swo
-
-# Logs
+*.temp
 *.log
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
+# Backup files
+*~
+*.bak
+*.old
+*.orig
 
 # System files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies (if any VBA project dependencies)
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build/Output
+dist/
+build/
+target/
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.obj
+*.out
 
 # Compressed files
 *.zip
@@ -43,4 +91,12 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+.pytest_cache/
+.mypy_cache/
 ```
