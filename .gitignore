@@ -1,27 +1,15 @@
 ```
-# Compiled and build artifacts
-*.mex*
-*.o
-*.obj
-*.out
-*.dll
-*.so
-*.a
-
-# Dependencies
-octave-workspace
-*.mat
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
