@@ -1,1 +1,25 @@
-Nothing to ignore - the added file `square_function.fs` is a source code file (.fs extension indicates F# source code) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+
+# Dependencies
+.cabal-sandbox/
+dist/
+dist-newstyle/
+.cabal/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
