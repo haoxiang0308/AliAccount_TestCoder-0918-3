@@ -1,1 +1,28 @@
-(empty)
+```
+# Compiled and build artifacts
+*.mex
+*.mexa64
+*.mexw64
+*.mexw32
+*.oct
+*.so
+*.dll
+*.dylib
+
+# Dependencies
+matlab/extern/
+matlab/lib/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
