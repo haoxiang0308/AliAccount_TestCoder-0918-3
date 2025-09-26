@@ -1,5 +1,44 @@
-(my_django_app/views.py is a source file, no build artifacts, dependencies, or temp files detected in the changes, so no ignores are needed)
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+*.jar
+*.war
+*.ear
+*.so
+*.dll
+*.exe
 
-```python
+# Dependencies
+target/
+lib_managed/
+project_target/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
 ```
