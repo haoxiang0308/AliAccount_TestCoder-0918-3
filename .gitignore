@@ -1,1 +1,25 @@
-(empty)
+```
+# Compiled and build artifacts
+*.ex
+*.o
+*.obj
+*.out
+
+# Dependencies
+julia-*/
+*.jl.c
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
