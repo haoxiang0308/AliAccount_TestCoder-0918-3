@@ -1,1 +1,29 @@
-Nothing should be ignored based on the provided changes. The added file `filterStrings.kt` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+target/
+.libs/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Scala specific
+*.jar
+lib_managed/
+project_target/
+```
