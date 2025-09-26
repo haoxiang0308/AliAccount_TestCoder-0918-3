@@ -1,72 +1,42 @@
 ```
-# VBA/Office files
-*.vba
-*.bas
-*.cls
-*.frm
-*.vbs
-*.wsf
-*.wsc
-*.msi
-*.msp
-*.mst
-*.tmp
-*.temp
-*.log
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Backup files
-*~
-*.bak
-*.old
-*.orig
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
-*.cache
-*.swp
-*.swo
-
-# IDE/Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependencies (if any VBA project dependencies)
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Build/Output
-dist/
-build/
-target/
-*.exe
-*.dll
-*.so
-*.dylib
-*.a
-*.o
-*.obj
-*.out
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -91,12 +61,4 @@ target/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.coverage
-.pytest_cache/
-.mypy_cache/
 ```
