@@ -1,5 +1,33 @@
-(postgres_connect_abc123.py is a source file, so no ignores needed)
+```
+# Output files
+output_*.txt
 
-```python
+# Compiled and build artifacts
+*.fsi
+*.dll
+*.exe
+*.pdb
+*.cache
 
+# Dependencies
+.paket/
+packages/
+bin/
+obj/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.userprefs
+*.user
 ```
