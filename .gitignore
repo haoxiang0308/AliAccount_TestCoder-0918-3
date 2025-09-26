@@ -1,5 +1,9 @@
-(time_output.cr is a source file, so no ignores needed)
-
-```crystal
-
+```
+# R plots and generated files
+*.pdf
+*.png
+*.RData
+*.rds
+*.Rhistory
+.Rproj.user/
 ```
