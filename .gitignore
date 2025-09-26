@@ -1,34 +1,6 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-
-# Dependencies
-.venv/
-venv/
-pip-tools/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Testing
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
-
-# System
-.DS_Store
-Thumbs.db
+# PowerShell/Windows specific
+*.ps1~
+*.psd1~
+*.psm1~
 ```
