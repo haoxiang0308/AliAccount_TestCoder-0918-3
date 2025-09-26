@@ -1,3 +1,40 @@
 ```
-*.toml
+# Configuration files
+*.yml
+*.yaml
+
+# Serverless framework
+.serverless/
+serverless_*.yml
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
 ```
