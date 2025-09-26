@@ -1,5 +1,7 @@
-(person_12345.rb is a source code file, and there are no build artifacts, dependencies, or temp files in the changes, so no ignores are needed)
+```
+# SQL query files (if they are temporary/intermediate)
+*.sql
 
-```ruby
-
+# If query files are build artifacts or temporary, ignore them
+# Otherwise, remove this line if they are source files
 ```
