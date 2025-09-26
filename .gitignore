@@ -1,5 +1,25 @@
-(random_plot_789.r is a source file, not a build artifact or dependency, so no .gitignore rules needed)
+```
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
 
-```r
+# Dependencies
+ebin/
+deps/
+_build/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
 ```
