@@ -1,3 +1,4 @@
-(restart_service_playbook.yml is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
-
-(empty - output nothing)
+```
+# Random temporary files
+${random_name}
+```
