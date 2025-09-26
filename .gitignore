@@ -1,5 +1,1 @@
-(person_12345.rb is a source code file, and there are no build artifacts, dependencies, or temp files in the changes, so no ignores are needed)
-
-```ruby
-
-```
+Nothing should be ignored based on the provided changes. The added file `mysql_query.py` is a source code file that should be tracked in version control.
