@@ -1,36 +1,48 @@
 ```
+# API response files
+api_responses/
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
 # Build artifacts
+dist/
+build/
 *.o
 *.obj
-*.a
 *.so
+*.a
 *.dll
 *.exe
-*.out
-
-# Build directories
-build/
-dist/
-*.pyc
-__pycache__/
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
 
 # System files
 .DS_Store
