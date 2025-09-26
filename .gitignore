@@ -1,43 +1,39 @@
 ```
-# Dependencies
-node_modules/
+# Ruby specific
+*.gem
+*.rbc
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
 
-# Compiled/Build artifacts
-dist/
-build/
-*.js.map
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
+# Environment variables
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
+# Logs
+*.log
+log/
+
+# Temporary files
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Dependencies
+vendor/bundle/
+.bundle/
+
+# Editor/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Python (if present)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-.env.local
-.env.*
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
 
 # System files
 .DS_Store
