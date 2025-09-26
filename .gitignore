@@ -1,85 +1,58 @@
 ```
-# TypeScript/JavaScript
-*.tsbuildinfo
-*.js.map
-*.ts.map
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
 node_modules/
-
-# Build outputs
-dist/
-build/
-out/
-lib/
-
-# Logs
-*.log
-
-# Environment
+venv/
+.venv/
 .env
 .env.local
 .env.*
 
-# Editor
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
 
-# OS
+# Editors
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
 
 # Coverage
 coverage/
 htmlcov/
-*.coverage
+.coverage
 
-# Python (if applicable)
-__pycache__/
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
 *.pyc
+__pycache__/
 *.pyo
 *.pyd
 .Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.pytest_cache/
-.mypy_cache/
-
-# Java (if applicable)
-*.class
-*.jar
-*.war
-*.ear
-*.tar.gz
-target/
-.gradle/
-build/
-
-# C/C++ (if applicable)
-*.o
-*.a
 *.so
-*.dll
-*.exe
-*.out
-*.obj
-
-# Go (if applicable)
-*.exe
-*.dll
-*.so
-*.dylib
+*.egg-info/
+.eggs/
 
 # Compressed files
 *.zip
