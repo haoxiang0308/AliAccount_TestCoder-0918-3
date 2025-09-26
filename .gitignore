@@ -1,1 +1,28 @@
-(empty)
+```
+# Compiled and build artifacts
+*.beam
+*.ez
+*.app
+*.so
+*.o
+*.obj
+
+# Dependencies
+deps/
+_build/
+ebin/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+```
