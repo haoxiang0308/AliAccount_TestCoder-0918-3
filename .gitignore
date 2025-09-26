@@ -1,1 +1,48 @@
-Nothing should be ignored since only a TypeScript source file (.ts) was added and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Erlang/OTP
+*.beam
+*.app
+*.app.src
+ebin/
+deps/
+_build/
+.rebar3/
+erl_crash.dump
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
