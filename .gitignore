@@ -1,24 +1,9 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.exs~
-
-# Dependencies
-deps/
-_build/
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
+
+# Configuration files that might contain sensitive data
+*.ini
 ```
