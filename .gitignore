@@ -1,1 +1,8 @@
-Nothing to ignore - the added file `iterate_list.groovy` is a source code file and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Kubernetes/Docker deployment files
+*.yaml
+*.yml
+
+# If deployment.yaml is generated, you might want to ignore it
+# deployment.yaml
+```
