@@ -1,3 +1,1 @@
-(matrix_mult_script_20250926.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
-
-(empty — output nothing)
+Nothing should be ignored based on the provided changes. The added file `backup_script.sh` is a source script file that should be tracked in version control.
