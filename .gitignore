@@ -1,1 +1,1 @@
-Nothing needs to be ignored based on the provided changes. The added file `get_date_time.ps1` is a PowerShell script source file, which should be tracked in version control.
+Nothing should be ignored since only a source code file (.adb) was added without any build artifacts, dependencies, or temporary files.
