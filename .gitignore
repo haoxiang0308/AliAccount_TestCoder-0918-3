@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file `format_macro.vba` is a source code file that should be tracked in version control.
+Nothing should be ignored since only a Haskell source file (.hs) was added and no build artifacts, dependencies, or temporary files are present in the changes.
