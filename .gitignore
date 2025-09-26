@@ -1,51 +1,54 @@
 ```
-# Puppet related
-**/modules/
-**/spec/fixtures/modules/
-**/pkg/
-**/vendor/
-.rubocop.yml
-.yardoc/
-doc/
-*.pp.bak
+# Configuration and deployment files
+*.yaml
+*.yml
+*.json
+*.toml
+*.cfg
+*.ini
 
-# General ignores
+# Logs and temporary files
 *.log
 *.tmp
 *.swp
-.DS_Store
-Thumbs.db
 
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+target/
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
 # Dependencies
 node_modules/
 venv/
 .venv/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Build artifacts
-dist/
-build/
-target/
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+.mypy_cache/
+.pytest_cache/
+.gradle/
+julia-*/
+zig*/
 
 # Coverage
 coverage/
