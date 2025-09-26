@@ -1,5 +1,21 @@
-(book.xml is a source/config file, so no ignores needed)
+```
+# Temporary files
+*.tmp
+tmp.*
 
-```text
+# Logs
+*.log
 
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
