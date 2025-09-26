@@ -1,19 +1,17 @@
 ```
+# TypeScript/JavaScript
+*.tsbuildinfo
+*.js.map
+*.ts.map
+
 # Dependencies
 node_modules/
 
-# Build artifacts
+# Build outputs
 dist/
 build/
-target/
-
-# Package lock files
-package-lock.json
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
+out/
+lib/
 
 # Logs
 *.log
@@ -21,29 +19,67 @@ package-lock.json
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+# Editor
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
 
-# Python related (if Python project detected)
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# Python (if applicable)
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
+env/
 venv/
 .venv/
-.env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.log
 .pytest_cache/
 .mypy_cache/
-.coverage
-htmlcov/
+
+# Java (if applicable)
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
+target/
+.gradle/
+build/
+
+# C/C++ (if applicable)
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.obj
+
+# Go (if applicable)
+*.exe
+*.dll
+*.so
+*.dylib
 
 # Compressed files
 *.zip
