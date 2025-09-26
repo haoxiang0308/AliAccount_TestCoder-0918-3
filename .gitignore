@@ -1,32 +1,4 @@
 ```
 # Compiled and build artifacts
-*.mex*
-*.o
-*.obj
-*.dll
-*.so
-*.a
-*.lib
-*.dylib
-*.class
-
-# Dependencies
-octave-workspace
-*.mat
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+*.fs
 ```
