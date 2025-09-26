@@ -1,46 +1,29 @@
 ```
-# Erlang/OTP
-*.beam
-*.app
-*.app.src
-ebin/
-deps/
-_build/
-.rebar3/
-erl_crash.dump
-
 # Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.exe
+*.out
 *.o
 *.obj
-*.so
-*.a
-*.dll
-*.exe
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
+_dbuild/
+.opam/
+esy.lock/
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
 
 # System files
 .DS_Store
