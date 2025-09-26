@@ -1,1 +1,25 @@
-Nothing should be ignored based on the provided changes. The only added file is `add_function.lua`, which is a source code file and should not be ignored.
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.dvi
+*.ps
+*.pdf
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv
+*.pdfsync
+*.run.xml
+*.bcf
+*.synctex(busy)
+```
