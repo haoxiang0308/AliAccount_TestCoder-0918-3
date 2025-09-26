@@ -1,1 +1,1 @@
-Nothing should be ignored since only a source code file (HelloWorld.java) was added without any build artifacts, dependencies, or temporary files.
+Nothing to ignore - the added file `square_function.fs` is a source code file (.fs extension indicates F# source code) and there are no build artifacts, dependencies, or temporary files in the changes.
