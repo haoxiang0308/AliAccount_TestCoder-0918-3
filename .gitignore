@@ -1,13 +1,1 @@
-```
-# Elixir build artifacts
-*.beam
-*.ez
-ebin/
-_build/
-cover/
-.erlang.cookie
-
-# Dependencies
-deps/
-_hex/
-```
+(server_kjsd9f.js is a source file, not a build artifact or temporary file, so no .gitignore rules are needed)
