@@ -1,71 +1,26 @@
 ```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+
 # Dependencies
-node_modules/
-
-# Build artifacts
+.stack-work/
 dist/
-build/
-target/
+cabal-dist/
 
-# Package lock files
-package-lock.json
-
-# Temporary files
-*.tmp
+# Editors
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
 
 # Environment
 .env
 .env.local
 *.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Python related (if Python project detected)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env/
-.pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
