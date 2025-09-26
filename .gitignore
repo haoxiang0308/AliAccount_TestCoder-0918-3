@@ -1,29 +1,18 @@
 ```
-# Compiled and build artifacts
-*.class
-*.pyc
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# TypeScript/JavaScript build artifacts
+*.js
+*.tsbuildinfo
+dist/
+build/
+out/
+lib/
 
 # Dependencies
 node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Environment
 .env
@@ -33,17 +22,19 @@ target/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
+# Archives
 *.zip
 *.gz
 *.tar
@@ -66,7 +57,4 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Random output files
-random_output_*.txt
 ```
