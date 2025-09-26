@@ -1,31 +1,28 @@
 ```
-# Compiled and build artifacts
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.exe
-*.out
-*.o
-*.obj
-
 # Dependencies
-_dbuild/
-.opam/
-esy.lock/
+node_modules/
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# Package lock file
+package-lock.json
+
+# Temporary API response files
+api_response_*.json
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
-# System files
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
 .DS_Store
 Thumbs.db
 ```
