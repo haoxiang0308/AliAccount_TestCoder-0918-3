@@ -1,1 +1,15 @@
-Nothing needs to be added to .gitignore for this change. The added file `list_files_1632.sh` is a shell script source file, which should be tracked in version control. Since there are no build artifacts, dependencies, or temporary files in the changes, no additional ignore rules are needed.
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+```
