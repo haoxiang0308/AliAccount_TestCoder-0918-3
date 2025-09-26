@@ -1,1 +1,36 @@
-Nothing to output - the added file 'square_function_892.fs' is a source code file (.fs extension indicates F# source code) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# TypeScript/JavaScript build artifacts
+*.js
+*.tsbuildinfo
+dist/
+build/
+out/
+lib/
+
+# Dependencies
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# System files
+.DS_Store
+Thumbs.db
+```
