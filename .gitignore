@@ -1,25 +1,29 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.ez
-ebin/
-_build/
-
-# Dependencies
-deps/
-.hex/
-
-# Logs and temp files
-*.log
+# SQL build artifacts and temp files
+*.sql.bak
+*.sql~
 *.tmp
 
-# Editors
-.vscode/
-.idea/
-*.swp
+# Database dumps and exports
+*.dump
+*.backup
+*.bak
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
