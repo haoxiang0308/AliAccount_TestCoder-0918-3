@@ -1,1 +1,25 @@
-(empty)
+```
+# Compiled and build artifacts
+*.rs.bk
+*.rs~
+
+# Dependencies
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Rust specific
+Cargo.lock
+```
