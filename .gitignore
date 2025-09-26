@@ -1,20 +1,15 @@
 ```
-# Compiled and build artifacts
-*.css.map
-*.min.css
-*.bundle.css
-
-# Temp files
-*.tmp
-*.temp
-*.swp
-*.swo
-
-# Logs
+# LaTeX build artifacts
+*.aux
 *.log
-
-# Environment
-.env
-.env.local
-.env.
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
