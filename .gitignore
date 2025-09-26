@@ -1,5 +1,20 @@
-(server_abc123.js is a source file, not a build artifact or dependency, so no .gitignore rules needed)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.pkl
 
-```javascript
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
