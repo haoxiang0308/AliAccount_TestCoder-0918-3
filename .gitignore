@@ -1,5 +1,4 @@
 ```
-# PowerShell script backup/swap files
-*.ps1~
-*~
+# GraphQL schema files
+schema.graphql
 ```
