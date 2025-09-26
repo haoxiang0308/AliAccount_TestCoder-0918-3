@@ -1,13 +1,46 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
+# Protobuf generated files
+*.pb.go
+*.pb.js
+*.pb.ts
+*.py
+*.java
+*.cpp
+*.h
+*_pb2.py
+*_pb2_grpc.py
+*.proto.d
+*.proto.o
+*.proto.obj
 
 # Dependencies
-.stack-work/
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Build artifacts
 dist/
-cabal-dist/
+build/
+coverage/
+htmlcov/
+*.log
+*.tmp
 
 # Editors
 .vscode/
@@ -15,11 +48,9 @@ cabal-dist/
 *.swp
 *.swo
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
+# System
+.DS_Store
+Thumbs.db
 .env
 .env.local
 *.env.*
