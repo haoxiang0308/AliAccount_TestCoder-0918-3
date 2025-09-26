@@ -1,32 +1,12 @@
 ```
-# Erlang/OTP
-*.beam
-*.app
-*.appup
-*.rel
-*.script
-*.boot
-*.plt
-.erlang.cookie
+# Backup files
+backup_*.sh
 
-# Dependencies
-rebar3
-_rebuild/
-ebin/
-deps/
-
-# Editors
-.vscode/
-.idea/
+# Temporary and generated files
+*.tmp
 *.swp
 *.swo
 
-# Logs and temp files
+# Logs
 *.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
