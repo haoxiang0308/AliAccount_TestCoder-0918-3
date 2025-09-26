@@ -1,5 +1,25 @@
-(time_output.cr is a source file, so no ignores needed)
+```
+# Compiled and build artifacts
+*.beam
+*.ez
+ebin/
+_build/
 
-```crystal
+# Dependencies
+deps/
+.hex/
 
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
