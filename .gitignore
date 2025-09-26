@@ -1,39 +1,34 @@
 ```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
-
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.class
 *.o
 *.obj
-dist/
-build/
-target/
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-.env
-.env.local
-.env.*
+venv/
+node_modules/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
 
-# System
+# System files
 .DS_Store
 Thumbs.db
 
@@ -61,8 +56,4 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
