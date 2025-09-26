@@ -1,5 +1,1 @@
-(time_output.cr is a source file, so no ignores needed)
-
-```crystal
-
-```
+Nothing to output - the change list contains only a source code file (.cs) and no build artifacts, dependencies, or temp files that need to be ignored.
