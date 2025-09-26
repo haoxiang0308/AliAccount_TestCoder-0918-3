@@ -1,3 +1,1 @@
-```java
-
-```
+Nothing needs to be ignored since only a Puppet configuration file (.pp) was added, which is a source code file. No build artifacts, dependencies, or temporary files were detected in the changes.
