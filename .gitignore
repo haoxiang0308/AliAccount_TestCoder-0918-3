@@ -1,1 +1,31 @@
-Nothing should be ignored based on the provided file changes. The added file (.github/workflows/test.yml) is a source/config file that should be tracked in version control.
+```
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
+
+# Distribution and build artifacts
+dist/
+build/
+*.egg-info/
+```
