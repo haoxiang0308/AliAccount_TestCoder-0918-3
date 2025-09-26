@@ -1,5 +1,1 @@
-(book.xml is a source/config file, so no ignores needed)
-
-```text
-
-```
+Nothing should be ignored based on the provided changes. The only added file is `Point.swift`, which is a source code file and should not be ignored.
