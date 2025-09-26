@@ -1,4 +1,1 @@
-```
-# CI/CD
-.gitlab-ci.yml
-```
+Nothing should be ignored based on the provided file changes. The only added file is 'PuppetNetworkConfig.rb', which appears to be a source code file and should not be ignored.
