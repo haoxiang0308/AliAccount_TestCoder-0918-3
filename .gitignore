@@ -1,5 +1,1 @@
-```
-# PowerShell script backup/swap files
-*.ps1~
-*~
-```
+Nothing should be ignored based on the provided file changes. The added file `word_freq_counter.pl` is a Perl source code file that should be tracked in version control.
