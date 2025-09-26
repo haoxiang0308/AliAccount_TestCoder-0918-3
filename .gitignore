@@ -1,1 +1,25 @@
-(empty)
+```
+# Unity specific ignores
+Library/
+Temp/
+Obj/
+Build/
+*.sln
+*.csproj
+*.user
+*.userprefs
+*.unityproj
+*.suo
+*.userosscache
+*.unity
+*.asset
+*.meta
+*.prefab
+*.mat
+*.anim
+*.controller
+*.unitypackage
+[VersionControl].xml
+ProjectSettings/
+Packages/
+```
