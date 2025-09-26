@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file `format_macro.vba` is a source code file that should be tracked in version control.
+(binary_classifier.py is a source file, no build artifacts, dependencies, or temp files in the changes, so no ignores needed)
