@@ -1,30 +1,15 @@
 ```
-# Compiled and build artifacts
-*.fs
-*.fsi
-*.fsx
-*.dll
-*.exe
-*.o
-*.obj
-*.out
-
-# Dependencies
-.paket/
-packages/
-bin/
-obj/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
+# Thrift generated files
+*.py
+*.js
+*.java
+*.go
+*.cpp
+*.rb
+*.php
+*.m4
+*.html
+*.md
+*.txt
+gen-*/
 ```
