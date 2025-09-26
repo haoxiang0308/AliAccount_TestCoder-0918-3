@@ -1,5 +1,1 @@
-(time_output.cr is a source file, so no ignores needed)
-
-```crystal
-
-```
+(random_page_42.html is a source file, not a build artifact, dependency, or temp file - no ignores needed)
