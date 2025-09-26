@@ -1,13 +1,57 @@
 ```
-# Compiled and build artifacts
-*.r
-*.pdf
+# Build artifacts and compiled files
+*.dll
+*.exe
+*.obj
+*.out
+*.pdb
+*.so
+*.a
 
-# Logs and temp files
-*.tmp
-*.log
+# Unity specific
+Library/
+obj/
+Temp/
+Build/
+Logs/
+*.unitypackage
+*.userprefs
+*.sln
+*.csproj
+*.user
+*.pidb
+*.booproj
+*.svd
+*.meta
+csc.rsp
+.mdb
+.unity
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
 ```
