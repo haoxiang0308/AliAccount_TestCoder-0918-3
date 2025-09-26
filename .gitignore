@@ -1,5 +1,6 @@
-(binary_classifier_model_4567.py is a source code file, so no ignores needed)
-
-```python
-
+```
+# Environment files
+.env
+.env.local
+*.env.*
 ```
