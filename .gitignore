@@ -1,24 +1,13 @@
 ```
-# Shell script specific ignores
-*.sh.swp
-*.sh.swo
+# Compiled and build artifacts
+*.r
+*.pdf
 
 # Logs and temp files
-*.log
 *.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
+*.log
 
 # Editors
 .vscode/
 .idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
 ```
