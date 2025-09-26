@@ -1,1 +1,30 @@
-Nothing should be ignored based on the provided changes. The added file 'RandomGoFile_91023.go' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.fs
+*.fsi
+*.fsx
+*.dll
+*.exe
+*.o
+*.obj
+*.out
+
+# Dependencies
+.paket/
+packages/
+bin/
+obj/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+```
