@@ -1,21 +1,5 @@
 ```
-# Compiled and build artifacts
-*.rs.bk
-target/
-
-# Dependencies
-Cargo.lock
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+# PowerShell script backup/swap files
+*.ps1~
+*~
 ```
