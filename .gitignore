@@ -1,0 +1,20 @@
+```
+# Compiled and build artifacts
+*.css.map
+*.min.css
+*.bundle.css
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.
+```
