@@ -1,0 +1,3 @@
+Nothing should be ignored in this case, as only a Java source file was added without any build artifacts, dependencies, or temporary files.
+
+(empty output)
