@@ -1,28 +1,5 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+(service-config-789.yaml is a config file, so no ignores needed)
 
-# Dependencies
-.nimble/
-nimcache/
+```yaml
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
