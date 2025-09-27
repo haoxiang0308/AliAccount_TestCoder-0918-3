@@ -1,1 +1,28 @@
-Nothing should be ignored since only a source code file (.java) was added.
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+
+# Editors
+.vscode/
+.idea/
+
+# Logs and temp files
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
