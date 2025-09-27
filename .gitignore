@@ -1,1 +1,1 @@
-Nothing should be ignored since only a source code file (.f90) was added.
+Nothing should be ignored based on the provided changes. The added file `tf_linear_regression.py` is a source code file that should be tracked in version control.
