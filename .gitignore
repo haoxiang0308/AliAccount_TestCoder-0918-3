@@ -1,10 +1,3 @@
-```
-# VBA/Office files
-*.vba
-*.bas
-*.frm
-*.cls
-*.vbp
-*.ds
-Thumbs.db
-```
+(script_12345.lua matches the pattern of a source code file, and there are no build artifacts, dependencies, or temporary files in the changes)
+
+Nothing to ignore.
