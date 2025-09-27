@@ -1,1 +1,9 @@
-Nothing to output - the change list contains only a Perl source file (.pl) which should not be ignored.
+```
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+```
