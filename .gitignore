@@ -1,3 +1,1 @@
-(restart_service_playbook_12345.yml is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
-
-(empty — output nothing)
+(point_definition_12345.swift is a source code file, so no .gitignore rules needed)
