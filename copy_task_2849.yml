@@ -1,0 +1,15 @@
+---
+# Задача Ansible для копирования файла
+- name: Копирование файла
+  hosts: localhost
+  tasks:
+    - name: Копировать файл с указанным именем
+      copy:
+        src: /path/to/source/file.txt
+        dest: /path/to/destination/file.txt
+        mode: '0644'
+      register: copy_result
+
+    - name: Вывести результат копирования
+      debug:
+        var: copy_result
