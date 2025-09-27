@@ -1,19 +1,25 @@
 ```
-# PHP related
-*.php~
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Temp files
-*.tmp
-*.swp
-*.swo
-
-# Logs
-*.log
+# Tests
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
 
 # Environment
+.venv/
+venv/
 .env
 .env.local
 *.env.*
+
+# Logs
+*.log
 
 # Editors
 .vscode/
@@ -21,7 +27,7 @@
 *.swp
 *.swo
 
-# OS
+# System
 .DS_Store
 Thumbs.db
 ```
