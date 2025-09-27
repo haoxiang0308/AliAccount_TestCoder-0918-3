@@ -1,55 +1,28 @@
 ```
-# LaTeX build artifacts
-*.aux
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
 *.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.idx
-*.ind
-*.ilg
-*.pdf
-*.dvi
-*.ps
-*.synctex.gz
-*.fls
-*.fdb_latexmk
-*.synctex
-*.synctex(busy)
-*.nav
-*.snm
-*.vrb
-*.run.xml
-*.bcf
-*.ist
-*.glo
-*.gls
-*.acn
-*.acr
-*.alg
-*.glg
-*.glsdefs
-*.xdy
-
-# Temporary files
 *.tmp
-*.bak
-*.backup
-*~
 
-# Editor/IDE
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
 ```
