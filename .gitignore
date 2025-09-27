@@ -1,1 +1,12 @@
-Nothing should be ignored based on the provided file changes. The added file 'list_files_script_7n4p9.sh' appears to be a shell script source file, which should not be ignored.
+```
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
+
+# Variables file (if it contains sensitive data)
+terraform_variable.tf
+```
