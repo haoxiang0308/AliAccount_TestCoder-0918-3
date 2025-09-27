@@ -1,0 +1,19 @@
+/* 定义一个旋转动画 */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 应用动画到一个类 */
+.spinner {
+  width: 100px;
+  height: 100px;
+  border: 10px solid #f3f3f3; /* 浅灰色边框 */
+  border-top: 10px solid #3498db; /* 深蓝色边框 */
+  border-radius: 50%; /* 形成圆形 */
+  animation: spin 2s linear infinite; /* 应用动画，持续2秒，线性速度，无限循环 */
+}
