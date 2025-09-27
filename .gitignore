@@ -1,33 +1,24 @@
 ```
-# Compiled files
-*.class
-
 # Dependencies
-lib/
-libs/
-jars/
-target/
+node_modules/
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# Package manager
+package-lock.json
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Editors
+.vscode/
+.idea/
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 ```
