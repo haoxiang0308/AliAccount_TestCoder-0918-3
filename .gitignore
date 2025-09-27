@@ -1,27 +1,21 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.sib
-*.sib~
-*.bc
-*.o
-*.obj
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
 
-# Dependencies
-.Packages/
-.build/
-DerivedData/
+# Environment
+.env
+.env.local
+.env.
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
@@ -29,7 +23,7 @@ DerivedData/
 *.swp
 *.swo
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 ```
