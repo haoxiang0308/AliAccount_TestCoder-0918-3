@@ -1,1 +1,1 @@
-(current_datetime.ps1 is a PowerShell script file, which is a source code file, so no .gitignore rules are needed)
+Nothing should be ignored based on the provided file changes. The added file `server_config.json` is a configuration file that should be tracked in version control.
