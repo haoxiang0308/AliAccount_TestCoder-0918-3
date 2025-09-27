@@ -1,1 +1,10 @@
-Nothing should be ignored in this case, as only a source code file (.cpp) was added without any build artifacts, dependencies, or temporary files.
+```
+# Zig installation directories
+zig-install/
+zig-x86_64-linux-*.tar.xz
+zig_index.json
+
+# Compressed files
+*.tar.xz
+
+```
