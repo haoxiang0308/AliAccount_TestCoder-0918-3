@@ -1,9 +1,1 @@
-```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-```
+Nothing to ignore - only a source code file (.cpp) was added.
