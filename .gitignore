@@ -1,1 +1,67 @@
-Nothing should be ignored in this case, as only a source code file (.cpp) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+lib/
+libs/
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Package manager caches
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.pytest_cache/
+.mypy_cache/
+
+# Java specific
+*.jar
+*.war
+*.ear
+*.class
+*.o
+*.obj
+out/
+bin/
+target/
+
+# Build directories
+dist/
+build/
+```
