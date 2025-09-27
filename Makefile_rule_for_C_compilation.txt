@@ -1,0 +1,28 @@
+# This file contains a sample Makefile rule for compiling a C program.
+# It is saved with a random name as requested.
+
+# Define the target executable name
+TARGET = my_program
+
+# Define the source file(s)
+SOURCE = main.c
+
+# Define the compiler
+CC = gcc
+
+# Define any compiler flags (optional)
+CFLAGS = -Wall -g
+
+# Default target
+all: $(TARGET)
+
+# Rule to build the target executable
+$(TARGET): $(SOURCE)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCE)
+
+# Rule to clean the compiled files
+clean:
+	rm -f $(TARGET)
+
+# Phony targets
+.PHONY: all clean
