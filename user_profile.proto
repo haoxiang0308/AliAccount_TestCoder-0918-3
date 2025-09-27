@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package user;
+
+// Service to get user profile
+service UserProfileService {
+  rpc GetUserProfile (GetUserProfileRequest) returns (GetUserProfileResponse);
+}
+
+// Request message for getting user profile
+message GetUserProfileRequest {
+  string user_id = 1;
+}
+
+// Response message for getting user profile
+message GetUserProfileResponse {
+  UserProfile profile = 1;
+}
+
+// Message representing a user profile
+message UserProfile {
+  string user_id = 1;
+  string name = 2;
+  string email = 3;
+  int32 age = 4;
+}
