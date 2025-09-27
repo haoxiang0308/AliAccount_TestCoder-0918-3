@@ -1,1 +1,22 @@
-Nothing needs to be ignored based on the provided changes. The only added file is `test_workflow.yml`, which appears to be a source/config file and should not be ignored.
+```
+# VBA/Office files
+*.tmp
+*.log
+*.bak
+*.autosave
+Thumbs.db
+.DS_Store
+
+# Environment and temp files
+.env
+.env.local
+*.env.*
+*.tmp
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+```
