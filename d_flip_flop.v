@@ -1,0 +1,16 @@
+// Simple positive-edge triggered D Flip-Flop with asynchronous reset
+module d_flip_flop (
+    input  clk,
+    input  rst_n, // Active low reset
+    input  d,
+    output reg q
+);
+    always @(posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
+            q <= 1'b0;
+        end
+        else begin
+            q <= d;
+        end
+    end
+endmodule
