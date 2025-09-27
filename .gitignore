@@ -1,1 +1,39 @@
-Nothing to output - the change list contains only a source code file (.java) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+dist/
+build/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
