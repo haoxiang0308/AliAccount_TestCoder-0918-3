@@ -1,33 +1,25 @@
 ```
-# Zig build artifacts
-zig-cache/
-zig-out/
+# Compiled and build artifacts
+*.ji
 *.o
-*.a
-*.so
-*.dll
-*.exe
+*.obj
+*.out
 
 # Dependencies
-deps/
+.julia/
+*.julia_packages/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Editors
+.julia_scratch/
+.julia_config/
+
 # Environment
 .env
 .env.local
 *.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 ```
