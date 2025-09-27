@@ -1,0 +1,9 @@
+```
+# SQL query files (if they are generated/temporary)
+*.sql
+
+# If this is a temporary query file, you might want to ignore it
+# However, if it's a legitimate source file, it should not be ignored
+# Based on the naming pattern (with random characters), it might be a temp file
+*_*.sql
+```
