@@ -1,1 +1,1 @@
-Nothing to ignore - the added file is a source code file (.nim) which should be tracked in version control.
+Nothing to ignore - the added file `backup_script.sh` is a source file that should be tracked in version control.
