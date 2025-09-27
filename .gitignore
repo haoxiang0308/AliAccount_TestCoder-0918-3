@@ -1,9 +1,4 @@
 ```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
+# Configuration files
+config_*.xml
 ```
