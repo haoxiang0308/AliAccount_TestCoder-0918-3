@@ -1,0 +1,8 @@
+---
+# Ansible task to copy a file
+- name: Copy a file to a remote location
+  copy:
+    src: /path/to/source/file.txt
+    dest: /path/to/destination/file.txt
+    mode: '0644'
+    backup: yes
