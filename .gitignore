@@ -1,1 +1,58 @@
-Nothing to output - the change list contains only a source code file (.java) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# Julia-specific ignores
+*.ji
+*.jl.c
+*.jl.o
+*.jl.so
+*.jl.dylib
+*.jl.dll
+*.jl.lib
+*.jl.a
+*.jl.obj
+*.jl.out
+
+# Julia build artifacts
+.julia/
+.julia_packages/
+.julia_artifacts/
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+
+# Dependencies
+deps/
+build/
+dist/
+target/
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+```
