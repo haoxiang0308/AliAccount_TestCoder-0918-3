@@ -1,19 +1,18 @@
 ```
-# Kubernetes/Docker related
-*.yaml
-*.yml
-
-# If this is a Kubernetes project with potential build artifacts
-build/
-dist/
-target/
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
 # Dependencies
 node_modules/
 venv/
 .venv/
 __pycache__/
-*.egg-info/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
@@ -29,7 +28,7 @@ __pycache__/
 .vscode/
 .idea/
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
 
@@ -37,13 +36,6 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-
-# Python specific
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
 
 # Compressed files
 *.zip
