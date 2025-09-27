@@ -1,1 +1,33 @@
-Nothing should be ignored based on the provided file changes. The added file `hello_j8k2l9.zig` appears to be a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+*.exe
+
+# Dependencies
+*.mat
+*.fig
+*.fig~
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
