@@ -1,25 +1,28 @@
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
+# Compiled files
+*.o
+*.obj
 *.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+
+# Dependencies
+.cabal-sandbox/
+dist/
+dist-newstyle/
+.cabal/
+
+# Logs and temp files
+*.log
+*.tmp
 
 # Editors
 .vscode/
 .idea/
-
-# Logs and temp files
-*.tmp
 *.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Environment
 .env
