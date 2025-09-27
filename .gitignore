@@ -1,27 +1,27 @@
 ```
-# Compiled and build artifacts
-*.mex*
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
+# PHP related
+*.php~
 
-# Dependencies
-octave-workspace
-*.mat
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
 *.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 ```
