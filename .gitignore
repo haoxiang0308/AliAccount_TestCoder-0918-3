@@ -1,0 +1,19 @@
+```
+# VBA/Office files
+*.tmp
+*.log
+*.bak
+*.old
+*.~*
+Thumbs.db
+desktop.ini
+
+# Editor/IDE files
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+```
