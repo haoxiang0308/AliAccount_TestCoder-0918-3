@@ -1,32 +1,32 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdo
+*.o
+*.obj
 
 # Dependencies
-.venv/
-venv/
-pip-wheel-metadata/
+Pods/
+Carthage/
+build/
+DerivedData/
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.xcworkspace/
+xcuserdata/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage reports
-.coverage
-coverage/
-htmlcov/
-
-# Pytest cache
-.pytest_cache/
 ```
