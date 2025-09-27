@@ -1,10 +1,1 @@
-```
-# VBA/Office files
-*.vba
-*.bas
-*.frm
-*.cls
-*.vbp
-*.ds
-Thumbs.db
-```
+(matrix_mult_script_abc123.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
