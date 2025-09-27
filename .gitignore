@@ -1,1 +1,29 @@
-Nothing should be ignored in this case, as only a source code file (.cpp) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.beam
+*.ez
+ebin/
+
+# Dependencies
+deps/
+_build/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+```
