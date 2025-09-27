@@ -1,29 +1,28 @@
 ```
 # Compiled and build artifacts
-*.beam
-*.ez
-ebin/
+*.mex*
+*.o
+*.obj
+*.out
+*.dll
+*.so
+*.a
 
 # Dependencies
-deps/
-_build/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+.mltmp/
+matlab/
+MATLAB/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
-# OS
+# Editors
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
 ```
