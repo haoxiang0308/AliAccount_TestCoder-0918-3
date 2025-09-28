@@ -1,3 +1,1 @@
-(ts is a source file, no build artifacts or dependencies detected)
-
-(empty)
+Nothing should be ignored based on the provided changes - only a Vue component file was added, which is source code that should be tracked in version control.
