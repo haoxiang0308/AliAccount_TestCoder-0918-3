@@ -1,5 +1,15 @@
-(user-profile/user-profile.component.ts is a source code file, and there are no build artifacts, dependencies, or temp files in the changes, so no .gitignore rules are needed)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-```gitignore
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
+# Editors
+.vscode/
+.idea/
 ```
