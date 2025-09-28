@@ -1,32 +1,5 @@
-```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.cmi
-*.cmo
-*.cmx
-*.cma
-*.cmxa
-*.exe
-*.out
+(image_processor.py and image_script_51088886.py are source files, no build artifacts, dependencies, or temp files detected)
 
-# Dependencies
-.opam/
-.dune/
-_build/
+```python
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
