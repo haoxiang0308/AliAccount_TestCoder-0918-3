@@ -1,98 +1,52 @@
 ```
+# VBA specific
+*.frx
+*.bas
+*.cls
+*.vba
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.class
+
 # Dependencies
 node_modules/
-
-# Build artifacts
-dist/
-build/
-target/
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
 venv/
 .venv/
 .env
 .env.local
 *.env.*
 
-# Coverage reports
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
 coverage/
 htmlcov/
-*.coverage
+.coverage
 
-# Temporary files
-*.tmp
-*.temp
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Testing
-.nyc_output/
-coverage/
-junit.xml
-*.har
-
-# Babel
-.babel_cache/
-
-# Jest
-.jest/
-coverage/
-
-# npm
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Temporary build files
-*.js.map
-*.mjs.map
-
-# Lock files (if not needed in version control)
-# package-lock.json
-# yarn.lock
+# Distribution / build artifacts
+dist/
+build/
+target/
+.mypy_cache/
+.pytest_cache/
+.gradle/
 ```
