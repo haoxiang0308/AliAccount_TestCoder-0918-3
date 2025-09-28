@@ -1,10 +1,5 @@
-```
-# Generated from file changes
-*.thrift~
-*.thrift.bak
+(copy_task_5f3b1a.yaml is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
 
-# Common build artifacts for Thrift
-gen-*/
-*.gen
-*.generated
+```yaml
+
 ```
