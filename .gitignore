@@ -1,10 +1,15 @@
 ```
-# Generated from file changes
-*.thrift~
-*.thrift.bak
+# R plot outputs
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.eps
+*.tiff
 
-# Common build artifacts for Thrift
-gen-*/
-*.gen
-*.generated
+# R build artifacts
+.Rhistory
+.RData
+.Rproj.user/
 ```
