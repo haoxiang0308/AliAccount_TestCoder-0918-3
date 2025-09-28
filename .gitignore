@@ -1,4 +1,25 @@
 ```
-# Compiled and build artifacts
-*.cr
+# Log files
+*.log
+
+# Memory reports (generated files)
+memory_report_*.txt
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
