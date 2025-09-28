@@ -1,0 +1,21 @@
+---
+- name: Restart Service Playbook
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the specified service
+      systemd:
+        name: "{{ service_name | default('nginx') }}"
+        state: restarted
+      notify: "Check service status"
+
+    - name: Ensure service is enabled
+      systemd:
+        name: "{{ service_name | default('nginx') }}"
+        enabled: yes
+
+  handlers:
+    - name: Check service status
+      systemd:
+        name: "{{ service_name | default('nginx') }}"
+        state: started
