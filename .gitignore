@@ -1,30 +1,25 @@
 ```
-# Generated from file changes
-# Protocol buffer files
-*.proto
-
 # Compiled and build artifacts
-*.pyc
 *.class
 *.o
+*.obj
 *.exe
 *.dll
 *.so
 *.a
-*.obj
 *.out
-dist/
-build/
-target/
 
 # Dependencies
+target/
+.gradle/
+build/
+dist/
 node_modules/
-venv/
 .venv/
+venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
-.gradle/
 
 # Logs and temp files
 *.log
@@ -40,8 +35,10 @@ __pycache__/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System
+# System files
 .DS_Store
 Thumbs.db
 
@@ -50,7 +47,7 @@ coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# Common compressed files
 *.zip
 *.gz
 *.tar
