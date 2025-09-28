@@ -1,40 +1,44 @@
 ```
-# Compiled Haskell files
+# Compiled files
 *.o
-*.hi
-*.chi
-*.chs.h
-*.dyn_o
-*.dyn_hi
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Cabal build artifacts
-dist/
-dist-newstyle/
-.cabal-sandbox/
-cabal.sandbox.config
-
-# Stack build artifacts
-.stack-work/
-
-# GHCi files
-*.ghci
-
-# HLS (Haskell Language Server) files
-.hie/
-.hie-bios/
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
 # Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# Logs and temp files
-*.log
 *.tmp
 
-# Environment files
+# System files
+.DS_Store
+Thumbs.db
 .env
 .env.local
 *.env.*
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+coverage/
+htmlcov/
+.coverage
 ```
