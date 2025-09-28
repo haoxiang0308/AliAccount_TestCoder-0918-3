@@ -1,59 +1,28 @@
 ```
-# Configuration and deployment files
-*.yaml
-*.yml
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
 
-# Kubernetes related
-*.kubeconfig
-.kube/
+# Dependencies
+zig-*/
 
-# Environment and secrets
-.env
-.env.local
-.env.*
-
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
-*.temp
+*.swp
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Editor files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-*.pot
-
-# Build results
-dist/
-build/
-*.so
-*.egg-info/
-.eggs/
+# System files
+.DS_Store
+Thumbs.db
 ```
