@@ -1,9 +1,1 @@
-```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-```
+Nothing needs to be ignored in this case. The added file `get_random_processes.ps1` is a PowerShell script source file, which should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that require ignoring.
