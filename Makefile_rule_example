@@ -1,0 +1,13 @@
+# This is a Makefile to compile a C program.
+# The executable is named 'program' and is built from 'program.c'.
+
+CC = gcc
+CFLAGS = -Wall -g
+
+program: program.c
+	$(CC) $(CFLAGS) -o program program.c
+
+clean:
+	rm -f program
+
+.PHONY: clean

@@ -1,1 +1,37 @@
-Nothing should be ignored based on the provided changes. The added file `user_recipe.rb` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+program
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Build directories
+build/
+dist/
+target/
+```
