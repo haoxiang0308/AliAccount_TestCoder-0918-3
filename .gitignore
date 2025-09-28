@@ -1,1 +1,32 @@
-(todo_list_5f3b1a.md is just a markdown file, no build artifacts, dependencies, or temp files detected)
+```
+# Compiled and build artifacts
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Dependencies
+vendor/
+*.mod
+*.sum
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
