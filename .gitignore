@@ -1,32 +1,24 @@
 ```
-# Compiled files
-*.plc
-*.plx
-
-# Editor/IDE files
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
 # Dependencies
-cpan/
-lib/
-blib/
+.swiftmodule/
+.build/
+.Packages/
 
-# Backup files
-*~
-*.bak
-*.orig
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-# OS files
+# Editors
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
 ```
