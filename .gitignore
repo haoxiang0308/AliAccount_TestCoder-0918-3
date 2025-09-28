@@ -1,1 +1,8 @@
-Nothing should be ignored since only a source code file (.ml) was added.
+```
+# Backup and temporary files
+*backup_script_*.sh
+backup_script_content.txt
+*.tmp
+*.bak
+*.backup
+```
