@@ -1,1 +1,4 @@
-Nothing should be ignored based on the provided changes, as only a Dart source file (`greeting_widget.dart`) was added without any build artifacts, dependencies, or temporary files.
+```
+# Test files
+*.test.js
+```
