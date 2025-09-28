@@ -1,10 +1,37 @@
 ```
-# Generated from file changes
-*.thrift~
-*.thrift.bak
+# Compiled and build artifacts
+*.css.map
+*.min.css
 
-# Common build artifacts for Thrift
-gen-*/
-*.gen
-*.generated
+# Temp files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build directories
+dist/
+build/
+target/
 ```
