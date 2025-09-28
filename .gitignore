@@ -1,52 +1,13 @@
 ```
-# VBA specific
-*.frx
-*.bas
-*.cls
-*.vba
-
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.class
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
+*.css.map
+*.min.css
 
 # Logs and temp files
-*.log
 *.tmp
-*.swp
-*.swo
+*.log
 
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Distribution / build artifacts
-dist/
-build/
-target/
-.mypy_cache/
-.pytest_cache/
-.gradle/
 ```
