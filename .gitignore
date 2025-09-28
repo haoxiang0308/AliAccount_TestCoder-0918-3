@@ -1,28 +1,18 @@
 ```
-# Thrift generated files
-*.thrift.g
-*.thrift.c
-*.thrift.h
-*.thrift.js
-*.thrift.py
-*.thrift.rb
-*.thrift.java
-*.thrift.php
-*.thrift.perl
-*.thrift.cpp
-*.thrift.go
-*.thrift.swift
-*.thrift.d
-*.thrift.st
-*.thrift.erl
-*.thrift.rs
-*.thrift.ts
-*.thrift.lua
-*.thrift.csharp
-*.thrift.scala
-*.thrift.ex
-*.thrift.ml
-*.thrift.standalone
-*.thrift-obj
-*.thrift-gen
+# Swap files and temporary files
+*.swp
+*.swo
+*.tmp
+
+# Compiled/binary files
+*.o
+*.obj
+*.out
+swap_program
+
+# Log files
+*.log
+
+# Backup files
+*~
 ```
