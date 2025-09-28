@@ -1,0 +1,9 @@
+---
+- name: Copy a file
+  hosts: localhost
+  tasks:
+    - name: Copy source_file.txt
+      copy:
+        src: /workspace/source_file.txt
+        dest: /workspace/destination_file.txt
+        mode: '0644'
