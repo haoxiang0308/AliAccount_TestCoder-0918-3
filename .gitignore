@@ -9,8 +9,8 @@
 *.out
 
 # Dependencies
-target/
-Cargo.lock
+.nimble/
+nimcache/
 
 # Logs and temp files
 *.log
@@ -21,8 +21,7 @@ Cargo.lock
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
+# System files
+.DS_Store
+Thumbs.db
 ```
