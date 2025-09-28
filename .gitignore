@@ -1,12 +1,5 @@
-```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
+(ts is a source file, no build artifacts or dependencies detected)
 
-# Variables file (if it contains sensitive data)
-terraform_variable.tf
+```ts
+
 ```
