@@ -1,1 +1,12 @@
-(circle_area_124678.lua is a source code file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled Haskell files
+*.o
+*.hi
+
+# Temporary/intermediate files
+*.tmp
+*.swp
+
+# Logs
+*.log
+```
