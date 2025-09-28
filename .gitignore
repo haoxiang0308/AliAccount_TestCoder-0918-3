@@ -1,3 +1,22 @@
-(copy_task_2849.yml is a YAML configuration file, which is a source/config file type, so no ignores are needed)
+```
+# PowerShell script backup/execution files
+*.ps1
 
-(empty)
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
