@@ -1,15 +1,27 @@
 ```
-# Compiled files
-*.o
-*.obj
-*.out
+# Compiled and build artifacts
+*.beam
+*.app
+*.beam/
+ebin/
 
-# Editor/IDE files
+# Dependencies
+_deps/
+_rebar3/
+_build/
+
+# Editors
+.vscode/
+.idea/
 *.swp
 *.swo
+
+# Logs and temp files
+*.log
 *.tmp
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
