@@ -1,17 +1,17 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.sib
-*.sib~
-*.bc
-*.o
-*.obj
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
 
 # Dependencies
-.Packages/
-.build/
-DerivedData/
+.venv/
+venv/
+env/
+.ENV/
 
 # Logs and temp files
 *.log
@@ -23,13 +23,10 @@ DerivedData/
 .env.local
 .env.*
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
+
+# Scraping artifacts
+scraped_titles.txt
 ```
