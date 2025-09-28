@@ -1,3 +1,29 @@
-(restart_service_playbook.yml is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# F# build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.tmp
 
-(empty — output nothing)
+# Dependencies
+packages/
+bin/
+obj/
+
+# Editor files
+.vs/
+.vim/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+```
