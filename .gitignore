@@ -1,70 +1,6 @@
 ```
-# GraphQL schema files (if auto-generated)
-*.graphql
-
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Build directories
-dist/
-build/
-target/
-*.egg-info/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-.Python
-*.egg-info/
-.eggs/
-.tox/
-.coverage
-htmlcov/
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
+# Dependencies and build artifacts
+zig-linux-x86_64-0.13.0/
 
 # Compressed files
 *.zip
@@ -89,4 +25,211 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.nox/
+.pytest_cache/
+.mypy_cache/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+.nyc_output/
+coverage/
+*.log
+
+# Go
+*.o
+*.a
+*.so
+_coverage/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.gradle/
+build/
+target/
+
+# C/C++
+*.o
+*.a
+*.so
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.plist
+*.dmg
+*.iso
+.libs/
+.libs-hidden/
+.libs-shared/
+
+# Rust
+Cargo.lock
+target/
+
+# .NET
+*.dll
+*.exe
+*.pdb
+*.nupkg
+*.nuspec
+bin/
+obj/
+out/
+
+# Julia
+julia-*/
+
+# Zig
+zig*/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Configuration and cache directories
+.cache/
+.config/
+.local/
+
+# Package manager caches
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+.yarn/
+.pnpm/
+.bower/
+.bower-registry/
+.bower-packages/
+
+# Build outputs
+dist/
+build/
+target/
+out/
+_output/
+coverage/
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.*
+!.env.example
+
+# Test and coverage
+coverage/
+*.coverage
+.pytest_cache/
+.mypy_cache/
+.nyc_output/
+
+# System and OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+
+# Compressed archives
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+
 ```
