@@ -1,68 +1,33 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.dll
-*.so
-*.exe
-*.class
-*.out
+# Plot files and generated images
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.bmp
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
+# R-specific
+.Rhistory
+.RData
+.Rproj.user/
+```
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
+Wait, let me reconsider this. The files added are `Rplots.pdf`, `plot_script.R`, and `scatter_plot_2487.png`. The `plot_script.R` is a source file, so we shouldn't ignore `.R` files. We should only ignore the generated plot files.
 
-# Editors
-.vscode/
-.idea/
+```
+# Generated plot files
+Rplots.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.bmp
 
-# Build directories
-dist/
-build/
-target/
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# R-specific temporary files
+.Rhistory
+.RData
+.Rproj.user/
 ```
