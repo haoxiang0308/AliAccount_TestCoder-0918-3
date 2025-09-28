@@ -1,40 +1,24 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.venv*/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+.Packages/
+.build/
+DerivedData/
+
+# Logs and temp files
 *.log
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
-.eggs/
-eggs/
-parts/
-sdist/
-develop-eggs/
-.installed.cfg
-.lib/
-.libs/
-include/
-share/
-var/
-bin/
-*.egg-info/
-.installed.cfg
-*.egg
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
