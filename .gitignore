@@ -1,25 +1,38 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
+# TypeScript/JavaScript build artifacts
+*.js.map
+*.tsbuildinfo
 
 # Dependencies
-dist/
-build/
-cabal-dist/
-.stack-work/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+node_modules/
 
 # Editors
 .vscode/
 .idea/
 
-# System files
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
 .DS_Store
 Thumbs.db
+
+# Build directories
+dist/
+build/
 ```
