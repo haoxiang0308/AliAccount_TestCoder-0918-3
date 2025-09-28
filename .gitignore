@@ -1,31 +1,80 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
+# Compiled class files
+*.class
 
-# Dependencies
-.venv/
-venv/
-env/
-.env
-.env.local
-.env.*
+# Scala compiled files
+*.scala.bak
+*.sc.bak
 
-# Logs and temp files
+# Dependencies and build artifacts
+target/
+lib/
+project/target/
+
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
+*.swp
+*.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache (if any Python files exist)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js (if any JS files exist)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MyPy cache (if any Python files exist)
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest cache (if any Python files exist)
+.pytest_cache/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
