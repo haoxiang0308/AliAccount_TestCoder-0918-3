@@ -1,16 +1,27 @@
 ```
 # Compiled and build artifacts
-*.o
+*.exe
+*.dll
+*.so
+*.a
 *.obj
 *.out
+obj/
+bin/
+dist/
+build/
 
 # Dependencies
 node_modules/
-.venv/
 venv/
+.venv/
 __pycache__/
-.mypy_cache/
-.pytest_cache/
+*.egg-info/
+.Python
+env/
+.venv*/
+julia-*/
+zig*/
 target/
 .gradle/
 
@@ -28,8 +39,10 @@ target/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
+# System
 .DS_Store
 Thumbs.db
 
@@ -38,7 +51,7 @@ coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# Common compressed files
 *.zip
 *.gz
 *.tar
@@ -57,4 +70,8 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
