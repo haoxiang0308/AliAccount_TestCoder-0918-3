@@ -1,32 +1,25 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# R-specific ignores
+*.RData
+*.Rhistory
+.Rproj.user/
+.Rapp.history
+.Rbuildignore
+
+# Dependencies and packages
+*.so
+*.o
+*.dll
+*.dylib
+
+# Temporary files
+*.tmp
+*.temp
+*~
 
 # Logs
 *.log
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python cache
-.mypy_cache/
-.pytest_cache/
-
-# Build artifacts
-dist/
-build/
-*.out
+# Environment
+.Renviron
 ```
