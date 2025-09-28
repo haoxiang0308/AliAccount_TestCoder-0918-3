@@ -1,9 +1,59 @@
 ```
-# SQL query files (if they are generated/temporary)
-*.sql
+# Configuration and deployment files
+*.yaml
+*.yml
 
-# If this is a temporary query file, you might want to ignore it
-# However, if it's a legitimate source file, it should not be ignored
-# Based on the naming pattern (with random characters), it might be a temp file
-*_*.sql
+# Kubernetes related
+*.kubeconfig
+.kube/
+
+# Environment and secrets
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.pot
+
+# Build results
+dist/
+build/
+*.so
+*.egg-info/
+.eggs/
 ```
