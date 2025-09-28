@@ -1,50 +1,5 @@
-```
-# Compiled and build artifacts
-*.vcd
-*.vvp
-*.bin
-*.hex
-*.out
-*.obj
-*.o
-*.a
-*.so
-*.dll
-*.exe
+(config_1a2b3c4d5e.toml is a config file, so no ignores needed)
 
-# Dependencies
-lib/
-libs/
-dependencies/
+```toml
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Simulation and synthesis tools
-sim/
-sim_*/
-syn/
-syn_*/
-*.fst
-*.vpd
-*.shm
-work/
-work_*/
-
-# Generated files
-generated/
-gen/
-*.sv
-*.vlog
-*.vhdl
-*.vbe
 ```
