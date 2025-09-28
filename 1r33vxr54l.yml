@@ -1,0 +1,8 @@
+---
+- name: Copy a file
+  hosts: localhost
+  tasks:
+    - name: Copy source_config.txt
+      copy:
+        src: source_config.txt
+        dest: /tmp/copied_config.txt
