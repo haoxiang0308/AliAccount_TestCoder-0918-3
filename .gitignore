@@ -1,1 +1,43 @@
-(point_definition_12345.swift is a source code file, so no .gitignore rules needed)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Perl-specific
+*.pl.bak
+*.plx.bak
+perl_email_finder.pl~
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Distribution
+dist/
+build/
+target/
+```
