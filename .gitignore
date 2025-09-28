@@ -1,28 +1,80 @@
 ```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
+# Julia installation
+julia-*/
 
-# Environment
+# Compressed files
+*.tar.gz
+*.tgz
+*.zip
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.Z
+*.lz
+*.lzo
+*.tar
+*.tar.bz2
+*.tar.xz
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+
+# Compiled Julia files
+*.ji
+*.so
+
+# Julia package manager
+Manifest.toml
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python related (if any Python components)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Virtual environments
+venv/
+.venv/
 ```
