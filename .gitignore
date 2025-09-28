@@ -1,22 +1,10 @@
 ```
-# PowerShell script backup/execution files
-*.ps1
+# Generated from file changes
+*.thrift~
+*.thrift.bak
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Common build artifacts for Thrift
+gen-*/
+*.gen
+*.generated
 ```
