@@ -1,1 +1,34 @@
-Nothing should be ignored in this case, as only a source code file (.cpp) was added without any build artifacts, dependencies, or temporary files.
+```
+# Configuration files
+*.yml
+*.yaml
+
+# Ansible specific
+*.retry
+*.log
+
+# Backup and swap files
+*~
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
