@@ -1,67 +1,39 @@
 ```
-# Dependencies
-node_modules/
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Build artifacts
-dist/
+# Dependencies
 build/
-coverage/
-.nyc_output/
+dist/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 
 # Environment
 .env
 .env.local
-.env.
+*.env.*
 
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# System
-.DS_Store
-Thumbs.db
-
-# Package lock
-package-lock.json
-yarn.lock
-
-# Testing
+# Coverage
 coverage/
-.nyc_output/
-junit.xml
-*.tmp
+htmlcov/
+.coverage
 
-# Browserslist
-.browserslistrc
-
-# Jest
-.jest/
-jest.config.js
-
-# Temporary files
-*.tmp
-*.temp
-*.log
-
-# OS generated files
+# OS files
 .DS_Store
-Thumbs.db
-ehthumbs.db
-Icon?
-.directory
-*.nfs
-*~
-.#*
-.~*
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 ```
