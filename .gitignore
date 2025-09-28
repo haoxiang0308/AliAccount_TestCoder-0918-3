@@ -1,1 +1,41 @@
-Nothing should be ignored since only a source code file (.ml) was added.
+```
+# Temporary files
+*.tmp
+tmp.*
+
+# Kotlin compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories
+build/
+dist/
+out/
+
+# Dependencies
+.gradle/
+node_modules/
+venv/
+.venv/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+```
