@@ -1,5 +1,1 @@
-(square.fs is a source code file, so no ignores needed)
-
-```fsharp
-
-```
+Nothing should be ignored since only a single Kotlin source file was added without any build artifacts, dependencies, or temporary files.
