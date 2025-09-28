@@ -1,1 +1,70 @@
-Nothing needs to be added to .gitignore for this change list. The added file `script_1.ps1` is a PowerShell script source file, which should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Julia installation and related files
+julia-*/
+**/julia-*/
+
+# Julia compiled files and caches
+**/*.ji
+**/*.so
+**/base.cache
+**/compiled/
+
+# Compressed files
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Julia standard library test packages
+**/test/test_packages/
+
+# Julia test depot
+**/test/depot/
+
+# Julia build/test artifacts
+**/test/**/*.jl
+**/test/**/Manifest.toml
+**/test/**/Project.toml
+
+# Julia docs and generated files
+**/docs/make.jl
+**/docs/Project.toml
+**/docs/src/
+
+# Julia extension and package files
+**/ext/
+**/deps/
+**/gen/
+
+# Julia artifacts and registry files
+**/Artifacts.toml
+**/StdlibArtifacts.toml
+**/LazyArtifacts/
+
+# Julia build system files
+**/Makefile
+**/CMakeLists.txt
+**/build/
+**/dist/
+
+# Julia temporary and log files
+**/*.tmp
+**/*.log
+**/test/**/test_*.jl
+**/test/**/runtests.jl
+```
