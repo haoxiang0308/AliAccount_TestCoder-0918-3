@@ -1,32 +1,43 @@
 ```
-# Compiled and build artifacts
-*.fsproj.binlog
-*.fsi
-*.fsx
+# Docker-related
+Dockerfile.*
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+
+# Compiled/Build artifacts
+*.pyc
+*.class
+*.o
 *.obj
 *.exe
 *.dll
 *.so
 *.a
-*.o
 *.out
-
-# Dependencies
-.paket/
-packages/
-bin/
-obj/
-
-# Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS generated files
+# System
 .DS_Store
 Thumbs.db
 ```
