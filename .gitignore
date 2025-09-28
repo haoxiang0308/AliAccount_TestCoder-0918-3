@@ -1,1 +1,23 @@
-Nothing to output - the change list contains only a source code file (HelloWorld.scala) with no build artifacts, dependencies, or temporary files that need to be ignored.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+```
