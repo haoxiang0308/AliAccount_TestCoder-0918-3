@@ -1,29 +1,18 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.css.map
+*.min.css
 
-# Dependencies
-venv/
-.venv/
-pipenv/
-poetry/
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
 *.swp
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
