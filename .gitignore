@@ -1,9 +1,1 @@
-```
-# Timestamped JSON files (likely generated/output files)
-*.json
-
-# If this is a specific timestamped data file, you might want to keep it
-# In which case, remove the *.json rule above and ignore only if it's clearly temporary
-# For now, assuming it's a generated file based on the timestamp pattern
-20250928_*.json
-```
+Nothing should be ignored based on the provided changes. The only added file is `my_gen_server.erl`, which appears to be source code and should not be ignored.
