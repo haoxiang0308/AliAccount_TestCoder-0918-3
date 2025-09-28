@@ -2,19 +2,19 @@
 # Compiled and build artifacts
 *.o
 *.obj
-*.mod
-*.smod
-*.so
-*.a
-*.lib
-*.dll
-*.exe
-*.out
+*.hi
+*.chi
+*.chs.h
+*.hie
 
 # Dependencies
-build/
+.stack-work/
+.cabal-sandbox/
 dist/
-*.egg-info/
+dist-newstyle/
+cabal/
+cabal.project.local
+cabal.project.local~
 
 # Logs and temp files
 *.log
@@ -24,13 +24,18 @@ dist/
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
+*.swp
+*~
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Other common ignores
+.DS_Store
+Thumbs.db
+coverage/
+htmlcov/
+.coverage
 ```
