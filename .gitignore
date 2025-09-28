@@ -1,1 +1,144 @@
-Nothing to ignore - the added file `square_function_9274.fs` is a source code file (.fs extension indicates F# source code) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Configuration files
+*.yml
+*.yaml
+
+# Serverless framework
+.serverless/
+.sls/
+.serverless_plugins/
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+*.min.js
+*.min.css
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
+target/
+.gradle/
+build/
+
+# C/C++
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.obj
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+coverage.out
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+.config/yardoc
+.yardoc
+Gemfile.lock
+pkg/
+rdoc/
+coverage/
+*.sqlite3
+.rspec
+spec/reports/
+spec/examples.txt
+test/tmp/
+test/version_tmp/
+tmp/
+
+# Compression
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+```
