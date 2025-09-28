@@ -1,4 +1,7 @@
-# PowerShell script to get processes and save to a random file
-$csvPath = '/tmp/tmp.DfPfHYHHLa.csv'
-Get-Process | Export-Csv -Path $csvPath -NoTypeInformation
-Write-Host "Process list saved to $csvPath"
+# Генерируем случайное имя файла
+$randomFileName = "processes_" + (Get-Random -Maximum 99999) + ".csv"
+
+# Получаем список процессов и экспортируем в CSV файл со случайным именем
+Get-Process | Export-Csv -Path $randomFileName -NoTypeInformation
+
+Write-Output "Список процессов сохранен в файл: $randomFileName"

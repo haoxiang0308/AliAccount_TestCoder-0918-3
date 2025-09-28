@@ -1,7 +1,11 @@
 #!/bin/bash
-# Bash script to get processes and save to a random file
-csv_path="/tmp/tmp.WueE8ARNJL.csv"
-# Get process list in a simple format and add a header for CSV-like structure
-echo "PID,TTY,TIME,CMD" > "$csv_path"
-ps -eo pid,tty,time,comm --no-headers | sed 's/ \+/ /g' | sed 's/^ //g' >> "$csv_path"
-echo "Process list saved to $csv_path"
+
+# Генерируем случайное имя файла
+random_file_name="processes_$(date +%s%N).csv"
+
+# Получаем список процессов и сохраняем в файл со случайным именем
+# Используем ps aux и добавляем заголовки вручную
+echo "USER,PID,%CPU,%MEM,VSZ,RSS,TTY,STAT,START,TIME,COMMAND" > "$random_file_name"
+ps aux --no-headers | sed 's/^ *//' >> "$random_file_name"
+
+echo "Список процессов сохранен в файл: $random_file_name"
