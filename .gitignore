@@ -1,1 +1,23 @@
-(scrape_titles.py is a source file, no build artifacts, dependencies, or temp files detected in the changes - output nothing)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+```
