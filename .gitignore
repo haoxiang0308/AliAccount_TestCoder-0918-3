@@ -1,42 +1,26 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.
+# Kubernetes and deployment
+*.yaml
+*.yml
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
+# Archives
 *.zip
 *.gz
 *.tar
