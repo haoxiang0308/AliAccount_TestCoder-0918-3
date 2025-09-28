@@ -1,4 +1,21 @@
 ```
-# GraphQL schema files (if generated)
-schema.graphql
+# Environment and config files
+.env
+.env.local
+.env.*
+config/
+*.ini
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
