@@ -1,42 +1,5 @@
-```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.idx
-*.ind
-*.ilg
-*.dvi
-*.ps
-*.pdf
-*.synctex.gz
-*.fdb_latexmk
-*.fls
-*.xdv
-*.pdfsync
-*.nav
-*.snm
-*.vrb
-*.run.xml
-*.bcf
-*.synctex(busy)
+(linear_model_a3fd635f.py is a source file, so no ignores needed)
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
+```python
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
 ```
