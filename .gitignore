@@ -1,39 +1,77 @@
 ```
-# Protocol buffer files
-*.proto
+# XML files
+*.xml
 
-# Compiled Python files
+# Compiled and build artifacts
 *.pyc
 __pycache__/
-
-# Build directories
-build/
-dist/
-
-# Virtual environments
-.venv/
-venv/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
 node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
-# Logs
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
+*.pyc
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+*.swo
 
 # Editors
 .vscode/
 .idea/
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Temporary files
-*.tmp
-*.swp
-
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
