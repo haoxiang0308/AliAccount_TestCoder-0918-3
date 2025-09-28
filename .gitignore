@@ -1,22 +1,31 @@
 ```
-# VBA/Office files
-*.tmp
-*.log
-*.bak
-*.autosave
-Thumbs.db
-.DS_Store
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Environment and temp files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 *.env.*
-*.tmp
-*.log
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Temp files
+temp_*.txt
 ```
