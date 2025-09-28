@@ -1,8 +1,16 @@
 ```
 # Compiled and build artifacts
+*.class
 *.o
 *.obj
 *.out
+
+# Dependencies
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
@@ -12,4 +20,9 @@
 # Editors
 .vscode/
 .idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
