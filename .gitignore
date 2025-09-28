@@ -1,1 +1,29 @@
-(server_7890.js is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.ji
+*.o
+*.obj
+*.out
+build/
+dist/
+
+# Dependencies
+.julia/
+.julia-*/
+deps/
+test/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.julia/config/
+.repl_history.jl
+
+# Environment
+.env
+.env.local
+*.env.*
+```
