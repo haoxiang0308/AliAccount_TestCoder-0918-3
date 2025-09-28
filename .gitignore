@@ -1,3 +1,7 @@
-(mongo_insert_script.py is a source file, no build artifacts, dependencies, or temp files detected in the changes)
-
-(empty — output nothing)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+sort_array_8472
+```
