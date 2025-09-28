@@ -1,40 +1,4 @@
 ```
-# Compiled Haskell files
-*.o
-*.hi
-*.chi
-*.chs.h
-*.dyn_o
-*.dyn_hi
-
-# Cabal build artifacts
-dist/
-dist-newstyle/
-.cabal-sandbox/
-cabal.sandbox.config
-
-# Stack build artifacts
-.stack-work/
-
-# GHCi files
-*.ghci
-
-# HLS (Haskell Language Server) files
-.hie/
-.hie-bios/
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment files
-.env
-.env.local
-*.env.*
+# JSON data files
+json_books/
 ```
