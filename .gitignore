@@ -1,42 +1,5 @@
 ```
-# Unity specific ignores
-Library/
-Temp/
-Obj/
-Build/
-Builds/
-*.unitypackage
-*.user
-*.sln
-*.csproj
-*.pidb
-*.userprefs
-*.unityproj
-*.meta
-!*.cs.meta
+# CI/CD
+Jenkinsfile
 
-# Compiled files
-*.dll
-*.exe
-*.pdb
-*.mdb
-*.pidb
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-.env.
-
-# Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
 ```
