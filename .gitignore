@@ -1,0 +1,67 @@
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# Package lock
+package-lock.json
+yarn.lock
+
+# Testing
+coverage/
+.nyc_output/
+junit.xml
+*.tmp
+
+# Browserslist
+.browserslistrc
+
+# Jest
+.jest/
+jest.config.js
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nfs
+*~
+.#*
+.~*
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
