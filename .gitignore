@@ -1,9 +1,5 @@
-```
-# Environment files
-.env
-.env.local
-*.env.*
+(redis_script_abc123.py is a source file, so no ignores needed)
 
-# Configuration files that might contain sensitive data
-*.ini
+```python
+
 ```
