@@ -1,25 +1,9 @@
 ```
-# VBA/Excel related
-*.tmp
-*.log
-*.bak
-*.old
-Thumbs.db
-~$*
-.DS_Store
-
-# Environment and temp files
+# Environment files
 .env
 .env.local
 *.env.*
-*.tmp
-*.swp
-*.swo
 
-# Editors
-.vscode/
-.idea/
-
-# Logs
-*.log
+# Configuration files that might contain sensitive data
+*config*.ini
 ```
