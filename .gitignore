@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file is a Lua source code file, which should not be ignored.
+Nothing should be ignored since only a VBA source file (.bas) was added, which is a source code file that should be tracked in version control.
