@@ -1,1 +1,1 @@
-Nothing should be ignored since only a VBA source file (.bas) was added, which is a source code file that should be tracked in version control.
+Nothing to ignore - the change list contains only a source file (form.html) and no build artifacts, dependencies, or temp files.
