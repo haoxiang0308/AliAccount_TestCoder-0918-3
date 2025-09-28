@@ -1,58 +1,32 @@
 ```
-# Julia-specific ignores
-*.ji
-*.jl.c
-*.jl.o
-*.jl.so
-*.jl.dylib
-*.jl.dll
-*.jl.lib
-*.jl.a
-*.jl.obj
-*.jl.out
-
-# Julia build artifacts
-.julia/
-.julia_packages/
-.julia_artifacts/
-
 # Compiled and build artifacts
-*.o
+*.fsproj.binlog
+*.fsi
+*.fsx
 *.obj
-*.out
+*.exe
+*.dll
 *.so
 *.a
-*.lib
-*.dll
-*.exe
+*.o
+*.out
 
 # Dependencies
-deps/
-build/
-dist/
-target/
-.venv/
-venv/
-node_modules/
+.paket/
+packages/
+bin/
+obj/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
