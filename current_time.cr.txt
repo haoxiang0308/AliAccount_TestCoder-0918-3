@@ -1,0 +1,2 @@
+# current_time.cr
+puts Time.local
