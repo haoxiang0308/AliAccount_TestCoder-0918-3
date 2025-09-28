@@ -1,19 +1,34 @@
 ```
-# VBA/Office files
-*.tmp
-*.log
-*.bak
-*.old
-*.~*
-Thumbs.db
-desktop.ini
+# Compiled and build artifacts
+*.o
+*.obj
+*.class
+*.pyc
+__pycache__/
 
-# Editor/IDE files
-*.swp
-*.swo
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
 *.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Build directories
+dist/
+build/
+target/
 ```
