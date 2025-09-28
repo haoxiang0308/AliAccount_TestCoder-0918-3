@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "147c7849-d868-417b-9984-87390de85c00",
+      "name": "Alice",
+      "email": "alice@example.com"
+    },
+    {
+      "id": "9e72feae-66b9-4c98-8d60-e2a311a154d5",
+      "name": "Bob",
+      "email": "bob@example.com"
+    },
+    {
+      "id": "365444a2-db42-4354-af81-d66bd5abb702",
+      "name": "Charlie",
+      "email": "charlie@example.com"
+    }
+  ],
+  "timestamp": "2025-09-28T09:03:52.131Z"
+}

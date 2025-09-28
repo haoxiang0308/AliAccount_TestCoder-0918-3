@@ -1,1 +1,27 @@
-(image_script.py is a source file, no build artifacts, dependencies, or temp files in the changes, so output nothing)
+```
+# Dependencies
+node_modules/
+
+# Package manager
+package-lock.json
+
+# Temporary files
+*.tmp
+*.swp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+```
