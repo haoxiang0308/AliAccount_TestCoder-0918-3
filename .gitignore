@@ -1,12 +1,1 @@
-```
-# Compiled Haskell files
-*.o
-*.hi
-
-# Temporary/intermediate files
-*.tmp
-*.swp
-
-# Logs
-*.log
-```
+Nothing should be ignored based on the provided changes. The added file `model_42.py` is a source code file that should be tracked in version control.
