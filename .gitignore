@@ -1,67 +1,39 @@
 ```
+# Protocol buffer files
+*.proto
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Build directories
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
 # Dependencies
 node_modules/
-
-# Build artifacts
-dist/
-build/
-coverage/
-.nyc_output/
-
-# Environment
-.env
-.env.local
-.env.
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
 
 # Logs
 *.log
 
-# System
-.DS_Store
-Thumbs.db
+# Editors
+.vscode/
+.idea/
 
-# Package lock
-package-lock.json
-yarn.lock
-
-# Testing
-coverage/
-.nyc_output/
-junit.xml
-*.tmp
-
-# Browserslist
-.browserslistrc
-
-# Jest
-.jest/
-jest.config.js
+# Environment files
+.env
+.env.local
+*.env.*
 
 # Temporary files
 *.tmp
-*.temp
-*.log
+*.swp
 
 # OS generated files
 .DS_Store
-Thumbs.db
-ehthumbs.db
-Icon?
-.directory
-*.nfs
-*~
-.#*
-.~*
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 ```
