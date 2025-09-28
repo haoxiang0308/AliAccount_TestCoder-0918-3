@@ -1,12 +1,1 @@
-```
-# Compiled Haskell files
-*.o
-*.hi
-
-# Temporary/intermediate files
-*.tmp
-*.swp
-
-# Logs
-*.log
-```
+(empty)
