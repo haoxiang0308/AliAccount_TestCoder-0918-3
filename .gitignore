@@ -1,19 +1,30 @@
 ```
 # Compiled and build artifacts
+*.class
 *.pyc
-__pycache__/
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-.venv/
-venv/
 node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -29,20 +40,9 @@ node_modules/
 Thumbs.db
 
 # Coverage
-.coverage
 coverage/
 htmlcov/
-
-# MyPy
-.mypy_cache/
-
-# Pytest
-.pytest_cache/
-
-# Distribution
-dist/
-build/
-*.egg-info/
+.coverage
 
 # Compressed files
 *.zip
