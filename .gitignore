@@ -1,72 +1,23 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Images and plots
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+# R artifacts
+*.RData
+*.Rhistory
+.Rproj.user/
+.Rprofile
+```
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
+Wait, let me reconsider. The only non-source file in the changes is `scatter_plot_pyg6j1la8s.png`, which is clearly a generated plot image. However, since there are also source files (`.R` and `.py`) in the changes, I should only ignore the image file pattern:
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+```
+# Generated plots and images
+*.png
 ```
