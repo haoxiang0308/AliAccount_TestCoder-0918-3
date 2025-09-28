@@ -1,15 +1,40 @@
 ```
-# Compiled files
-*.o
-*.obj
-*.out
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Editor/IDE files
+# Dependencies
+.venv/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+.envrc
+
+# Editor/IDE
+.vscode/
+.idea/
 *.swp
 *.swo
 *.tmp
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 ```
