@@ -1,31 +1,5 @@
-```
-# Compiled files
-*.o
-*.obj
-*.out
+(lambda_function_abc123.py is a source file, so no ignores needed)
 
-# Dependencies
-.cabal-sandbox/
-dist/
-dist-newstyle/
-.cabal/
+```python
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
