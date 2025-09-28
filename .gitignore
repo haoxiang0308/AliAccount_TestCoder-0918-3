@@ -1,25 +1,29 @@
 ```
-# VBA/Excel related
-*.tmp
-*.log
-*.bak
-*.old
-Thumbs.db
-~$*
-.DS_Store
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Environment and temp files
+# Dependencies
+venv/
+.venv/
+pipenv/
+poetry/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 *.env.*
-*.tmp
-*.swp
-*.swo
 
 # Editors
 .vscode/
 .idea/
 
-# Logs
-*.log
+# System files
+.DS_Store
+Thumbs.db
 ```
