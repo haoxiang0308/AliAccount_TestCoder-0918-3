@@ -1,1 +1,6 @@
-Nothing to ignore - only a Python source file was added.
+```
+# R plots and temporary files
+Rplots.pdf
+*.png
+plot_script_*.r
+```
