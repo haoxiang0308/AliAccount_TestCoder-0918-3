@@ -1,1 +1,23 @@
-Nothing should be ignored since only a source code file (.java) was added.
+```
+# PowerShell and Python artifacts
+*.pyc
+__pycache__/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
