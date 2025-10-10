@@ -1,29 +1,5 @@
-```
-# Configuration files
-*.yml
-*.yaml
+(source_file.txt is a source file, not a build artifact or dependency, so no .gitignore rules needed)
 
-# Serverless framework
-.serverless/
-.sls/
-.serverless_plugins/
+```gitignore
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
 ```
