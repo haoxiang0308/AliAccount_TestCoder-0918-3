@@ -1,1 +1,47 @@
-Nothing should be ignored based on the provided file changes. The added file `tf_linear_regression_model_98765.py` is a Python source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+
+# Dependencies
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
