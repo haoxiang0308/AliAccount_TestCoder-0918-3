@@ -1,1 +1,33 @@
-Nothing needs to be added to .gitignore since the only change is adding a Ruby source file (.rb) which should not be ignored.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+*.js.map
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Test files
+*.test.js
+*.spec.js
+test/
+tests/
+```
