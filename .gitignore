@@ -1,13 +1,33 @@
 ```
-# GitHub Actions workflow artifacts (if any generated files exist)
-.github/workflows/
+# Compiled and build artifacts
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+*.class
+*.pyc
+__pycache__/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+dist/
+build/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
@@ -16,27 +36,16 @@
 .vscode/
 .idea/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# System files
+.DS_Store
+Thumbs.db
 
-# Build directories
-dist/
-build/
-*.egg-info/
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Virtual environments
-venv/
-.venv/
-env/
-.ENV/
-
-# Node.js
-node_modules/
-
-# Compression files
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -55,51 +64,8 @@ node_modules/
 *.Z
 *.lz
 *.lzo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# MyPy
-.mypy_cache/
-
-# Pytest
-.pytest_cache/
-
-# Gradle
-.gradle/
-
-# Rust
-target/
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
-
-# C/C++
-*.o
-*.a
-*.so
-*.dll
-*.exe
-*.out
-
-# Go
-*.exe
-*.dll
-*.so
-*.dylib
-
-# Julia
-julia-*/
-
-# Zig
-zig*/
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
