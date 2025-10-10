@@ -1,32 +1,7 @@
 ```
-# Compiled Java classes
-*.class
-
-# JAR files
-*.jar
-
-# Dependencies
-lib/
-libs/
-dependency/
-dependencies/
-
-# IDE files
-.vscode/
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# Build directories
-build/
-target/
-out/
-
-# Logs
-*.log
-
-# Temporary files
 *.tmp
-*.temp
+*.swp
+*.log
+.DS_Store
+Thumbs.db
 ```
