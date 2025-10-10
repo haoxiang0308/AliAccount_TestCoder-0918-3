@@ -1,1 +1,7 @@
-(book_data.json is a data file, not a build artifact, dependency, or temp file - it should not be ignored)
+```
+# Temporary files
+*.tmp
+
+# Docker
+docker-compose_*.yml
+```
