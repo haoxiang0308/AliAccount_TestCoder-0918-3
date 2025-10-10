@@ -1,14 +1,28 @@
 ```
-# PowerShell profiles and modules
-Microsoft.PowerShell_profile.ps1
-Modules/
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Logs and temporary files
+# Dependencies
+target/
+Cargo.lock
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment specific
-.DS_Store
-Thumbs.db
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
