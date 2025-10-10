@@ -1,26 +1,30 @@
 ```
-# Dependencies
-*.pyc
-__pycache__/
+# VBA/Office files
+*.tmp
+*.bak
+*.cache
+
+# Logs and temp files
+*.log
+*.tmp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Build artifacts
-dist/
-build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
 ```
