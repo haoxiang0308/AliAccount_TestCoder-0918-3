@@ -1,22 +1,38 @@
-```
+```yaml
 # Compiled and build artifacts
 *.pyc
 __pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-.venv/
-venv/
 node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Build directories
+dist/
+build/
+target/
+.pytest_cache/
+.mypy_cache/
+coverage/
+htmlcov/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
+*.swo
 
 # Editors
 .vscode/
@@ -25,23 +41,6 @@ node_modules/
 # System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Python specific
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-dist/
-build/
-*.egg
-*.zip
 
 # Compressed files
 *.zip
