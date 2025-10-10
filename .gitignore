@@ -1,4 +1,50 @@
 ```
-# Build system
-Makefile_2025
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Temp files
+*.tmp
 ```
