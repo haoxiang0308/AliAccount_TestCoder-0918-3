@@ -1,1 +1,36 @@
-Nothing should be ignored in this case, as the added file 'connect_db_2337.php' is a source code file that should be tracked in version control. PHP files are typically source code and not build artifacts or temporary files.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+*.jar
+*.war
+*.ear
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+target/
+!HelloJava.java
+```
