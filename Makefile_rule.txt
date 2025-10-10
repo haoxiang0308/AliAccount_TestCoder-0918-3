@@ -1,0 +1,13 @@
+# This is a sample Makefile rule for compiling a C program.
+# It assumes the source file is named 'main.c' and the output executable is named 'program'.
+
+CC = gcc
+CFLAGS = -Wall -g
+
+program: main.c
+	$(CC) $(CFLAGS) -o program main.c
+
+clean:
+	rm -f program
+
+.PHONY: clean
