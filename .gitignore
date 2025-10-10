@@ -1,1 +1,43 @@
-Nothing should be ignored since only a Java source file was added.
+```
+# Dependencies
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python specific
+*.pyc
+__pycache__/
+.Python
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+.cov
+```
