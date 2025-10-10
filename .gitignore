@@ -1,1 +1,1 @@
-Nothing needs to be ignored in this case. The only added file is `MainActivity.kt`, which is a source code file and should be tracked in the repository. There are no build artifacts, dependencies, or temporary files in the changes that would warrant adding ignore rules.
+Nothing should be ignored based on the provided file changes. The added file `get_current_user_info.ps1` is a PowerShell script file, which is source code and should not be ignored.
