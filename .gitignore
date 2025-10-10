@@ -1,7 +1,44 @@
-```
+```rust
+# Compiled and build artifacts
+target/
+*.rs.bk
+*.rlib
+*.so
+*.dylib
+*.dll
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+
+# Dependencies
+Cargo.lock
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Rust-specific
+**/test_resources/
+*.dSYM/
 .DS_Store
 Thumbs.db
 ```
