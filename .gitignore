@@ -1,1 +1,43 @@
-Nothing should be ignored based on the provided file changes. The added file 'form_5566.html' is a source code file that should be tracked in version control.
+```
+# Unity specific ignores
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+*.unityproj
+*.sln
+*.csproj
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.meta
+*.cache
+*.asmdef
+*.rsp
+*.asmref
+
+# Compiled and build artifacts
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.exe.config
+*.userprefs
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editors
+.vscode/
+.idea/
+```
