@@ -1,1 +1,1 @@
-Nothing should be ignored in this case, as only a single Python source file (`4gjlm99t.py`) was added without any build artifacts, dependencies, or temporary files.
+Nothing needs to be added to .gitignore since only a configuration file (server_config.json) was added, which is a source/config file and should not be ignored.
