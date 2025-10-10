@@ -1,42 +1,54 @@
 ```
-# GitHub Actions workflow artifacts (if any generated files exist)
-.github/workflows/
+# TypeScript/JavaScript build artifacts
+*.js
+*.js.map
+*.tsbuildinfo
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment files
-.env
-.env.local
-*.env.*
+# Dependencies
+node_modules/
 
 # Editors
 .vscode/
 .idea/
 
-# Python
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.swp
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# Build directories
+dist/
+build/
+target/
+
+# Python artifacts (if any Python in project)
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Build directories
-dist/
-build/
-*.egg-info/
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.obj
+*.out
 
-# Virtual environments
-venv/
-.venv/
-env/
-.ENV/
-
-# Node.js
-node_modules/
-
-# Compression files
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -55,51 +67,17 @@ node_modules/
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# MyPy
+# Cache directories
 .mypy_cache/
-
-# Pytest
 .pytest_cache/
-
-# Gradle
 .gradle/
-
-# Rust
-target/
-
-# Java
-*.class
-*.jar
-*.war
-*.ear
-
-# C/C++
-*.o
-*.a
-*.so
-*.dll
-*.exe
-*.out
-
-# Go
-*.exe
-*.dll
-*.so
-*.dylib
-
-# Julia
-julia-*/
-
-# Zig
-zig*/
 ```
