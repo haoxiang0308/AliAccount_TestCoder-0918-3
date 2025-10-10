@@ -1,3 +1,95 @@
-(postgres_connect_12345.py is a source file, so no ignores needed)
+```
+# Dependencies
+node_modules/
 
-(empty - output nothing)
+# Build artifacts
+dist/
+build/
+target/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.egg
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Compiled JavaScript
+*.js.map
+*.mjs.map
+
+# Test files
+*.test.js
+test_*.js
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+```
