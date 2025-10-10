@@ -1,39 +1,5 @@
-```
-# Compiled and build artifacts
-*.nimble
-*.nims
-*.so
-*.dll
-*.exe
-*.out
+(flask_app_12345.py is a source file, so no ignores needed)
 
-# Dependencies
-.nimble/
-nimcache/
+```python
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-build/
-dist/
-target/
 ```
