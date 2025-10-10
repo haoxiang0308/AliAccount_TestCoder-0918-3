@@ -1,9 +1,1 @@
-```
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-```
+Nothing to output - the change list contains only a single Ruby source file (.rb) which should not be ignored.
