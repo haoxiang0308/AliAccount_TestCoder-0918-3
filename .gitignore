@@ -1,1 +1,3 @@
-Nothing needs to be added to .gitignore since the only change is adding a Ruby source file (.rb) which should not be ignored.
+(restart_service_playbook_12345.yml is a source/config file, so no ignores needed)
+
+(empty - output nothing)

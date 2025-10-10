@@ -1,0 +1,21 @@
+---
+- name: Restart a service
+  hosts: all
+  become: yes
+  tasks:
+    - name: Restart service
+      systemd:
+        name: "{{ service_name }}"
+        state: restarted
+      notify: Wait for service
+
+    - name: Reload systemd daemon
+      systemd:
+        daemon_reload: yes
+
+  handlers:
+    - name: Wait for service
+      wait_for:
+        port: "{{ service_port | default(80) }}"
+        delay: 5
+        timeout: 300
