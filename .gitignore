@@ -1,11 +1,1 @@
-```
-# R-specific ignores
-.Rproj.user/
-.Rhistory
-.Rdata
-*.RData
-*.rds
-*.Rds
-*.rda
-*.Rda
-```
+(person_12345.rb is a source code file, so no .gitignore rules needed)
