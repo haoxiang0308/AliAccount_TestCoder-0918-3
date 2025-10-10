@@ -1,29 +1,25 @@
 ```
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.swo
-*.swp
+*.o
+*.obj
+*.mod
+*.smod
+*.exe
 
 # Dependencies
-Pods/
-Carthage/
-DerivedData/
+build/
+dist/
 
 # Logs and temp files
 *.log
 *.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
+*.swp
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.
 ```
