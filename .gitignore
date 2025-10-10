@@ -1,18 +1,20 @@
 ```
-# Compiled files
-*.o
-*.obj
-*.hi
-
-# Dependencies
-.stack-work/
-.cabal-sandbox/
-dist/
-dist-newstyle/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
 
 # Logs and temp files
 *.log
 *.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
@@ -20,29 +22,7 @@ dist-newstyle/
 *.swp
 *.swo
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Build artifacts
-build/
-target/
-
-# Python (if mixed project)
-__pycache__/
-*.pyc
-*.pyo
-
-# Node (if mixed project)
-node_modules/
-
-# Other common ignores
+# OS
 .DS_Store
 Thumbs.db
-coverage/
-htmlcov/
-.coverage
-.mypy_cache/
-.pytest_cache/
 ```
