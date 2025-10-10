@@ -1,14 +1,1 @@
-```
-# PowerShell profiles and modules
-Microsoft.PowerShell_profile.ps1
-Modules/
-
-# Logs and temporary files
-*.log
-*.tmp
-*.swp
-
-# Environment specific
-.DS_Store
-Thumbs.db
-```
+(server_kj42p.js is a source file, so no .gitignore rules needed)
