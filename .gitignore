@@ -1,1 +1,1 @@
-Nothing needs to be added to .gitignore since the only change is adding a Ruby source file (.rb) which should not be ignored.
+Nothing should be ignored based on the provided file changes. The added file 'apache_install.pp' appears to be a Puppet configuration file, which is source code that should be tracked in version control.
