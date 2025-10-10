@@ -1,27 +1,28 @@
 ```
-# Temporary files
-*.tmp
-*.temp
-*~
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Logs
-*.log
-
-# Temporary script files
-*.groovy
+# OS
+.DS_Store
+Thumbs.db
 ```
