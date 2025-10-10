@@ -1,0 +1,44 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <random>
+
+// 模板函数：交换两个变量的值
+template<typename T>
+void mySwap(T& a, T& b) {
+    T temp = a;
+    a = b;
+    b = temp;
+}
+
+int main() {
+    // 示例：交换两个整数
+    int x = 5, y = 10;
+    std::cout << "交换前: x = " << x << ", y = " << y << std::endl;
+    mySwap(x, y);
+    std::cout << "交换后: x = " << x << ", y = " << y << std::endl;
+
+    // 示例：交换两个字符串
+    std::string s1 = "Hello", s2 = "World";
+    std::cout << "交换前: s1 = " << s1 << ", s2 = " << s2 << std::endl;
+    mySwap(s1, s2);
+    std::cout << "交换后: s1 = " << s1 << ", s2 = " << s2 << std::endl;
+
+    // 生成随机文件名并保存代码
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> dis(1, 10000);
+    int random_num = dis(gen);
+    std::string filename = "swap_code_" + std::to_string(random_num) + ".cpp";
+
+    std::ofstream file(filename);
+    if (file.is_open()) {
+        file << "Your code content here..."; // 实际写入的内容是这个文件本身的源码
+        file.close();
+        std::cout << "代码已保存到文件: " << filename << std::endl;
+    } else {
+        std::cout << "无法创建文件!" << std::endl;
+    }
+
+    return 0;
+}

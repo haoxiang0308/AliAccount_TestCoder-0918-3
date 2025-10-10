@@ -1,4 +1,7 @@
 ```
-# GraphQL schema files
-schema.graphql
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+swap_program
 ```
