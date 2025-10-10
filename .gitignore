@@ -1,26 +1,3 @@
-```
-# Dependencies
-*.pyc
-__pycache__/
+(config_3948.toml is a config file, so no ignores needed)
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Build artifacts
-dist/
-build/
-*.out
-```
+(empty)
