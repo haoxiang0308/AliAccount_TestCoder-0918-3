@@ -1,29 +1,40 @@
 ```
-# SQL query files (if generated)
-*.sql
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Database related
-*.db
-*.sqlite
-*.sqlite3
-
-# Logs and temp files
-*.log
-*.tmp
-*.temp
-
-# Environment
+# Dependencies
+node_modules/
+venv/
+.venv/
 .env
 .env.local
 .env.*
 
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
 
@@ -31,36 +42,6 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Virtual environments
-venv/
-.venv/
-env/
-.ENV
-
-# Dependency directories
-node_modules/
-julia-*/
-zig*/
-
-# Build artifacts
-dist/
-build/
-target/
-*.out
-*.exe
-*.dll
-*.so
-*.a
-*.obj
 
 # Compressed files
 *.zip
@@ -85,17 +66,4 @@ target/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Testing
-.pytest_cache/
-.mypy_cache/
-.tox/
-
-# Gradle
-.gradle/
-
-# Temporary files
-*.tmp
-*~
-\#*\#
 ```
