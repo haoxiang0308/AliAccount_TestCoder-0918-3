@@ -1,25 +1,5 @@
-```
-# Compiled and build artifacts
-*.beam
-*.o
-*.obj
+(focusDirective.vue is a source file, so no ignores needed)
 
-# Dependencies
-ebin/
-deps/
-_build/
+```vue
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
