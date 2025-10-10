@@ -1,1 +1,10 @@
-Nothing should be ignored based on the provided file changes. The added file `add_function_12345.lua` is a source code file that should be tracked in version control.
+```
+# Configuration files
+*.yml
+*.yaml
+
+# Serverless framework
+.serverless/
+.sls/
+serverless-*.yml
+```
