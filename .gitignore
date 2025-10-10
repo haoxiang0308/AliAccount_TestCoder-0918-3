@@ -1,9 +1,3 @@
-```
-# Logs
-*.log
+(book_data.xml is a source/data file that should not be ignored, and there are no build artifacts, dependencies, or temporary files in the changes)
 
-# Environment
-.env
-.env.local
-*.env.*
-```
+(empty - output nothing)
