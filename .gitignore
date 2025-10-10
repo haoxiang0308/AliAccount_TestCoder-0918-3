@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file `person_12345.rb` is a source code file that should be tracked in version control.
+Nothing should be ignored based on the provided file changes. The added file `check_disk.sh` is a shell script source file that should be tracked in version control.
