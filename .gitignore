@@ -1,1 +1,4 @@
-Nothing to ignore - the added file 'hello.asm' is a source code file that should be tracked in version control.
+```
+# Configuration files
+*.xml
+```
