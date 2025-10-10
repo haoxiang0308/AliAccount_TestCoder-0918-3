@@ -1,26 +1,42 @@
 ```
-# Compiled and build artifacts
+# Ada build artifacts
+*.adb~
+*.ads~
+*.ali
 *.o
 *.obj
-*.mod
-*.smod
 *.exe
+*.out
 
 # Dependencies
-build/
-dist/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+lib/
+obj/
+exec/
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Temporary files
+*.tmp
+*~
 ```
