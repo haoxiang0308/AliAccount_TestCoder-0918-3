@@ -1,14 +1,13 @@
 ```
 # Compiled and build artifacts
+*.beam
 *.o
 *.obj
-*.mod
-*.smod
-*.exe
 
 # Dependencies
-build/
-dist/
+ebin/
+deps/
+_build/
 
 # Logs and temp files
 *.log
