@@ -1,1 +1,74 @@
-Nothing should be ignored based on the provided file changes. The added file `person_12345.rb` is a source code file that should be tracked in version control.
+```
+# Dependencies
+node_modules/
+
+# Package lock files
+package-lock.json
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python related (if Python project detected)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env/
+.env.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Compressed files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.tgz
+*.tar
+*.Z
+*.lz
+*.lzo
+*.lz4
+*.zst
+
+# System files
+.DS_Store
+Thumbs.db
+```
