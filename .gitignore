@@ -1,29 +1,53 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.swo
-*.swp
+# OCaml build artifacts
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# OCaml dependency directories
+_dbuild/
+.opam/
+esy.lock/
+
+# General build directories
+build/
+dist/
+target/
 
 # Dependencies
-Pods/
-Carthage/
-DerivedData/
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+.Python-environment
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
 
+# System files
+.DS_Store
+Thumbs.db
+
 # Environment
 .env
 .env.local
 *.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
 ```
