@@ -1,1 +1,10 @@
-Nothing needs to be added to .gitignore since the only change is adding a Ruby source file (.rb) which should not be ignored.
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Tests
+.pytest_cache/
+```
