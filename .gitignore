@@ -1,34 +1,42 @@
 ```
-# R-specific ignores
-.Rproj.user/
-.Rhistory
-.Rdata
-*.RData
-*.rds
-*.Rds
-*.rda
-*.Rda
-*.o
+# Compiled and build artifacts
+*.mex
+*.mexa64
+*.mexw64
+*.mexw32
+*.oct
 *.so
-*.dll
 *.dylib
+*.dll
 
 # Dependencies
-renv/
-packrat/
+matlab/
+octave/
 
-# General ignores
-.DS_Store
-Thumbs.db
+# Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-*~
 
-# Environment
-.env
-.env.local
-.env.*
-config/
+# Editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# MATLAB specific
+*.fig
+*.mat
+*.m~
+*~
+```
+
+Wait, let me reconsider this. The only file added is `sine_wave_script.m` which is a MATLAB source file. None of the typical build artifacts, dependencies, or temporary files are present in the changes. MATLAB projects typically don't generate the files I listed above unless there's actual compilation happening.
+
+Since only a source file (`.m`) was added and no build artifacts or dependencies are shown in the changes, the output should be empty.
+
+```
+
 ```
