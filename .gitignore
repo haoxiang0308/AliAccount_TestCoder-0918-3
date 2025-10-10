@@ -1,11 +1,18 @@
 ```
-# R-specific ignores
-.Rproj.user/
-.Rhistory
-.Rdata
-*.RData
-*.rds
-*.Rds
-*.rda
-*.Rda
+# Compiled files
+*.class
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
