@@ -1,7 +1,35 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
-swap_program
+*.class
+*.jar
+*.war
+*.scala~
+*.sc~
+target/
+
+# Dependencies
+lib_managed/
+project/project/
+.project
+
+# Editors
+.idea/
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~
+```
+
+Wait, let me reconsider. The only file added is `HelloScala.scala`, which is a source code file. There are no build artifacts, dependency directories, or temporary files in the changes. Following rule #6, if the change list contains only source files and no build artifacts, dependencies, or temp files, I should output an empty .gitignore.
+
+```scala
+
 ```
