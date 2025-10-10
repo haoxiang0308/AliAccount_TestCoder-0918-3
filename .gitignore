@@ -1,5 +1,7 @@
-```cpp
+```
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
 *.exe
@@ -12,9 +14,13 @@
 node_modules/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+.env
+.env.local
+*.env.*
+
+# Build directories
+dist/
+build/
 target/
 .gradle/
 
@@ -23,16 +29,11 @@ target/
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
 
@@ -41,7 +42,7 @@ coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# Compression files
 *.zip
 *.gz
 *.tar
