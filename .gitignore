@@ -1,1 +1,4 @@
-Nothing should be ignored since the added file `filter_strings_abc123.kt` is a source code file (.kt extension) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Build system
+*.mk
+```
