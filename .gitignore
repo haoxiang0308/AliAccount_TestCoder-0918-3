@@ -1,63 +1,47 @@
 ```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-.terraform.lock.hcl
+# R build artifacts
+*.Rproj.user/
+.Rhistory
+.RData
+.Rproj
 
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
-target/
+# Images (not ignored as they appear to be output files)
+# scatter_plot_18982.png - keeping as it's likely a generated output that should be tracked
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-.pip/
-.tox/
+# Dependencies and temporary files
+*.zip
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
+# System files
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Logs
+*.log
+
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# Python
-*.pyc
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
+# Environment files
+.env
+.env.local
+*.env.*
 ```
