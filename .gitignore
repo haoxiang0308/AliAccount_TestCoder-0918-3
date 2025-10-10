@@ -1,17 +1,11 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+# Compiled files
+*.plc
+*.plx
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-dist/
-build/
-*.egg-info/
+# Perl specific
+__Perl/
+perl-*/
 
 # Logs and temp files
 *.log
@@ -27,15 +21,7 @@ build/
 .vscode/
 .idea/
 
-# Django specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-db.sqlite3
-*.sqlite3
-media/
-staticfiles/
+# System files
 .DS_Store
 Thumbs.db
 ```
