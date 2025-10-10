@@ -1,30 +1,32 @@
 ```
-# Compiled and build artifacts
-*.fsx
-*.fsi
-*.exe
-*.dll
-*.so
-*.o
-*.obj
-*.out
+# Compiled Java classes
+*.class
+
+# JAR files
+*.jar
 
 # Dependencies
-.paket/
-packages/
-bin/
-obj/
+lib/
+libs/
+dependency/
+dependencies/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
+# IDE files
 .vscode/
 .idea/
+*.iml
+*.ipr
+*.iws
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Build directories
+build/
+target/
+out/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
 ```
