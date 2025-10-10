@@ -1,36 +1,52 @@
 ```
+# CI/CD
+.github/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
 # Dependencies
 node_modules/
-.venv/
 venv/
+.venv/
 __pycache__/
-*.egg-info/
+.mypy_cache/
+.pytest_cache/
 dist/
 build/
 target/
 .gradle/
 
-# Python
+# Compiled files
 *.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-ENV/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
 .coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
 
 # Compressed files
 *.zip
@@ -55,26 +71,4 @@ coverage.xml
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Logs
-*.log
-*.out
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System
-.DS_Store
-Thumbs.db
-
-# Docker
-Dockerfile.flask_app
 ```
