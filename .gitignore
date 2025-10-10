@@ -1,17 +1,19 @@
 ```
-# Ada build artifacts
-*.adb~
-*.ads~
-*.ali
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.exe
-*.out
 
 # Dependencies
-lib/
-obj/
-exec/
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -21,22 +23,9 @@ exec/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# System
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Temporary files
-*.tmp
-*~
+# Build directories
+dist/
+build/
+target/
 ```
