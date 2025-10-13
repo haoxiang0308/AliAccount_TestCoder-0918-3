@@ -1,8 +1,1 @@
-```
-# Compiled and build artifacts
-hello_server
-
-# Logs and temp files
-*.log
-server.log
-```
+Nothing to ignore - the added file `mongo_insert_script.py` is a source code file that should be tracked in version control.
