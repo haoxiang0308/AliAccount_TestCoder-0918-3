@@ -1,24 +1,18 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.o
-*.obj
-
-# Dependencies
-.rebar3/
-_build/
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
