@@ -1,3 +1,8 @@
 ```
-# GraphQL schema files are source code, no need to ignore
+# Compiled and build artifacts
+hello_server
+
+# Logs and temp files
+*.log
+server.log
 ```
