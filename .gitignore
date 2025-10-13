@@ -1,1 +1,4 @@
-Nothing should be ignored based on the provided file changes. The added file 'demo_array_iteration.rb' is a source code file that should be tracked in version control.
+```
+# XML build artifacts
+*.xml
+```
