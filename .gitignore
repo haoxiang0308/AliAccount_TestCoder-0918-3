@@ -1,42 +1,12 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-target/
-Cargo.lock
+# Compiled files
+*.class
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Rust-specific
-**/*.rs.bk
-```
-
-Wait, let me reconsider this. The only file added is `ownership_demo_k3j9l2.rs`, which is a Rust source file. There are no build artifacts, dependency directories, or other files that need to be ignored in the change list. The file is just a Rust source code file with a demo name, but it's still source code that should be tracked.
-
-```
-
+# Output files
+*output_*.txt
 ```
