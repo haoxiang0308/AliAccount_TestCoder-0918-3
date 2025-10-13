@@ -1,24 +1,5 @@
-```
-# Compiled and build artifacts
-*.beam
-*.o
-*.obj
+(load_and_summarize.r is an R source file, so no ignores needed)
 
-# Dependencies
-.rebar3/
-_build/
+```r
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
 ```
