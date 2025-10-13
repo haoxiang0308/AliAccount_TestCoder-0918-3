@@ -1,13 +1,8 @@
 ```
 # Compiled and build artifacts
-*.fs
 *.o
 *.obj
 *.out
-*.exe
-*.dll
-*.so
-*.a
 
 # Dependencies
 node_modules/
@@ -23,7 +18,6 @@ target/
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
