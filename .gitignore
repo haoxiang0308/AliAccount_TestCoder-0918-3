@@ -1,22 +1,12 @@
 ```
-# R plots and generated images
-Rplots.pdf
-*.png
-
-# Temporary files
+# Temp files
 *.tmp
 *.swp
 *.swo
 
-# Environment
-.env
-.env.local
-*.env.*
+# Groovy specific
+*.class
 
-# Editors
-.vscode/
-.idea/
-
-# Logs
-*.log
+# General temp file pattern
+tmp.*
 ```
