@@ -1,1 +1,45 @@
-Nothing should be ignored based on the provided file changes. The added file is a source code file (.m) which should not be ignored.
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+htmlcov/
+
+# Environment variables
+.env
+.env.local
+.env.
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# TypeScript/JavaScript
+*.tsbuildinfo
+*.js.map
+*.jsx.map
+*.ts.map
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage.xml
+```
