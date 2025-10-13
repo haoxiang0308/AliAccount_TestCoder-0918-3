@@ -1,4 +1,18 @@
 ```
-# Backup/Export files
-*.xml
+# Compiled and build artifacts
+*.js
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
