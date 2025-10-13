@@ -1,38 +1,22 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Build artifacts
 *.o
 *.obj
-*.class
+*.out
 *.exe
 *.dll
 *.so
 *.a
-*.out
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-.env.*
-
-# Build directories
-dist/
-build/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 target/
-*.jar
-*.war
-*.zip
-*.tar.gz
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
+.gradle/
 
 # Editors
 .vscode/
@@ -40,43 +24,20 @@ target/
 *.swp
 *.swo
 
-# OS generated files
+# System
 .DS_Store
 Thumbs.db
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
-
-# Python specific
-*.pyc
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-
-# Node.js specific
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Java specific
-*.class
-*.jar
-*.war
-*.ear
-target/
-.gradle/
-build/
-
-# C/C++ specific
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
 
 # Compressed files
 *.zip
