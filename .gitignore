@@ -1,3 +1,28 @@
-(check_memory.sh is a shell script file, which is a source code file, so no need to add to .gitignore)
+```
+# Configuration files
+*.yml
+*.yaml
 
-(empty)
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Backup and swap files
+*~
+*.bak
+*.backup
+
+# System files
+.DS_Store
+Thumbs.db
+```
