@@ -1,1 +1,46 @@
-Nothing needs to be ignored in this case. The added file is a Swift source code file (.swift), which is a source code file that should be tracked in version control. There are no build artifacts, dependency directories, temporary files, or other items that need to be ignored.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+
+# System files
+.DS_Store
+Thumbs.db
+```
