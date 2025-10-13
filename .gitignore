@@ -1,8 +1,9 @@
 ```
-# GraphQL schema files
-schema_*.graphql
+# Environment files
+.env
+.env.local
+*.env.*
 
-# If this is a GraphQL project, also ignore common artifacts
-*.graphql.schema.json
-.graphql/
+# Configuration files with sensitive names
+*config*.ini
 ```
