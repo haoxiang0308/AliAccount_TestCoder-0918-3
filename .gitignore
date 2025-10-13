@@ -1,9 +1,28 @@
 ```
-# R-specific ignores
-*.rds
-*.RData
-*.rdata
-.Rhistory
-.Rprofile
-.Rproj.user/
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
 ```
