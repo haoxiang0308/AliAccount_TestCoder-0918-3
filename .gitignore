@@ -1,12 +1,1 @@
-```
-#Temp files
-*.tmp
-.tmp_*
-
-#PHP specific
-*.php
-!*.php
-
-#Random files
-random_filename.txt
-```
+Nothing to ignore - the change list contains only a Ruby source file (.rb) which should not be ignored.
