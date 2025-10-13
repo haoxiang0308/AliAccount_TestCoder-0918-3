@@ -1,0 +1,26 @@
+# Makefile для компиляции программы на C
+
+# Имя исполняемого файла
+TARGET = my_program
+
+# Исходный файл
+SOURCE = main.c
+
+# Компилятор
+CC = gcc
+
+# Флаги компиляции
+CFLAGS = -Wall -Wextra -std=c99
+
+# Правило по умолчанию для сборки цели
+$(TARGET): $(SOURCE)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SOURCE)
+
+# Правило для очистки сгенерированных файлов
+clean:
+	rm -f $(TARGET)
+
+# Правило для повторной сборки
+rebuild: clean $(TARGET)
+
+.PHONY: clean rebuild
