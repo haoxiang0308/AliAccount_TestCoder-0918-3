@@ -1,1 +1,19 @@
-Nothing should be ignored since only a source code file (.swift) was added and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Puppet related
+*.pp.bak
+*.pp~*
+*.rb.bak
+*.rb~*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+```
