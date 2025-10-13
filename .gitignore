@@ -1,9 +1,1 @@
-```
-# VBA files
-*.vba
-
-# Backup and temporary VBA files
-*.bak
-*.tmp
-*.~*
-```
+Nothing should be ignored based on the provided file changes. The added file 'vba_files/format_macro.bas' is a source code file that should be tracked in version control.
