@@ -1,9 +1,25 @@
 ```
-# Environment files
+# VBA specific ignores
+*.vba~
+
+# Editor/IDE files
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment
 .env
 .env.local
 *.env.*
 
-# Configuration files
-*.ini
+# Dependencies (if any VBA project dependencies exist)
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 ```
