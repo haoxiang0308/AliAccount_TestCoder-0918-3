@@ -1,1 +1,1 @@
-Nothing needs to be ignored in this case. The added file is a Swift source code file (.swift), which is a source code file that should be tracked in version control. There are no build artifacts, dependency directories, temporary files, or other items that need to be ignored.
+(crystal_queue_1760386312.py is a source file, so nothing should be ignored)
