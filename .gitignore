@@ -1,4 +1,37 @@
 ```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
+
 # Compiled and build artifacts
 *.o
 *.obj
@@ -7,36 +40,15 @@
 *.dll
 *.so
 *.a
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
+*.class
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Testing
+.mypy_cache/
+.pytest_cache/
 coverage/
 htmlcov/
 .coverage
@@ -64,4 +76,18 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Gradle
+.gradle/
+target/
+
+# Temporary files
+*.tmp
+*~
+```
+
+Wait, looking at the added files again - they're all Angular/TypeScript source files and configuration files. No build artifacts, dependencies, or temp files are being added. The project appears to be a clean Angular application structure with source code files only.
+
+```
+
 ```
