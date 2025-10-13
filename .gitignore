@@ -4,7 +4,6 @@
 __pycache__/
 *.o
 *.obj
-*.class
 *.exe
 *.dll
 *.so
@@ -23,7 +22,6 @@ venv/
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Editors
 .vscode/
@@ -38,51 +36,7 @@ coverage/
 htmlcov/
 .coverage
 
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-.eggs/
-.mypy_cache/
-.pytest_cache/
-.tox/
-
-# Node.js specific
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-node_modules/
-jspm_packages/
-
-# Java specific
-*.class
-*.jar
-*.war
-*.ear
-hs_err_pid*
-.recommenders
-
-# C/C++ specific
-*.o
-*.a
-*.so
-*.dll
-*.dylib
-*.exe
-*.out
-*.obj
-
-# Compression files
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -105,187 +59,4 @@ hs_err_pid*
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# Rust specific
-target/
-Cargo.lock
-
-# Go specific
-*.o
-*.a
-*.so
-*.exe
-*.test
-*.prof
-go.mod
-go.sum
-
-# Ruby specific
-*.gem
-*.rbc
-.bundle/
-.coverage
- InstalledFiles
-lib/bundler/man/
-pkg/
-rdoc/
-spec/reports/
-test/tmp/
-test/version_tmp/
-tmp/
-
-# PHP specific
-*.phar
-.php_cs
-.php_cs.dist
-.php_cs.cache
-.scrutinizer.yml
-composer.lock
-vendor/
-
-# C# specific
-*.sln
-*.csproj
-*.user
-*.suo
-*.obj
-*.exe
-*.pdb
-*.userprefs
-[Bb]in/
-[Oo]bj/
-[Tt]est[Rr]esult*/
-*.VisualState.xml
-Build/
-packages/
-
-# F# specific
-*.userprefs
-*.suo
-*.user
-[Bb]in/
-[Oo]bj/
-[Tt]est[Rr]esult*/
-*.VisualState.xml
-Build/
-packages/
-
-# Objective-C specific
-*.dSYM/
-*.swp
-*~
-.DS_Store
-.svn/
-CVS/
-
-# Swift specific
-*.xcodeproj/
-*.xcworkspace/
-*.swiftpm/
-*.build/
-.playground/
-xcuserdata/
-DerivedData/
-
-# Scala specific
-*.class
-*.log
-.DS_Store
-.libs/
-.project
-.classpath
-.settings/
-.dependency/
-Deps/
-target/
-tmp/
-tmp-*/
-
-# Clojure specific
-*.class
-.lein-deps-sum
-.lein-failures
-.lein-plugins/
-.lein-repl-history
-.lein-work/
-target/
-pom.xml.lock
-pom.xml.tag
-
-# Erlang specific
-.eunit
-*.beam
-*.plt
-.erlang.cookie
-.rebar
-.rebar3
-ebin/
-
-# Elixir specific
-*.beam
-*.plt
-*.eunit
-*.exuvim
-elixir_ls/
-cover/
-deps/
-doc/
-ebin/
-priv/repo/migrations/.formatter.exs
-tmp/
-
-# Julia specific
-*.jl.*
-.julia/
-.julia_history
-.julia_scratch/
-.julia_tmp/
-.julia_local/
-.julia_cache/
-.julia_logs/
-.julia_profile/
-.julia_repl_history
-.julia_repl_history.jl
-.julia_history.jl
-.julia_scratch.jl
-.julia_tmp.jl
-.julia_local.jl
-.julia_cache.jl
-.julia_logs.jl
-.julia_profile.jl
-.julia_repl_history.jl
-.julia_history.jl
-.julia_scratch.jl
-.julia_tmp.jl
-.julia_local.jl
-.julia_cache.jl
-.julia_logs.jl
-.julia_profile.jl
-julia-*/
-.julia_packages/
-.julia_environments/
-
-# Zig specific
-zig-cache/
-zig-out/
-zig*/
-
-# Docker
-.dockerignore
-Dockerfile
-docker-compose.yml
-docker-compose.yaml
-
-# Git
-.git/
-!.gitignore
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
 ```
