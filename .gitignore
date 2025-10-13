@@ -1,28 +1,5 @@
 ```
-# Elixir/BEAM artifacts
-*.beam
-*.app
-*.ez
-ebin/
-_build/
-deps/
-
-# Environment variables
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Examples and templates
+README_*.md
+README_template.md
 ```
