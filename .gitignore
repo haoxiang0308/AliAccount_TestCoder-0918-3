@@ -1,1 +1,4 @@
-(current_datetime.ps1 is a PowerShell script file, which is a source code file, so no .gitignore rules are needed)
+```
+# Generated from file changes
+*.thrift
+```
