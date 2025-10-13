@@ -1,15 +1,12 @@
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+#Temp files
+*.tmp
+.tmp_*
+
+#PHP specific
+*.php
+!*.php
+
+#Random files
+random_filename.txt
 ```
