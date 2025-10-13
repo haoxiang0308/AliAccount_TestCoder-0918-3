@@ -1,68 +1,50 @@
 ```
-# Build artifacts
-build/
-dist/
-*.class
-*.jar
-*.war
-*.aar
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
 # Dependencies
-.gradle/
-node_modules/
-venv/
 .venv/
-__pycache__/
-*.egg-info/
+venv/
+node_modules/
 
-# IDE
-.idea/
-.vscode/
-*.iml
-*.iws
-*.ipr
-
-# System
-.DS_Store
-Thumbs.db
-*.tmp
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Compiled files
-*.pyc
-*.o
-*.obj
-*.so
-*.dll
-*.exe
+# Editors
+.vscode/
+.idea/
 
-# Coverage
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Distribution / packaging
+.Python
+*.so
+.Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+.DS_Store
+Thumbs.db
 ```
