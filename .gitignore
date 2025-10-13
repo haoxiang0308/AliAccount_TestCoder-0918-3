@@ -1,30 +1,35 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Compiled Python files
+*.pyc
+__pycache__/
 
-# Dependencies
-vendor/
+# Environment files
+.env
+.env.local
+*.env.*
 
-# Logs and temp files
+# Logs
 *.log
+
+# Temporary files
 *.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-.env.*
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
 
-# Go-specific
-*.a
-*.so
-*.dylib
-*.exe
-*.dll
-coverage.out
+# Distribution / build artifacts
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
 ```
