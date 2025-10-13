@@ -1,15 +1,1 @@
-```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
-```
+Nothing to output - the change list contains only a source/config file (README-20251014.md) with no build artifacts, dependencies, or temp files that need to be ignored.
