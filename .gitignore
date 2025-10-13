@@ -1,17 +1,1 @@
-```
-# Dart/Flutter specific ignores
-.dart_tool/
-.packages
-.pub/
-build/
-*.g.dart
-*.freezed.dart
-
-# Dependencies
-pubspec.lock
-
-# Environment
-.env
-.env.local
-.env.*
-```
+Nothing needs to be added to .gitignore for this change list. The added file `get_date_time.ps1` is a PowerShell script source file, which should be tracked in version control.
