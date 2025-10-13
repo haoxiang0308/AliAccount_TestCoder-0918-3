@@ -1,0 +1,33 @@
+```
+# R-specific ignores
+*.RData
+*.Rhistory
+.Rproj.user/
+.Rprofile
+.Renviron
+
+# Compiled and build artifacts
+*.o
+*.so
+*.dll
+*.dylib
+
+# Dependencies
+.Rpackages/
+renv/
+packrat/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+```
