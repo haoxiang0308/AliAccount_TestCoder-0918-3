@@ -1,1 +1,35 @@
-Nothing should be ignored based on the provided file changes. The added file `todo_list_5k2m9p.md` is a markdown source file that should be tracked in version control.
+```
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+
+# OCaml build artifacts
+_dune/
+_build/
+*.native
+*.byte
+
+# Dependencies
+.opam/
+esy.lock/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+```
