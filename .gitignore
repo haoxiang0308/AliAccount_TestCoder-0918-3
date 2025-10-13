@@ -1,26 +1,20 @@
 ```
-# Dependencies
-node_modules/
+# Julia build artifacts and compiled files
+*.ji
+*.so
+*.cache
 
-# Build outputs
-dist/
-build/
-*.js.map
+# Julia installation directory
+julia-*/
 
-# Logs and temp files
-*.log
+# Compressed Julia distribution
+*.tar.gz
+
+# Temporary Julia files
 *.tmp
+*.log
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
