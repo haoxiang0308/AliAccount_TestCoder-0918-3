@@ -1,4 +1,4 @@
 ```
-# Compiled and build artifacts
-*.fs
+# Jenkins artifacts
+Jenkinsfile_*
 ```
