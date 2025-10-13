@@ -1,19 +1,16 @@
 ```
-# Puppet related
-*.pp.bak
-*.pp~*
-*.rb.bak
-*.rb~*
+#Temp files
+*.tmp
+*.temp
+tmp.*
 
-# System files
-.DS_Store
-Thumbs.db
+#PHP specific
+*.php~
+*.php.bak
+*.php.swp
 
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
+#General temp files
+*~
+.swp
+.swo
 ```
