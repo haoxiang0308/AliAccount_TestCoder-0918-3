@@ -1,21 +1,13 @@
 ```
-# R-specific ignores
-*.RData
-*.Rhistory
-.Rproj.user/
-.Rprofile
-.Renviron
-
 # Compiled and build artifacts
-*.o
-*.so
-*.dll
-*.dylib
+*.pyc
+__pycache__/
 
 # Dependencies
-.Rpackages/
-renv/
-packrat/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
@@ -30,4 +22,9 @@ packrat/
 # Editors
 .vscode/
 .idea/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
 ```
