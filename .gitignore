@@ -1,1 +1,25 @@
-(filter_closure.groovy)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+*.dyn_o
+
+# Dependencies
+.stack-work/
+dist/
+cabal-dist/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
