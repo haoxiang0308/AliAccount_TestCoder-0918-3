@@ -1,9 +1,3 @@
-```
-# Environment files
-.env
-.env.local
-*.env.*
+(dot_product.f is a source file, so no .gitignore rules needed)
 
-# Configuration files with sensitive names
-*config*.ini
-```
+(empty output)
