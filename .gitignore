@@ -1,22 +1,37 @@
 ```
-# Environment and config files
-.env
-.env.local
-.env.*
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 
-# Logs and temporary files
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Testing
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
 
-# Backup files
-backup_*
+# Distribution
+dist/
+build/
+*.egg-info/
 ```
