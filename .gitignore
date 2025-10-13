@@ -1,4 +1,58 @@
 ```
-# Build system
-Makefile_abc123
+# Julia installation
+julia-*/
+
+# Compressed files
+*.tar.gz
+
+# Compiled Julia artifacts
+*.ji
+*.so
+
+# Julia-specific cache and build directories
+*.jl.bak
+*.jl.dep
+*.jl.mem
+*.jl.sys
+
+# Julia package manager files
+Manifest.toml
+*.julia_logs
+
+# Julia build artifacts
+deps/build.log
+
+# Julia-specific temporary files
+*.jl.tmp
+*.jl.swp
+
+# Julia documentation build
+docs/build/
+
+# Julia test coverage
+*.cov
+*.info
+
+# Julia precompiled files
+*.ji
+*.ji.bak
+
+# Julia package extensions
+*.jlext
+
+# Julia-specific logs
+*.jlog
+julia-*.log
+
+# Julia environment files
+.JuliaEnv
+julia-env/
+
+# Julia artifacts and registries
+registries/
+scratchspaces/
+
+# Julia-specific OS files
+.DS_Store
+Thumbs.db
 ```
