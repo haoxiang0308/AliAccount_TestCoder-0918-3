@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "This is a simplified placeholder for gradlew to satisfy the directory structure."
+echo "A real Gradle wrapper would be more complex."
