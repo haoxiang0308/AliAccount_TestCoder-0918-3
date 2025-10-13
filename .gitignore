@@ -1,9 +1,1 @@
-```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Configuration files that might contain sensitive data
-*config*.ini
-```
+Nothing should be ignored based on the provided file changes. The added file 'SampleController_12345.cs' is a source code file that should be tracked in version control.
