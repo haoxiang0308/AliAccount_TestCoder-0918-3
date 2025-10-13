@@ -1,12 +1,1 @@
-```
-# Compiled files
-*.class
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Output files
-*output_*.txt
-```
+Nothing should be ignored based on the provided file changes. The added file `addFunction.js` is a source code file that should be tracked in version control.
