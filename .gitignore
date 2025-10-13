@@ -1,50 +1,9 @@
 ```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-*.out
+# Environment files
+.env
+.env.local
+*.env.*
 
-# Dependencies
-target/
-lib_managed/
-project/
-*.iml
-*.ipr
-*.iws
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Scala specific
-*.tasty
-*.jar
-*.zip
-*.tar
-*.gz
-*.bz2
-*.xz
-*.tgz
-*.zst
-*.7z
-*.rar
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Configuration files that might contain sensitive data
+*config*.ini
 ```
