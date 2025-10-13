@@ -1,0 +1,18 @@
+# Конфигурация приложения
+
+[app]
+name = "MyAwesomeApp"
+version = "1.0.0"
+debug = true
+
+[database]
+host = "localhost"
+port = 5432
+username = "dbuser"
+password = "dbpass"
+database_name = "myapp_db"
+
+[server]
+host = "0.0.0.0"
+port = 8080
+timeout = 30
