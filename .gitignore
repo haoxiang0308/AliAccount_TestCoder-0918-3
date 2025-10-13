@@ -1,1 +1,9 @@
-Nothing should be ignored in this case, as only a source code file (.go) was added without any build artifacts, dependencies, or temporary files.
+```
+# VBA files
+*.vba
+
+# Backup and temporary VBA files
+*.bak
+*.tmp
+*.~*
+```
