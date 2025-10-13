@@ -1,4 +1,7 @@
 ```
-# CI/CD
-.gitlab-ci.yml
+# Compiled and build artifacts
+*.asm
+*.o
+*.obj
+*.out
 ```
