@@ -1,5 +1,13 @@
-(reverse_list.ex is a source file, so no .gitignore rules needed)
+```
+#Temp files
+*.tmp
+*.swp
+*.swo
 
-```elixir
+#Perl files
+*.pl~
 
+#System files
+.DS_Store
+Thumbs.db
 ```
