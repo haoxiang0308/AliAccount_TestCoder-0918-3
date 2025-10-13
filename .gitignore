@@ -1,86 +1,24 @@
 ```
-# VBA/Office files
-*.tmp
-*.log
-*.bak
-*.~*
-*.cache
-*.obj
-*.tlb
-*.sdf
-*.opensdf
-*.user
-*.userosscache
-*.suo
-*.cache
-*.ilk
-*.pdb
-*.exp
-*.lib
+# Compiled and build artifacts
+*.beam
 *.o
-*.so
-*.dll
-*.exe
-*.bin
-*.out
-*.pyc
-*.pyo
-*.pyd
-*.class
-*.jar
-*.war
-*.ear
-*.zip
-*.tar
-*.gz
-*.tgz
-*.rar
-*.7z
-*.bz2
-*.xz
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+*.obj
 
 # Dependencies
-node_modules/
-venv/
-.venv/
+.rebar3/
+_build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-.env.
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
+.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-*.tmp
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
 ```
