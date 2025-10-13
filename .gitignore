@@ -1,4 +1,11 @@
 ```
-# Build system
-Makefile_abc123
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.backup
+*.lock.hcl
 ```
