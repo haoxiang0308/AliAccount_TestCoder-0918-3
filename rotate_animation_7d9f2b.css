@@ -1,0 +1,23 @@
+/* 定义一个名为 rotate 的关键帧动画 */
+@keyframes rotate {
+  from {
+    /* 动画开始时，元素旋转 0 度 */
+    transform: rotate(0deg);
+  }
+  to {
+    /* 动画结束时，元素旋转 360 度 */
+    transform: rotate(360deg);
+  }
+}
+
+/* 选择所有具有 "rotating-element" 类的 HTML 元素 */
+.rotating-element {
+  /* 应用上面定义的 "rotate" 动画 */
+  animation-name: rotate;
+  /* 设置动画持续时间为 2 秒 */
+  animation-duration: 2s;
+  /* 设置动画无限循环 */
+  animation-iteration-count: infinite;
+  /* 设置动画速度曲线为匀速 */
+  animation-timing-function: linear;
+}
