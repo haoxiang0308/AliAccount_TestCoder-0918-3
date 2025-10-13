@@ -1,33 +1,14 @@
 ```
-# Compiled and build artifacts
-*.plc
-*.plx
-*.pmc
+# Configuration and deployment files
+*.yml
+*.yaml
 
-# Dependencies
-cpanfile/
-local/
-
-# Logs and temp files
+# Ansible specific
+*.retry
 *.log
+
+# Backup and temp files
 *.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-
-# System files
-.DS_Store
-Thumbs.db
+*.bak
+*~
 ```
