@@ -1,1 +1,18 @@
-Nothing to output - the change list contains only a shell script file (.sh) which is a source file and should not be ignored.
+```
+# Compiled and build artifacts
+*.hi
+*.o
+
+# Dependencies
+dist/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+```
