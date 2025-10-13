@@ -1,8 +1,1 @@
-```
-# GraphQL schema files
-schema_*.graphql
-
-# If this is a GraphQL project, also ignore common artifacts
-*.graphql.schema.json
-.graphql/
-```
+Nothing needs to be added to .gitignore since the only change is adding a Python test file (.py) which is source code and should not be ignored.
