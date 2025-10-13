@@ -1,60 +1,15 @@
 ```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
+# LaTeX build artifacts
+*.aux
 *.log
-.terragrunt-cache/
-
-# Dependencies
-node_modules/
-vendor/
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs
-*.log
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Build artifacts
-dist/
-build/
-target/
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
+*.toc
+*.lof
+*.lot
 *.out
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-.Python
-*.pyc
-*.pyo
-*~
-```
-
-Wait, I need to reconsider this. The only file added is `main.tf`, which is a Terraform file. Looking at the file changes, there are no build artifacts, dependency directories, or temporary files mentioned in the changes. The file `main.tf` is a source configuration file for Terraform.
-
-Since only a source file (`.tf`) was added and no build artifacts, dependencies, or temp files are in the change list, I should output an empty .gitignore.
-
-```
-
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
