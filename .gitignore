@@ -1,1 +1,28 @@
-Nothing should be ignored based on the provided file changes. The added file `todo_list_5k2m9p.md` is a markdown source file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+target/
+Cargo.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
