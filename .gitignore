@@ -1,22 +1,35 @@
 ```
-# Environment and config files
-.env
-.env.local
-.env.*
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-# Logs and temporary files
+# Dependencies
+vendor/
+*.mod
+*.sum
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Backup files
-backup_*
+# Go-specific
+*.exe
+*.dll
+*.so
+*.a
+*.dylib
+*.test
+*.prof
+cover.out
 ```
