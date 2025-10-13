@@ -1,1 +1,35 @@
-Nothing should be ignored based on the provided file changes. The added file 'shem.pl' appears to be a Perl source code file, which should not be ignored.
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv
+
+# LaTeX temporary files
+*.tmp
+*.backup
+
+# TeXStudio files
+*.autosave
+*.session
+
+# Texmaker files
+*.tex.bak
+
+# TeXShop files
+*.tex~
+```
