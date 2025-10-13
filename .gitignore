@@ -1,17 +1,23 @@
 ```
 # Compiled and build artifacts
-*.class
+*.pyc
+__pycache__/
 *.o
 *.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
 *.out
 
 # Dependencies
-target/
-lib_managed/
-project/
-*.iml
-*.ipr
-*.iws
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
@@ -22,18 +28,31 @@ project/
 .vscode/
 .idea/
 
-# Scala specific
-*.tasty
-*.jar
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compressed files
 *.zip
-*.tar
 *.gz
+*.tar
+*.tgz
 *.bz2
 *.xz
-*.tgz
-*.zst
 *.7z
 *.rar
+*.zst
 *.lz4
 *.lzh
 *.cab
