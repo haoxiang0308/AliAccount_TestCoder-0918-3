@@ -1,9 +1,30 @@
 ```
-# R-specific ignores
-*.rds
-*.RData
-*.rdata
-.Rhistory
-.Rprofile
-.Rproj.user/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Tests
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
 ```
