@@ -1,8 +1,31 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# OCaml compiled files
+*.cmi
+*.cmo
+*.cmx
+*.o
+*.obj
 
-# Temporary/filtered data files
-*filtered_data_*.py
+# OCaml build artifacts
+*.out
+*.exe
+
+# Dependencies
+_dbuild/
+.opam/
+esy.lock/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
 ```
