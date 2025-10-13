@@ -1,1 +1,8 @@
-(circle_area_func_5f9c4b2a.lua)
+```
+# Database files
+*.db
+*.sql
+
+# Temporary query files
+query_result_*.sql
+```
