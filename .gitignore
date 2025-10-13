@@ -1,9 +1,1 @@
-```
-# VBA files
-*.vba
-
-# Backup and temporary VBA files
-*.bak
-*.tmp
-*.~*
-```
+Nothing should be ignored since the added file 'MainActivity.kt' is a source code file and there are no build artifacts, dependencies, or temporary files in the changes.
