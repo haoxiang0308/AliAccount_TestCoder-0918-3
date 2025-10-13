@@ -1,5 +1,8 @@
-(linear_model_64152.py is a source file, so no ignores needed)
+```
+# Compiled Python files
+*.pyc
+__pycache__/
 
-```python
-
+# Temporary/filtered data files
+*filtered_data_*.py
 ```
