@@ -1,1 +1,9 @@
-(empty)
+```
+# R-specific ignores
+*.rds
+*.RData
+*.rdata
+.Rhistory
+.Rprofile
+.Rproj.user/
+```
