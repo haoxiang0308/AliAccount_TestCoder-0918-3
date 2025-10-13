@@ -1,23 +1,26 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.class
+*.o
+*.obj
+*.out
 
-# Data files (if they follow a pattern with temporary/generated data)
-*.csv
-!data_analysis/filtered_data_ns1lzcbc.csv
+# Dependencies
+target/
+lib_managed/
+project/
+.scala_dependencies/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
