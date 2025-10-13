@@ -1,1 +1,40 @@
-Nothing should be ignored based on the provided file changes. The added file `square_function_8927.fs` is a source code file that should be tracked in version control.
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.auxlock
+
+# Dependencies
+texmf-var/
+*.sty
+*.cls
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+```
