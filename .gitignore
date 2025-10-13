@@ -1,1 +1,1 @@
-Nothing should be ignored since the added file 'MainActivity.kt' is a source code file and there are no build artifacts, dependencies, or temporary files in the changes.
+(config_db.ini is a config file, not a build artifact or temp file, so nothing should be ignored)
