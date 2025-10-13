@@ -1,38 +1,29 @@
 ```
 # Compiled and build artifacts
-*.plc
-*.plx
-*.pmc
-*.p6c
-*.nqp
+*.o
+*.obj
+*.out
 
 # Dependencies
-lib/
-blib/
-PMC/
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
+# Editors
+.vscode/
+.idea/
 
-# OS specific
-.DS_Store
-Thumbs.db
+# Go-specific
+*.exe
+*.dll
+*.so
+*.a
 ```
