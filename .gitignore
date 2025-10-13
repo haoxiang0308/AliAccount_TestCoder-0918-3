@@ -1,8 +1,15 @@
 ```
-# Database files
-*.db
-*.sql
-
-# Temporary query files
-query_result_*.sql
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
