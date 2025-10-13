@@ -1,0 +1,1 @@
+VBA functions cannot be executed or saved as standalone files from this environment. They must be placed within a VBA project, typically inside an Excel macro-enabled workbook (.xlsm) or an add-in (.xlam). I can provide the VBA code for you.
