@@ -1,1 +1,22 @@
-Nothing should be ignored based on the provided file changes. The added file `list_files_0.sh` is a shell script source file, which should not be ignored according to the rules.
+```
+# Deployment files
+*.yaml
+*.yml
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+```
