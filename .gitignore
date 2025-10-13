@@ -1,1 +1,24 @@
-Nothing should be ignored in this case, as only a source code file (.go) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+target/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
