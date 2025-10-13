@@ -1,4 +1,4 @@
 ```
-# Backup/Export files
-*.xml
+# PowerShell output files
+output_date_time.ps1
 ```
