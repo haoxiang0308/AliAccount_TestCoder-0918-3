@@ -1,1 +1,26 @@
-Nothing needs to be added to .gitignore since the only change is adding a text file (vba_instructions.txt) which is a source/config file and should not be ignored.
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.js.map
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
