@@ -1,0 +1,22 @@
+```
+# R plots and generated images
+Rplots.pdf
+*.png
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+```
