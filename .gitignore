@@ -1,9 +1,32 @@
 ```
-# VBA files
-*.vba
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-# Backup and temporary VBA files
-*.bak
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
 *.tmp
-*.~*
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
