@@ -1,1 +1,17 @@
-Nothing should be ignored since only a source code file (WelcomeMessage.jsx) was added and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Dart/Flutter specific ignores
+.dart_tool/
+.packages
+.pub/
+build/
+*.g.dart
+*.freezed.dart
+
+# Dependencies
+pubspec.lock
+
+# Environment
+.env
+.env.local
+.env.*
+```
