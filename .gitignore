@@ -1,41 +1,56 @@
 ```
-# Kubernetes/Docker related
-*.yaml
-*.yml
+# Compiled files
+*.dart.js
+*.js
+*.map
 
-# If this is a Kubernetes project with potential build artifacts
+# Dependencies
+.pub/
+.dart_tool/
 build/
 dist/
-*.log
-*.tmp
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# System files
-.DS_Store
-Thumbs.db
+# Logs
+*.log
 
-# Coverage reports
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Dependency directories (if any appear)
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+# Distribution
+*.tar.gz
+*.zip
+*.tar
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tgz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
