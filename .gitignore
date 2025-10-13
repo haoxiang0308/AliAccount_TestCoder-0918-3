@@ -1,5 +1,1 @@
-(reverse_list.ex is a source file, so no .gitignore rules needed)
-
-```elixir
-
-```
+Nothing to output - the change list contains only a source code file (.rb) and no build artifacts, dependencies, or temp files that need to be ignored.
