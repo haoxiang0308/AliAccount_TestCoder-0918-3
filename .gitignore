@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file `useCounter.jsx` is a source code file that should be tracked in version control.
+Nothing should be ignored based on the provided file changes. The added file 'README_1.md' is a source/config file and should not be added to .gitignore.
