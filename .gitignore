@@ -1,28 +1,62 @@
 ```
-# Elixir/BEAM artifacts
-*.beam
-*.app
-*.ez
-ebin/
-_build/
-deps/
+# Compiled and build artifacts
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+bin/
+obj/
 
-# Environment variables
+# Dependencies
+packages/
+lib/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
+*.userprefs
 
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Build outputs
+dist/
+build/
+target/
+out/
+
+# Test and coverage
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+.eggs/
+
+# .NET specific
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[BuildOutput]
 ```
