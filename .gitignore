@@ -1,20 +1,14 @@
 ```
-# Compiled and build artifacts
-*.class
+# Compiled files
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+*.hi
 
 # Dependencies
-target/
-lib_managed/
-project_target/
-.mypy_cache/
-.pytest_cache/
+.cabal-sandbox/
+dist/
+dist-newstyle/
+.stack-work/
 
 # Logs and temp files
 *.log
@@ -24,10 +18,6 @@ project_target/
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
 
 # Environment
 .env
@@ -39,10 +29,18 @@ coverage/
 htmlcov/
 .coverage
 
-# Scala specific
-*.jar
+# Build artifacts
+build/
+target/
 *.class
-*.scala_bak
-*.sc_bak
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# System files
 .DS_Store
+Thumbs.db
 ```
