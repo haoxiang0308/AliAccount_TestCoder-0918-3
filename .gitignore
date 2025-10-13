@@ -1,1 +1,1 @@
-Nothing should be ignored since only a source code file (.rb) was added.
+Nothing should be ignored since only a Ruby source file (.rb) was added, which is a source code file that should be tracked in version control.
