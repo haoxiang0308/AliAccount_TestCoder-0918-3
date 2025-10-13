@@ -1,1 +1,55 @@
-Nothing should be ignored since only a Ruby source file (.rb) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.ali
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Build directories
+build/
+dist/
+target/
+
+# Python specific
+*.pyc
+*.pyo
+__pycache__/
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git*
+
+# System files
+.DS_Store
+Thumbs.db
+```
