@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file `get_random_process_list.ps1` is a PowerShell script source file, which should be tracked in version control.
+Nothing should be ignored since the added file is a source code file (.vba) and there are no build artifacts, dependencies, or temporary files in the changes.
