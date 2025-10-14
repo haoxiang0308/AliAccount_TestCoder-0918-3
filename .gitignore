@@ -1,1 +1,3 @@
-Nothing needs to be added to .gitignore for this change list. The added file `disk_usage_alert.sh` is a shell script source file that should be tracked in version control.
+(linear_regression_model_12345.py is a source code file, so no .gitignore rules needed)
+
+(empty - output nothing)
