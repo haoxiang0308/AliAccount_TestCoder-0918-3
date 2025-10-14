@@ -1,31 +1,5 @@
-```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
+(my_django_view_12345.py is a source file, so no .gitignore content needed)
 
-# Dependencies
-.terraform.lock.hcl
+```python
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
 ```
