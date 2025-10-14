@@ -1,23 +1,38 @@
 ```
-# Compiled files
-*.class
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
 
 # Dependencies
-__pycache__/
-*.pyc
-*.pyo
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
+_dbuild/
+.opam/
+esy.lock/
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OCaml specific
+*.annot
+*.spot
+*.spit
+*.cmt
+*.cmti
+*.merlin
 ```
