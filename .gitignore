@@ -1,20 +1,25 @@
 ```
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.scala
-*.sbt
+*.ex
+*.o
+*.obj
+*.out
 
 # Dependencies
-lib_managed/
-project/
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
 target/
+.gradle/
 
-# Editors
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
 
@@ -23,9 +28,9 @@ target/
 .env.local
 *.env.*
 
-# Logs and temp files
-*.log
-*.tmp
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
@@ -35,4 +40,28 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
