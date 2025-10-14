@@ -1,35 +1,23 @@
 ```
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.scala
-*.sbt
-project/
-target/
+*.o
+*.obj
+*.out
 
 # Dependencies
-lib/
-.libs/
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
-*.iml
-*.ipr
-*.iws
 
-# System
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 ```
