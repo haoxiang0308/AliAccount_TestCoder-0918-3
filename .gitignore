@@ -1,25 +1,35 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Elixir specific ignores
+*.beam
+*.ez
+.erlang.cookie
+.eunit
+.rebar
+.rebar3
+_build/
+deps/
 
-# Dependencies
-.venv/
-venv/
-.mypy_cache/
-.pytest_cache/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Mix artifacts
+*.lock
+mix/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+# Logs
+*.log
+log/
+
+# Editor/IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
