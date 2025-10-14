@@ -1,8 +1,7 @@
 ```
 # Compiled and build artifacts
-*.class
-*.o
-*.obj
+*.pyc
+__pycache__/
 
 # Dependencies
 .venv/
@@ -23,27 +22,9 @@ node_modules/
 .vscode/
 .idea/
 
-# Build directories
-build/
-dist/
-target/
-
-# Python specific
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Java specific
-*.class
-*.jar
-*.war
-*.ear
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# SQLite
+*.db
+*.db-journal
 
 # OS generated files
 .DS_Store
