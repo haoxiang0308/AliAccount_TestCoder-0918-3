@@ -1,4 +1,5 @@
 ```
-# No build artifacts, dependencies, or temp files detected in changes
-# Only Makefile added, which is a source/config file
+# Thrift generated files
+*.thrift.gen-*/
+gen-*/
 ```
