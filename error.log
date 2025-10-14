@@ -1,0 +1,7 @@
+[2023-10-12 08:15:23] INFO: User login successful for user_123
+[2023-10-12 08:16:45] ERROR: Database connection failed
+[2023-10-12 08:17:01] INFO: Attempting to reconnect...
+[2023-10-12 08:17:02] ERROR: Database connection failed
+[2023-10-12 08:18:33] WARN: High memory usage detected
+[2023-10-12 08:19:10] ERROR: Invalid input received from client
+[2023-10-12 08:20:05] INFO: System check passed
