@@ -1,1 +1,3 @@
-Nothing should be ignored in this case, as only a Python source file (`connect_postgres_abc123.py`) was added without any build artifacts, dependencies, or temporary files.
+(graphql_mutation_iqHDOkQu.graphql is a source file, not a build artifact or temp file, so no .gitignore rules needed)
+
+(empty - output nothing)
