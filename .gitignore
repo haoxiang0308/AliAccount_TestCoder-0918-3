@@ -1,1 +1,1 @@
-Nothing should be ignored in this case, as the only added file is a Vue component file (MyButton.vue), which is a source code file that should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that would require ignoring.
+Nothing should be ignored in this case, as the added file is a source code file (.vba) and there are no build artifacts, dependencies, or temporary files in the changes.
