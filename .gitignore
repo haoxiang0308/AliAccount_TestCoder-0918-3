@@ -1,13 +1,10 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
+# TypeScript/JavaScript build artifacts
+*.tsbuildinfo
+*.js.map
+*.ts.map
 
 # Dependencies
-.venv/
-venv/
 node_modules/
 
 # Logs and temp files
@@ -18,28 +15,20 @@ node_modules/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Coverage
-.coverage
+# Coverage and test reports
 coverage/
 htmlcov/
+*.coverage
+.nyc_output/
 
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Distribution / packaging
-.Python
-*.egg-info/
-.eggs/
+# Distribution/Build directories
 dist/
 build/
-*.egg
+out/
 ```
