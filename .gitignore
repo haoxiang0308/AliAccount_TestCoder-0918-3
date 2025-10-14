@@ -1,4 +1,36 @@
 ```
-# GraphQL schema
-schema.graphql
+# Dependencies
+.dart_tool/
+.packages
+
+# Build outputs
+build/
+*.aar
+*.apk
+*.app
+*.dll
+*.dylib
+*.exe
+*.jar
+*.so
+
+# Logs
+*.log
+**/logs
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
