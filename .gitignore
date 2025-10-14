@@ -1,26 +1,43 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
 
 # Dependencies
-.venv/
-venv/
+Pods/
+Carthage/
+.swift-version
+.xcodeproj/project.xcworkspace/
+.xcodeproj/xcuserdata/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# Test files
-selenium_test_*.py
+# Build
+build/
+DerivedData/
+*.app
+*.ipa
+*.dSYM
+
+# Swift specific
+*.swiftdoc
+*.swiftmodule
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+project.xcworkspace/xcshareddata/
 ```
