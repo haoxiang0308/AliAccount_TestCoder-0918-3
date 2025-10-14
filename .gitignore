@@ -1,4 +1,1 @@
-```
-# GraphQL schema
-schema.graphql
-```
+Nothing to output - the change list contains only a source code file (.java) and no build artifacts, dependencies, or temp files that need to be ignored.
