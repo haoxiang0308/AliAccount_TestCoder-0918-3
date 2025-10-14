@@ -1,38 +1,47 @@
 ```
-# Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.scala
-*.sbt
+# Ansible related
+*.retry
 
-# Dependencies
-lib_managed/
-project/
-target/
-
-# Editors
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Logs and temp files
-*.log
-*.tmp
+# Editors
+.vscode/
+.idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Python (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.venv.bak/
+env.bak/
 
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# OS generated
+.DS_Store
+Thumbs.db
 ```
