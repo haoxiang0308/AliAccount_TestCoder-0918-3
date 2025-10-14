@@ -1,40 +1,36 @@
 ```
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.scalac
-*.tasty
+*.pyc
+__pycache__/
+*.h5
+*.o
+*.obj
 
 # Dependencies
-lib_managed/
-project/
-target/
+.venv/
+venv/
+node_modules/
 
-# Editors
-.idea/
-.vscode/
-
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
 
+# Editors
+.vscode/
+.idea/
+
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
 
-# System files
-.DS_Store
-Thumbs.db
+# Python cache
+.mypy_cache/
+.pytest_cache/
 ```
