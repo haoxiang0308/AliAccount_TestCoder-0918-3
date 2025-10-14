@@ -1,36 +1,5 @@
-```
-# Puppet related
-**/modules/
-**/spec/fixtures/modules/
-**/.tmp/
-**/pkg/
+(book_12345.xml is a source file, not a build artifact, dependency, or temp file - so no ignores needed)
 
-# System files
-.DS_Store
-Thumbs.db
+```gitignore
 
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Build artifacts
-*.pp_compiled
-*.pp.db
-**/target/
-**/dist/
-**/build/
-
-# Dependencies
-**/vendor/
-**/librarian/
 ```
