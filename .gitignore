@@ -1,57 +1,5 @@
-```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+(redis_set_key_8923.py is a source code file, and there are no build artifacts, dependencies, or temporary files in the changes, so no .gitignore rules are needed)
 
-# Dependencies
-lib/
-target/
-build/
-dist/
+```python
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-__pycache__/
-*.pyc
-*.pyo
-.Python
-*.so
-*.egg-info/
-.eggs/
-
-# Java specific
-*.jar
-*.war
-*.ear
-hs_err_pid*
-
-# System files
-.DS_Store
-Thumbs.db
 ```
