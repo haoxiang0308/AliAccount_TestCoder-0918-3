@@ -1,23 +1,81 @@
 ```
-# Compiled files
-*.class
-
-# Dependencies
-__pycache__/
-*.pyc
-*.pyo
-
-# Logs and temp files
-*.log
+# Backup and temporary files
+*~
+*.bak
 *.tmp
 *.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rust-specific ignores
+target/
+Cargo.lock
+*.rs.bk
+*.rs~
+**/user_struct_*.rs
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+# Editor/IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Distribution artifacts
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Python artifacts (if mixed project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Node artifacts (if mixed project)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# MyPy cache
+.mypy_cache/
+.pytest_cache/
+
+# Gradle
+.gradle/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
 ```
