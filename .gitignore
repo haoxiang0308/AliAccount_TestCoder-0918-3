@@ -1,6 +1,7 @@
 ```
-# Dependencies
-node_modules/
+# System files
+.DS_Store
+Thumbs.db
 
 # Logs and temp files
 *.log
@@ -16,65 +17,6 @@ node_modules/
 .vscode/
 .idea/
 
-# Build outputs
-dist/
-build/
-coverage/
-htmlcov/
-*.out
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pipenv.lock
-.recommends
-.mypy_cache/
-.pytest_cache/
-.coverage
-
-# Compiled files
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.jar
-*.war
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Other
-target/
-.gradle/
-*.swp
-*.swo
+# Backup files
+*$(uuidgen)*
 ```
