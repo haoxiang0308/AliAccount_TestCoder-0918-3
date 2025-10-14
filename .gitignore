@@ -1,1 +1,5 @@
-(empty)
+```
+# Thrift generated files
+*.thrift.gen-*/
+gen-*/
+```
