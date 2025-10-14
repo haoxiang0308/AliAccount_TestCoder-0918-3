@@ -1,8 +1,45 @@
 ```
-# R-specific ignores
-*.rds
-*.RData
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
+
+# System
+.DS_Store
+Thumbs.db
+
+# Coverage
+htmlcov/
+.coverage
+
+# Angular specific
+.angular/
 ```
