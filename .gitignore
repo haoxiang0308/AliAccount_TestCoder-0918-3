@@ -1,3 +1,7 @@
 ```
-# Configuration and source files only - no build artifacts, dependencies, or temp files to ignore
+# Temporary files
+*.tmp
+
+# Generated files
+mean_result_*.txt
 ```
