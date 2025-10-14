@@ -1,24 +1,47 @@
 ```
+# Compiled and build artifacts
+*.dll
+*.exe
+*.obj
+*.lib
+*.so
+*.a
+*.class
+*.pyc
+__pycache__/
+
 # Dependencies
-.dart_tool/
-.packages
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
+node_modules/
+venv/
+.venv/
 .env
 .env.local
 *.env.*
 
-# Editor/IDE
-.vscode/
-.idea/
+# Unity specific
+Library/
+Temp/
+Obj/
+Build/
+*.unityproj
+*.sln
+*.userprefs
+*.user
+*.suo
+*.userosscache
+*.unity.testreport
+
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
 
-# Build artifacts
-build/
-dist/
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
