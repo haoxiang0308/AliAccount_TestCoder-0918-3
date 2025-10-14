@@ -1,22 +1,33 @@
 ```
-# Compiled and build artifacts
-*.class
+# Build artifacts
 *.o
 *.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
 # Dependencies
-lib/
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
@@ -30,15 +41,6 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-
-# MyPy
-.mypy_cache/
-
-# PyTest
-.pytest_cache/
-
-# Gradle
-.gradle/
 
 # Compressed files
 *.zip
@@ -59,8 +61,4 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
