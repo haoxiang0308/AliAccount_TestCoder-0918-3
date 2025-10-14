@@ -1,10 +1,31 @@
 ```
-#Temp files
+# Compiled Haskell files
+*.o
+*.hi
+
+# Dependencies and build artifacts
+dist/
+build/
+.cabal-sandbox/
+cabal-dev/
+*.cabal.project.local
+cabal.project.local~
+*.stack-work/
+.stack-work/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
 
-#Random temp files
-.random_filename.txt
-AvdUlI8pNEPh
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 ```
