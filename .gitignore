@@ -1,48 +1,41 @@
-```
-# Compiled Python files
-*.pyc
-__pycache__/
+```julia
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.mem
+*.so
+*.dll
+*.dylib
+*.tar
+*.tar.gz
 
-# Virtual environments
-venv/
-.venv/
+# Build artifacts
+build/
+dist/
+lib/
+deps/
+
+# Package manager
+.julia/
+.JuliaFormatter.toml.bak
+
+# Environment
 .env
 .env.local
-*.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
+.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System files
-.DS_Store
-Thumbs.db
+# Logs and temp files
+*.log
+*.tmp
 
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
-
-# Build artifacts
-dist/
-build/
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-# Package managers
-node_modules/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
 ```
