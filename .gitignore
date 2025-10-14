@@ -1,26 +1,31 @@
 ```
 # Compiled and build artifacts
 *.class
-*.o
-*.obj
+*.jar
+*.war
+*.ear
+*.scala
+*.sbt
 
 # Dependencies
-lib/
+lib_managed/
+project/
 target/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
 
 # System files
 .DS_Store
@@ -30,37 +35,4 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-
-# MyPy
-.mypy_cache/
-
-# PyTest
-.pytest_cache/
-
-# Gradle
-.gradle/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
