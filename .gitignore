@@ -1,1 +1,26 @@
-Nothing should be ignored in this case, as the only added file is a Vue component file (MyButton.vue), which is a source code file that should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that would require ignoring.
+```
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Configuration backup/temp files
+*.ini.bak
+*.ini~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+```
