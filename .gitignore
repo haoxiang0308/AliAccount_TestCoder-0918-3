@@ -1,4 +1,19 @@
 ```
-# GraphQL schema files
-schema.graphql
+# R plots and generated files
+Rplots.pdf
+*.pdf
+
+# Image files (if generated)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# R-specific
+.Rhistory
+.RData
+.Rproj.user/
 ```
