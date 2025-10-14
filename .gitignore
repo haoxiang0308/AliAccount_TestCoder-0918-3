@@ -1,4 +1,1 @@
-```
-# No build artifacts, dependencies, or temp files detected in changes
-# Only Makefile added, which is a source/config file
-```
+Nothing should be ignored since the added files (MyPlayerController.cpp, MyPlayerController.h) are source code files.
