@@ -1,1 +1,1 @@
-(empty)
+Nothing needs to be added to .gitignore for this change list. The added file `current_datetime.ps1` is a PowerShell script file, which is source code that should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
