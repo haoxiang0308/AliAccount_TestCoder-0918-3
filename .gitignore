@@ -1,24 +1,15 @@
 ```
 # Compiled and build artifacts
+*.o
+*.obj
 *.class
-*.jar
-*.war
-*.ear
-*.scala
-*.sbt
+*.pyc
+__pycache__/
 
 # Dependencies
-lib_managed/
-project/
-target/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
+node_modules/
+venv/
+.venv/
 .env
 .env.local
 *.env.*
@@ -26,13 +17,18 @@ target/
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Build directories
+dist/
+build/
+target/
 ```
