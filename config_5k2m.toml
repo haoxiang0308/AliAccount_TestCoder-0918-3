@@ -1,0 +1,20 @@
+# Конфигурация приложения
+
+[app]
+name = "MyAwesomeApp"
+version = "1.0.0"
+debug = true
+
+[app.database]
+host = "localhost"
+port = 5432
+username = "admin"
+password = "secret123"
+
+[app.logging]
+level = "info"
+file = "app.log"
+
+[features]
+new_ui = true
+beta_test = false
