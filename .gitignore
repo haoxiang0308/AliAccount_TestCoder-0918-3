@@ -1,1 +1,1 @@
-Nothing should be ignored since only a source code file (.scala) was added.
+Nothing should be ignored since the only added file is `hello_world.adb` which is a source code file.
