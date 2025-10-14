@@ -1,5 +1,25 @@
-(linear_regression_model_2025.py is a source file, no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-```python
+# Dependencies
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
