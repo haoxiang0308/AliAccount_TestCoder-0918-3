@@ -1,1 +1,3 @@
-Nothing should be ignored based on the provided file changes. The added file 'form_handler_837294.php' is a source code file that should be tracked in version control.
+```
+# Configuration and source files only - no build artifacts, dependencies, or temp files to ignore
+```
