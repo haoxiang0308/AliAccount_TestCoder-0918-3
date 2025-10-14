@@ -1,1 +1,1 @@
-Nothing should be ignored in this case, as only a Java source file was added without any build artifacts, dependencies, or temporary files.
+Nothing should be ignored in this case, as only a Python test file was added without any build artifacts, dependencies, or temporary files.
