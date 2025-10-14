@@ -1,0 +1,1 @@
+Nothing should be ignored based on the provided file changes. The added file `backup_script.sh` is a source script file that should be tracked in version control.
