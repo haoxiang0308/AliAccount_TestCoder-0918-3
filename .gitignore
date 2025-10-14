@@ -1,6 +1,13 @@
 ```
-# CI/CD
-ci_config_*.yml
+# PHP specific
+*.php~
+*.php.bak
+*.php.swp
+
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
 # Logs and temp files
 *.log
@@ -10,34 +17,13 @@ ci_config_*.yml
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
+*.swp
+*.swo
 
 # System files
 .DS_Store
