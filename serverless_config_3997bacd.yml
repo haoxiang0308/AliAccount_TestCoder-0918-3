@@ -1,0 +1,21 @@
+service: my-nodejs-service
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1 # You can change this to your preferred region
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: hello
+          method: get
+
+# You can add more functions here
+
+plugins:
+  - serverless-offline # Optional: for local development
