@@ -1,0 +1,21 @@
+/* 定义一个旋转动画 */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 应用动画到一个元素 */
+.animated-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  /* 指定动画名称、持续时间和重复方式 */
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; /* 确保旋转速度均匀 */
+}
