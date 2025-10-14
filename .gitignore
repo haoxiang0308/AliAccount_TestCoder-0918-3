@@ -1,57 +1,45 @@
 ```
 # Compiled and build artifacts
-*.class
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 
 # Dependencies
-lib/
-target/
-build/
-dist/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
 # Environment
 .env
 .env.local
 *.env.*
 
+# Editors
+.vscode/
+.idea/
+
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
 
 # Python specific
-__pycache__/
-*.pyc
 *.pyo
+*.pyd
 .Python
 *.so
+
+# Distribution / packaging
+.Python
 *.egg-info/
 .eggs/
-
-# Java specific
-*.jar
-*.war
-*.ear
-hs_err_pid*
-
-# System files
-.DS_Store
-Thumbs.db
+dist/
+build/
+*.egg
 ```
