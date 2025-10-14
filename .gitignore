@@ -1,45 +1,26 @@
 ```
+# Compiled and build artifacts
+*.rs.bk
+*.rs~
+
 # Dependencies
-node_modules/
+target/
 
-# Build outputs
-dist/
-build/
-coverage/
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
-.env.
+*.env.*
 
-# Editor/IDE
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*.tmp
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-
-# System
+# OS generated files
 .DS_Store
 Thumbs.db
-
-# Coverage
-htmlcov/
-.coverage
-
-# Angular specific
-.angular/
 ```
