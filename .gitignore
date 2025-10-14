@@ -1,1 +1,26 @@
-(random_script_7870.pl is a source code file, not a build artifact, dependency, or temp file, so no .gitignore rules needed)
+```
+# Compiled and build artifacts
+*.ji
+*.o
+*.obj
+*.out
+
+# Dependencies
+.julia/
+*.julia/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
