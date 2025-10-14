@@ -1,5 +1,1 @@
-(HttpTriggerFunction_5a1b3e9f.cs is a source code file, so no .gitignore rules needed)
-
-```csharp
-
-```
+Nothing should be ignored since the added file 'add_function_12345.lua' is a source code file and no build artifacts, dependencies, or temporary files are present in the changes.
