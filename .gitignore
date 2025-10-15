@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The added file 'create_user_recipe.rb' is a source code file that should be tracked in version control.
+(load_and_summary.R is a source file, so no .gitignore rules needed)
