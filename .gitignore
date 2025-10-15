@@ -1,11 +1,17 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
+# Compiled and build artifacts
+*.rs.bk
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# Configuration files (if generated)
-*.ini
+# Dependencies
+target/
+Cargo.lock
 
 # Logs and temp files
 *.log
@@ -16,29 +22,40 @@
 .vscode/
 .idea/
 
-# Dependencies
-node_modules/
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python (if mixed project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.nox/
 .pytest_cache/
+.mypy_cache/
+.hypothesis/
 
-# Build artifacts
+# Node (if mixed project)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
 dist/
 build/
-target/
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# System files
-.DS_Store
-Thumbs.db
 ```
