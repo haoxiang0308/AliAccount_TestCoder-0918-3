@@ -1,6 +1,63 @@
 ```
-# JSON files that appear to be build artifacts or temporary files
-*.json
+# Compiled and build artifacts
+*.rs.bk
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
-# Preserve any existing rules
+# Dependencies
+target/
+Cargo.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.nox/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Rust specific
+Cargo.lock
+target/
+*.so
+*.dylib
+*.dll
 ```
