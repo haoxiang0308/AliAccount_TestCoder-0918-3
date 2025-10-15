@@ -1,26 +1,35 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Compiled Java/Scala classes
+*.class
 
 # Dependencies
-vendor/
-*.mod
-*.sum
+target/
+lib/
+project/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Editors
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors
-.vscode/
-.idea/
+# Coverage
+coverage/
+htmlcov/
+*.coverage
 
+# OS
+.DS_Store
+Thumbs.db
 ```
