@@ -1,49 +1,54 @@
 ```
-# Build system
-Makefile
-
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
+*.pyc
+__pycache__/
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
+
+# Distribution artifacts
+dist/
+build/
+*.egg-info/
+
+# Python cache
+*.pyo
+*.pyd
+*.so
+*.egg
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Django specific
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
 
 # Compressed files
 *.zip
