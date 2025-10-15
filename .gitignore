@@ -1,22 +1,11 @@
 ```
-# Compiled Haskell files
-*.o
-*.hi
-
-# Dependencies and build artifacts
-dist/
-build/
-.cabal-sandbox/
-cabal-dev/
-*.cabal.project.local
-cabal.project.local~
-*.stack-work/
-.stack-work/
-
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
+
+# Configuration files (if generated)
+*.ini
 
 # Logs and temp files
 *.log
@@ -26,6 +15,30 @@ cabal.project.local~
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Build artifacts
+dist/
+build/
+target/
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
 ```
