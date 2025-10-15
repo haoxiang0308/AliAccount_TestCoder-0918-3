@@ -1,4 +1,4 @@
 ```
-# GraphQL schema files
-schema.graphql
+# Compiled and build artifacts
+*.m
 ```
