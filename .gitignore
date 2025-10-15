@@ -1,5 +1,4 @@
 ```
-# Thrift generated files
-*.thrift.gen-*
-gen-*/
+# JSON data files
+*.json
 ```
