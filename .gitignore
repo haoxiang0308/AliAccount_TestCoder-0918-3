@@ -1,26 +1,18 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-vendor/
-*.mod
-*.sum
+*.pl~
 
 # Logs and temp files
-*.log
 *.tmp
 *.swp
+*.log
 
 # Environment
 .env
 .env.local
-.env.*
+.env.
 
 # Editors
 .vscode/
 .idea/
-
 ```
