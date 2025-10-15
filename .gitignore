@@ -4,6 +4,7 @@
 __pycache__/
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
@@ -27,20 +28,25 @@ venv/
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Build directories
+dist/
+build/
+target/
+.gradle/
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Build directories
-dist/
-build/
-target/
-.gradle/
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+.PyInstaller/
 
 # Compressed files
 *.zip
@@ -65,4 +71,8 @@ target/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# System files
+.DS_Store
+Thumbs.db
 ```
