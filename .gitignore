@@ -1,65 +1,66 @@
 ```
-# Dependencies
-node_modules/
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.pyc
+*.pyo
+*.pyd
 
-# Build artifacts
-dist/
+# Dependencies
+lib/
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Build directories
 build/
-*.js
-*.ts
+dist/
+out/
+
+# Gradle
+.gradle/
+!gradle/
+!gradlew
+!gradlew.bat
+
+# Kotlin/JVM
+*.class
+*.jar
+*.war
+*.ear
+*.kotlin_metadata
+*.kotlin_builtins
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Editors
-.vscode/
-.idea/
+*.swo
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# MyPy
-.mypy_cache/
-
-# Pytest
-.pytest_cache/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# System
+.DS_Store
+Thumbs.db
 ```
