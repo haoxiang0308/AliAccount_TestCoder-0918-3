@@ -1,26 +1,37 @@
-```
+```crystal
 # Compiled and build artifacts
-*.ji
 *.o
 *.obj
+*.so
+*.a
+*.dll
+*.exe
 *.out
 
 # Dependencies
-.julia/
-*.julia/
-build/
+lib/
+deps/
+.crystal/
+.sass-cache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build directories
+build/
+dist/
+target/
 ```
