@@ -1,5 +1,12 @@
 ```
-# Thrift generated files
-*.thrift.gen-*/
-gen-*/
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Executables
+swap_and_save
+
+# Swap result files
+swap_result_*.txt
 ```
