@@ -1,0 +1,17 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the specified service
+      systemd:
+        name: "{{ service_name | default('apache2') }}"
+        state: restarted
+      notify: 
+        - verify service is running
+
+  handlers:
+    - name: verify service is running
+      systemd:
+        name: "{{ service_name | default('apache2') }}"
+        state: started
