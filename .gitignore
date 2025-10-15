@@ -1,5 +1,30 @@
-(HttpTriggerFunction_5a1b3e9f.cs is a source code file, so no .gitignore rules needed)
+```
+# Compiled and build artifacts
+*.fsi
+*.fsx
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.out
 
-```csharp
+# Dependencies
+.paket/
+packages/
+bin/
+obj/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
