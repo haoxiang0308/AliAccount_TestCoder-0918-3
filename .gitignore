@@ -1,5 +1,41 @@
 ```
-# Thrift generated files
-*.thrift.gen-*
-gen-*/
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+.Packages/
+.build/
+DerivedData/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.pbxuser
+*.mode1v3
+*.perspectivev3
+*.xcuserstate
+*.xccheckout
+*.playground/
+build/
 ```
