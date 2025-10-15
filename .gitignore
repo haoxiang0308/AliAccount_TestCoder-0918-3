@@ -1,45 +1,14 @@
 ```
-# Dependencies
-node_modules/
+# Julia installation
+julia-*/
 
-# Build outputs
-dist/
-build/
-coverage/
+# Julia compiled files
+*.ji
+*.so
+
+# Compressed files
+*.tar.gz
 
 # Logs
 *.log
-
-# Environment
-.env
-.env.local
-.env.
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-
-# System
-.DS_Store
-Thumbs.db
-
-# Coverage
-htmlcov/
-.coverage
-
-# Angular specific
-.angular/
 ```
