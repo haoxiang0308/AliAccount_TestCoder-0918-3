@@ -1,32 +1,40 @@
 ```
-# Compiled files
-*.m
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
+# Compiled and build artifacts
+*.o
+*.obj
+*.class
+*.pyc
+__pycache__/
+*.swiftmodule
+*.swiftdoc
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
+.env
+.env.local
+.env.*
+
+# Build directories
 build/
+dist/
 target/
 .gradle/
+.cargo/
+.packages/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
