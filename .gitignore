@@ -1,1 +1,7 @@
-(todo_9124.md is a source/markdown file, so no ignores needed)
+```
+# XML files
+*.xml
+
+# If this is a generated file, consider ignoring it
+student_*.xml
+```
