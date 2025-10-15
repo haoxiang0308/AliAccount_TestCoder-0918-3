@@ -1,54 +1,47 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
 
 # Dependencies
+node_modules/
 .venv/
 venv/
-node_modules/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# Coverage reports
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
 coverage/
 htmlcov/
 .coverage
-
-# Distribution artifacts
-dist/
-build/
-*.egg-info/
-
-# Python cache
-*.pyo
-*.pyd
-*.so
-*.egg
-
-# MyPy cache
-.mypy_cache/
-
-# Pytest cache
-.pytest_cache/
-
-# Django specific
-*.sqlite3
-db.sqlite3
-media/
-staticfiles/
 
 # Compressed files
 *.zip
