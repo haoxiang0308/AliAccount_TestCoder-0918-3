@@ -1,44 +1,35 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# Kubernetes/Docker related
+*.yaml
+*.yml
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-dist/
+# If this is a Kubernetes project with potential build artifacts
 build/
+dist/
 target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
+
+# Dependencies (if any)
+node_modules/
+venv/
+.venv/
+__pycache__/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-*.swo
 
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
+# Editor files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# System
+# System files
 .DS_Store
 Thumbs.db
 
@@ -46,6 +37,13 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
 
 # Compressed files
 *.zip
