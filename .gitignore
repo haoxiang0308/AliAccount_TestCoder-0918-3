@@ -1,4 +1,40 @@
 ```
-# JSON data files
-*.json
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+build/
+dist/
+target/
+bin/
+
+# Package managers
+node_modules/
+vendor/
 ```
