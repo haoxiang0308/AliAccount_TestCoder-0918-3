@@ -1,1 +1,3 @@
-Nothing should be ignored based on the provided file changes, as only a Scala source file was added without any build artifacts, dependencies, or temporary files.
+```
+# GraphQL files are source code - not ignoring them
+```
