@@ -1,0 +1,25 @@
+---
+- name: Restart a service
+  hosts: all
+  become: yes
+  tasks:
+    - name: Restart service
+      systemd:
+        name: "{{ service_name | default('httpd') }}"
+        state: restarted
+      notify: wait for service
+
+    - name: Wait for service to be active
+      wait_for:
+        path: /var/run/{{ service_name | default('httpd') }}.pid
+        state: present
+        timeout: 300
+      delegate_to: localhost
+
+  handlers:
+    - name: wait for service
+      wait_for:
+        port: "{{ service_port | default(80) }}"
+        host: "{{ inventory_hostname }}"
+        delay: 10
+        timeout: 300
