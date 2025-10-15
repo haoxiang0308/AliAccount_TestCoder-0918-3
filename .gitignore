@@ -1,1 +1,36 @@
-Nothing should be ignored based on the provided file changes. The added file (README.md) is a source/config file and should not be ignored.
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+
+# Dependencies
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
+```
