@@ -1,3 +1,3 @@
-(form_5566.html is a source file, not a build artifact, dependency, or temp file, so no .gitignore rules are needed)
-
-(empty — output nothing)
+```
+*.hcl
+```
