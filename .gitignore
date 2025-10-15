@@ -1,38 +1,4 @@
 ```
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.scala
-*.sbt
-
-# Dependencies
-lib_managed/
-project/
-target/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
+*.css
 ```
