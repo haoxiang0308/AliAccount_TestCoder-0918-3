@@ -1,14 +1,19 @@
 ```
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.mod
-*.smod
-*.exe
+*.js.map
+*.min.js
 
 # Dependencies
-build/
-dist/
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
@@ -19,15 +24,9 @@ dist/
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.gcda
-*.gcno
+# Test files
+*.test.js
+*.spec.js
+test/
+tests/
 ```
