@@ -1,1 +1,1 @@
-Nothing should be ignored since the only added file is `hello_world.adb` which is a source code file.
+(recipe_git_install.rb is a source code file, not a build artifact, dependency, or temp file, so no .gitignore rules are needed)
