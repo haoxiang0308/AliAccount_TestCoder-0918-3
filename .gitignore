@@ -1,1 +1,15 @@
-Nothing should be ignored in this case, as the added file is a source code file (.vba) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Package manager
+package-lock.json
+```
