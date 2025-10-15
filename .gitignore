@@ -1,32 +1,7 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.js.map
-*.min.js
+# Assembly files - if they are build artifacts
+*.asm
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Test files
-*.test.js
-*.spec.js
-test/
-tests/
+# If this is a generated file, you might want to ignore it
+asm_*.asm
 ```
