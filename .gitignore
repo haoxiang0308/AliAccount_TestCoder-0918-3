@@ -1,1 +1,60 @@
-Nothing should be ignored since the only added file is `hello_world.adb` which is a source code file.
+```
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+*.exe
+
+# Dependencies
+octave-workspace/
+__pycache__/
+*.egg-info/
+build/
+dist/
+*.egg
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+.nyc_output/
+*.gcda
+*.gcno
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nib
+*~
+```
+
+Wait, I need to reconsider. The added files are `.m` files (MATLAB/Octave), and there are no build artifacts, dependency directories, or temporary files in the change list. The `.m` files are source code files that should not be ignored.
+
+```
+
+```
