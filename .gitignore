@@ -1,1 +1,37 @@
-Nothing to ignore - the added file `rotating_animation_9274.css` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.vcd
+*.vvp
+*.bin
+*.out
+*.obj
+*.o
+
+# Dependencies
+*.lib
+*.a
+*.so
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Simulation and synthesis tools
+*.fst
+*.ghw
+*.sdf
+*.sdc
+*.svf
+*.tcl
+*.xdc
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
