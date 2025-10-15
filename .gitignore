@@ -1,26 +1,19 @@
 ```
-# Dependencies
-node_modules/
-
-# Build artifacts
-dist/
-build/
-*.js
-*.ts
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
+# Environment files
 .env
 .env.local
 .env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Editor/IDE files
+.vscode/
+.idea/
 
 # Python
 __pycache__/
@@ -28,18 +21,28 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Coverage
+# Dependencies
+node_modules/
+venv/
+.venv/
+pip-log.txt
+pipenv.lock
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# MyPy
-.mypy_cache/
-
-# Pytest
-.pytest_cache/
-
-# Compressed files
+# Compression files
 *.zip
 *.gz
 *.tar
