@@ -1,1 +1,9 @@
-Nothing should be ignored in this case, as the added file is a source code file (.nim) and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Database config (if it contains sensitive info)
+db_config_*
+```
