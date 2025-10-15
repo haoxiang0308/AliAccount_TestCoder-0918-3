@@ -1,0 +1,10 @@
+2023-01-01 10:00:00 INFO Application started
+2023-01-01 10:01:00 ERROR Database connection failed
+2023-01-01 10:02:00 WARNING Low disk space
+2023-01-01 10:03:00 ERROR Failed to process request
+2023-01-01 10:04:00 INFO User login successful
+2023-01-01 10:05:00 ERROR Invalid input received
+2023-01-01 10:06:00 INFO Processing completed
+2023-01-01 10:07:00 ERROR Timeout occurred
+2023-01-01 10:08:00 WARNING Memory usage high
+2023-01-01 10:09:00 ERROR Connection lost
