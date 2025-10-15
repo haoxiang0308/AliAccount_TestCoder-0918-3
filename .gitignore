@@ -1,30 +1,27 @@
 ```
-# Kubernetes/YAML related
-*.yaml
-*.yml
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
 
-# If this is a Node.js project deployment
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
-*~
-```
 
-Wait, let me reconsider. The only file added is `nodejs-deployment.yaml` which appears to be a Kubernetes deployment configuration file. This is a source/config file, not a build artifact, dependency, or temporary file. According to rule #6, if the change list contains only source or config files and no build artifacts, dependencies, or temp files, I should output an empty .gitignore.
+# Environment
+.env
+.env.local
+.env.*
 
-```
+# Editors
+.vscode/
+.idea/
 
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
