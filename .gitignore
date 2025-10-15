@@ -1,4 +1,1 @@
-```
-# JSON data files
-*.json
-```
+Nothing should be ignored since only Python source files (.py) were added.
