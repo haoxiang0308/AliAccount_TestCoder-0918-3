@@ -1,15 +1,7 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
 
-# Editors
-.vscode/
-.idea/
+# Generated files
+*_*.json
 ```
