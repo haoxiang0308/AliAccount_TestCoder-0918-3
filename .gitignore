@@ -1,8 +1,4 @@
 ```
-# R-specific ignores
-*.rds
-*.RData
-*.Rhistory
-*.Rproj.user/
-.Rproj.user/
+# Build system
+compile_rule.mk
 ```
