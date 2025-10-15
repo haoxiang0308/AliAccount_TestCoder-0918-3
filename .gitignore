@@ -1,29 +1,24 @@
 ```
-# Verilog build artifacts
-*.vcd
-*.fst
-*.ghw
-*.vvp
-*.bin
-*.obj
-*.log
+# VBA/Office files
+*.vba
+*.bas
+*.cls
+*.frm
+*.vbp
+
+# Temporary files
 *.tmp
+*.temp
+*.log
 
-# Simulation and synthesis outputs
-sim/
-sim_build/
-build/
-target/
-*.out
-*.exe
-
-# IDE and editor files
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment and config
+.env
+.env.local
+*.env.*
 ```
