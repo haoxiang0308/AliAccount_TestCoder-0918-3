@@ -1,5 +1,4 @@
 ```
-# Thrift generated files
-*.thrift.gen-*/
-gen-*/
+# Compiled and build artifacts
+*.m
 ```
