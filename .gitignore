@@ -1,0 +1,46 @@
+```perl
+# Perl-specific ignores
+*.pl~
+*.plx~
+*.pm~
+*.pod~
+*.t~
+*.cgi~
+*.fcgi~
+
+# Compiled files
+*.o
+*.obj
+*.out
+*.so
+*.dll
+*.a
+*.lib
+
+# Dependencies
+lib/
+blib/
+pm_to_blib
+*.tar.gz
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage and testing
+.coverage
+htmlcov/
+coverage/
+*.prof
+```
