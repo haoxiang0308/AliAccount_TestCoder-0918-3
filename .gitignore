@@ -1,43 +1,8 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.a
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
+# Configuration and compose files
+*.yml
+*.yaml
 
-# Dependencies
-Pods/
-Carthage/
-.swift-version
-.xcodeproj/project.xcworkspace/
-.xcodeproj/xcuserdata/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Build
-build/
-DerivedData/
-*.app
-*.ipa
-*.dSYM
-
-# Swift specific
-*.swiftdoc
-*.swiftmodule
-
-# Xcode
-*.xcodeproj/xcuserdata/
-*.xcworkspace/xcuserdata/
-project.xcworkspace/xcshareddata/
+# Docker
+docker-compose.yml
 ```
