@@ -1,34 +1,36 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.class
 *.pyc
 __pycache__/
-*.swiftmodule
-*.swiftdoc
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-.env
-.env.local
-.env.*
-
-# Build directories
-build/
+venv/
+node_modules/
 dist/
+build/
 target/
 .gradle/
-.cargo/
-.packages/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
