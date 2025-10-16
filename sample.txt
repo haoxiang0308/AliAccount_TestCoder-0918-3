@@ -1,0 +1,5 @@
+This is a sample text file.
+This file contains several words.
+Some words appear more than once.
+Words like sample, text, and file appear multiple times in this file.
+The script should count how many times each word appears.
