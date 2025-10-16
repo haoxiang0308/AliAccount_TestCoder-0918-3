@@ -1,9 +1,11 @@
 ```
-# Dependencies
+# Compiled Python files
 *.pyc
 __pycache__/
 
-# Environment
+# Virtual environments
+venv/
+.venv/
 .env
 .env.local
 *.env.*
@@ -19,27 +21,29 @@ __pycache__/
 .vscode/
 .idea/
 
-# Build artifacts
-dist/
-build/
-*.o
-*.obj
-*.so
-*.a
-*.dll
-*.exe
-*.out
-
-# Coverage
-.coverage
+# Coverage reports
 coverage/
 htmlcov/
+.coverage
 
 # Python cache
-.mypy_cache/
-.pytest_cache/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
 
-# System files
+# Distribution / packaging
+dist/
+build/
+*.egg
+*.egg-info/
+*.so
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+
+# OS generated files
 .DS_Store
 Thumbs.db
 ```
