@@ -1,31 +1,4 @@
 ```
-# Ruby related ignores
-*.gem
-*.rbc
-**/Gemfile.lock
-.bundle/
-vendor/bundle/
-vendor/cache/
-vendor/gems/
-vendor/ruby/
-
-# Dependencies
-lib/bundler/man/
-
-# System and editor files
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
+# Compiled and build artifacts
+*.cr
 ```
