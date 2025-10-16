@@ -1,3 +1,28 @@
-(linear_regression_model_12345.py is a source code file, so no .gitignore rules needed)
+```
+# Compiled files
+*.plc
+*.plx
 
-(empty - output nothing)
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
