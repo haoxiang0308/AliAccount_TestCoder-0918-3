@@ -1,29 +1,40 @@
 ```
-# Kubernetes/Docker related
-*.yaml
-*.yml
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.class
+*.out
 
-# If this is a Kubernetes project with potential build artifacts
-build/
-dist/
-target/
-
-# Dependencies (if any)
+# Dependencies
 node_modules/
 venv/
 .venv/
-__pycache__/
+.env
+.env.local
+.env.*
+
+# Build directories
+dist/
+build/
+target/
+*.tar*
+*.zip
+*.gz
+*.rar
+*.7z
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+*.swo
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor files
+# Editors
 .vscode/
 .idea/
 *.swp
@@ -40,10 +51,72 @@ htmlcov/
 
 # Python specific
 *.pyc
+__pycache__/
 *.pyo
 *.pyd
 .Python
 *.so
+.Python
+*.egg-info/
+.eggs/
+
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*
+!.env.example
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Test and coverage
+coverage/
+.nyc_output/
+coverage-final.json
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Distribution / packaging
+.Python
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+*.tar*
+*.zip
+*.gz
+*.rar
+*.7z
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyTest
+.pytest_cache/
+
+# Gradle
+.gradle/
+build/
 
 # Compressed files
 *.zip
