@@ -1,24 +1,19 @@
 ```
 # Compiled and build artifacts
-*.class
 *.o
 *.obj
+*.mod
+*.exe
 
 # Dependencies
-target/
-.gradle/
+build/
+dist/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
 
 # Editors
 .vscode/
 .idea/
-
-# Environment
-.env
-.env.local
-.env.*
 ```
