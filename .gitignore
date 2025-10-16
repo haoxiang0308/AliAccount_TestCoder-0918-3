@@ -1,1 +1,21 @@
-Nothing should be ignored since only a source code file (.py) was added.
+```
+# Temporary files
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Docker
+docker-compose-*.yml
+```
