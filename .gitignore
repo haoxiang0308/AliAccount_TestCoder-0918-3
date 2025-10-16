@@ -1,14 +1,15 @@
-```
+```julia
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.ji
 *.o
-*.obj
+*.so
+*.dylib
+*.dll
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+.julia/
+deps/
+test/
 
 # Logs and temp files
 *.log
@@ -18,26 +19,20 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage
-.coverage
+# Coverage and testing
 coverage/
 htmlcov/
+.coverage
 
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-*.egg
-
-# Python
-*.pyc
-__pycache__/
-.pytest_cache/
-.mypy_cache/
+# System files
+.DS_Store
+Thumbs.db
 ```
