@@ -1,18 +1,33 @@
 ```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
+# Compiled files
+*.nimble
+*.nims
+*.so
+*.dll
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dylib
+*.jar
+
+# Build directories
+build/
+dist/
+target/
+.nimble/
+nimcache/
 
 # Dependencies
-.terraform.lock.hcl
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
+*.temp
+*.swp
+*.swo
 
 # Environment
 .env
@@ -25,7 +40,12 @@
 *.swp
 *.swo
 
-# OS
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
 .DS_Store
 Thumbs.db
 ```
