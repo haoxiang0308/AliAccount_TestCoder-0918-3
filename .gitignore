@@ -1,26 +1,36 @@
 ```
 # Compiled and build artifacts
+*.cmi
+*.cmo
+*.cmx
+*.cma
+*.cmxa
+*.exe
+*.out
 *.o
 *.obj
-*.out
 
 # Dependencies
-vendor/
-*.mod
-*.sum
+.opam/
+_dune/
+esy.lock/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
+# OCaml specific
+*.annot
+*.spot
+*.spit
+*.cmt
+*.cmti
+*.merlin
 ```
