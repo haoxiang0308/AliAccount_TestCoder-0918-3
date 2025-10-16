@@ -1,1 +1,44 @@
-Nothing to output - the change list contains only a source code file (.scala) and no build artifacts, dependencies, or temp files that need to be ignored.
+```
+# JSON data files
+*.json
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Build artifacts
+dist/
+build/
+target/
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
+```
