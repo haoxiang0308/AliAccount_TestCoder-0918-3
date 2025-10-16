@@ -1,29 +1,19 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-.Packages/
-.build/
-DerivedData/
-
-# Logs and temp files
+*.vcd
+*.fst
 *.log
 *.tmp
-*.swp
 
-# Environment
-.env
-.env.local
-*.env.*
+# Simulation and synthesis outputs
+sim/
+syn/
+work/
+*.out
+*.bin
+*.hex
 
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Project specific temp files
+*.bak
+*~
 ```
