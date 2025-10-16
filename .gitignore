@@ -1,23 +1,32 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-vendor/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Environment
-.env
-.env.local
-*.env.*
+# Generated from file changes
+# Thrift generated files
+*.thrift.g
+*.thrift.c
+*.thrift.h
+*.thrift.js
+*.thrift.py
+*.thrift.java
+*.thrift.rb
+*.thrift.php
+*.thrift.perl
+*.thrift.cpp
+*.thrift.go
+*.thrift.csharp
+*.thrift.swift
+*.thrift.sdl
+*.thrift.st
+*.thrift.d
+*.thrift.js
+*.thrift.py
+*.thrift.rb
+*.thrift.php
+*.thrift.perl
+*.thrift.cpp
+*.thrift.go
+*.thrift.csharp
+*.thrift.swift
+*.thrift.sdl
+*.thrift.st
+*.thrift.d
 ```
