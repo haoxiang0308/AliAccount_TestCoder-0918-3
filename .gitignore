@@ -1,26 +1,27 @@
 ```
 # Compiled and build artifacts
+*.class
 *.o
 *.obj
-*.hi
 
 # Dependencies
-.cabal-sandbox/
-dist/
-dist-newstyle/
-.stack-work/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
