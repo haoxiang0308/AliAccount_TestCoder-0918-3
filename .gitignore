@@ -1,32 +1,112 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.js.map
-*.min.js
-
-# Dependencies
-node_modules/
-venv/
-.venv/
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Logs and temp files
+# Logs and temporary files
 *.log
 *.tmp
 *.swp
 
-# Editors
+# Editors and IDEs
 .vscode/
 .idea/
 
-# Test files
-*.test.js
-*.spec.js
-test/
-tests/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.gitattributes
+.next
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+.eggs/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+pypy-*
+.Python
+env/
+venv/
+.venv/
+pyvenv.cfg
+pip-selfcheck.json
+
+# Build and distribution artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.egg
+*.tar.gz
+*.whl
+*.zip
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+*:Zone.Identifier
+desktop.ini
+*.nib
+*~.nib
+localization-preferences.plist
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+*:Zone.Identifier
+desktop.ini
+*.nib
+*~.nib
+localization-preferences.plist
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+
+# JSON files that might be temporary
+*.json
 ```
