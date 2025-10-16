@@ -1,26 +1,40 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.hi
-
-# Dependencies
-.cabal-sandbox/
-dist/
-dist-newstyle/
-.stack-work/
+*.pyc
+__pycache__/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-.env.*
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 ```
