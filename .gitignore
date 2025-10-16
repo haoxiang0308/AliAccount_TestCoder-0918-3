@@ -1,4 +1,55 @@
 ```
-# GraphQL schema files
-schema.graphql
+# Compiled files
+*.mex*
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+*.exe
+
+# MATLAB specific
+*.mat
+*.fig
+*.mlock
+@*/
+
+# Dependencies and build artifacts
++*/
+private/
+build/
+dist/
+*._mex.*
+*.mex*
+*.mexa64
+*.mexw64
+*.mexmaci64
+*.mexglx
+*.mexsol
+*.dll
+*.so
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 ```
