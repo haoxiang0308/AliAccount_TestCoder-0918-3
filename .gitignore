@@ -1,1 +1,32 @@
-Nothing should be ignored based on the provided file changes. The added file 'pymongo_insert_au1vqa.py' is a source code file that should be tracked in version control.
+```
+# Compiled files
+*.class
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+target/
+```
