@@ -1,5 +1,7 @@
 ```
 # Compiled and build artifacts
+*.cr
+*.deb
 *.o
 *.obj
 *.exe
@@ -9,43 +11,58 @@
 *.out
 
 # Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 target/
-Cargo.lock
+.gradle/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+.env.*
+
 # Editors
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
+# System files
+.DS_Store
+Thumbs.db
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Python specific
-__pycache__/
-*.pyc
-*.pyo
-.Python
-*.so
-*.egg-info/
-.eggs/
-
-# Rust specific
-**/*.rs.bk
-```
-
-Wait, I need to reconsider this. The only file added is `ownership_demo_x7k9p.rs` which is a Rust source file. There are no build artifacts, dependency directories, or temporary files in the change list that would warrant adding ignore rules. The file changes only include a single Rust source file.
-
-```
-
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
