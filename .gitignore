@@ -1,11 +1,71 @@
 ```
-# SQL query files - assuming these might be generated
-*.sql
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-# If this is a database project, you might want to preserve the .sql file
-# In which case, no .gitignore content is needed for this specific change
+# Dependencies
+.venv/
+venv/
+node_modules/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
-
-Wait, let me reconsider: `insert_query_9350.sql` appears to be a source SQL file that was added. SQL files are typically source code files, not build artifacts, so they should not be ignored unless they are clearly generated files. Since this looks like a regular SQL file (not a build artifact), no .gitignore rules are needed.
-
-(empty - output nothing)
