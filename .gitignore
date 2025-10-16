@@ -1,46 +1,63 @@
 ```
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
-*.bin
-*.hex
-*.vcd
-*.fst
-*.ghw
-*.vvp
 
 # Dependencies
-lib/
-deps/
-build/
-_dist/
-_output/
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
-*.bak
-*.backup
-
-# Simulation and synthesis tools
-*.pb
-*.d
-*.cache
-.sdf
-.sv
-.vcd
-.fst
-.vvp
+*.swp
+*.swo
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Environment
-.env
-.env.local
-.env.*
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
