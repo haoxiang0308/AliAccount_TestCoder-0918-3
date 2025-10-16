@@ -1,12 +1,31 @@
 ```
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.out
 
-# Executables
-swap_and_save
+# Dependencies
+.venv/
+venv/
+node_modules/
 
-# Swap result files
-swap_result_*.txt
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Distribution and build directories
+dist/
+build/
+target/
 ```
