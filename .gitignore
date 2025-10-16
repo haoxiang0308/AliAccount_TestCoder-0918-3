@@ -1,1 +1,22 @@
-Nothing should be ignored since the added files are Python source files (.py) which are source code and should be tracked in version control.
+```
+# Thrift generated files
+*.thrift.g
+*.thrift.c
+*.thrift.h
+*.thrift.js
+*.thrift.py
+*.thrift.java
+*.thrift.rb
+*.thrift.php
+*.thrift.perl
+*.thrift.cpp
+*.thrift.go
+*.thrift.csharp
+*.thrift.swift
+*.thrift.d
+*.thrift.js
+*.thrift.st
+*.thrift.erl
+*.thrift.rs
+*.thrift.ts
+```
