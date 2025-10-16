@@ -1,34 +1,7 @@
-```ts
-// Example .gitignore for TypeScript project
-# Dependencies
-node_modules/
-
-# Build outputs
-dist/
-build/
-out/
-
-# Runtime data
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Coverage
-coverage/
-.nyc_output/
+```
+# Generated from file changes
+# Thrift generated files
+*.thrift.g.h
+*.thrift.g.cpp
+gen-*/
 ```
