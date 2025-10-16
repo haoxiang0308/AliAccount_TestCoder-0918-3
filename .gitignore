@@ -1,87 +1,74 @@
 ```
-# Compiled Java files
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 *.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-lib/
-libs/
-target/
-build/
-
-# IDE files
-.vscode/
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# Temp files
-*.tmp
-*.temp
-*~
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Environment
+node_modules/
+venv/
+.venv/
 .env
 .env.local
-*.env.*
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Python (if Python project)
-__pycache__/
-*.pyc
-*.pyo
-.Python
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage*
-.nox/
-.pytest_cache/
-.mypy_cache/
-
-# Node.js (if Node.js project)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-node_modules/
+# Build directories
 dist/
 build/
+target/
+.gradle/
 
-# Go (if Go project)
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-*.test
-*.prof
-vendor/
-Godeps/
+# Python specific
+.mypy_cache/
+.pytest_cache/
 
-# C/C++ (if C/C++ project)
-*.o
-*.a
-*.obj
-*.out
-*.dll
-*.so
-*.dylib
-*.dSYM/
-*.dSYM.zip
-CMakeFiles/
-CMakeCache.txt
-cmake_install.manifest
-Makefile
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
