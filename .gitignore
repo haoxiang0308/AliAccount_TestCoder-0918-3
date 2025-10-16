@@ -1,1 +1,23 @@
-Nothing should be ignored based on the provided file changes. The added file 'create_user_recipe.rb' is a source code file that should be tracked in version control.
+```
+# Generated from file changes
+# Thrift generated files
+*.thrift.g
+*.thrift.c
+*.thrift.h
+*.thrift.js
+*.thrift.py
+*.thrift.java
+*.thrift.rb
+*.thrift.php
+*.thrift.perl
+*.thrift.cpp
+*.thrift.go
+*.thrift.d
+*.thrift.csharp
+*.thrift.st
+*.thrift.erl
+*.thrift.rs
+*.thrift.swift
+*.thrift.ts
+*.thrift
+```
