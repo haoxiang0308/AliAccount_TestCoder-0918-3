@@ -1,1 +1,23 @@
-Nothing needs to be added to .gitignore for this change list. The added file `disk_usage_alert.sh` is a shell script source file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+```
