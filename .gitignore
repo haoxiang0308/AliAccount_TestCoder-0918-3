@@ -1,15 +1,18 @@
 ```
-# Compiled and build artifacts
-*.css.map
-*.css.gz
-*.css.br
+# Compiled files
+*.plc
+*.plx
 
-# Temp files
-*.tmp
-*.temp
+# Dependencies
+lib/
+local/
+perl5/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
@@ -22,44 +25,8 @@
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Dependency directories
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
+# Backup files
+*~
+*.bak
+*.old
 ```
