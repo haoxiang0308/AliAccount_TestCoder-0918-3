@@ -1,11 +1,1 @@
-```
-# SQL query files - assuming these might be generated
-*.sql
-
-# If this is a database project, you might want to preserve the .sql file
-# In which case, no .gitignore content is needed for this specific change
-```
-
-Wait, let me reconsider: `insert_query_9350.sql` appears to be a source SQL file that was added. SQL files are typically source code files, not build artifacts, so they should not be ignored unless they are clearly generated files. Since this looks like a regular SQL file (not a build artifact), no .gitignore rules are needed.
-
-(empty - output nothing)
+Nothing should be ignored based on the provided file changes. The added file 'HttpTriggerFunction.cs' is a source code file that should be tracked in version control.
