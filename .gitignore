@@ -1,27 +1,55 @@
 ```
 # Compiled and build artifacts
-*.beam
-*.app
-*.appup
-*.rel
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.out
 
 # Dependencies
-deps/
-_build/
-ebin/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+.venv/
+venv/
+node_modules/
+dist/
+build/
+*.egg-info/
+.Python
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
+*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+*.pyc
+*~
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# Django specific
+*.pyc
+__pycache__/
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
 ```
