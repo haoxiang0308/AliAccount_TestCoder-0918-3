@@ -1,7 +1,16 @@
 ```
-# Assembly files - if they are build artifacts
-*.asm
+# Puppet related
+*.pp.bak
+*.pp~*
 
-# If this is a generated file, you might want to ignore it
-asm_*.asm
+# Temporary files
+*.tmp
+*.bak
+*~
+```
+
+Wait, let me reconsider this more carefully. The file `apache_install_a664aa89fd8f4ef5a6dab9fad435bbb5.pp` appears to be a Puppet manifest file, but it's not a build artifact or temporary file - it's a source file with a unique hash in the name. Without seeing other Puppet-related files or build artifacts, I should not ignore this source file.
+
+Actually, reconsidering: this appears to be a Puppet manifest file that might be generated or temporary in nature due to the hash in the filename. But without other clear build artifacts, and since Puppet files are typically source files, I'll output nothing.
+
 ```
