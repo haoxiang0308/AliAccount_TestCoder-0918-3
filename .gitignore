@@ -1,32 +1,22 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# VBA/Excel related files
+*.vba
+*.bas
+*.frm
+*.cls
+*.vbs
 
-# Dependencies
-vendor/
+# Excel files that might be generated
+*.xlsm
+*.xlsb
+*.xlam
 
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Distribution / packaging
-.DS_Store
+*.temp
+~$*
 Thumbs.db
+
+# Logs
+*.log
 ```
