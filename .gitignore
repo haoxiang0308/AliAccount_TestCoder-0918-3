@@ -1,3 +1,4 @@
 ```
-*.hcl
+# Compiled files
+*.fs
 ```
