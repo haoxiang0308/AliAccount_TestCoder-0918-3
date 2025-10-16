@@ -1,5 +1,1 @@
-```
-# Temporary query files
-query_tmp.*.sql
-*.sql
-```
+(restart_service_playbook.yml is a source/config file, no build artifacts, dependencies, or temp files in the changes - output nothing)
