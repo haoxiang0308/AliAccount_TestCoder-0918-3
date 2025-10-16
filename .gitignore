@@ -3,13 +3,10 @@
 *.class
 *.o
 *.obj
-*.out
 
 # Dependencies
-venv/
-.venv/
-__pycache__/
-*.pyc
+*.jar
+target/
 
 # Logs and temp files
 *.log
@@ -24,13 +21,4 @@ __pycache__/
 .env
 .env.local
 *.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System files
-.DS_Store
-Thumbs.db
 ```
