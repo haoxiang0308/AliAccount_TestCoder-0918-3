@@ -1,5 +1,17 @@
 ```
-# Temporary query files
-query_tmp.*.sql
-*.sql
+# Compiled and build artifacts
+*.pp
+
+# Logs and temp files
+*.tmp
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
