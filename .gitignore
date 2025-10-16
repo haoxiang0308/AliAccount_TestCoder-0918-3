@@ -1,5 +1,24 @@
 ```
-# PowerShell script backup/swap files
-*.ps1~
-*~
+# Compiled and build artifacts
+*.plc
+*.plx
+*.out
+
+# Dependencies
+cpan/
+local/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
 ```
