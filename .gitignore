@@ -1,24 +1,5 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.o
-*.obj
-
-# Dependencies
-ebin/
-deps/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.
-
-# Editors
-.vscode/
-.idea/
+# Thrift generated files
+*.thrift.gen-*
+gen-*/
 ```
