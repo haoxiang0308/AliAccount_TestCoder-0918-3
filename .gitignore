@@ -1,13 +1,9 @@
 ```
 # Compiled and build artifacts
-*.m
-*.o
-*.obj
-*.out
+*.js
 
 # Dependencies
-.julia/
-.zig-cache/
+node_modules/
 
 # Logs and temp files
 *.log
