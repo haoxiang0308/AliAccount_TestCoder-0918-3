@@ -1,24 +1,25 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-venv/
-.venv/
-__pycache__/
+```gitignore
+# PowerShell session files
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
