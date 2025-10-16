@@ -1,5 +1,22 @@
-(book_12345.xml is a source file, not a build artifact, dependency, or temp file - so no ignores needed)
+```
+# Jenkins artifacts
+*.log
+*.tmp
+*.swp
 
-```gitignore
+# Environment
+.env
+.env.local
+*.env.*
 
+# Editors
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
 ```
