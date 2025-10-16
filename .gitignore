@@ -1,44 +1,25 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
+# Julia installation
+julia-*/
+julia-*.tar.gz
 
-# Configuration files (if generated)
-*.ini
+# Compiled Julia files
+*.ji
+*.ji.debug
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Julia artifacts and dependencies
+.julia/
+julia-*.so
+julia-*.dylib
+julia-*.dll
 
-# Editors
-.vscode/
-.idea/
+# Documentation and assets
+/share/doc/julia/
+/share/julia/compiled/
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+# Julia-specific cache
+/share/julia/base.cache
 
-# Build artifacts
-dist/
-build/
-target/
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# System files
-.DS_Store
-Thumbs.db
+# Julia stdlib internal files
+/share/julia/stdlib/v1.9/*/.gitignore
 ```
