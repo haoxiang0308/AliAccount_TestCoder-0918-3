@@ -1,1 +1,44 @@
-Nothing to output - the change list contains only a source code file (.hs) which should not be ignored.
+```
+# Compiled files
+*.o
+*.obj
+*.hi
+*.chi
+*.chs
+
+# Build artifacts
+dist/
+build/
+cabal-dist/
+.stack-work/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
+```
