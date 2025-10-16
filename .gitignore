@@ -1,13 +1,5 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-
 # Dependencies
-.venv/
-venv/
 node_modules/
 
 # Logs and temp files
@@ -18,19 +10,17 @@ node_modules/
 # Environment
 .env
 .env.local
-*.env.*
+.env.
 
 # Editors
 .vscode/
 .idea/
 
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Distribution / packaging
+# Build artifacts
 dist/
 build/
-*.egg-info/
+*.js.map
+
+# Package manager
+package-lock.json
 ```
