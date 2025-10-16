@@ -1,4 +1,30 @@
 ```
-# CI/CD
-.github/workflows/
+# Compiled files
+*.mex*
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# Dependencies
+mex/
+mexw64/
+mexw32/
+*.mexw64
+*.mexw32
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
