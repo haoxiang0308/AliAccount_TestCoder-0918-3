@@ -1,1 +1,30 @@
-Nothing should be ignored based on the provided file changes, as only a Ruby source file (.rb) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.fsi
+*.fsx
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+*.out
+
+# Dependencies
+.paket/
+packages/
+bin/
+obj/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+```
