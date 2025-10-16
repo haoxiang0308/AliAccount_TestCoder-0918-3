@@ -1,12 +1,1 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Executables
-find_max
-
-# Generated files
-max_result_*.txt
-```
+Nothing should be ignored in this case, as only a Python source file (`redis_script_12345.py`) was added without any build artifacts, dependencies, or temporary files.
