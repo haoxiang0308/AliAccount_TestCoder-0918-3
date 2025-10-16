@@ -1,10 +1,29 @@
 ```
-#Temp files
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+vendor/
+*.mod
+*.sum
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
 
-#Random temp files
-.random_filename.txt
-AvdUlI8pNEPh
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Go-specific
+*.test
+*.prof
 ```
