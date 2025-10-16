@@ -1,16 +1,14 @@
 ```
-# Zig build artifacts
-zig-cache/
-zig-out/
+# Compiled and build artifacts
+*.ji
 *.o
 *.obj
-*.a
-*.so
-*.dll
-*.exe
+*.out
 
 # Dependencies
-deps/
+julia-*/
+.JuliaProject
+.JuliaManifest
 
 # Logs and temp files
 *.log
@@ -25,8 +23,10 @@ deps/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS
+# System files
 .DS_Store
 Thumbs.db
 ```
