@@ -1,5 +1,53 @@
 ```
-# Thrift generated files
-*.thrift.gen-*/
-gen-*/
+# Compiled and build artifacts
+*.class
+*.groovy.class
+
+# Dependencies
+.gradle/
+build/
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python (if present in Groovy project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+.nox/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
