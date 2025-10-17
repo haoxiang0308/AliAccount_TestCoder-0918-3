@@ -1,3 +1,1 @@
-(get_processes.ps1 is a PowerShell script file, which is a source code file, so it should not be added to .gitignore)
-
-(empty)
+Nothing should be ignored based on the provided file changes. The added file '6q0d9fdhuw.md' is a markdown source file and should not be ignored.
