@@ -1,22 +1,11 @@
 ```
-# Compiled and build artifacts
-*.cr
-
-# Dependencies
-julia-*/
-zig*/
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
+*.temp
+tmp.*
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
+# JSON temp files
+*.json
+!*.json  # Don't ignore all JSON files, only temp ones
+tmp*.json
 ```
