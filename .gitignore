@@ -1,18 +1,25 @@
 ```
 # Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.exe
+*.out
 *.o
 *.obj
-*.class
+*.a
+*.so
+*.dll
 *.pyc
-__pycache__/
+*.class
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
+.opam/
+.dune/
+_build/
+esy.lock/
 
 # Logs and temp files
 *.log
@@ -23,12 +30,16 @@ venv/
 .vscode/
 .idea/
 
+# OCaml specific
+*.annot
+*.cmt
+*.cmti
+*.merlin
+dune-project
+dune-workspace
+dune-workspace.dev
+
 # System files
 .DS_Store
 Thumbs.db
-
-# Build directories
-dist/
-build/
-target/
 ```
