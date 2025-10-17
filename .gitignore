@@ -1,42 +1,47 @@
 ```
-# Compiled and build artifacts
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.exe
-*.out
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.pyc
-*.class
+# GraphQL files
+*.graphql
 
-# Dependencies
-.opam/
-_dune/
-esy.lock/
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
 *.swp
+*.swo
 
-# Editors
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OCaml specific
-*.annot
-*.cmt
-*.cmti
-*.out
-*~
+# System files
 .DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+target/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+.gradle/
 ```
