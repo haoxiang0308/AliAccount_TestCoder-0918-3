@@ -1,5 +1,9 @@
-The provided file change list appears to be incomplete or malformed - it only contains a partial filename '"apache_setup_$(openssl' which doesn't clearly indicate what type of file this is or what the complete path should be.
+```
+# Environment files
+.env
+.env.local
+*.env.*
 
-Since there are no clear build artifacts, dependency directories, temporary files, or other ignorable patterns visible in the provided changes, and the file appears to be just a partial/possibly corrupted filename, no rules need to be added to .gitignore.
-
-(empty - output nothing)
+# Configuration files (if they contain sensitive data)
+db_config.ini
+```
