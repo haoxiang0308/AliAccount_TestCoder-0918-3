@@ -1,25 +1,23 @@
 ```
-# TypeScript/JavaScript build artifacts
-*.js.map
-*.tsbuildinfo
-
-# Dependencies
-node_modules/
-
-# Logs and temp files
+# LaTeX build artifacts
+*.aux
 *.log
-*.tmp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz(busy)
 ```
