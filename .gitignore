@@ -1,1 +1,32 @@
-Nothing should be ignored based on the provided file changes. The added file 'apache_install.pp' appears to be a Puppet manifest file, which is source code that should be tracked in version control.
+```
+# Dart/Flutter build artifacts
+.dart_tool/
+.build/
+dist/
+*.dart.js
+*.dart.js.map
+*.part.js
+*.part.js.map
+
+# Dependencies
+.pub/
+.packages
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
