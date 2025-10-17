@@ -1,22 +1,9 @@
 ```
-# Compiled Haskell files
+# Assembly build artifacts
 *.o
-*.hi
-
-# Dependencies and build artifacts
-dist/
-build/
-.cabal-sandbox/
-cabal-dev/
-*.cabal.project.local
-cabal.project.local~
-*.stack-work/
-.stack-work/
-
-# Environment
-.env
-.env.local
-.env.*
+*.obj
+*.out
+*.asm~
 
 # Logs and temp files
 *.log
@@ -26,6 +13,8 @@ cabal.project.local~
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
