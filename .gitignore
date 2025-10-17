@@ -1,27 +1,24 @@
 ```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
+# MATLAB/Octave compiled files
+*.m~
 
-# Environment
-.env
-.env.local
-*.env.*
+# Temporary files
+*.tmp
+*.swp
 
 # Logs
 *.log
 
-# Temporary files
-*.tmp
-*~
-.swp
-.swo
+# Environment files
+.env
+.env.local
+*.env.*
 
-# OS generated files
+# Editor/IDE files
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
 ```
