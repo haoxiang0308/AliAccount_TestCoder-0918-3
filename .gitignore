@@ -1,42 +1,34 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
 
-# Virtual environments
-venv/
-.venv/
-env/
+# Dependencies
+target/
+.libs/
 
-# Logs
+# Editors
+.idea/
+.vscode/
+
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
-*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
-
-# Coverage reports
-.coverage
-coverage/
-htmlcov/
-
-# Python cache
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Build directories
-build/
-dist/
+# Scala specific
+*.jar
+lib_managed/
+project_target/
+target/
+*.tasty
+*.scala.dep
+*.scala
 ```
