@@ -1,39 +1,52 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# GraphQL files
+*.graphql
 
-# Virtual environments
-venv/
-.venv/
-env/
+# Dependencies
+node_modules/
 
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
 
-# Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editor files
+# Editors
 .vscode/
 .idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
+.env.local
+.env.*
+.mypy_cache/
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
 
 # Build artifacts
 dist/
 build/
-target/
+*.egg-info/
 
-# Dependencies
-node_modules/
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
+# System files
+.DS_Store
+Thumbs.db
 ```
