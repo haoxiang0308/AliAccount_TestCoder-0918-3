@@ -1,31 +1,62 @@
 ```
-# Compiled Haskell files
-*.o
-*.hi
+# Puppet related
+**/modules/
+**/pkg/
+**/spec/fixtures/modules/
+**/vendor/
+.r10k-*
+.r10k.lock
 
-# Dependencies and build artifacts
-dist/
-build/
-.cabal-sandbox/
-cabal-dev/
-*.cabal.project.local
-cabal.project.local~
-*.stack-work/
-.stack-work/
+# Common ignores
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build artifacts
+build/
+dist/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.class
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
 
 # Editors
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# System
+.DS_Store
+Thumbs.db
 ```
