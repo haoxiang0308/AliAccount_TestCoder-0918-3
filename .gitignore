@@ -1,12 +1,37 @@
 ```
-# Dependencies
-node_modules/
+# PowerShell related
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1
+*.pssc
+*.psrc
+*.cdxml
 
-# Build outputs
-dist/
-build/
-coverage/
-htmlcov/
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
@@ -17,51 +42,14 @@ htmlcov/
 .vscode/
 .idea/
 
-# Logs
-*.log
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/
-.mypy_cache/
-.pytest_cache/
-.hypothesis/
-
-# Compiled and binary
-*.o
-*.obj
-*.so
-*.a
-*.dll
-*.exe
-*.out
-*.class
-
-# Temp files
-*.tmp
-*.swp
-*.swo
-
-# System
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -86,9 +74,4 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# VCS
-.git/
-.svn/
-.hg/
 ```
