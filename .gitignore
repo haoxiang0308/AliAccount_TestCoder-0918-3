@@ -1,3 +1,26 @@
-(restart_service.yml is a source/config file, no build artifacts, dependencies, or temp files in the changes)
+```
+# Puppet related
+*.pp.bak
+*.pp~*
+*.rb.bak
+*.rb~*
 
-(empty - output nothing)
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Backup files
+*~
+*.bak
+*.backup
+```
