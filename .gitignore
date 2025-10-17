@@ -1,48 +1,7 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Compiled files
+*.class
 
-# Virtual environments
-venv/
-.venv/
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Build artifacts
-dist/
-build/
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-# Package managers
-node_modules/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+# Test files
+*Test*.java
 ```
