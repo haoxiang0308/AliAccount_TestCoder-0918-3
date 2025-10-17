@@ -1,9 +1,1 @@
-```
-# Temporary files
-*.tmp
-*.temp
-tmp.*
-
-# Generated/variable files
-*.hcl
-```
+Nothing should be ignored based on the provided file changes. The added file `find_email.pl` is a Perl source code file, which should be tracked in version control.
