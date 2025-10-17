@@ -1,40 +1,31 @@
 ```
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.scalac
-*.tasty
+*.o
+*.obj
+*.out
 
 # Dependencies
-lib_managed/
-project/
-target/
+*.framework/
+*.a/
+*.dylib/
+*.so/
 
-# Editors
-.idea/
-.vscode/
-
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
-Thumbs.db
 ```
