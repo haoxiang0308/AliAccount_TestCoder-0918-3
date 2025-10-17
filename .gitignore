@@ -1,38 +1,49 @@
 ```
-# Generated from file changes
-*.pyc
-*.class
+# Compiled and build artifacts
 *.o
-*.exe
-*.dll
-*.so
-*.a
 *.obj
 *.out
-node_modules/
-venv/
+
+# Dependencies
 .venv/
+venv/
+node_modules/
 __pycache__/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-.vscode/
-.idea/
-*.swp
-*.swo
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
 *.log
 *.tmp
-.DS_Store
-Thumbs.db
+*.swp
+*.swo
+
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
 coverage/
 htmlcov/
 .coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Compressed files
 *.zip
 *.gz
 *.tar
