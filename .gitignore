@@ -1,14 +1,16 @@
 ```
 # Compiled and build artifacts
+*.class
 *.o
 *.obj
-*.hi
+*.out
 
 # Dependencies
-.cabal-sandbox/
-dist/
-dist-newstyle/
-.stack-work/
+target/
+lib_managed/
+project/
+.mypy_cache/
+.pytest_cache/
 
 # Logs and temp files
 *.log
@@ -19,8 +21,41 @@ dist-newstyle/
 .vscode/
 .idea/
 
+# System files
+.DS_Store
+Thumbs.db
+
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
