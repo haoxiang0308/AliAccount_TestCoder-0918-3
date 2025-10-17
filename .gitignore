@@ -1,24 +1,73 @@
 ```
-#Temp files
-*.tmp
-*.temp
-tmp.*
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-#Logs
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-#Editor/IDE files
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
 .vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Distribution / packaging
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# IDE
 .idea/
 *.swp
 *.swo
 
-#System files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-#Environment
+# MyPy cache
+.mypy_cache/
+.pytest_cache/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Environment files
 .env
 .env.local
-*.env.*
+.env.*
 ```
