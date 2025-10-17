@@ -1,24 +1,29 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.app
-ebin/
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+
+# Build artifacts
 _build/
+_dbuild/
+*.native
+*.byte
 
-# Dependencies
-deps/
-_rebar/
-_rebuild/
-
-# Logs and temp files
-*.log
-erl_crash.dump
-
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# Logs and temp files
+*.log
+*.tmp
 
 # System files
 .DS_Store
