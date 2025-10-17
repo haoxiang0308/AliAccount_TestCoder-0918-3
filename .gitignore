@@ -1,8 +1,11 @@
 ```
 # Compiled and build artifacts
-*.ex
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
 
 # Dependencies
@@ -12,8 +15,6 @@ venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
-dist/
-build/
 target/
 .gradle/
 
@@ -21,7 +22,6 @@ target/
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
@@ -41,7 +41,7 @@ coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# Common compressed files
 *.zip
 *.gz
 *.tar
