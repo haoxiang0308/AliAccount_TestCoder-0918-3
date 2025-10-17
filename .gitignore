@@ -1,17 +1,22 @@
 ```
-# VBA specific ignores
-*.vba.bak
-*.vba~
+# Compiled and build artifacts
+*.cr
 
-# Backup files
-*.bak
-*.~*
-*~
+# Dependencies
+julia-*/
+zig*/
 
-# Temp files
-*.tmp
-*.temp
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
