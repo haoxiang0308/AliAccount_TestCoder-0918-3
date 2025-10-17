@@ -1,26 +1,37 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
+# PowerShell/Windows specific
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
 
-# Dependencies
-.venv/
-venv/
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# Logs and temp files
+# Logs
 *.log
+*.out
+
+# Temp files
 *.tmp
-*.swp
+*.temp
+*~
+```
 
-# Environment
-.env
-.env.local
-*.env.*
+Wait, let me reconsider this. The only file added is `get_processes.ps1` which is a PowerShell script file. This is a source code file that should not be ignored. There are no build artifacts, dependencies, or temporary files in the changes. According to rule 6, if the change list contains only source or config files and no build artifacts, dependencies, or temp files, I should output an empty .gitignore.
 
-# Editors
-.vscode/
-.idea/
+```
 
-# Test files
-selenium_test_*.py
 ```
