@@ -1,44 +1,34 @@
 ```
-# Compiled files
-*.csproj.user
-*.userprefs
-*.suo
-*.user
-*.aps
-*.ncb
+# Compiled and build artifacts
+*.class
+*.o
 *.obj
-*.exe
-*.dll
-*.pdb
-*.userosscache
-*.sln.docstates
 
 # Dependencies
-packages/
-bin/
-obj/
+lib/
+libs/
+jars/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vs/
-*.userprefs
-*.[Rr]eSharper
-*.DotSettings.user
-.vscode/
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
 
 # OS generated files
 .DS_Store
 Thumbs.db
-ehthumbs.db
-Icon?
-._*
-.Spotlight-V100
-.Trashes
 ```
