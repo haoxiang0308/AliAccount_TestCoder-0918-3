@@ -1,21 +1,18 @@
 ```
-# Compiled files
+# Compiled and build artifacts
 *.o
 *.obj
-*.hi
-*.chi
-*.chs
-
-# Build artifacts
-dist/
-build/
-cabal-dist/
-.stack-work/
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+target/
+**/target/
+.cargo/
+**/.cargo/
 
 # Logs and temp files
 *.log
@@ -25,7 +22,7 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
@@ -33,12 +30,7 @@ node_modules/
 *.swp
 *.swo
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# OS
-.DS_Store
-Thumbs.db
+# Rust-specific
+Cargo.lock
+**/Cargo.lock
 ```
