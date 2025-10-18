@@ -1,23 +1,5 @@
-```
-# Compiled files
-*.cr
+(random_hello_page.html is a source file, so no .gitignore content needed)
 
-# Dependencies
-.crystal/
-lib/
-bin/
+```html
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
 ```
