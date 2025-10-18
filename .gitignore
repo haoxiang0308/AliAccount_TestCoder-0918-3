@@ -1,38 +1,37 @@
 ```
+# Perl-specific ignores
+*.pl~
+*.plx~
+*.pm~
+*.pod~
+
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+lib/
+blib/
+pm_to_blib/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
+*.swo
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python cache
-.mypy_cache/
-.pytest_cache/
-
-# Build directories
-dist/
-build/
-target/
+# System files
+.DS_Store
+Thumbs.db
 ```
