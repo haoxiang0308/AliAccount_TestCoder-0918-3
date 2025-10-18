@@ -1,9 +1,25 @@
 ```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+
+# Dependencies
+.cabal/
+dist/
+dist-newstyle/
+.stack-work/
+
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Process output files
-*.txt
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
