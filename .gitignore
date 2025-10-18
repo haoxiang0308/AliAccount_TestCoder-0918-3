@@ -1,7 +1,44 @@
-Looking at the added files:
-- `"server-config-$(openssl` - appears to be a malformed or temporary file
-- `server-config-b0f3c8a315223a3c.json` - this is a JSON config file
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
-Since the changes include a JSON config file (which is source/config content) and no build artifacts, dependencies, or temp files that need ignoring, the output should be empty.
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py-deps
 
-(nothing)
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Build directories
+build/
+dist/
+target/
+```
