@@ -1,3 +1,4 @@
 ```
-hello_golang_12345.go
+# Compiled and build artifacts
+*.fs
 ```
