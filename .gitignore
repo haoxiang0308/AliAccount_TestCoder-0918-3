@@ -1,11 +1,18 @@
 ```
-# Output files
-*.txt
-*.out
+# Compiled and build artifacts
+*.exs~
 
-# Package files
-*.deb
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-# Dependencies
-packages/
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
 ```
