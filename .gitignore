@@ -1,8 +1,7 @@
 ```
-# PHP specific
-*.php~
-*.php.bak
-*.php.swp
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
 # Logs and temp files
 *.log
@@ -12,56 +11,34 @@
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swo
-*.swp
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Dependency directories
-node_modules/
-vendor/
-composer.lock
-
-# Build artifacts
-dist/
-build/
-target/
-*.o
-*.obj
-*.out
-
-# Python (if present)
-__pycache__/
-*.pyc
+# Python specific
 *.pyo
+*.pyd
 .Python
 *.so
 *.egg-info/
-.eggs/
 
-# Java (if present)
-*.class
-*.jar
-*.war
-*.ear
-*.war
-*.jar
-*.class
-target/
-.gradle/
-build/
+# Temp files
+*.tmp
+*~
+.#*
+%*%
+._*
 
 # Compressed files
 *.zip
