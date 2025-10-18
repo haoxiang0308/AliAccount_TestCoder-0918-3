@@ -1,5 +1,54 @@
-(ts is a source code file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Generated files
+*numbers_*.json
 
-```ts
+#JavaScript build artifacts
+*.js.map
+*.min.js
+dist/
+build/
 
+#Node.js dependencies
+node_modules/
+
+#Logs
+*.log
+
+#Temporary files
+*.tmp
+*.swp
+
+#Environment
+.env
+.env.local
+.env.*
+
+#Editors
+.vscode/
+.idea/
+
+#Coverage
+coverage/
+htmlcov/
+.coverage
+
+#Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
+.env.local
+.env.*
+.mypy_cache/
+.pytest_cache/
+.tox/
+
+#Build directories
+target/
+build/
+dist/
 ```
