@@ -1,59 +1,95 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
+# VBA files
+*.vba
 
-# Logs and temporary files
-*.log
+# Backup files
+*.bak
+*.~*
+*~
+
+# Temporary files
 *.tmp
-*.swp
+*.temp
 
-# Editors and IDEs
-.vscode/
-.idea/
+# Compiled files
+*.bas
+*.frm
+*.cls
+*.vbp
+*.vbw
 
-# System files
+# Excel specific
+*.xlsb
+*.xlsm
+*.xltm
+*.xlam
+*.xla
+*.xlb
+*.xlc
+*.xld
+*.xll
+*.xlm
+*.xlt
+*.xlw
+*.xps
+
+# Other Excel files
+*.et
+*.ett
+*.nq
+*.nqx
+*.slk
+*.dif
+*.dbf
+*.mdb
+*.accdb
+*.accde
+*.accdr
+*.accdt
+*.ade
+*.adp
+*.laccdb
+*.ldb
+*.mam
+*.maq
+*.mar
+*.mat
+*.mdw
+*.mda
+*.mde
+*.mdf
+*.ldf
+*.ndf
+*.sdf
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.db-journal
+*.db-shm
+*.db-wal
+*.fdb
+*.gdb
+*.ib
+*.fbd
+*.fdb-shm
+*.fdb-wal
+*.gdb-shm
+*.gdb-wal
+*.ib-shm
+*.ib-wal
+*.fbd-shm
+*.fbd-wal
+*.log
+*.trc
+*.trn
+*.arc
+*.bak
+*.bck
+*.bkp
+*.backup
+*.~*
+*~
 .DS_Store
 Thumbs.db
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/modules/
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
-
-# Build and distribution
-dist/
-build/
-*.egg
-*.egg-info/
-MANIFEST
-.coverage
-htmlcov/
-.coverage.*
-.cache
-.pytest_cache/
-.hypothesis/
-
-# JSON files (if they are temporary/config)
-TQJ7YVFKBFXuL9r4.json
 ```
