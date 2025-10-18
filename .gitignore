@@ -1,1 +1,26 @@
-Nothing should be ignored based on the provided file changes. The added file `mysql_connect_e1d017152583.php` is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+
+# Dependencies
+.stack-work/
+.cabal-sandbox/
+dist/
+dist-newstyle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
