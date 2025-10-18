@@ -1,24 +1,13 @@
 ```
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-*.lock.hcl
-
-# Dependencies
-.terraform.lock.hcl
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
