@@ -1,33 +1,44 @@
 ```
-# Configuration and deployment files
-*.yml
-*.yaml
+# SQL query files (if generated)
+*.sql
 
-# Serverless framework
-.serverless/
-.sls/
-serverless-state.json
+# Database files
+*.db
+*.sqlite
+*.sqlite3
 
-# Environment variables
-.env
-.env.local
-*.env.*
-
-# Logs
+# Logs and temp files
 *.log
-
-# Temporary files
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
 ```
