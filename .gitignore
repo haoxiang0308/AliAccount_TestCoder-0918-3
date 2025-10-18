@@ -1,47 +1,53 @@
 ```
-# Dependencies
-node_modules/
+# Assembly build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
-# Build outputs
-dist/
+# Common build directories
 build/
-coverage/
+dist/
+target/
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
+# Temporary files
+*.tmp
 *.swp
 *.swo
 
 # Logs
 *.log
 
-# Python
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Temporary files
-*.tmp
-*.temp
-
-# OS
+# System files
 .DS_Store
 Thumbs.db
 
-# Testing
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
 .mypy_cache/
 .pytest_cache/
-coverage/
-
-# Other build tools
-target/
 .gradle/
-.nyc_output/
+julia-*/
+zig*/
 ```
