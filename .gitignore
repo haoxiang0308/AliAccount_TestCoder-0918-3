@@ -1,29 +1,34 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
-*.chi
-*.chs
-*.hcr
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
+.env.local
+.env.*
 
-# Dependencies
-.cabal-sandbox/
-.cabal/
-dist/
-dist-newstyle/
-.stack-work/
-
-# Logs and temp files
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
+*.swo
 
-# Editors
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# IDE
 .vscode/
 .idea/
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 ```
