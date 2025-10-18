@@ -1,8 +1,3 @@
-```
-#Temp files
-*.tmp
-*.sh
+(focus-directive-demo.vue is a source file, no build artifacts, dependencies, or temp files in the changes)
 
-#Logs
-*.log
-```
+(empty - output nothing)
