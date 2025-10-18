@@ -1,1 +1,42 @@
-Nothing should be ignored based on the provided file changes. The added file 'cDGA1RaivF.md' is a markdown source file that should be tracked in version control.
+```
+# R-specific ignores
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
+.Rapp.history
+.Rbuildignore
+*.[Rr]proj
+
+# Compiled/build artifacts
+*.so
+*.o
+*.dll
+*.dylib
+*.class
+
+# Dependencies
+lib/
+library/
+.packages/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.Renviron
+.Rprofile
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
