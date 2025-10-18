@@ -1,24 +1,38 @@
 ```
-# Temporary and backup files
-*.tmp
-*.bak
-*.backup
-*~
-*.swp
-*.swo
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-# Shell script backups
-*.sh~
+# Dependencies
+.venv/
+venv/
+node_modules/
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment files
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
+
+# Build directories
+dist/
+build/
+target/
 ```
