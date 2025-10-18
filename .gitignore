@@ -1,11 +1,11 @@
 ```
-# Output files
-*.txt
+*.class
+*.o
+*.obj
 *.out
-
-# Package files
-*.deb
-
-# Dependencies
-packages/
+*.tmp
+*.swp
+*.log
+.DS_Store
+Thumbs.db
 ```
