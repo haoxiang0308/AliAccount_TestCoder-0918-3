@@ -1,25 +1,11 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Logs and temp files
-*.log
+# Temp files
 *.tmp
 *.swp
+*.swo
+
+# Logs
+*.log
 
 # Environment
 .env
@@ -30,7 +16,7 @@ target/
 .vscode/
 .idea/
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 
