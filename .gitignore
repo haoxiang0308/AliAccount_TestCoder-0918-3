@@ -1,3 +1,4 @@
-Nothing should be ignored in this case, as the added file is a Lua source file (.lua) which is source code and should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
-
-(empty output)
+```
+# Compiled and build artifacts
+*.fs
+```
