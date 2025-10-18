@@ -1,3 +1,9 @@
-(focus-directive-demo.vue is a source file, no build artifacts, dependencies, or temp files in the changes)
+```
+# R plots and generated images
+Rplots.pdf
+*.png
 
-(empty - output nothing)
+# R build artifacts
+*.rds
+*.RData
+```
