@@ -1,0 +1,22 @@
+/* CSS Animation for Rotation */
+
+.rotating-element {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  border-radius: 10px;
+  animation: rotateAnimation 2s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Example usage:
+<div class="rotating-element"></div>
+*/
