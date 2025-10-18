@@ -1,13 +1,10 @@
 ```
-# PowerShell session files
-*.ps1
+# Docker-related files
+*.dockerfile
+Dockerfile
+.dockerignore
 
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+*.temp
 ```
