@@ -1,1 +1,24 @@
-Nothing should be ignored based on the provided file changes. The added file `sumFunction_x9z42.js` is a JavaScript source file that should be tracked in version control.
+```
+# Ruby specific
+*.gem
+*.rbc
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
+
+# Environment
+.env
+.env.local
+.env.
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
