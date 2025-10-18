@@ -1,43 +1,4 @@
 ```
-# Compiled and build artifacts
-*.solc
-*.abi
-*.bin
-*.hex
-*.log
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-build/
-dist/
-target/
-.gradle/
+# GraphQL operation files
+*.graphql
 ```
