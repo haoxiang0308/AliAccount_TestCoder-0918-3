@@ -1,12 +1,15 @@
 ```
 # Compiled and build artifacts
-*.class
+*.ji
 *.o
 *.obj
+*.out
 
 # Dependencies
-target/
-build/
+.julia/
+.julia-*/
+deps/
+test/
 
 # Logs and temp files
 *.log
@@ -14,10 +17,10 @@ build/
 *.swp
 
 # Editors
-.vscode/
-.idea/
+.julia/config/
+.julia/logs/
 
-# Environment
-.env
-.env.
+# Package manager
+Manifest.toml
+Project.toml.bak
 ```
