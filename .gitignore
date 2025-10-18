@@ -1,38 +1,50 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
+# Docker-related
+Dockerfile*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
