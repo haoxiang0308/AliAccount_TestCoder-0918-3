@@ -1,14 +1,5 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-max_finder
-
-# Logs and temp files
+#Temp files
 *.tmp
-*.log
-
-# Results/outputs
-max_result_*.txt
+tmp.*.graphql
 ```
