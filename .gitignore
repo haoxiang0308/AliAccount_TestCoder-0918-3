@@ -1,3 +1,34 @@
 ```
-hello_golang_12345.go
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmxa
+*.cmx
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+
+# Dependencies
+.opam/
+_dbuild/
+esy.lock/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# OCaml specific
+*.annot
+*.cmt
+*.cmti
+*.out
 ```
