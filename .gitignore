@@ -1,33 +1,29 @@
 ```
-# Compiled and build artifacts
+# Compiled files
 *.o
 *.obj
-*.exe
 *.out
 
 # Dependencies
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
+# Editors
+.vscode/
+.idea/
+
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Build directories
+# Build artifacts
 build/
 dist/
 target/
