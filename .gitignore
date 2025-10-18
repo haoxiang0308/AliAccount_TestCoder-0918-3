@@ -1,50 +1,44 @@
 ```
+# Puppet files
+*.pp
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
 # Dependencies
 node_modules/
-
-# Build outputs
-dist/
-build/
-coverage/
-
-# Environment
+venv/
+.venv/
 .env
 .env.local
-.env.*
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Logs
-*.log
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Temporary files
-*.tmp
-*.temp
-*~
+# System files
 .DS_Store
 Thumbs.db
 
-# Testing
-.coverage
+# Coverage
+coverage/
 htmlcov/
-.mypy_cache/
-.pytest_cache/
-
-# System
-.DS_Store
-Thumbs.db
+.coverage
 
 # Compressed files
 *.zip
