@@ -1,20 +1,26 @@
 ```
-#Temp files
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.lock.hcl
+
+# Dependencies
+.terraform.lock.hcl
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
 
-#System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+.env.*
 
-#Logs
-*.log
-
-#Editor/IDE
+# Editors
 .vscode/
 .idea/
-
-#Temp file patterns
-tmp.*
 ```
