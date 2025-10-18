@@ -1,13 +1,4 @@
 ```
-# PowerShell session files
-*.ps1
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+# CI/CD
+.gitlab-ci.yml
 ```
