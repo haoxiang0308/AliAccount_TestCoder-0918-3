@@ -1,48 +1,59 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.bin
-*.hex
+# Environment files
+.env
+.env.local
+*.env.*
 
-# Dependencies
-*.lib
-*.a
-*.so
-*.dll
-*.dylib
-
-# Logs and temp files
+# Logs and temporary files
 *.log
 *.tmp
 *.swp
-*.swo
 
-# Editors
+# Editors and IDEs
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Virtual environments
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
 venv/
 .venv/
-.env
-.env.local
-*.env.*
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
 
-# Build directories
-build/
+# Build and distribution
 dist/
-target/
+build/
+*.egg
+*.egg-info/
+MANIFEST
+.coverage
+htmlcov/
+.coverage.*
+.cache
+.pytest_cache/
+.hypothesis/
+
+# JSON files (if they are temporary/config)
+TQJ7YVFKBFXuL9r4.json
 ```
