@@ -1,12 +1,15 @@
 ```
 # Compiled and build artifacts
-*.class
+*.ji
 *.o
-*.obj
+*.so
+*.dylib
+*.dll
 
 # Dependencies
-target/
-build/
+.julia/
+.julia_scratch/
+.julia_local/
 
 # Logs and temp files
 *.log
@@ -17,7 +20,8 @@ build/
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.
+# Coverage
+coverage/
+htmlcov/
+.coverage
 ```
