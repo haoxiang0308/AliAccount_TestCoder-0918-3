@@ -1,1 +1,18 @@
-Nothing should be ignored based on the provided file changes, as only a Swift source file was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.pl~
+
+# Logs and temp files
+*.tmp
+*.swp
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+```
