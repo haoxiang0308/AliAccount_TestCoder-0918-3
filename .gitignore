@@ -1,8 +1,17 @@
 ```
-#Temp files
-*.tmp
-tmp.*
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
-#Logs
+# Temp files
+*.tmp
+max_result_*.txt
+
+# Logs
 *.log
 ```
