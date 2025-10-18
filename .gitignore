@@ -1,3 +1,31 @@
-Nothing should be ignored in this case, as the added file `hello_world_12345.html` is a source code file that should be tracked in version control. The file is not a build artifact, dependency, temporary file, or any other type of file that should be ignored.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 
-Output: (empty)
+# Dependencies
+.venv/
+venv/
+pip-log.txt
+pipenv/
+Pipfile.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.pyc
+*~
+.DS_Store
+Thumbs.db
+```
