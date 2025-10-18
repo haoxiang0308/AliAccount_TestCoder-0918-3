@@ -1,8 +1,35 @@
 ```
-#Temp files
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.backup
+*.lock.hcl
 *.tmp
-tmp.*
 
-#Logs
+# Dependencies
+.terraform.lock.hcl
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs and temp files
 *.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 ```
