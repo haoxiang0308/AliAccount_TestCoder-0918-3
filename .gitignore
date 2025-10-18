@@ -1,3 +1,23 @@
-(focus-directive-demo.vue is a source file, no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.js.map
+*.min.js
+*.bundle.js
 
-(empty - output nothing)
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+```
