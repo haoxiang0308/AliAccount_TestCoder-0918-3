@@ -1,59 +1,21 @@
 ```
-# Environment files
+# Database files
+*.php
+
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Logs and temporary files
+# Logs and temp files
 *.log
 *.tmp
-*.swp
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/modules/
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
-
-# Build and distribution
-dist/
-build/
-*.egg
-*.egg-info/
-MANIFEST
-.coverage
-htmlcov/
-.coverage.*
-.cache
-.pytest_cache/
-.hypothesis/
-
-# JSON files (if they are temporary/config)
-TQJ7YVFKBFXuL9r4.json
 ```
