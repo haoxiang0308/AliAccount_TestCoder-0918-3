@@ -1,27 +1,64 @@
 ```
-# LaTeX build artifacts
-*.aux
+# Puppet related
+*.pp.bak
+*.rb.bak
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.jar
+*.war
+*.ear
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Logs and temp files
 *.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.idx
-*.ind
-*.ilg
-*.dvi
-*.ps
-*.pdf
-*.synctex.gz
-
-# Temp files
 *.tmp
-*.bak
-*.backup
-
-# Editor files
 *.swp
 *.swo
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+.eggs/
+
+# Ruby specific (for Puppet)
+*.gem
+*.rbc
+.bundle/
+.jruby/
 ```
