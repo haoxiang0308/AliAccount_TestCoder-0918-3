@@ -1,27 +1,41 @@
 ```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-.terraform.lock.hcl
+# Compiled files
+*.hi
+*.o
+*.chi
+*.chs
 
-# Temporary and backup files
-*.tmp
-*.bak
-*~
-.swp
-.swo
+# Build artifacts
+dist/
+build/
+cabal-dist/
+.stack-work/
 
-# Logs
+# Dependencies
+.ghc.environment.*
+cabal.sandbox.config
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
 *.log
+*.tmp
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# OS generated files
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# OS
 .DS_Store
 Thumbs.db
 ```
