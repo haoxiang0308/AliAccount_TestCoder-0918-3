@@ -1,1 +1,32 @@
-Nothing should be ignored based on the provided file changes. The only added file is `LoginForm.vue`, which is a source code file and should not be ignored.
+```
+# TypeScript/JavaScript project
+*.tsbuildinfo
+*.js
+*.map
+
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+dist/
+build/
+coverage/
+htmlcov/
+.nyc_output/
+```
