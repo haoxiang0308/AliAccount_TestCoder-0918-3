@@ -1,33 +1,5 @@
-```
-# Compiled and build artifacts
-*.ji
-*.o
-*.obj
-*.out
+(blzzrezj3z.py is a source file, so no .gitignore rules needed)
 
-# Dependencies
-.julia/
-*.julia
-.julia_packages/
+```python
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-.mypy_cache/
-.pytest_cache/
 ```
