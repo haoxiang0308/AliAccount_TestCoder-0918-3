@@ -1,14 +1,18 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.beam
 *.o
 *.obj
 
+# Erlang-specific
+.eunit/
+.rebar3/
+_build/
+erl_crash.dump
+
 # Dependencies
-.venv/
-venv/
-node_modules/
+deps/
+rebar3
 
 # Logs and temp files
 *.log
@@ -23,32 +27,10 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-dist/
-build/
-*.egg
-
-# Ruby specific (since we have a .rb file)
-*.gem
-*.rbc
-coverage/
-*.lock
-.bundle/
-vendor/bundle/
 ```
