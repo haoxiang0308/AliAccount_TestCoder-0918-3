@@ -1,5 +1,22 @@
 ```
-# GraphQL schema files (if auto-generated)
-*.graphql
-schema_*.graphql
+# PowerShell session files
+*.ps1
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
