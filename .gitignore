@@ -1,43 +1,11 @@
 ```
-# Julia-specific ignores
-*.ji
-*.jl.c
-*.jl.o
-*.jl.so
-*.jl.dll
-*.jl.lib
-*.jl.a
-*.jl.dylib
-*.jl.exp
-*.jl.ilk
-*.jl.pdb
-
-# Julia build and cache directories
-.julia/
-.jlweave/
-.jlpkg/
-
-# General build artifacts
-build/
-dist/
-target/
-
-# Dependencies
-deps/
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-
-# Logs
-*.log
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.backup
+*.lock.hcl
 ```
