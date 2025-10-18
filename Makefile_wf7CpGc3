@@ -1,0 +1,64 @@
+# Makefile for C++ project
+
+# Compiler
+CXX = g++
+
+# Compiler flags
+CXXFLAGS = -Wall -Wextra -std=c++17 -g
+
+# Directories
+SRCDIR = src
+OBJDIR = obj
+BINDIR = bin
+
+# Source files (adjust these based on your project)
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(OBJDIR)/%.o)
+TARGET = $(BINDIR)/main
+
+# Test files
+TEST_SOURCES = $(wildcard $(SRCDIR)/*_test.cpp)
+TEST_TARGET = $(BINDIR)/test
+
+.PHONY: all build test clean
+
+# Default target
+all: build
+
+# Build target
+build: $(TARGET)
+
+# Link the executable
+$(TARGET): $(OBJECTS) | $(BINDIR)
+	$(CXX) $(OBJECTS) -o $@ $(LDFLAGS)
+
+# Compile source files
+$(OBJDIR)/%.o: $(SRCDIR)/%.cpp | $(OBJDIR)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Create directories
+$(OBJDIR):
+	mkdir -p $(OBJDIR)
+
+$(BINDIR):
+	mkdir -p $(BINDIR)
+
+# Test target
+test: $(TEST_TARGET)
+	./$(TEST_TARGET)
+
+# Build test executable
+$(TEST_TARGET): $(TEST_SOURCES:$(SRCDIR)/%.cpp=$(OBJDIR)/%.o) | $(BINDIR)
+	$(CXX) $(CXXFLAGS) $^ -o $@ $(LDFLAGS)
+
+# Clean target
+clean:
+	rm -rf $(OBJDIR) $(BINDIR)
+
+# Run tests
+check: test
+
+# Install target (if needed)
+install: build
+	# Add installation commands here if needed
+	@echo "Installation not implemented yet"
