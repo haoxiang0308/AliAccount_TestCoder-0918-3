@@ -1,1 +1,26 @@
-(index.js is a source file, so no .gitignore rules needed)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
+*.smod
+*.exe
+
+# Dependencies
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
