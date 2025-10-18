@@ -1,29 +1,9 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.hi
-*.chi
-*.chs
-*.hcr
+# Executables
+find_max
 
-# Dependencies
-.cabal-sandbox/
-.cabal/
-dist/
-dist-newstyle/
-.stack-work/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# Temporary files
+*.txt
+!*.txt
+output_*.txt
 ```
