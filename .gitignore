@@ -1,13 +1,5 @@
-```
-# PowerShell session files
-*.ps1
+(queue.cr is a source code file, so no .gitignore rules needed)
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+```crystal
 
-# Editors
-.vscode/
-.idea/
 ```
