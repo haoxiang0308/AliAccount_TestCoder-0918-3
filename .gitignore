@@ -1,14 +1,16 @@
 ```
 # Compiled and build artifacts
-*.ji
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
 
 # Dependencies
-.julia/
-*.julia
-.julia_packages/
+target/
+Cargo.lock
 
 # Logs and temp files
 *.log
@@ -18,16 +20,15 @@
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-.mypy_cache/
-.pytest_cache/
+# Rust-specific
+**/target/
+Cargo.lock
 ```
