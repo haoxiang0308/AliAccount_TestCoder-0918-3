@@ -1,32 +1,28 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-
-# Dependencies
-vendor/
-*.mod
-*.sum
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Go-specific
-*.a
-*.so
-*.dylib
-*.exe
-*.dll
+# Thrift generated files
+*.thrift.gy
+*.thrift.go
+*.thrift.java
+*.thrift.js
+*.thrift.py
+*.thrift.rb
+*.thrift.php
+*.thrift.perl
+*.thrift.cocoa
+*.thrift.csharp
+*.thrift.cpp
+*.thrift.d
+*.thrift.dart
+*.thrift.erl
+*.thrift.html
+*.thrift.js
+*.thrift.lua
+*.thrift.ocaml
+*.thrift.perl
+*.thrift.php
+*.thrift.py
+*.thrift.rb
+*.thrift.st
+*.thrift.ws
+gen-*/
 ```
