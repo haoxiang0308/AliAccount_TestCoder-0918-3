@@ -1,7 +1,25 @@
 ```
-# JSON files that might be generated
-*.json
+# Generated TypeScript build artifacts
+*.tsbuildinfo
+*.js
+*.js.map
+*.d.ts
 
-# If this is a specific generated file, ignore it specifically
-bb0a352f132917b1.json
+# Temporary files
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
