@@ -1,25 +1,41 @@
 ```
-# Thrift generated files
-*.thrift.g
-*.thrift.c
-*.thrift.h
-*.thrift.js
-*.thrift.py
-*.thrift.rb
-*.thrift.java
-*.thrift.php
-*.thrift.perl
-*.thrift.cpp
-*.thrift.st
-*.thrift.csharp
-*.thrift.go
-*.thrift.d
-*.thrift.dart
-*.thrift.js
-*.thrift.lua
-*.thrift.php
-*.thrift.py
-*.thrift.rb
-*.thrift.swift
-*.thrift.ts
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+
+# Dependencies
+lib/
+libs/
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.iml
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
 ```
