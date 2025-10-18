@@ -1,89 +1,18 @@
 ```
-# PHP specific
-*.php~
-*.php.bak
-*.php.swp
+# Environment files
+.env
+.env.local
+*.env.*
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swo
-*.swp
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Dependency directories
-node_modules/
-vendor/
-composer.lock
-
-# Build artifacts
-dist/
-build/
-target/
-*.o
-*.obj
-*.out
-
-# Python (if present)
-__pycache__/
-*.pyc
-*.pyo
-.Python
-*.so
-*.egg-info/
-.eggs/
-
-# Java (if present)
-*.class
-*.jar
-*.war
-*.ear
-*.war
-*.jar
-*.class
-target/
-.gradle/
-build/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
