@@ -1,37 +1,4 @@
 ```
-# Dart/Flutter
-.dart_tool/
-.dart_tool/
-.packages
-*.dart.js
-*.dart.js.map
-*.part.js
-*.part.js.map
-build/
-.pub-cache/
-.pub/
-packages/
-
-# Dependencies
-pubspec.lock
-
-# Logs and temp files
-*.log
 *.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
+*.R
 ```
