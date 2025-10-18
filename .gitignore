@@ -1,4 +1,35 @@
 ```
-# Configuration files
-*.hcl
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.exe
+*.out
+
+# Build artifacts
+_build/
+_dbuild/
+*.native
+*.byte
+
+# Dependencies
+.opam/
+.dune/
+.dune-release/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
 ```
