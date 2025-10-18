@@ -1,32 +1,29 @@
 ```
+# Compiled and build artifacts
+*.o
+*.obj
+*.hi
+*.chi
+*.chs
+*.hcr
+
 # Dependencies
-node_modules/
-
-# Build artifacts
+.cabal-sandbox/
+.cabal/
 dist/
-build/
-*.js
-*.css
-*.map
+dist-newstyle/
+.stack-work/
 
-# Environment
-.env
-.env.local
-.env.*
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# Logs
-*.log
-
-# Temp files
-*.tmp
-
-# OS
+# System files
 .DS_Store
 Thumbs.db
 ```
