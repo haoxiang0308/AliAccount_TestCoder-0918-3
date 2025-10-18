@@ -1,38 +1,4 @@
 ```
-# Elixir/Mix build artifacts
-_build/
-*.beam
-*.app
-.eunit
-
-# Generated files
-compile_env_*.ex
-compile_info_*.ex
-
-# Dependencies
-deps/
-/_build/
-*.ez
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs
-*.log
-log/
-
-# Coverage
-cover/
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System
-.DS_Store
-Thumbs.db
+# Compiled and build artifacts
+*.v
 ```
