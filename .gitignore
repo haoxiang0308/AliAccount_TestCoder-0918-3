@@ -1,13 +1,11 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+# Compiled files
+*.cr
 
 # Dependencies
-vendor/
-*.mod
-*.sum
+.crystal/
+lib/
+bin/
 
 # Logs and temp files
 *.log
@@ -17,16 +15,9 @@ vendor/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# Go-specific
-*.a
-*.so
-*.dylib
-*.exe
-*.dll
 ```
