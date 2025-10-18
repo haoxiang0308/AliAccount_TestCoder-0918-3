@@ -1,7 +1,3 @@
-```
-# SQL query files (if they are generated/temporary)
-*.sql
+(linear_regression_model.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
 
-# If these are build artifacts or temporary files, ignore them
-query_*.sql
-```
+(empty — output nothing)
