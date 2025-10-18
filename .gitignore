@@ -1,1 +1,51 @@
-Nothing should be ignored based on the provided file changes. The only added file is `LoginForm.vue`, which is a source code file and should not be ignored.
+```
+# Temporary files
+*.tmp
+tmp.*
+
+# Haskell specific
+*.o
+*.hi
+dist/
+dist-newstyle/
+.cabal-sandbox/
+cabal-dev/
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+*.prof
+*.vix
+*.p_hi
+*.p_o
+*.tix
+*.stack-work/
+.hpc/
+.hsenv/
+.ghc.environment.*
+cabal.sandbox.config
+stack.yaml.lock
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+```
