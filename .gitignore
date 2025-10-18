@@ -1,5 +1,45 @@
-(data-fetch.service.ts is a source file, so no ignores needed)
+```
+# Rust-specific ignores
+target/
+Cargo.lock
 
-```ts
+# User data files
+user_data/
 
+# Environment and temp files
+.env
+.env.local
+*.env.*
+*.tmp
+*.log
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Dependencies and build artifacts
+node_modules/
+__pycache__/
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
 ```
