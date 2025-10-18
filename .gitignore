@@ -1,1 +1,36 @@
-Nothing should be ignored in this case, as only a single Python source file (`fe1j0esd.py`) was added without any build artifacts, dependencies, or temporary files.
+```
+# Jenkins artifacts
+*.jpi
+*.hpi
+*.war
+**/target/
+**/build/
+
+# Logs
+*.log
+.jenkins/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+```
