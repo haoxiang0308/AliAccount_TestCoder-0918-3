@@ -1,10 +1,27 @@
 ```
-# Docker-related files
-*.dockerfile
-Dockerfile
-.dockerignore
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
 
-# Temporary files
+# Temporary and backup files
 *.tmp
-*.temp
+*.bak
+*~
+.swp
+.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
