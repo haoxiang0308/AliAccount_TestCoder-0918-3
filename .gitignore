@@ -1,32 +1,38 @@
 ```
-# Dependencies
-node_modules/
+# Elixir/Mix build artifacts
+_build/
+*.beam
+*.app
+.eunit
 
-# Build artifacts
-dist/
-build/
-*.js
-*.css
-*.map
+# Generated files
+compile_env_*.ex
+compile_info_*.ex
+
+# Dependencies
+deps/
+/_build/
+*.ez
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors
+# Logs
+*.log
+log/
+
+# Coverage
+cover/
+
+# Editor/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Logs
-*.log
-
-# Temp files
-*.tmp
-
-# OS
+# System
 .DS_Store
 Thumbs.db
 ```
