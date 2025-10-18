@@ -1,1 +1,56 @@
-Nothing should be ignored since the added file `focus-input-directive-abc123.vue` is a source code file (.vue extension) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+*.out
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+target/
+.cargo/
+Cargo.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Rust specific
+target/
+Cargo.lock
+
+# JSON data files (if they are generated)
+*.json
+!user_definition.rs
+!user_struct.rs
+!user.rs
+!create_user_file.py
+!save_user_to_file.py
+!user_data_generator.py
+!Cargo.toml
+```
