@@ -1,1 +1,35 @@
-(tasks_TS64CP.md)
+```
+# Ruby specific
+*.gem
+*.rbc
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+test/tmp/
+test/version_tmp/
+tmp/
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Dependencies
+vendor/bundle/
+.bundle/
+
+# Logs
+*.log
+*.tmp
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+```
