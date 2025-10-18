@@ -1,0 +1,1 @@
+Found emails: support@example.com, sales@company.org, admin@test.net
