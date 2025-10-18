@@ -1,1 +1,68 @@
-Nothing should be ignored based on the provided file changes. The added file 'apache_install.pp' appears to be a Puppet manifest file, which is source code and should not be ignored.
+```
+# SQL query files (if they are generated)
+*.sql
+
+# If this is a database project, you might want to ignore:
+# - Database dump files
+# - Migration artifacts
+# - Temporary SQL files
+
+# Common ignores that might apply
+*.log
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# If there are build artifacts or dependencies in the project
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
