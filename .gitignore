@@ -1,25 +1,40 @@
 ```
-# Thrift generated files
-*.thrift.g
-*.thrift.c
-*.thrift.h
-*.thrift.js
-*.thrift.py
-*.thrift.rb
-*.thrift.java
-*.thrift.php
-*.thrift.perl
-*.thrift.cpp
-*.thrift.st
-*.thrift.csharp
-*.thrift.go
-*.thrift.d
-*.thrift.dart
-*.thrift.js
-*.thrift.lua
-*.thrift.php
-*.thrift.py
-*.thrift.rb
-*.thrift.swift
-*.thrift.ts
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.sib
+*.sil
+*.bc
+*.o
+*.a
+*.dylib
+*.so
+*.dll
+*.exe
+
+# Dependencies
+Packages/
+.build/
+.swift-version
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
