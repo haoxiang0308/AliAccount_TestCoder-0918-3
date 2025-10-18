@@ -1,1 +1,35 @@
-Nothing should be ignored in this case, as the changes only include Python source files (.py) which are legitimate project files that should be tracked in version control.
+```
+# Assembly/compiled files
+*.o
+*.obj
+*.out
+
+# Build artifacts
+build/
+dist/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+```
