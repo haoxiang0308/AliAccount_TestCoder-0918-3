@@ -1,13 +1,1 @@
-```
-# PowerShell session files
-*.ps1
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-```
+Nothing should be ignored since the added file '3qEVUmD3fH.java' is a source code file (.java extension) and there are no build artifacts, dependencies, or temporary files in the changes.
