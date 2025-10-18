@@ -1,24 +1,95 @@
 ```
-# Database files
-*.db
+# TypeScript/JavaScript build artifacts
+*.js
+*.tsbuildinfo
+dist/
+build/
+out/
+lib/
 
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+# Dependencies
+node_modules/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+
+# Java (if applicable)
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+
+# C/C++ (if applicable)
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Go (if applicable)
+*.exe
+*.test
+*.prof
+
+# Rust (if applicable)
+target/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
