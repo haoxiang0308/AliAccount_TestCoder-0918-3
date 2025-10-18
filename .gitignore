@@ -1,44 +1,92 @@
 ```
-# Compiled and build artifacts
-*.class
-*.o
+# Compiled files
+*.csproj.user
+*.userprefs
+*.suo
+*.user
+*.aps
+*.ncb
 *.obj
 *.exe
 *.dll
-*.so
-*.a
-*.out
+*.pdb
+*.cache
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+*.exp
+*.lib
+*.manifest
+*.res
 
-# Dependencies
-lib/
-libs/
-target/
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
 build/
+bld/
+[Bb]in/
+[Oo]bj/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.cache
+*.VC.db
+*.VC.VC.opendb
 
-# Editors
+# Visual Studio Code
 .vscode/
-.idea/
-*.swp
-*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Coverage
+# Logs
+*.log
+*.out
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Dependency directories
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+env/
+.venv/
+.env
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
 coverage/
 htmlcov/
 .coverage
-
-# System files
-.DS_Store
-Thumbs.db
 
 # Compressed files
 *.zip
