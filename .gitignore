@@ -1,10 +1,11 @@
 ```
-# Gradle
-.gradle/
-build/
+# Compiled files
+*.class
 
 # Dependencies
-lib/
+__pycache__/
+*.pyc
+*.pyo
 
 # Logs and temp files
 *.log
@@ -19,13 +20,4 @@ lib/
 # Editors
 .vscode/
 .idea/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# OS generated files
-.DS_Store
-Thumbs.db
 ```
