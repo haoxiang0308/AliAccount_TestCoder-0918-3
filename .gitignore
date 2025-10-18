@@ -1,25 +1,16 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.out
-
 # Dependencies
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Build outputs
+dist/
+build/
+coverage/
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
@@ -27,8 +18,30 @@ __pycache__/
 *.swp
 *.swo
 
-# Build directories
-build/
-dist/
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.mypy_cache/
+.pytest_cache/
+coverage/
+
+# Other build tools
 target/
+.gradle/
+.nyc_output/
 ```
