@@ -1,0 +1,8 @@
+- name: Copy a file
+  hosts: localhost
+  tasks:
+    - name: Copy file from source to destination
+      copy:
+        src: /path/to/source/file
+        dest: /path/to/destination/file
+        mode: '0644'
