@@ -1,23 +1,28 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-*.bin
-*.hex
+# Temporary files
+*.tmp
+*.temp
+*.ex
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
 
 # Dependencies
-*.lib
-*.a
-*.so
-*.dll
-*.dylib
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
 
 # Editors
 .vscode/
@@ -25,24 +30,7 @@
 *.swp
 *.swo
 
-# System files
+# System
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Virtual environments
-venv/
-.venv/
-.env
-.env.local
-*.env.*
-
-# Build directories
-build/
-dist/
-target/
 ```
