@@ -1,18 +1,23 @@
 ```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.bin
+*.hex
+
 # Dependencies
-node_modules/
+*.lib
+*.a
+*.so
+*.dll
+*.dylib
 
-# Build artifacts
-dist/
-build/
-*.js
-*.css
-*.map
-
-# Environment
-.env
-.env.local
-.env.*
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Editors
 .vscode/
@@ -20,13 +25,24 @@ build/
 *.swp
 *.swo
 
-# Logs
-*.log
-
-# Temp files
-*.tmp
-
-# OS
+# System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Virtual environments
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Build directories
+build/
+dist/
+target/
 ```
