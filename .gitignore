@@ -1,1 +1,27 @@
-Nothing needs to be added to .gitignore for this change list. The added file 'eAKKuBtpZX.rb' is a source code file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.beam
+*.app
+ebin/
+_build/
+
+# Dependencies
+deps/
+_rebar/
+.rebar3/
+
+# Logs and temp files
+*.log
+erl_crash.dump
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+```

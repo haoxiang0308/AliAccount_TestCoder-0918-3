@@ -1,0 +1,9 @@
+{application, simple_app,
+ [
+  {description, "A simple OTP application"},
+  {vsn, "1.0.0"},
+  {registered, [simple_app_sup]},
+  {applications, [kernel, stdlib]},
+  {mod, {simple_app_app, []}},
+  {env, []}
+ ]}.
