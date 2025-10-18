@@ -1,1 +1,19 @@
-Nothing should be ignored since the added file 'yrblupvxmc.R' is a source code file (.R extension) and no build artifacts, dependencies, or temporary files are present in the changes.
+```
+# PowerShell files
+*.ps1
+*.psm1
+*.psd1
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+```
