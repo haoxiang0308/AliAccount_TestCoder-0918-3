@@ -1,1 +1,36 @@
-(empty)
+```
+# Configuration and deployment files
+*.yaml
+*.yml
+
+# Environment and temporary files
+.env
+.env.local
+*.tmp
+*.log
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies and build artifacts
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
+```
