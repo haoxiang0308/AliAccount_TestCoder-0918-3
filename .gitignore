@@ -7,7 +7,7 @@ __pycache__/
 *.exe
 *.dll
 *.so
-*.class
+*.a
 *.out
 
 # Dependencies
@@ -22,7 +22,6 @@ venv/
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Editors
 .vscode/
@@ -36,21 +35,6 @@ Thumbs.db
 coverage/
 htmlcov/
 .coverage
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
 
 # Compressed files
 *.zip
@@ -75,16 +59,4 @@ __pycache__/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# MyPy cache
-.mypy_cache/
-# Pytest cache
-.pytest_cache/
-
-# Julia
-julia-*/
-
-# Zig
-zig*/
-
 ```
