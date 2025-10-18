@@ -1,5 +1,24 @@
 ```
-# Configuration files
-*.yaml
-*.yml
+# Database files
+*.db
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
