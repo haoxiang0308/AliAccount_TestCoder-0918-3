@@ -1,1 +1,4 @@
-Nothing should be ignored based on the provided file changes. The added file `click_counter_abc123.vue` is a source code file that should be tracked in version control.
+```
+# Generated from protobuf file
+*.proto
+```
