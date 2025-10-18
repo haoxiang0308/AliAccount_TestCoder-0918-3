@@ -1,35 +1,35 @@
 ```
-# Compiled files
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.exe
-*.out
-
-# Build artifacts
-_build/
-_dbuild/
-*.native
-*.byte
-
-# Dependencies
-.opam/
-.dune/
-.dune-release/
-
-# Editor/IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
 *.log
-*.tmp
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
 
-# System files
+# Generated files
+*.toml
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
 .DS_Store
 Thumbs.db
 ```
