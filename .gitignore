@@ -1,1 +1,33 @@
-Nothing should be ignored in this case, as only a Python source file (`postgres_connection.py`) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.ji
+*.o
+*.obj
+*.out
+
+# Dependencies
+.julia/
+*.julia
+.julia_packages/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+```
