@@ -1,32 +1,5 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
+(data-fetch.service.ts is a source file, so no ignores needed)
 
-# Dependencies
-vendor/
-*.mod
-*.sum
+```ts
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Go-specific
-*.a
-*.so
-*.dylib
-*.exe
-*.dll
 ```
