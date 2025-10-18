@@ -1,15 +1,6 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.o
-*.obj
-
-# Dependencies
-Pods/
-Carthage/
-.xcodeproj/
-.xcworkspace/
+# Compiled files
+*.class
 
 # Logs and temp files
 *.log
@@ -19,12 +10,9 @@ Carthage/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-
-# macOS
-.DS_Store
 ```
