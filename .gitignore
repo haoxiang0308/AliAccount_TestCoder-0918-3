@@ -1,20 +1,20 @@
 ```
-# Compiled and build artifacts
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.exe
-*.out
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.pyc
-*.class
+# SQL query files
+*.sql
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
 
 # Dependencies
 node_modules/
@@ -23,36 +23,30 @@ venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
-.coverage
-coverage/
-htmlcov/
-
-# Build directories
 dist/
 build/
 target/
 .gradle/
 
-# Environment
-.env
-.env.local
-.env.
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
 
-# Temp files
-*.tmp
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
