@@ -1,19 +1,8 @@
 ```
-# Dart/Flutter build artifacts
-.dart_tool/
-.build/
-dist/
-*.dart.js
-*.dart.js.map
-*.pem
-*.key
-
-# Dependencies
-.pub/
-.packages
+# Compiled and build artifacts
+*.pl~
 
 # Logs and temp files
-*.log
 *.tmp
 *.swp
 
@@ -25,10 +14,4 @@ dist/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 ```
