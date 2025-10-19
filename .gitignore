@@ -1,43 +1,33 @@
 ```
-# Julia-specific ignores
-*.ji
-*.jl.c
-*.jl.o
-*.jl.so
-*.jl.dll
-*.jl.lib
-*.jl.a
-*.jl.dylib
-*.jl.exp
-*.jl.ilk
-*.jl.pdb
-
-# Julia build and cache directories
-.julia/
-.jlweave/
-.jlpkg/
-
-# General build artifacts
-build/
-dist/
-target/
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.obj
 
 # Dependencies
-deps/
-*.tar.gz
-*.tar.bz2
-*.tar.xz
+.opam/
+.dune/
+_build/
 
-# Logs
-*.log
-
-# Editor/IDE
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# System files
-.DS_Store
-Thumbs.db
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
