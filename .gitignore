@@ -1,5 +1,33 @@
 ```
-# Thrift generated files
-*.thrift.gen-*
-gen-*/
+# Compiled files
+*.class
+
+# Dependencies
+__pycache__/
+*.pyc
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# System
+.DS_Store
+Thumbs.db
 ```
