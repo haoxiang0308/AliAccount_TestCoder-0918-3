@@ -1,5 +1,8 @@
 ```
-# Configuration files
-*.yaml
-*.yml
+# JSON files that might be temporary/api responses
+*.json
+
+# If these are API response files, consider ignoring them
+api_response.json
+bTjYGoyKkNJR.json
 ```
