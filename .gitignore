@@ -1,27 +1,50 @@
 ```
 # Compiled and build artifacts
-*.beam
-*.app
-ebin/
-_build/
+*.pyc
+__pycache__/
+*.o
+*.obj
 
 # Dependencies
-deps/
-_rebar/
-.rebar3/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
-erl_crash.dump
-
-# Editors
-.vscode/
-.idea/
+*.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+*.zip
+
+# MyPy
+.mypy_cache/
+
+# PyTest
+.pytest_cache/
+
 ```
