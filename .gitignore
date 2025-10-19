@@ -1,56 +1,52 @@
 ```
-# Terraform
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-.terraform/
-.terraform.lock.hcl
+# Generated .gitignore for TypeScript project
 
-# Logs and temp files
-*.log
-*.tmp
+# Compiled JavaScript files
+*.js
+*.js.map
 
-# Environment
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Dependencies
+node_modules/
+
+# Environment variables
 .env
 .env.local
-.env.
+.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# Logs
+*.log
 
-# Dependencies
-node_modules/
-venv/
-.venv/
+# Coverage reports
+coverage/
+htmlcov/
+
+# Build directories
+dist/
+build/
+target/
+
+# Python artifacts (if any Python files exist)
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Build artifacts
-dist/
-build/
-target/
-*.out
-*.exe
-*.dll
-*.so
-*.a
+# Temporary files
+*.tmp
+*.temp
 
-# Testing and coverage
-.coverage
-coverage/
-htmlcov/
-.pytest_cache/
-.mypy_cache/
+# OS generated files
+.DS_Store
+Thumbs.db
 
 # Compressed files
 *.zip
