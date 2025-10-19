@@ -1,42 +1,28 @@
 ```
-# Compiled and build artifacts
-*.fs
-*.o
-*.obj
-*.class
-*.pyc
-__pycache__/
-*.so
-*.dll
-*.exe
+# Model weights and binary files
+*.pth
+*.bin
+*.model
 
-# Dependencies
-node_modules/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
 venv/
 .venv/
-.env
-.env.local
-*.env.*
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
 .DS_Store
 Thumbs.db
-*.log
-*.tmp
 ```
