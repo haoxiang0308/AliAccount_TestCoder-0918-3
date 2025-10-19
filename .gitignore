@@ -1,40 +1,27 @@
 ```
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.sib
-*.sil
-*.bc
 *.o
-*.a
-*.dylib
-*.so
-*.dll
+*.obj
 *.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-Packages/
-.build/
-.swift-version
+target/
+**/target/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Rust-specific
+Cargo.lock
+**/Cargo.lock
 ```
