@@ -1,27 +1,4 @@
 ```
-# Compiled and build artifacts
-*.ji
-*.o
-*.so
-*.dylib
-*.dll
-
-# Dependencies
-.julia/
-.julia_scratch/
-.julia_local/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Backup scripts
+backup_*.sh
 ```
