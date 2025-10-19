@@ -1,12 +1,18 @@
 ```
 # Compiled and build artifacts
-*.beam
 *.o
 *.obj
+*.hi
+*.chi
+*.chs
 
 # Dependencies
-ebin/
-deps/
+.cabal-sandbox/
+cabal-dev/
+dist/
+dist-newstyle/
+.stack-work/
+.nix-helpers/
 
 # Logs and temp files
 *.log
@@ -17,8 +23,7 @@ deps/
 .vscode/
 .idea/
 
-# Environment
-.env
-.env.local
-*.env.*
+# System files
+.DS_Store
+Thumbs.db
 ```
