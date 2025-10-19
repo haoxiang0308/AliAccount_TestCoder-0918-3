@@ -1,0 +1,14 @@
+{
+  "name": "gcf-hello-function",
+  "version": "1.0.0",
+  "description": "A simple Google Cloud Function that returns 'Hello from GCF'",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14"
+  }
+}
