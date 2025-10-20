@@ -1,13 +1,55 @@
 ```
-# Temp files
-*.tmp
-*.swp
+# Database files
+*.db
 
-# Logs
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dependencies
+.venv/
+venv/
+env/
+.ENV/
+
+# Logs and temp files
 *.log
+*.tmp
+*.temp
 
 # Environment files
 .env
 .env.local
-*.env.*
+.env.*
+.env~*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Build directories
+dist/
+build/
+*.egg-info/
 ```
