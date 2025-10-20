@@ -1,36 +1,4 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Dependencies
-.venv/
-venv/
-env/
-.env
-.env.local
-.env.*
-
-# Logs
-*.log
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Build artifacts
-dist/
-build/
-*.egg-info/
-.coverage
-htmlcov/
-coverage/
-
-# OS
-.DS_Store
-Thumbs.db
+.temp_test_name
+test_*.js
 ```
