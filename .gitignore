@@ -1,5 +1,1 @@
-```
-# GraphQL schema files are source code - don't ignore them
-# NEyTU4c098.graphql
-# schema.graphql
-```
+Nothing should be ignored since only a Perl source file (.pl) was added, which is a source code file.
