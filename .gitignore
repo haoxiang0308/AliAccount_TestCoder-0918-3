@@ -1,4 +1,5 @@
 ```
-# Compiled files
-*.m
+# Generated from file changes
+*.thrift~
+*.thrift.d
 ```
