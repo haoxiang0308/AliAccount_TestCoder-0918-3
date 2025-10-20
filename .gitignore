@@ -1,33 +1,8 @@
 ```
-# Compiled files
-*.class
-
-# Dependencies
-__pycache__/
-*.pyc
-
-# Editors
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Temp files
+# Temporary files
 *.tmp
-*.swp
+*.temp
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# System
-.DS_Store
-Thumbs.db
+# Generated files
+*_*.json
 ```
