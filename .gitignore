@@ -1,28 +1,25 @@
 ```
-# Executables
-find_max
-
-# Temporary output files
-*.txt
-!*.txt
-output_*.txt
-
 # Compiled and build artifacts
+*.class
 *.o
 *.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
+
+# Dependencies
+lib/
+libs/
+jars/
 
 # Logs and temp files
-*.tmp
 *.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
+
+# Environment
+.env
+.env.local
+.env.*
 ```
