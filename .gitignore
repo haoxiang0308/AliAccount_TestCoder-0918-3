@@ -1,25 +1,45 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.o
+# Compiled files
+*.csproj.user
+*.userprefs
+*.suo
+*.user
+*.aps
+*.ncb
 *.obj
+*.log
+*.ilk
+*.pdb
+*.iobj
+*.ipdb
+*.tlog
+*.exp
+*.lib
+*.dll
+*.exe
 
 # Dependencies
-ebin/
-deps/
-_build/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+packages/
+bin/
+obj/
 
 # Environment
 .env
 .env.local
-.env.*
+.env.
+
+# Editors
+.vs/
+*.userprefs
+*~
+*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 ```
