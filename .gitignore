@@ -1,4 +1,1 @@
-```
-# Compiled files
-*.m
-```
+Nothing should be ignored based on the provided file changes. The added file 'user_creation_recipe.rb' is a source code file that should be tracked in version control.
