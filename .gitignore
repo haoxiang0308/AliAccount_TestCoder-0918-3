@@ -1,22 +1,31 @@
 ```
-# Temporary files and build artifacts
+# Compiled and build artifacts
+*.css.map
+*.css.gz
+*.css.br
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
-*.swo
 
-# Environment files
+# Environment
 .env
 .env.local
-*.env.*
-
-# Logs
-*.log
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Distribution artifacts
+dist/
+build/
+*.tar.gz
+*.zip
 ```
