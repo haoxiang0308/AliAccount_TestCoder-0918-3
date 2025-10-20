@@ -1,25 +1,19 @@
 ```
-# Generated TypeScript build artifacts
-*.tsbuildinfo
-*.js
-*.js.map
-*.d.ts
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
 
-# Temporary files
+# Dependencies
+.nimble/
+nimcache/
+
+# Logs and temp files
+*.log
 *.tmp
-*.temp
+*.swp
 
-# IDE files
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
 ```
