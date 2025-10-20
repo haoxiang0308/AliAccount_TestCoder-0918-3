@@ -1,43 +1,35 @@
 ```
 # Compiled and build artifacts
-*.cmi
-*.cmo
-*.cma
-*.cmx
-*.cmxa
-*.cmxs
-*.exe
-*.out
+*.pyc
+__pycache__/
+*.class
 *.o
 *.obj
-*.a
-*.so
+*.exe
 *.dll
-*.pyc
-*.class
+*.so
+*.a
+*.out
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+.env
+.env.local
+.env.*
+
+# Build directories
+dist/
+build/
 target/
 .gradle/
-julia-*/
-zig*/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
-
-# Environment
-.env
-.env.local
-*.env.*
 
 # Editors
 .vscode/
