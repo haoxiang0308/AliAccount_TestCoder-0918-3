@@ -1,19 +1,24 @@
 ```
-# TypeScript/JavaScript build artifacts
-*.js
-*.tsbuildinfo
-dist/
-build/
-out/
-lib/
+# Compiled and build artifacts
+*.ji
+*.o
+*.obj
+*.out
 
 # Dependencies
-node_modules/
+.julia/
+.julia_scratch/
+.julia_local/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
@@ -21,53 +26,23 @@ node_modules/
 *.swp
 *.swo
 
-# Logs
-*.log
-
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
 
-# System files
-.DS_Store
-Thumbs.db
+# Build directories
+build/
+dist/
+target/
 
-# Python (if applicable)
+# Python specific (if Python files present)
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 .Python
-venv/
-.venv/
-.mypy_cache/
-.pytest_cache/
-
-# Java (if applicable)
-*.class
-*.jar
-*.war
-*.ear
-target/
-.gradle/
-build/
-
-# C/C++ (if applicable)
-*.o
-*.obj
-*.a
 *.so
-*.dll
-*.exe
-*.out
-
-# Go (if applicable)
-*.exe
-*.test
-*.prof
-
-# Rust (if applicable)
-target/
 
 # Compressed files
 *.zip
