@@ -1,1 +1,28 @@
-Nothing should be ignored based on the provided file changes. The added file 'cDGA1RaivF.md' is a markdown source file that should be tracked in version control.
+```
+# Compiled and build artifacts
+*.js.map
+*.min.js
+*.bundle.js
+
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Test files
+test_*.js
+test_*.py
+test_*.txt
+```
