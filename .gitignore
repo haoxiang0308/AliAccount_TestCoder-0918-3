@@ -1,11 +1,1 @@
-```
-# Terraform files
-*.tfstate
-*.tfstate.*
-*.tfvars
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-*.backup
-*.lock.hcl
-```
+Nothing should be ignored since only a source code file (.scala) was added.
