@@ -1,4 +1,33 @@
 ```
-# Compiled and build artifacts
-*.fs
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
+
+# Temp files
+*.tmp
+*.temp
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
