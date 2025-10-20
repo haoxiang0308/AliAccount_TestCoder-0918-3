@@ -1,11 +1,5 @@
-```
-# Output files
-*.txt
-*.out
+(button_style_7834.css is a source file, not a build artifact or dependency, so no .gitignore rules needed)
 
-# Package files
-*.deb
+```css
 
-# Dependencies
-packages/
 ```
