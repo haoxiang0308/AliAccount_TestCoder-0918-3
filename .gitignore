@@ -1,62 +1,69 @@
 ```
-# Backup files
-backup_*.sh
-
 # Environment files
 .env
 .env.local
 *.env.*
 
-# Logs and temp files
+# Logs and temporary files
 *.log
 *.tmp
 *.swp
 
-# Editors
+# Editors and IDEs
 .vscode/
 .idea/
 
-# Dependencies
-node_modules/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
 .coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
 
-# Compressed files
-*.zip
-*.gz
-*.tar
+# Build and distribution artifacts
+*.so
+*.o
+*.pyc
+*.pyo
+*.pyd
+*.c
+*.h
+*.i
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
 *.tgz
+*.tar.bz2
+*.tar.xz
+*.zip
+*.rar
+*.7z
+*.gz
 *.bz2
 *.xz
-*.7z
-*.rar
 *.zst
 *.lz4
 *.lzh
@@ -67,8 +74,34 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System
+.DS_Store
+Thumbs.db
 ```
