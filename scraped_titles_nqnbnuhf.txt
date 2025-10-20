@@ -1,0 +1,9 @@
+URL: https://httpbin.org/html
+Title: No title found
+--------------------------------------------------
+URL: https://example.com
+Title: Example Domain
+--------------------------------------------------
+URL: https://github.com
+Title: GitHub · Build and ship software on a single, collaborative platform · GitHub
+--------------------------------------------------
