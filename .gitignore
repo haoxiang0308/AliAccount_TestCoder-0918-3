@@ -1,14 +1,26 @@
 ```
 # Compiled and build artifacts
-*.css.map
-*.min.css
-*.bundle.css
+*.ji
+*.o
+*.obj
+*.out
+
+# Dependencies
+.julia/
+*.julia/
+deps/
+test/
 
 # Logs and temp files
-*.tmp
 *.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
