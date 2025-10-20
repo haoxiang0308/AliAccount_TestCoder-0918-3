@@ -1,46 +1,52 @@
 ```
-# Compiled and build artifacts
-*.css.map
-*.css.gz
-*.css.br
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# CI/CD
+.github/
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
+
+# Temp files
+*.tmp
 *.swp
 *.swo
 
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-*.coverage
-
-# Dependency directories
+# Dependencies
 node_modules/
 venv/
 .venv/
 __pycache__/
-.mypy_cache/
-.pytest_cache/
+*.egg-info/
 dist/
 build/
 target/
 .gradle/
-julia-*/
-zig*/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
 
-# System files
+# Compiled files
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Editors
+.vscode/
+.idea/
+
+# System
 .DS_Store
 Thumbs.db
 
