@@ -1,1 +1,55 @@
-Nothing should be ignored in this case, as only a single Python source file (`fe1j0esd.py`) was added without any build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+
+# Dependencies
+Pods/
+Carthage/
+.swiftlint.yml
+DerivedData/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Other common ignores
+*.out
+*.exe
+*.class
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+```
