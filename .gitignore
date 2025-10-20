@@ -1,39 +1,25 @@
 ```
-# Configuration files
-*.env
-*.env.local
-*.env.*
-
-# Logs and temporary files
-*.log
-*.tmp
-*.swp
-*.swo
+# Compiled and build artifacts
+*.o
+*.obj
+*.class
+*.pyc
+__pycache__/
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
+.env
+.env.local
+.env.*
 
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-# Editor/IDE files
+# Editors
 .vscode/
 .idea/
 
