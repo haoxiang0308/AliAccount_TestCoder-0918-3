@@ -1,28 +1,27 @@
 ```
-# Executables
-find_max
-
-# Temporary output files
-*.txt
-!*.txt
-output_*.txt
-
 # Compiled and build artifacts
+*.mex*
 *.o
 *.obj
-*.out
-*.exe
-*.dll
-*.so
 *.a
+*.so
+*.dll
+*.exe
+
+# Dependencies
+matlab/
+octave/
 
 # Logs and temp files
-*.tmp
 *.log
+*.tmp
+*.swp
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
