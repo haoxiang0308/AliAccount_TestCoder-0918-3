@@ -1,29 +1,4 @@
 ```
-# Compiled and build artifacts
-*.vcd
-*.fst
-*.log
-*.tmp
-
-# Dependencies
-*.lib
-*.out
-*.bin
-
-# Simulation and synthesis outputs
-sim/
-syn/
-work/
-*.vvp
-*.ghw
-*.vcd
-
-# Editors
-.vim/
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
+# Thrift generated files
+*.thrift
 ```
