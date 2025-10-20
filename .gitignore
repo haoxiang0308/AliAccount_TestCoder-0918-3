@@ -1,7 +1,21 @@
 ```
+# Build system files
+*.mk
+Makefile
+
 # Compiled and build artifacts
-*.pyc
+*.o
+*.obj
+*.out
+build/
+dist/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 __pycache__/
+*.pyc
 
 # Logs and temp files
 *.log
@@ -16,4 +30,8 @@ __pycache__/
 # Editors
 .vscode/
 .idea/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
