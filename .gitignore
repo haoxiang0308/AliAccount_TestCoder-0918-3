@@ -1,33 +1,33 @@
 ```
 # Compiled and build artifacts
-*.class
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-lib/
 target/
-build/
+Cargo.lock
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
-*.iml
-*.ipr
-*.iws
 
-# Java-specific
-*.jar
-*.war
-*.ear
+# Environment
+.env
+.env.local
+*.env.*
+
+# Rust-specific
+**/deps/
+**/examples/
+**/incremental/
 ```
