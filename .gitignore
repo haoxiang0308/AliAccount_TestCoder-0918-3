@@ -1,32 +1,26 @@
 ```
 # Compiled and build artifacts
-*.nimble
-*.nims
-*.so
-*.dll
+*.o
+*.obj
+*.mod
+*.smod
 *.exe
-*.out
 
 # Dependencies
-.nimble/
-nimcache/
+build/
+dist/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-*.env.*
-
 # Editors
 .vscode/
 .idea/
 
-# Build directories
-build/
-dist/
-target/
+# Environment
+.env
+.env.local
+*.env.*
 ```
