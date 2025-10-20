@@ -1,1 +1,39 @@
-Nothing should be ignored based on the provided file changes. The added file `list_files_72ebee13f9ad.sh` appears to be a shell script source file, which should not be ignored.
+```
+# XML files
+*.xml
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+```
