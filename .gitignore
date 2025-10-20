@@ -1,5 +1,9 @@
 ```
-# GraphQL schema files (if auto-generated)
-*.graphql
-schema_*.graphql
+# Jenkins artifacts
+*.jpi
+*.hpi
+*.war
+**/jenkins/
+**/work/
+**/plugins/
 ```
