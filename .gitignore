@@ -1,9 +1,1 @@
-```
-# Executables
-find_max
-
-# Temporary files
-*.txt
-!*.txt
-output_*.txt
-```
+(redis_set_script_938475.py is a source file, and there are no build artifacts, dependencies, or temporary files in the changes)
