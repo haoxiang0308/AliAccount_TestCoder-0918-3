@@ -1,42 +1,73 @@
 ```
-# Compiled and build artifacts
-*.class
+# Backup files
+*~
+*.bak
+*.backup
+
+# Haskell-specific
+*.hi
 *.o
-*.obj
-*.out
+*.dyn_hi
+*.dyn_o
+dist/
+dist-newstyle/
+.cabal-sandbox/
+cabal-dev/
+*.prof
+*.vix
+*.tix
+*.eventlog
+.hpc/
+.hsenv/
+.ghc.environment
+.cabal/
+cabal.project.local
+cabal.project.local~
+stack-work/
+.hindent/
+brittany/
 
-# Dependencies
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-node_modules/
-venv/
-.venv/
-__pycache__/
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
+*.temp
 *.swp
+*.swo
 
-# Environment
+# Logs
+*.log
+
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
-
-# System files
+*.swp
+*.swo
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Build artifacts
+build/
+target/
+out/
+bin/
+obj/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+.Python
+.pytest_cache/
+.mypy_cache/
+.coverage
 coverage/
 htmlcov/
-.coverage
 
 # Compressed files
 *.zip
