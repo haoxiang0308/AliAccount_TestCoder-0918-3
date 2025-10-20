@@ -1,25 +1,4 @@
 ```
-# Thrift generated files
-*.thrift.g
-*.thrift.c
-*.thrift.h
-*.thrift.js
-*.thrift.py
-*.thrift.rb
-*.thrift.java
-*.thrift.php
-*.thrift.perl
-*.thrift.cpp
-*.thrift.st
-*.thrift.csharp
-*.thrift.go
-*.thrift.d
-*.thrift.dart
-*.thrift.js
-*.thrift.lua
-*.thrift.php
-*.thrift.py
-*.thrift.rb
-*.thrift.swift
-*.thrift.ts
+# Generated from file changes
+*.thrift
 ```
