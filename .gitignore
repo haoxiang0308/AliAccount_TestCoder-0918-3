@@ -1,40 +1,33 @@
 ```
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.sib
-*.sil
-*.bc
-*.o
-*.a
-*.dylib
-*.so
-*.dll
-*.exe
+# Compiled Python files
+*.pyc
+__pycache__/
 
 # Dependencies
-Packages/
-.build/
-.swift-version
+.venv/
+venv/
+pip-wheel-metadata/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Coverage reports
+.coverage
+htmlcov/
+coverage/
+
+# Python cache
+.mypy_cache/
+.pytest_cache/
 ```
