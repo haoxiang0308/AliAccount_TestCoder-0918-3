@@ -1,27 +1,899 @@
 ```
-# Compiled and build artifacts
-*.ji
-*.o
-*.so
-*.dylib
-*.dll
+# Zig compiler and related artifacts
+zig-linux-x86_64-*/
+temp_zig/
 
-# Dependencies
-.julia/
-.julia_scratch/
-.julia_local/
+# Compressed archives
+*.tar.xz
 
-# Logs and temp files
+# Dependencies and build artifacts
+node_modules/
+**/build/
+**/dist/
+**/target/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.conda/
+
+# Logs
 *.log
+
+# Temporary files
 *.tmp
+*.temp
 *.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Coverage
+# Environment files
+.env
+.env.local
+.env.*
+
+# Coverage reports
 coverage/
 htmlcov/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Package managers
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE
+.vs/
+*.user
+*.useros
+
+# System
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Compression
+*.zip
+*.tar
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Testing
+*.coverage
+coverage.xml
+
+# CI/CD
+.semaphore/
+.github/
+.gitlab/
+
+# Documentation
+docs/_build/
+
+# Virtual machine
+.vagrant/
+VMware/
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+
+# Database
+*.db
+*.db-journal
+
+# Lock files
+*.lock
+package-lock.json
+yarn.lock
+Cargo.lock
+Pipfile.lock
+
+# Secrets
+secrets/
+credentials.json
+*.pem
+*.key
+*.crt
+*.cert
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.jmod
+target/
+build/
+
+# Rust
+target/
+**/target/
+
+# C/C++
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# .NET
+bin/
+obj/
+*.sln
+*.csproj.user
+*.userprefs
+
+# Julia
+.julia/
+*.ji
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+lib/bundler/man/
+
+# PHP
+vendor/
+
+# C#
+bin/
+obj/
+*.sln
+*.csproj.user
+*.userprefs
+
+# Scala
+lib_managed/
+src_managed/
+target/
+
+# Erlang
+.erlang.cookie
+
+# Elixir
+*.beam
+*.ez
+deps/
+_build/
+
+# Haskell
+dist/
+dist-newstyle/
+.cabal-sandbox/
+cabal.sandbox.config
+
+# Lua
+*.lua~
+
+# Perl
+*.bak
+*.tmp
+*.old
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# MATLAB
+*.fig
+*.mat
+*.mex*
+*.mum
+
+# Objective-C
+*.dSYM/
+
+# Swift
+*.xcodeproj/
+*.xcworkspace/
+*.build/
+*.app
+
+# Android
+*.apk
+*.aar
+*.ap_
+build/
+.gradle/
+local.properties
+
+# iOS
+*.xcodeproj/
+*.xcworkspace/
+*.build/
+*.app
+*.ipa
+
+# Qt
+*.pro.user
+*.pro.user.*
+*.qm
+
+# Autotools
+autom4te.cache/
+.libs/
+.deps/
+aclocal.m4
+config.h
+config.log
+config.status
+configure
+
+# Meson
+meson-private/
+meson.build
+
+# Ninja
+.ninja_log
+
+# Bazel
+bazel-*
+external/
+logs/
+
+# PlatformIO
+.piolibdeps/
+.platformio/
+.pioenvs/
+.firmware
+
+# Arduino
+*.hex
+*.bin
+*.eep
+*.cof
+*.elf
+*.map
+
+# Unity
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+*.unityproj
+
+# Unreal Engine
+*.uproject
+*.uplugin
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Godot
+.godot/
+*.import
+
+# Cocos2d-x
+obj/
+libs/
+bin/
+assets/ResData/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Gradle
+.gradle/
+build/
+!gradle/
+gradle-app.setting
+
+# SBT
+target/
+lib_managed/
+src_managed/
+project/project/
+*.sbt
+*.sbt.dep
+
+# Leiningen
+target/
+test/resources/
+.checkouts
+.lein/
+.lein-repl-history
+
+# Clojure
+target/
+.checkouts
+.nrepl-port
+
+# Puppet
+spec/fixtures/
+pkg/
+*.puppet-module
+vendor/
+
+# Chef
+cookbooks/
+site-cookbooks/
+*.chef
+Berksfile.lock
+Policyfile.rb
+Policyfile.lock.json
+
+# Vagrant
+.vagrant/
+.vagrant.d/
+
+# Docker
+.docker/
+docker-compose*.yml
+!docker-compose.yml
+!docker-compose.yaml
+
+# Kubernetes
+*.kubeconfig
+
+# Ansible
+*.retry
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tf.json
+*.tfplan
+
+# CloudFormation
+*.template
+*.yaml
+*.yml
+
+# Salt
+salt://
+
+# Puppet
+spec/fixtures/
+pkg/
+*.puppet-module
+vendor/
+
+# Chef
+cookbooks/
+site-cookbooks/
+*.chef
+Berksfile.lock
+Policyfile.rb
+Policyfile.lock.json
+
+# Conda
+environment.yml
+environment.yaml
+environment.lock.yml
+environment.lock.yaml
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Poetry
+poetry.lock
+poetry.toml
+
+# Pip
+requirements.txt
+requirements-dev.txt
+requirements-test.txt
+requirements-prod.txt
+requirements-local.txt
+Pipfile
+Pipfile.lock
+
+# Conda
+environment.yml
+environment.yaml
+environment.lock.yml
+environment.lock.yaml
+
+# Yarn
+yarn.lock
+.yarn/
+yarn-error.log
+
+# NPM
+package-lock.json
+npm-debug.log*
+node_modules/
+
+# Bower
+bower_components/
+bower.json
+
+# Composer
+vendor/
+composer.lock
+composer.phar
+
+# RubyGems
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+lib/bundler/man/
+
+# Bundler
+vendor/bundle/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-metadata
+.jekyll-cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# RMarkdown
+*.html
+*.pdf
+*.md
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
+*.bcf
+
+# Sphinx
+_sphinx/
+sphinx/
+build/
+
+# MkDocs
+site/
+
+# Hexo
+public/
+.deploy/
+
+# Middleman
+/.sass-cache/
+/.bower-cache/
+/.bower-configuration
+/.bundle/
+/build/
+
+# GitBook
+_book/
+
+# Docusaurus
+.docusaurus/
+build/
+
+# Next.js
+.next/
+out/
+
+# Gatsby
+.public/
+.cache/
+
+# Remix
+node_modules/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+.output/
+
+# Vue
+dist/
+node_modules/
+*.log
+
+# React
+build/
+dist/
+node_modules/
+*.log
+
+# Angular
+node_modules/
+dist/
+tmp/
+coverage/
+.angular/
+
+# Svelte
+node_modules/
+public/build/
+package-lock.json
+yarn.lock
+
+# Webpack
+webpack-stats.json
+build/
+dist/
+
+# Browser-sync
+bs-config.json
+bs-reload.json
+
+# ESLint
+eslint-cache
+
+# Stylelint
+.stylelintcache
+
+# Flow
+.flowconfig
+.flow/
+
+# Jest
+coverage/
+junit.xml
+*.log
+
+# Mocha
+mocha.opts
+
+# Karma
+karma.conf.js
+
+# Protractor
+protractor.conf.js
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
+# TestCafe
+.screenshots/
+.videos/
+
+# Wallaby
+.wallaby/
+
+# Ava
+ava.config.js
+
+# Tap
+.tap/
+
+# Tape
+.tape/
+
+# Intern
+intern.json
+
+# WebDriverIO
+wdio.conf.js
+
+# Nightwatch
+nightwatch.conf.js
+
+# Cucumber
+*.feature
+
+# SpecFlow
+*.feature
+
+# JBehave
+*.story
+
+# Concordion
+*.html
+
+# FitNesse
+*.txt
+
+# Robot Framework
+*.robot
+
+# Gauge
+gauge/
+reports/
+logs/
+
+# Serenity
+target/site/
+serenity/
+
+# Cucumber
+target/cucumber-reports/
+cucumber-reports/
+
+# Behave
+reports/
+*.log
+
+# Lettuce
+lettuce.log
+
+# Pytest
+.pytest_cache/
+pytest.ini
+
+# Nose
+.nosetests
+
+# Unittest
+.unittest/
+
+# Tox
+.tox/
+!.tox
+
+# Coverage
 .coverage
+htmlcov/
+.coverage.xml
+.coverage.json
+
+# Profiling
+*.prof
+*.pstats
+
+# Linting
+.eslintcache
+.stylelintcache
+.jscsrc
+.jshintrc
+.eslintrc
+.jshintignore
+.flowconfig
+.stylelintrc
+.prettierrc
+.editorconfig
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment specific
+.env
+.env.local
+.env.*
+!env.example
+!env.test
+!env.development
+!env.production
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrumented libs generated by jscoverage/JSCover
+lib-cov
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# Next.js build output
+.next
+out/
+
+# Nuxt.js build output
+.nuxt
+dist/
+
+# Gatsby files
+.cache/
+public
+
+# VuePress build output
+.vuepress/dist
+
+# vuepress v2.x
+.temp
+.cache
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Rome
+rome/
+rome.json
+
+# Codegen
+codegen/
+generated/
+
+# Platform-specific
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+
+# Julia
+.julia/
+*.ji
+
+# Zig
+zig-cache/
+zig-out/
+*.zig.zon
+*.zig
 ```
