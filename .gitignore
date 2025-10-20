@@ -1,65 +1,51 @@
-```yml
-# Configuration files
-*.yml
-*.yaml
-
-# Serverless specific
-.serverless/
-.sls/
-serverless-state.json
-.serverless_plugins/
-
-# Environment and secrets
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependencies (if any)
-node_modules/
-__pycache__/
+```
+# Compiled and build artifacts
+*.ex
 *.pyc
-*.pyo
-*.pyd
-
-# Build artifacts (if any)
-dist/
-build/
-target/
+*.class
+*.o
+*.obj
 *.out
 *.exe
 *.dll
 *.so
 *.a
-*.class
 
-# Coverage reports
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage
 coverage/
 htmlcov/
 .coverage
-
-# Python specific
-*.pyc
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-*.egg-info/
 
 # Compressed files
 *.zip
