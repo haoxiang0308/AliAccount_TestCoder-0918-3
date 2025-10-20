@@ -1,7 +1,1 @@
-```
-# Temp files and generated content
-*.tmp
-*.html
-"hello_world_$
-hello_world_*.html
-```
+Nothing should be ignored based on the provided file changes. The added file `list_files_72ebee13f9ad.sh` appears to be a shell script source file, which should not be ignored.
