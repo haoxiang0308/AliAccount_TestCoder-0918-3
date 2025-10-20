@@ -1,1 +1,27 @@
-Nothing should be ignored based on the provided file changes. The only added file is `LoginForm.vue`, which is a source code file and should not be ignored.
+```
+# Temporary and backup files
+*.tmp
+*.bak
+*.backup
+*~
+.viminfo
+*.swp
+*.swo
+
+# Environment and config files
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Backup and script files
+backup_*
+*.sh.bak
+*.sh~
+
+# System files
+.DS_Store
+Thumbs.db
+```
