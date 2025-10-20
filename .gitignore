@@ -1,14 +1,35 @@
 ```
-# Configuration and deployment files
-*.yml
-*.yaml
+# Executables
+max_finder
 
-# Serverless framework
-.serverless/
-.sls/
-serverless-state.json
+# Output files
+*.txt
 
-# Environment variables
+# Compiled files
+*.o
+*.obj
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
 .env
 .env.local
 *.env.*
@@ -16,18 +37,32 @@ serverless-state.json
 # Logs
 *.log
 
-# Temporary files
-*.tmp
-*.swp
-*.swo
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
