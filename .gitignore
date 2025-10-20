@@ -1,19 +1,22 @@
 ```
 # Compiled and build artifacts
-*.o
-*.obj
-*.hi
+*.pyc
+__pycache__/
 
 # Dependencies
-.cabal-sandbox/
-dist/
-dist-newstyle/
-.stack-work/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
@@ -22,4 +25,41 @@ dist-newstyle/
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
