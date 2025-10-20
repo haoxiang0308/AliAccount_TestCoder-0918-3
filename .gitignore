@@ -1,17 +1,37 @@
-```
-# Compiled and build artifacts
-*.o
-*.obj
+```julia
+# Julia-specific ignores
+*.ji
+*.jl.cov
+*.jl.mem
 *.out
-*.exe
-*.dll
+*.o
 *.so
-*.a
+*.dylib
+*.dll
 
-# Temp files
-*.tmp
-max_result_*.txt
+# Build artifacts
+build/
+dist/
+lib/
+deps/
 
-# Logs
+# Environment
+.julia/
+.JuliaProject
+.JuliaManifest
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
 *.log
+*.tmp
+*.temp
+
+# System files
+.DS_Store
+Thumbs.db
 ```
