@@ -1,35 +1,23 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
+
+# Dependencies
+ebin/
+deps/
+
+# Logs and temp files
 *.log
-.pytest_cache/
-.mypy_cache/
-.hypothesis/
-
-# Generated files
-*.toml
-
-# Temporary files
 *.tmp
-*.temp
 *.swp
-*~
+
+# Editors
+.vscode/
+.idea/
+
+# System files
 .DS_Store
 Thumbs.db
 ```
