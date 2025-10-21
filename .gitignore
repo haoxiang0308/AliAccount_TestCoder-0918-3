@@ -56,11 +56,11 @@ target/
 .env.local
 .env.*
 
-# Coverage and test artifacts
-coverage/
-htmlcov/
-.coverage
-
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage and test reports
+coverage/
+htmlcov/
+.coverage
