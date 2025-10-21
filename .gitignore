@@ -1,38 +1,62 @@
-```
-# Elixir/Mix build artifacts
-_build/
-*.beam
-*.app
-.eunit
-
-# Generated files
-compile_env_*.ex
-compile_info_*.ex
-
-# Dependencies
-deps/
-/_build/
-*.ez
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs
-*.log
-log/
-
-# Coverage
-cover/
-
-# Editor/IDE
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+julia-*/
+zig*/
+#Editors and IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
-
-# System
+*.log
+*.tmp
+#System and environment files
 .DS_Store
 Thumbs.db
-```
+.env
+.env.local
+.env.*
+#Coverage and test reports
+coverage/
+htmlcov/
+.coverage
