@@ -1,0 +1,25 @@
+[application]
+name = "MyApp"
+version = "1.0.0"
+debug = true
+
+[server]
+host = "localhost"
+port = 8080
+timeout = 30
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+username = "db_user"
+password = "db_password"
+pool_size = 10
+
+[logging]
+level = "info"
+file = "app.log"
+
+[features]
+enable_cache = true
+max_connections = 100
