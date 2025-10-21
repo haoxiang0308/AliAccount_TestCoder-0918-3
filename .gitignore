@@ -1,55 +1,16 @@
-```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
-dist/
-build/
-target/
-.gradle/
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
-
-# Compiled files
-*.pyc
-*.class
-*.o
+#Compiled and build artifacts
 *.exe
 *.dll
 *.so
 *.a
+*.o
 *.obj
 *.out
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Compressed files
+*.pyc
+__pycache__/
+*.class
+*.jar
+*.war
 *.zip
 *.gz
 *.tar
@@ -72,4 +33,52 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
+
+#Dependencies
+node_modules/
+venv/
+.venv/
+.julia/
+.julia-*/
+.julia/packages/
+.julia/artifacts/
+target/
+.gradle/
+.build/
+.mypy_cache/
+.pytest_cache/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.backup
+*.bak
+*.temp
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.tmp
+
+#System files
+.DS_Store
+Thumbs.db
+
+#Coverage and test output
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+.coverage*
+.coverage.data
+.coverage.xml
