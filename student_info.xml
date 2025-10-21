@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <id>12345</id>
+    <firstName>Иван</firstName>
+    <lastName>Петров</lastName>
+    <email>ivan.petrov@example.com</email>
+    <major>Информационные технологии</major>
+    <year>3</year>
+    <gpa>4.2</gpa>
+    <enrollmentDate>2022-09-01</enrollmentDate>
+</student>
