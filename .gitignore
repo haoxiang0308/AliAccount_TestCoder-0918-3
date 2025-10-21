@@ -1,55 +1,62 @@
-```
-# Compiled Python files
+# Compiled and build artifacts
 *.pyc
-__pycache__/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Virtual environments
+# Dependencies
+node_modules/
 venv/
 .venv/
-env/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
+# Editors and IDEs
+.vscode/
+.idea/
 *.swp
 *.swo
+*.log
+*.tmp
 
 # Environment files
 .env
 .env.local
-*.env.*
+.env.*
 
-# Coverage reports
-.coverage
+# Coverage and test reports
 coverage/
 htmlcov/
-
-# IDE files
-.vscode/
-.idea/
-*.pyc
-*.pyo
-*.pyd
-
-# Build directories
-build/
-dist/
-*.egg-info/
-
-# MyPy cache
-.mypy_cache/
-
-# Pytest cache
-.pytest_cache/
-
-# Distribution / packaging
-*.tar.gz
-*.whl
-*.egg
-
-# System files
-.DS_Store
-Thumbs.db
-```
+.coverage
