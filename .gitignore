@@ -1,10 +1,13 @@
-```
-# Zig build artifacts and dependencies
-zig-linux-x86_64-0.13.0/
-zig-alt.tar.xz
-*.tar.xz
-
-# Compressed files
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 *.zip
 *.gz
 *.tar
@@ -23,5 +26,38 @@ zig-alt.tar.xz
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-```
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Editors and IDEs
+.vscode/
+.idea/
+
+#System files
+.DS_Store
+Thumbs.db
