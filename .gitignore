@@ -1,27 +1,60 @@
-```
-# Temporary and backup files
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+#Dependencies
+.venv/
+venv/
+node_modules/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+julia-*/
+zig*/
+#Logs and temp files
+*.log
 *.tmp
-*.bak
-*.backup
-*~
-.viminfo
 *.swp
 *.swo
-
-# Environment and config files
+#Environment files
 .env
 .env.local
 .env.*
-
-# Logs
-*.log
-
-# Backup and script files
-backup_*
-*.sh.bak
-*.sh~
-
-# System files
+#Editors and IDEs
+.vscode/
+.idea/
+#System files
 .DS_Store
 Thumbs.db
-```
