@@ -1,0 +1,19 @@
+---
+# Ansible task to copy a file with a random name
+- name: Copy file with random name
+  hosts: localhost
+  tasks:
+    - name: Generate random suffix for filename
+      set_fact:
+        random_suffix: "{{ 1000000000000000 | random | to_uuid }}"
+
+    - name: Copy file with random name
+      copy:
+        src: /workspace/first.txt
+        dest: "/workspace/copied_file_{{ random_suffix }}.txt"
+        mode: '0644'
+      register: copy_result
+
+    - name: Display the new filename
+      debug:
+        msg: "File copied to: {{ copy_result.dest }}"
