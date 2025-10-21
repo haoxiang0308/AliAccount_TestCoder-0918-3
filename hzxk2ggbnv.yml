@@ -1,0 +1,22 @@
+---
+- name: Restart service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart service
+      systemd:
+        name: "{{ service_name | default(\"nginx\") }}"
+        state: restarted
+      notify: wait for service
+
+    - name: Reload systemd daemon
+      systemd:
+        daemon_reload: yes
+
+  handlers:
+    - name: wait for service
+      wait_for:
+        port: "{{ service_port | default(80) }}"
+        delay: 2
+        timeout: 30
+
