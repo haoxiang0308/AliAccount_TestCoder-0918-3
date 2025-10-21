@@ -1,4 +1,4 @@
-#Compiled and build artifacts
+# Compiled and build artifacts
 *.pyc
 *.class
 *.o
@@ -30,7 +30,8 @@
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-#Dependencies
+
+# Dependencies
 node_modules/
 venv/
 .venv/
@@ -41,22 +42,25 @@ build/
 .pytest_cache/
 target/
 .gradle/
-julia-*/
-zig*/
-#Editors and IDEs
+
+# Editors and IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 *.log
 *.tmp
-#System and environment files
-.DS_Store
-Thumbs.db
+
+# Environment files
 .env
 .env.local
 .env.*
-#Coverage and test reports
+
+# Coverage and test reports
 coverage/
 htmlcov/
 .coverage
+
+# Generated VBA files (if not part of source control)
+9znzd7ys33.vba
+format_excel_macro.vba
