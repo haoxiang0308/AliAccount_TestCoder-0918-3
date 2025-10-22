@@ -1,27 +1,58 @@
-```
-# Temporary files
+# LaTeX files
+*.aux
+*.log
+*.lot
+*.lof
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.dvi
+*.ps
+*.pdf
+*.eps
+*.epub
+*.html
+*.idx
+*.ilg
+*.ind
+*.la
+*.ltx
+*.auxlock
+*.backup
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+*.env
+.env.local
+.env.*
+# Editors
+.vscode/
+.idea/
+# Logs and temp files
+*.log
 *.tmp
 *.swp
 *.swo
-
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Backup files
-*~
-*.bak
-*.backup
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Compressed files
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
 *.zip
 *.gz
 *.tar
@@ -44,4 +75,3 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
