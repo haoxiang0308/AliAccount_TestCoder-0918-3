@@ -1,21 +1,4 @@
-```
-#Compiled and build artifacts
-*.beam
-*.o
-*.obj
-#Dependencies
-.vagrant/
-venv/
-.venv/
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-#Environment
-.env
-.env.local
-.env.
-#Editors
-.vscode/
-.idea/
-```
+# Generated from file changes
+# Source files (no need to ignore)
+# No build artifacts, dependencies, or temp files detected
+# Empty .gitignore as per rules
