@@ -1,5 +1,15 @@
-(queue.cr is a source code file, so no .gitignore rules needed)
-
-```crystal
-
-```
+# Zig build artifacts
+*.zig.zig
+tmp.jVinmLU1Cw.zig
+# Temporary files
+*.tmp
+*.swp
+# Editors
+.vscode/
+.idea/
+# Logs
+*.log
+# Environment
+.env
+.env.local
+.env.*
