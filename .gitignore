@@ -1,2 +1,10 @@
 ```
+#Configuration files
+*.ini
+*.txt
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
 ```
