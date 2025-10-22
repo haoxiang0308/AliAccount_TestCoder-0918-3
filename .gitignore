@@ -1,41 +1,4 @@
 ```
-# Compiled files
-*.hi
-*.o
-*.chi
-*.chs
-
-# Build artifacts
-dist/
-build/
-cabal-dist/
-.stack-work/
-
-# Dependencies
-.ghc.environment.*
-cabal.sandbox.config
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# OS
-.DS_Store
-Thumbs.db
+#Assembly files
+*.asm
 ```
