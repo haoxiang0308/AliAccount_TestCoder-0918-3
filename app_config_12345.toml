@@ -1,0 +1,29 @@
+# Application Configuration
+title = "My Application Configuration"
+
+[server]
+host = "localhost"
+port = 8080
+environment = "development"
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp_db"
+username = "user"
+password = "password"
+ssl_enabled = false
+
+[logging]
+level = "info"
+format = "json"
+output = "stdout"
+
+[features]
+enable_caching = true
+max_connections = 100
+timeout_seconds = 30
+
+[api]
+version = "v1"
+rate_limit = 1000
