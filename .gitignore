@@ -1,2 +1,11 @@
-zig-linux-x86_64-0.13.0/
-zig.tar
+# Rust build artifacts
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
