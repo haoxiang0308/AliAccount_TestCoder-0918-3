@@ -1,34 +1,189 @@
-```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Logs
+# LaTeX temporary files
+*.aux
 *.log
-
-# Temporary files
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.toc
+*.bbl
+*.blg
+*.lof
+*.lot
+*.ilg
+*.ind
+*.idx
+*.glo
+*.gls
+*.acn
+*.acr
+*.alg
+*.glg
+*.glsdefs
+*.ist
+*.fls
+*.fmt
+*.fot
+*.fof
+*.lop
+*.lol
+*.loa
+*.bcf
+*.run.xml
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.pdf
+*.eps
+*.epub
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.xz
+*.tar.zst
+*.tar.bz2
 *.tmp
 *.swp
 *.swo
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# IDE
-.vscode/
-.idea/
-
-# OS
+*.bak
+*.backup
+~*
+# OS generated files
 .DS_Store
 Thumbs.db
-```
+# Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+# Environment files
+.env
+.env.local
+.env.*
+# Build artifacts
+dist/
+build/
+target/
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.gradle/
+.julia/
+.zig/
+# Log files
+*.log
+coverage/
+htmlcov/
+.coverage
+# Generated files
+*.class
+*.jar
+*.war
+*.ear
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.out
+*.bin
+*.dat
+*.db
+*.sqlite
+*.sqlite3
+*.lock
+*.pid
+*.pid.lock
+# IDE specific
+*.iml
+*.ipr
+*.iws
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+# Version control
+.git/
+.gitignore
+.gitattributes
+.gitmodules
+# Documentation
+README.md
+LICENSE
+CHANGELOG.md
+CONTRIBUTING.md
+# Configuration files
+*.cfg
+*.ini
+*.toml
+*.yaml
+*.yml
+*.json
+*.xml
+*.properties
+*.env
+# Binary files
+*.bin
+*.dat
+*.db
+*.sqlite
+*.sqlite3
+*.lock
+*.pid
+*.pid.lock
+# Compressed archives
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+# Image files (do not ignore)
+# Audio files (do not ignore)
+# Video files (do not ignore)
+# Document files (do not ignore)
