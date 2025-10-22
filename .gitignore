@@ -1,5 +1,13 @@
-(date-formatter.pipe.ts is a source file, so no ignores needed)
+```
+# PHP files (if not part of source)
+*.php
 
-```ts
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
+# Editors
+.vscode/
+.idea/
 ```
