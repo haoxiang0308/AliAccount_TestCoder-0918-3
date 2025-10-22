@@ -1,25 +1,2 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.fsx~
-
-# Dependencies
-.paket/
-*.nupkg
-*.dll
-*.exe
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Paket files
-.paket/
-paket-files/
 ```
