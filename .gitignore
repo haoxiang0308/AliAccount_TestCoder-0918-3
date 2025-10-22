@@ -42,6 +42,8 @@ build/
 .pytest_cache/
 target/
 .gradle/
+julia-*/
+zig*/
 
 # Editors and IDEs
 .vscode/
@@ -56,7 +58,7 @@ target/
 .env.local
 .env.*
 
-# Coverage and test artifacts
+# Coverage and test reports
 coverage/
 htmlcov/
 .coverage
