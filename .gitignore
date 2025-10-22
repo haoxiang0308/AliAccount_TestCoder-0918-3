@@ -1,53 +1,35 @@
-```
-# Docker-related
-Dockerfile*
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
 # Dependencies
-node_modules/
 venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+.env
+.env.local
+.env.*
 
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
+# Build artifacts
+dist/
+build/
 
-# Logs and temp files
-*.log
-*.tmp
+# IDE
+.vscode/
+.idea/
 *.swp
 *.swo
 
-# Environment
-.env
-.env.local
-*.env.*
+# Logs
+*.log
 
-# Editors
-.vscode/
-.idea/
+# Temp files
+*.tmp
 
-# System files
+# System
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
+# Archives
 *.zip
 *.gz
 *.tar
@@ -70,4 +52,3 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
