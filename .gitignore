@@ -1,13 +1,1 @@
-```
-# Temporary shell scripts
-*.sh~
-
-# Logs and temp files
-*.tmp
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-```
+nginx-deployment-*.yaml
