@@ -1,21 +1,2 @@
 ```
-#Compiled and build artifacts
-find_max
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-#Logs and temp files
-*.tmp
-*.swp
-#Environment
-.env
-.env.local
-.env.
-#Editors
-.vscode/
-.idea/
 ```
