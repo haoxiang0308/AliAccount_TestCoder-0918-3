@@ -1,25 +1,11 @@
-```
-# Random files
-.random_name
-
-# TypeScript/JavaScript build artifacts
-*.js.map
-*.tsbuildinfo
+# Puppet configuration files
+*.pp
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
-
-# Dependencies
-node_modules/
-```
