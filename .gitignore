@@ -1,20 +1,21 @@
 ```
-# Compiled and build artifacts
-*.asm
+#Compiled and build artifacts
+find_max
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
-
-# Editors
-.vscode/
-.idea/
-
-# Logs and temp files
-*.log
+#Logs and temp files
 *.tmp
 *.swp
-
-# System files
-.DS_Store
-Thumbs.db
+#Environment
+.env
+.env.local
+.env.
+#Editors
+.vscode/
+.idea/
 ```
