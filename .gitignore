@@ -8,6 +8,10 @@
 *.so
 *.a
 *.out
+*.log
+*.tmp
+*.swp
+*.swo
 *.zip
 *.gz
 *.tar
@@ -30,10 +34,11 @@
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
 #Dependencies
-.venv/
-venv/
 node_modules/
+venv/
+.venv/
 __pycache__/
 dist/
 build/
@@ -43,18 +48,23 @@ target/
 .gradle/
 julia-*/
 zig*/
-#Logs and temp files
+
+#Editors and IDE
+.vscode/
+.idea/
 *.log
 *.tmp
-*.swp
-*.swo
+
 #Environment files
 .env
 .env.local
 .env.*
-#Editors and IDEs
-.vscode/
-.idea/
+
+#Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
+
 #System files
 .DS_Store
 Thumbs.db
