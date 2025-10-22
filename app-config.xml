@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <application>
+        <name>MyApplication</name>
+        <version>1.0.0</version>
+        <environment>production</environment>
+    </application>
+    
+    <database>
+        <host>localhost</host>
+        <port>5432</port>
+        <name>myapp_db</name>
+        <username>dbuser</username>
+        <password>secret</password>
+    </database>
+    
+    <server>
+        <host>0.0.0.0</host>
+        <port>8080</port>
+        <maxConnections>100</maxConnections>
+        <timeout>30</timeout>
+    </server>
+    
+    <logging>
+        <level>INFO</level>
+        <file>/var/log/myapp/app.log</file>
+        <maxSize>10MB</maxSize>
+        <backupCount>5</backupCount>
+    </logging>
+    
+    <features>
+        <feature name="authentication" enabled="true"/>
+        <feature name="caching" enabled="true"/>
+        <feature name="debugMode" enabled="false"/>
+    </features>
+</configuration>
