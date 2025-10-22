@@ -1,54 +1,34 @@
-```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Dependencies
+.dart
+*.dart
+*.dart.js
+*.dart.js.map
+*.dart.snapshot
+*.dartdeps
+*.dart_pkg
+*.dart_tool/
+*.packages
+*.snapshot
+*.tmp
+*.log
+*.swp
+*.swo
+.vscode/
+.idea/
+.env
+.env.local
+.env.*
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-*.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
+__pycache__/
 dist/
 build/
 target/
 .gradle/
-
-# Python specific
 .mypy_cache/
 .pytest_cache/
-
-# Compressed files
+coverage/
+htmlcov/
 *.zip
 *.gz
 *.tar
@@ -71,4 +51,11 @@ target/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
+.DS_Store
+Thumbs.db
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.webm
