@@ -1,0 +1,73 @@
+# Makefile for C++ project
+
+# Compiler
+CXX = g++
+# Compiler flags
+CXXFLAGS = -Wall -Wextra -std=c++17 -g
+# Source directory
+SRCDIR = src
+# Build directory
+BUILDDIR = build
+# Test directory
+TESTDIR = test
+# Binary directory
+BINDIR = bin
+
+# Find all source files
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+# Object files
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(BUILDDIR)/%.o)
+# Executable name
+TARGET = $(BINDIR)/main
+
+# Default target
+all: build
+
+# Build target
+build: $(TARGET)
+
+# Create directories if they don't exist
+$(BUILDDIR) $(BINDIR):
+	@mkdir -p $@
+
+# Link object files to create executable
+$(TARGET): $(OBJECTS) | $(BINDIR)
+	$(CXX) $(OBJECTS) -o $@
+
+# Compile source files to object files
+$(BUILDDIR)/%.o: $(SRCDIR)/%.cpp | $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Test target
+test: build
+	@echo "Running tests..."
+	@if [ -d "$(TESTDIR)" ]; then \
+		for test_file in $(TESTDIR)/*.cpp; do \
+			if [ -f "$$test_file" ]; then \
+				test_name=$$(basename "$$test_file" .cpp); \
+				echo "Building test $$test_name..."; \
+				$(CXX) $(CXXFLAGS) $$test_file -o $(BUILDDIR)/$$test_name; \
+				echo "Running test $$test_name..."; \
+				./$(BUILDDIR)/$$test_name || echo "Test $$test_name failed!"; \
+			fi; \
+		done; \
+	else \
+		echo "No test directory found. Skipping tests."; \
+	fi
+
+# Clean target
+clean:
+	@echo "Cleaning build artifacts..."
+	@rm -rf $(BUILDDIR) $(BINDIR)
+	@echo "Clean complete."
+
+# Help target
+help:
+	@echo "Available targets:"
+	@echo "  all     - Build the project (default)"
+	@echo "  build   - Build the project"
+	@echo "  test    - Run tests after building"
+	@echo "  clean   - Remove build artifacts"
+	@echo "  help    - Show this help message"
+
+.PHONY: all build test clean help

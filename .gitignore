@@ -1,25 +1,29 @@
-```
-# Compiled and build artifacts
+```plaintext
+#Compiled and build artifacts
+*.pyc
+pycache/
 *.o
 *.obj
-*.hi
-
-# Dependencies
-.cabal/
 dist/
-dist-newstyle/
-.stack-work/
-
-# Logs and temp files
+build/
+#Dependencies
+.venv/
+venv/
+node_modules/
+#Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Editors
+*.swo
+*.log.*
+#Environment
+.env
+.env.local
+.env.*
+#Editors
 .vscode/
 .idea/
-
-# System files
+#System files
 .DS_Store
 Thumbs.db
 ```
