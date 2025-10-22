@@ -1,20 +1,112 @@
-```
-# Compiled and build artifacts
-*.asm
-*.o
-*.obj
-*.out
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Editors
-.vscode/
-.idea/
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
-.DS_Store
-Thumbs.db
-```
+# PyInstaller
+  #  requirements.txt
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https......
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  # ......
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  #  https://github.com/pyinstaller/pyinstaller/issues/1113
+  # ......
