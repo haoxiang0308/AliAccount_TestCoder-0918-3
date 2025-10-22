@@ -1,2 +1,10 @@
-```
-```
+# Shell scripts
+LCdklqfxCG.sh
+backup_script.sh
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+# Editors
+.vscode/
+.idea/
