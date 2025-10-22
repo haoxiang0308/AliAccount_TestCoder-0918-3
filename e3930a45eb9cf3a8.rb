@@ -1,0 +1,1 @@
+# Ruby script to iterate through an array using a block\n\n# Define an example array\nfruits = ["orange", "grape", "kiwi", "peach", "mango"]\n\nputs "Fruits in the array:"\nfruits.each do |fruit|\n  puts "- #{fruit}"\nend\n\n# Numeric array example\nnumbers = [10, 20, 30, 40, 50]\nputs "\nNumbers multiplied by 2:"\nnumbers.each { |num| puts "#{num} * 2 = #{num * 2}" }\n

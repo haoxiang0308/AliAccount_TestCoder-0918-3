@@ -1,0 +1,1 @@
+# Ruby script to iterate through an array using a block\n\n# Define an example array\nmy_array = ["apple", "banana", "cherry", "date", "elderberry"]\n\nputs "Iterating through array using a block:"\nmy_array.each do |element|\n  puts element\nend\n\n# Additional example with numbers\nputs "\nNumbers:"\n(1..5).each { |num| puts num }\n

@@ -1,0 +1,1 @@
+# Ruby script to iterate through an array using a block\n\n# Define an example array\nanimals = ["cat", "dog", "bird", "fish", "rabbit"]\n\nputs "Animals in the array:"\nanimals.each do |animal|\n  puts "#{animal}"\nend\n\n# Numeric array example\nnums = [1, 2, 3, 4, 5]\nputs "\nSquares of numbers:"\nnums.each { |num| puts "#{num}^2 = #{num ** 2}" }\n
