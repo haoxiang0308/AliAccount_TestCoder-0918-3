@@ -1,9 +1,12 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Configuration files
-server-config-*.json
+#Compiled and build artifacts
+*.class
+*.o
+*.obj
+#Dependencies
+.venv/
+venv/
+#Editors
+.vscode/
+.idea/
 ```
