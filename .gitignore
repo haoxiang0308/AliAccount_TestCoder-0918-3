@@ -1,21 +1,18 @@
-```
-# Database files
-*.php
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
+# Solidity contract files (no build artifacts or dependencies)
+*.sol
+# IDE and editor files
 .vscode/
 .idea/
-
 # OS generated files
 .DS_Store
 Thumbs.db
-```
+# Log files
+*.log
+# Temporary files
+*.tmp
+*.swp
+*.swo
+# Environment files
+.env
+.env.local
+.env.*
