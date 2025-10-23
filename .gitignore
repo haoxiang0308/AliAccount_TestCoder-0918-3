@@ -1,42 +1,13 @@
-# Generated files
-*.vue.swp
-*.vue.swo
-*.vue.log
-*.vue.tmp
-
-# IDE and editor
-.vscode/
-.idea/
-
-# OS generated
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Build artifacts
-dist/
-build/
-target/
-node_modules/
-.venv/
-venv/
-
-# Logs and cache
-*.log
-*.tmp
-*.swp
-*.swo
-.mypy_cache/
-.pytest_cache/
-.coverage
-htmlcov/
-coverage/
-
-# Compressed files
+# Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 *.zip
 *.gz
 *.tar
@@ -59,3 +30,37 @@ coverage/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
+
+# System files
+.DS_Store
+Thumbs.db
