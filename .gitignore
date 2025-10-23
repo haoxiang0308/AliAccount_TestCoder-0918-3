@@ -1,1 +1,58 @@
-Nothing should be ignored based on the provided file changes. The added file 'UJONjAMlvT.md' is a markdown source file that should be tracked in version control.
+# Compiled and build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Dependencies and package folders
+node_modules/
+.venv/
+venv/
+zig-linux-x86_64-0.13.0/
+zig-x86_64-linux-0.15.2/
+zig-checksum.sha256
+zig-versions.json
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.backup
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Editors and IDEs
+.vscode/
+.idea/
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
