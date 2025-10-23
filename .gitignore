@@ -1,40 +1,6 @@
-```
-# JSON data files
-*.json
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-
-# Build artifacts
-dist/
-build/
-target/
-
-# Python
+#Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Compiled files
+*.class
 *.o
 *.obj
 *.exe
@@ -42,13 +8,10 @@ target/
 *.so
 *.a
 *.out
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
+*.log
+*.tmp
+*.swp
+*.swo
 *.zip
 *.gz
 *.tar
@@ -71,4 +34,31 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
+
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+#Editors and IDEs
+.vscode/
+.idea/
+*.log
+*.tmp
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Coverage and testing
+coverage/
+htmlcov/
+.coverage
