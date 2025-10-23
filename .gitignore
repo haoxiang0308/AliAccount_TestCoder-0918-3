@@ -1,49 +1,17 @@
-```
-# XML files
-*.xml
-
-# Temporary files
-*.tmp
-*.temp
-
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Dependency directories
-node_modules/
-__pycache__/
+#Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-*.so
-*.dll
-*.exe
-*.out
-
-# Build artifacts
-dist/
-build/
-target/
 *.class
 *.o
 *.obj
+*.exe
+*.dll
+*.so
 *.a
-*.lib
-*.dylib
-*.jar
-
-# Compressed files
+*.out
+*.log
+*.tmp
+*.swp
+*.swo
 *.zip
 *.gz
 *.tar
@@ -66,8 +34,25 @@ target/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# System files
-.DS_Store
-Thumbs.db
-```
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+#Editors and IDE
+.vscode/
+.idea/
+#Environment files
+.env
+.env.local
+.env.*
+#Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
