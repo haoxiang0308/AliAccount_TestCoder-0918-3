@@ -50,15 +50,13 @@ target/
 #Editors and IDEs
 .vscode/
 .idea/
+*.log
+*.tmp
 
 #Environment files
 .env
 .env.local
 .env.*
-
-#System files
-.DS_Store
-Thumbs.db
 
 #Coverage and test artifacts
 coverage/
