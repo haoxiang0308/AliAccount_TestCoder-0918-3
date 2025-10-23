@@ -1,54 +1,15 @@
-```
-# Docker
-docker-compose-*.yml
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Compiled files
+#Compiled and build artifacts
 *.pyc
-*.class
+__pycache__/
 *.o
+*.obj
 *.exe
 *.dll
 *.so
 *.a
-*.obj
 *.out
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
+*.class
+*.jar
 *.zip
 *.gz
 *.tar
@@ -71,4 +32,32 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
+dist/
+build/
+target/
+.coverage
+coverage/
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+#Dependencies
+.venv/
+venv/
+node_modules/
+julia-*/
+zig*/
+.gradle/
+#Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.tmp
+#Environment files
+.env
+.env.local
+.env.*
+#System files
+.DS_Store
+Thumbs.db
