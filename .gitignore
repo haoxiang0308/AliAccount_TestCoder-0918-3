@@ -1,28 +1,17 @@
-```
-# Configuration files
-*.ini
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Logs and temporary files
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 *.log
 *.tmp
 *.swp
-
-# Editors and IDEs
-.vscode/
-.idea/
-*.swp
 *.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Compressed files
 *.zip
 *.gz
 *.tar
@@ -45,4 +34,31 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
+
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+#Editors and IDE
+.vscode/
+.idea/
+*.log
+*.tmp
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Coverage and test output
+coverage/
+htmlcov/
+.coverage
