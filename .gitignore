@@ -1,44 +1,13 @@
-# Julia source files
-*.jl
-
-# Compiled binaries
+# Compiled and build artifacts
+*.pyc
+*.class
 *.o
-*.so
-*.dylib
+*.obj
 *.exe
 *.dll
-
-# Build directories
-build/
-dist/
-
-# IDE and editor
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Environment files
-.env
-.env.local
-.env.*
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Package cache
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
-
-# Compressed files
+*.so
+*.a
+*.out
 *.zip
 *.gz
 *.tar
@@ -61,3 +30,33 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
