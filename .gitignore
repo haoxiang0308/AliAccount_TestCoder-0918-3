@@ -1,4 +1,4 @@
-#Compiled and build artifacts
+# Compiled and build artifacts
 *.pyc
 *.class
 *.o
@@ -8,10 +8,6 @@
 *.so
 *.a
 *.out
-*.log
-*.tmp
-*.swp
-*.swo
 *.zip
 *.gz
 *.tar
@@ -35,30 +31,38 @@
 *.tar.xz
 *.tar.zst
 
-#Dependencies
-.venv/
-venv/
+# Dependencies
 node_modules/
+venv/
+.venv/
 __pycache__/
 dist/
 build/
-target/
-.gradle/
 .mypy_cache/
 .pytest_cache/
+target/
+.gradle/
 julia-*/
 zig*/
 
-#Editors and IDE
+# Editors and IDEs
 .vscode/
 .idea/
+*.swp
+*.swo
+*.log
+*.tmp
 
-#Environment files
+# Environment files
 .env
 .env.local
 .env.*
 
-#Coverage and test artifacts
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage and test reports
 coverage/
 htmlcov/
 .coverage
