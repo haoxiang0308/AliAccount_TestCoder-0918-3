@@ -1,0 +1,5 @@
+- name: Copy file with random name
+  copy:
+    src: /workspace/source_file.txt
+    dest: "/tmp/copied_file_{{ (10000000 | random) | string }}.txt"
+    mode: '0644'
