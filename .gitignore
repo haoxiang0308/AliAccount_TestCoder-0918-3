@@ -1,45 +1,71 @@
-```
-# Compiled and build artifacts
+#Compiled and build artifacts
 *.pyc
-__pycache__/
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Dependencies
+#Dependencies
 .venv/
 venv/
 node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-
-# Build directories
+__pycache__/
 dist/
 build/
 target/
-```
+.gradle/
+.julia/
+.julia-*/
+.julia-*
+.julia/.*
+.julia-*/.*
+
+#Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.tmp
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Coverage and test artifacts
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+#System files
+.DS_Store
+Thumbs.db
