@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <id>12345</id>
+    <firstName>Иван</firstName>
+    <lastName>Петров</lastName>
+    <email>ivan.petrov@example.com</email>
+    <major>Информатика</major>
+    <year>3</year>
+</student>
