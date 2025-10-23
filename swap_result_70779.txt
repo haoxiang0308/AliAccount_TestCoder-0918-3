@@ -1,0 +1,4 @@
+Integer swap example
+After swap:
+First value: 20
+Second value: 10
