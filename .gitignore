@@ -1,49 +1,13 @@
-```
-# Puppet files
-*.pp.bak
-*.pp~
-
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.class
+#Compiled and build artifacts
+*.cr
 *.o
 *.obj
 *.out
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Compressed files
+*.exe
+*.dll
+*.so
+*.a
+*.dylib
 *.zip
 *.gz
 *.tar
@@ -66,4 +30,40 @@ target/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
+
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+target/
+.gradle/
+.julia/
+.julia-*/
+.julia-*/bin/
+.julia-*/lib/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.cache
+.coverage
+coverage/
+htmlcov/
+
+#Environment files
+.env
+.env.local
+.env.*
+
+#Editors and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
