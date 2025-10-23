@@ -1,3 +1,61 @@
-(random_matrix_259230626.jl is a source code file, no build artifacts or temp files detected)
+#Compiled and build artifacts
+*.pyc
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+*.log
+*.tmp
+*.swp
+*.swo
+*.env.*
+*.env
+.DS_Store
+Thumbs.db
 
-(empty)
+#Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+#Editors and IDEs
+.vscode/
+.idea/
+
+#Coverage and test artifacts
+coverage/
+htmlcov/
+.coverage
