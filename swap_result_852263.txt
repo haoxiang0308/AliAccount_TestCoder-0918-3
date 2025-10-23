@@ -1,0 +1,3 @@
+After swap:
+a = 20
+b = 10
