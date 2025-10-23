@@ -1,32 +1,72 @@
-```
-# TypeScript/JavaScript project
-*.tsbuildinfo
-*.js
-*.map
+#Compiled and build artifacts
+*.pyc
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.class
+*.jar
+*.war
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 
-# Dependencies
+#Dependencies
 node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+target/
+.gradle/
+.julia/
+.julia-*/
+.jl/
+.jl-*/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
+#Editors and IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
+*.log
+*.tmp
 
-# Build outputs
-dist/
-build/
+#Environment files
+.env
+.env.local
+.env.*
+
+#Coverage and test artifacts
+.coverage
 coverage/
 htmlcov/
-.nyc_output/
-```
+.pytest_cache/
+.mypy_cache/
+
+#System files
+.DS_Store
+Thumbs.db
