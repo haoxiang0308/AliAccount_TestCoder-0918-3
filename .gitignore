@@ -1,4 +1,1 @@
-```
-.temp_test_name
-test_*.js
-```
+Nothing should be ignored based on the provided changes. The only file added is `mergeLists.hs` which is a Haskell source file and should not be ignored.
