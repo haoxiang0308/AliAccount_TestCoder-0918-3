@@ -1,6 +1,7 @@
-#Compiled and build artifacts
-*.pyc
-*.class
+```
+# Build artifacts
+zig-cache/
+zig-out/
 *.o
 *.obj
 *.exe
@@ -8,59 +9,23 @@
 *.so
 *.a
 *.out
+
+# Dependencies
+.zig-cache/
+zig-cache/
+zig-out/
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 
-#Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-#Editors and IDEs
+# Editors
 .vscode/
 .idea/
 
-#Environment files
+# Environment
 .env
 .env.local
-.env.*
-
-#System files
-.DS_Store
-Thumbs.db
-
-#Coverage and test artifacts
-coverage/
-htmlcov/
-.coverage
+*.env.*
+```
