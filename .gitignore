@@ -1,12 +1,15 @@
 ```
-#Compiled and build artifacts
-*.class
-*.o
-*.obj
-#Dependencies
-.venv/
-venv/
-#Editors
-.vscode/
-.idea/
+# LaTeX auxiliary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
