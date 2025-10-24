@@ -1,13 +1,1 @@
-```
-# Temporary shell scripts
-*.sh~
-
-# Logs and temp files
-*.tmp
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-```
+Nothing should be ignored since the added file `vba_sum_function_2847.bas` is a source code file (.bas is a VBA source file extension) and no build artifacts, dependencies, or temporary files are present in the changes.
