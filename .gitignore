@@ -1,37 +1,18 @@
-```julia
-# Julia-specific ignores
-*.ji
-*.jl.cov
-*.jl.mem
-*.out
+```
+# Compiled and build artifacts
+*.class
 *.o
-*.so
-*.dylib
-*.dll
-
-# Build artifacts
+*.obj
+*.out
 build/
-dist/
-lib/
-deps/
-
-# Environment
-.julia/
-.JuliaProject
-.JuliaManifest
-
-# IDE/Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-
+# Dependencies
+.gradle/
+node_modules/
 # Logs and temp files
 *.log
 *.tmp
-*.temp
-
-# System files
-.DS_Store
-Thumbs.db
+*.swp
+# Editors
+.vscode/
+.idea/
 ```
