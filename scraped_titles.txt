@@ -1,0 +1,11 @@
+Scraped Page Titles
+==================================================
+URL: https://httpbin.org/html
+Title: No title found
+--------------------------------------------------
+URL: https://example.com
+Title: Example Domain
+--------------------------------------------------
+URL: https://httpbin.org/robots.txt
+Title: Error fetching https://httpbin.org/robots.txt: HTTPSConnectionPool(host='httpbin.org', port=443): Read timed out. (read timeout=10)
+--------------------------------------------------
