@@ -1,3 +1,78 @@
-(linear_regression_model.py is a source file, and there are no build artifacts, dependencies, or temp files in the changes)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
-(empty — output nothing)
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.venv3/
+pyenv/
+.PyCharm/
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+.coverage.*
+
+# Distribution artifacts
+dist/
+build/
+*.egg-info/
+.tox/
+nosetests.xml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compression files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
