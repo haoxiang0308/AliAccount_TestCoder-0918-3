@@ -1,0 +1,22 @@
+# Application Configuration
+[app]
+name = "My Application"
+version = "1.0.0"
+debug = true
+
+[database]
+host = "localhost"
+port = 5432
+username = "admin"
+password = "secret"
+database_name = "myapp_db"
+
+[server]
+host = "0.0.0.0"
+port = 8080
+timeout = 30
+
+[logging]
+level = "info"
+format = "json"
+output = "stdout"
