@@ -1,1 +1,31 @@
-Nothing should be ignored based on the provided file changes. The only added file is `LoginForm.vue`, which is a source code file and should not be ignored.
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# System files
+.DS_Store
+Thumbs.db
+```
