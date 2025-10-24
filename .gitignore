@@ -1,34 +1,32 @@
 ```
-# Terraform files
-*.tf
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-*.tfvars
-*.tfvars.json
-.crush/
-*.tf.json
-*.tfplan
-*.tfstate.backup.*
-*.tfstate.*
-
-# Logs and temp files
-*.log
+# Configuration and temporary files
+*.ini
 *.tmp
-*.swp
+*.log
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+python/
+venv/
+.venv/
+.env/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Generated files
+*.ini~
+
+# Backup files
+*~
+.swp
+.swo
 ```
