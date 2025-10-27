@@ -1,1 +1,25 @@
-(empty)
+```
+# Compiled and build artifacts
+*.css.map
+*.min.css
+*.bundle.css
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+```
