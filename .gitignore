@@ -1,4 +1,43 @@
 ```
-# PowerShell session files
-*.ps1
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Dependencies
+.mex/
+mex/
+build/
+dist/
+install/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage and testing
+.coverage
+coverage/
+htmlcov/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
