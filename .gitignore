@@ -1,20 +1,46 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
+# GraphQL schema files are source code - don't ignore them
+# Only ignore common artifacts that might be generated alongside GraphQL projects
 
-# Temporary files
-*.tmp
-*.swp
+# Dependencies
+node_modules/
+
+# Build artifacts (if any generated)
+dist/
+build/
+target/
+
+# Python artifacts (if Python project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Logs
 *.log
 
-# System files
+# Environment files
+.env
+.env.local
+.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
 .DS_Store
 Thumbs.db
 
-# JSON files (if they are temporary/config)
-*.json
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Cache directories
+.mypy_cache/
+.pytest_cache/
+.gradle/
 ```
