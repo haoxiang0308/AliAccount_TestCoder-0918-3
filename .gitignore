@@ -1,18 +1,41 @@
 ```
-# Compiled and build artifacts
-*.php~
+# Compiled Python files
+*.pyc
+__pycache__/
 
-# Logs and temp files
+# Model files (if they are large binary files)
+*.model
+model_*.py
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dependencies
+node_modules/
+.Python
+
+# Logs
 *.log
+
+# Temporary files
 *.tmp
 *.swp
+*.swo
 
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
+# Editor files
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Build directories
+dist/
+build/
 ```
