@@ -1,50 +1,46 @@
 ```
-# Compiled files
-*.pyc
-*.pp
-
-# Cache directories
-__pycache__/
-*.cache
-
-# Logs and temp files
-*.log
-*.tmp
-*.temp
-
 # Environment files
 .env
 .env.local
 *.env.*
 
+# Logs and temp files
+*.log
+*.tmp
+
 # Editors
 .vscode/
 .idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
+.env.local
+pyvenv.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Rust
+target/
+Cargo.lock
+
+# Temporary files
+*~
 *.swp
 *.swo
 
-# Dependencies
-node_modules/
-.venv/
-venv/
-pip-wheel-metadata/
-*.egg-info/
-
-# Build artifacts
-build/
-dist/
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
 # OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 ```
