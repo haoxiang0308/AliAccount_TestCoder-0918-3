@@ -1,19 +1,42 @@
-```
-# Compiled and build artifacts
-*.pl~
-
-# Logs and temp files
+```bash
+# Temporary files
 *.tmp
-*.log
-
-# Editors
-.vscode/
-.idea/
 *.swp
 *.swo
 
-# Environment
+# Logs
+*.log
+
+# Environment files
 .env
 .env.local
 *.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
