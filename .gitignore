@@ -1,0 +1,50 @@
+```
+# Compiled files
+*.pyc
+*.pp
+
+# Cache directories
+__pycache__/
+*.cache
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+pip-wheel-metadata/
+*.egg-info/
+
+# Build artifacts
+build/
+dist/
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
