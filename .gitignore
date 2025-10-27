@@ -1,4 +1,5 @@
 ```
-# Compiled and build artifacts
-*.proto
+# Zig toolchain
+zig-*/
 ```
+zig.tar.xz
