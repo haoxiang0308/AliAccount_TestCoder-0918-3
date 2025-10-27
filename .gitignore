@@ -1,1 +1,4 @@
-(empty)
+```
+# Compiled files
+*.cr
+```
