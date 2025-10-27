@@ -1,4 +1,5 @@
 ```
-# JSON files
-*.json
+# Configuration and CI files
+.gitlab-ci.yml
+random_gitlab_config_*.yml
 ```
