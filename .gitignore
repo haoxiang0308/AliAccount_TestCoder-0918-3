@@ -1,4 +1,18 @@
 ```
-# Compiled files
-*.cr
+# Environment
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Original rules preserved
+*.log
 ```
