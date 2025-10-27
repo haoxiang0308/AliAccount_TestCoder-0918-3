@@ -1,4 +1,10 @@
 ```
-# Build system
-Makefile_project123
+# Temporary files
+*.tmp
+tmp.*
+
+# Environment files
+.env
+.env.local
+*.env.*
 ```
