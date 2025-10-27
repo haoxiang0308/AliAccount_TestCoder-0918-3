@@ -1,1 +1,94 @@
-(empty)
+```
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Package manager
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.swp
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+jspm_packages/
+*.pem
+*.key
+.pid
+.nyc_output
+coverage/
+.nyc_output/
+istanbul/
+.mocha.opts
+.mocha/
+.mocha-reports/
+.tap/
+.nyc/
+.nyc_output/
+.repl_history
+.node_repl_history
+node_modules/
+jspm_packages/
+web_modules/
+*.min.js
+*.min.css
+*.gz
+*.tar
+*.tgz
+*.zip
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+```
