@@ -1,16 +1,22 @@
 ```
 # Compiled and build artifacts
-*.beam
-*.o
-*.obj
-ebin/
-_build/
+*.pyc
+__pycache__/
+
 # Dependencies
-deps/
+.venv/
+venv/
+
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
