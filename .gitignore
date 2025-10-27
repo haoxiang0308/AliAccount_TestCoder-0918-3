@@ -1,4 +1,6 @@
 ```
-# Build system
-Makefile_project123
+*.tmp
+*.swp
+*.log
+tmp.*/
 ```
