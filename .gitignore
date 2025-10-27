@@ -1,69 +1,25 @@
 ```
-# Environment files
-.env
-.env.local
-*.env.*
+# Compiled and build artifacts
+*.ji
+*.o
+*.obj
+*.out
 
-# Logs and temporary files
+# Dependencies
+.julia/
+*.julia/
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-.eggs/
-
-# Build directories
-dist/
-build/
-*.egg
-
-# Virtual environments
-venv/
-.venv/
-env/
-.ENV/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Environment
+.env
+.env.local
+*.env.*
 ```
