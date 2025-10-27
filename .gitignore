@@ -1,1 +1,15 @@
-Nothing to output - the added file 'hello.asm' is a source code file and should not be ignored.
+```
+# Temporary files
+*.tmp
+*.temp
+*.yaml.swp
+*.yml.swp
+
+# Vim swap files
+*.swp
+*.swo
+
+# Temporary YAML files
+tmp.*.yaml
+tmp.*.yml
+```
