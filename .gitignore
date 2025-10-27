@@ -1,1 +1,26 @@
-Nothing to output - the added file 'RandomController.cs' is a source code file and should not be ignored.
+```
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.pdf
+*.dvi
+*.ps
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.xdv
+*.run.xml
+*.bcf
+*.xml
+*.synctex
+*.synctex(busy)
+```
