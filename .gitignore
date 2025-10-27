@@ -1,1 +1,20 @@
-Nothing needs to be added to .gitignore since only a single source file (`greeting_module.ex`) was added and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Temporary files
+*.tmp
+*.swp
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# JSON files (if they are temporary/config)
+*.json
+```
