@@ -1,1 +1,30 @@
-Nothing should be ignored based on the provided file changes. The only added file is `mergeLists.hs` which is a Haskell source file and should not be ignored.
+```r
+# R-specific build artifacts
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.Rout
+*.Rcheck/
+*.tar.gz
+
+# Output files
+*.txt
+*.csv
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Temporary files
+*.tmp
+*~
+.\#*
+#*
+```
+
+Wait, I need to reconsider. Looking at the added files, they are all source/config files (.R, .md, .txt) and not build artifacts. The example_output.txt and scatter_plot_results.txt appear to be output files, but they're being tracked in the repository. Following rule #6, since these are source/config files and not build artifacts, dependencies, or temp files, the output should be empty.
+
+```r
+
+```
