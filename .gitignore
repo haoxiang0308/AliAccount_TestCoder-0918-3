@@ -1,15 +1,4 @@
 ```
-# Temporary files
-*.tmp
-*.temp
-*.yaml.swp
-*.yml.swp
-
-# Vim swap files
-*.swp
-*.swo
-
-# Temporary YAML files
-tmp.*.yaml
-tmp.*.yml
+# Temporary shell script
+*.sh
 ```
