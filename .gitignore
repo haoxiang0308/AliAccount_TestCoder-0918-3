@@ -1,10 +1,18 @@
 ```
-# Temporary files
-*.tmp
-tmp.*
+# Elixir compiled files
+*.ex
+*.exs
+compile_info_*.ex
+compile_time_logger*.ex
+test_*_logger.exs
 
-# Environment files
-.env
-.env.local
-*.env.*
+# Elixir build artifacts
+ebin/
+*.beam
+*.app
+*.ez
+
+# Dependencies
+deps/
+_build/
 ```
