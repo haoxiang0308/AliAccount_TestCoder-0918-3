@@ -1,50 +1,26 @@
 ```
-# Compiled files
-*.pyc
-*.pp
-
-# Cache directories
-__pycache__/
-*.cache
-
-# Logs and temp files
+# Jenkins artifacts
 *.log
 *.tmp
-*.temp
+*.out
 
 # Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Dependencies
-node_modules/
-.venv/
-venv/
-pip-wheel-metadata/
-*.egg-info/
+# System files
+.DS_Store
+Thumbs.db
 
 # Build artifacts
 build/
 dist/
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# OS generated files
-.DS_Store
-Thumbs.db
+target/
 ```
