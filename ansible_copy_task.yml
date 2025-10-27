@@ -1,0 +1,14 @@
+---
+- name: Copy file with random name
+  hosts: localhost
+  tasks:
+    - name: Copy file with random name
+      copy:
+        src: /path/to/source/file.txt
+        dest: "/tmp/file_{{ 1000 | random }}_{{ lookup('pipe', 'date +%s') }}.txt"
+        mode: '0644'
+      register: copy_result
+
+    - name: Show the copied file name
+      debug:
+        msg: "File copied to: {{ copy_result.dest }}"
