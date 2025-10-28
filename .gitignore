@@ -1,9 +1,1 @@
-```yaml
-# Configuration files
-*.yaml
-*.yml
-
-# Keep the generated deployment files out of version control
-nginx-deployment.yaml
-v1vXNHwv6T.yaml
-```
+Nothing to output - the change list contains only a source file (.vue) and no build artifacts, dependencies, or temp files that need to be ignored.
