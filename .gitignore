@@ -1,5 +1,9 @@
 ```
-# CI/CD
-.gitlab-ci.yml
-test_job_*.yml
+# Configuration files
+*.ini
+
+# Environment files
+.env
+.env.local
+*.env.*
 ```
