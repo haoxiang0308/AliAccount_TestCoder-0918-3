@@ -1,1 +1,96 @@
-Nothing needs to be added to .gitignore for this change list. The added file 'sine_wave_plot.m' is a source code file (MATLAB/Octave) and should not be ignored.
+```
+# Julia installation
+julia-*/
+julia.tar.gz
+
+# Compiled and shared libraries
+*.so
+*.so.*
+*.dll
+*.exe
+
+# Julia-specific compiled files
+*.ji
+
+# Compressed files
+*.tar.gz
+*.gz
+*.zip
+*.rar
+*.7z
+*.bz2
+*.xz
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar
+*.tgz
+
+# Julia system files
+*.cache
+
+# Documentation and HTML files (if not source)
+*.html
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts
+build/
+dist/
+target/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Gradle
+.gradle/
+
+# Compressed archives
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+```
