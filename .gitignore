@@ -1,4 +1,43 @@
 ```
-# Database/query files
-*.sql
+# Compiled and build artifacts
+*.css
+*.js
+*.min.css
+*.min.js
+*.bundle.js
+dist/
+build/
+out/
+# Dependencies
+node_modules/
+# Logs and temp files
+*.log
+*.tmp
+# Environment
+.env
+.env.local
+.env.*
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+# Coverage
+coverage/
+htmlcov/
+.coverage
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+# Virtual environments
+venv/
+.venv/
+env/
+.ENV
+# System files
+.DS_Store
+Thumbs.db
 ```
