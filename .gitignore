@@ -1,1 +1,5 @@
-Nothing should be ignored based on the provided file changes, as they are only Lua source files (.lua).
+```
+*.sh.swp
+*.sh.swo
+*.tmp
+```
