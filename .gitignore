@@ -1,1 +1,48 @@
-Nothing to output - the added file 'RandomController.cs' is a source code file and should not be ignored.
+```
+# Temporary files and artifacts
+*.tmp
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env/
+.venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build directories
+build/
+dist/
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg-info
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# System files
+.DS_Store
+Thumbs.db
+```
