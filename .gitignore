@@ -1,13 +1,16 @@
 ```
-# Compiled Java/Scala classes
-*.class
+# TypeScript/JavaScript
+*.tsbuildinfo
+*.js.map
+*.ts.map
 
-# Scala specific
-*.scala
+# Dependencies
+node_modules/
 
-# Temporary files
-*.tmp
-*.swp
+# Build artifacts
+dist/
+build/
+out/
 
 # Logs
 *.log
@@ -15,23 +18,65 @@
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# Editors
+# Editor
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Build artifacts
-build/
-dist/
-target/
+# OS
+.DS_Store
+Thumbs.db
 
-# Dependencies
-node_modules/
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# Python (if present)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.gradle/
+.env
+.env.local
+.env.*
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Archives
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
