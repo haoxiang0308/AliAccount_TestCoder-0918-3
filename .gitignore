@@ -1,57 +1,40 @@
 ```
-# Configuration and CI files
-*.yml
-*.yaml
-
-# Environment and sensitive files
-.env
-.env.local
-*.env.*
-
-# Logs and temporary files
+# Compiled and build artifacts
+*.solc
+*.abi
+*.bin
+*.hex
+build/
+dist/
 *.log
-*.tmp
 
-# Editor/IDE files
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Dependencies
-node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-venv/
-.venv/
+# Environment
 .env
 .env.local
-.env.*
-
-# Build artifacts
-dist/
-build/
-target/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Coverage and testing
-coverage/
-htmlcov/
-.coverage
-.pytest_cache/
-.mypy_cache/
+*.env.*
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
