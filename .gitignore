@@ -1,1 +1,5 @@
-Nothing needs to be added to .gitignore for this change list. The added file 'circle_area_e8df208e.f90' is a source code file that should be tracked in version control.
+```
+# Configuration files
+*.yml
+*.yaml
+```
