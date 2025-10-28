@@ -1,1 +1,30 @@
-Nothing needs to be added to .gitignore for this change list, as it only contains a SQL file which is source code.
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
+node_modules/@openzeppelin/contracts/build/
+
+# Package lock file
+package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+```
