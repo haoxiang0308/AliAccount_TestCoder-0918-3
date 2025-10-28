@@ -1,1 +1,30 @@
-Nothing should be ignored since the added file 'VBA_Sum_Function.bas' is a source code file and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Compiled and build artifacts
+*.php~
+
+# Backup and swap files
+*.bak
+*.swp
+*~
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Dependencies
+vendor/
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
