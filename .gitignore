@@ -1,8 +1,4 @@
 ```
-# Temporary files
-*.tmp
-*.temp
-
-# Generated HTML files
-*.html
+# Compiled and build artifacts
+*.cr
 ```
