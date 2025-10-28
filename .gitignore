@@ -1,5 +1,1 @@
-```
-# Configuration and YAML files
-serverless*.yml
-"serverless_config_*$(openssl*
-```
+Nothing to output - the change list contains only a source code file (.asm) which should not be ignored.
