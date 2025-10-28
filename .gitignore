@@ -1,1 +1,4 @@
-Nothing needs to be added to .gitignore for this change list. The added file '6far6zsX8v.f90' is a source code file (Fortran source file with .f90 extension) which should not be ignored. There are no build artifacts, dependencies, or temporary files in the changes that require ignoring.
+```
+# Generated from file changes
+*.thrift
+```
