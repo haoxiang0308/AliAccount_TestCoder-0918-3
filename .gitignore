@@ -1,1 +1,4 @@
-Nothing should be ignored based on the provided file changes. The added file 'Dy0G91cGe5eK.groovy' is a source code file that doesn't match any common ignore patterns, and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# CI/CD
+.github/
+```
