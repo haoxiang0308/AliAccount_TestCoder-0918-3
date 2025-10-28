@@ -1,16 +1,7 @@
 ```
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.sib
-*.sib~
-*.o
-*.obj
-
-# Dependencies
-Packages/
-.build/
-DerivedData/
+*.pyc
+__pycache__/
 
 # Logs and temp files
 *.log
@@ -20,19 +11,9 @@ DerivedData/
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# macOS
-.DS_Store
 ```
