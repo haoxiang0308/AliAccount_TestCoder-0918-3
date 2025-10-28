@@ -1,6 +1,56 @@
 ```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+
+# Dependencies
+*.jar
+target/
+build/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage*
+nosetests.xml
+coverage.xml
+*.cover
 *.log
-tmp.*/
+.git/
+*.git
+*.gitignore
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
 ```
