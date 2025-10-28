@@ -1,0 +1,70 @@
+# Makefile for C++ project
+# Randomly named Makefile for C++ project
+
+# Compiler
+CXX = g++
+
+# Compiler flags
+CXXFLAGS = -Wall -Wextra -std=c++17 -g
+
+# Source directory
+SRCDIR = src
+
+# Build directory
+BUILDDIR = build
+
+# Test directory
+TESTDIR = test
+
+# Source files
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+
+# Object files
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(BUILDDIR)/%.o)
+
+# Executable name
+TARGET = main
+
+# Test executable name
+TEST_TARGET = test_runner
+
+# Default target
+.PHONY: all
+all: build
+
+# Build target
+.PHONY: build
+build: $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	$(CXX) $(OBJECTS) -o $(BUILDDIR)/$(TARGET)
+	@echo "Build completed: $(BUILDDIR)/$(TARGET)"
+
+$(BUILDDIR)/%.o: $(SRCDIR)/%.cpp
+	@mkdir -p $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Test target
+.PHONY: test
+test: build_test
+	./$(BUILDDIR)/$(TEST_TARGET)
+
+build_test: $(wildcard $(TESTDIR)/*.cpp) $(OBJECTS)
+	@mkdir -p $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) $(wildcard $(TESTDIR)/*.cpp) $(OBJECTS) -o $(BUILDDIR)/$(TEST_TARGET)
+	@echo "Test build completed: $(BUILDDIR)/$(TEST_TARGET)"
+
+# Clean target
+.PHONY: clean
+clean:
+	rm -rf $(BUILDDIR)
+	@echo "Build directory cleaned"
+
+# Help target
+.PHONY: help
+help:
+	@echo "Available targets:"
+	@echo "  build  - Compile the project"
+	@echo "  test   - Run tests"
+	@echo "  clean  - Remove build artifacts"
+	@echo "  help   - Show this help message"
