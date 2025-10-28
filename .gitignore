@@ -1,4 +1,4 @@
 ```
-# Database/query files
-*.sql
+__pycache__/
+*.pyc
 ```
