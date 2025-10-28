@@ -4,9 +4,6 @@
 __pycache__/
 *.o
 *.obj
-dist/
-build/
-*.class
 *.exe
 *.dll
 *.so
@@ -17,12 +14,12 @@ build/
 .venv/
 venv/
 node_modules/
+dist/
+build/
 target/
 .gradle/
 .mypy_cache/
 .pytest_cache/
-julia-*/
-zig*/
 
 # Logs and temp files
 *.log
@@ -38,6 +35,8 @@ zig*/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
