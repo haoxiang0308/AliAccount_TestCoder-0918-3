@@ -1,4 +1,9 @@
 ```
-# Compiled and build artifacts
-*.cr
+# Configuration files
+*.ini
+
+# Environment files
+.env
+.env.local
+*.env.*
 ```
