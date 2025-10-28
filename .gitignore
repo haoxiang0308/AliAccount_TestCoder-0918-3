@@ -1,1 +1,25 @@
-Nothing needs to be added to .gitignore since only a single source file (`greeting_module.ex`) was added and there are no build artifacts, dependencies, or temporary files in the changes.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Dependencies
+*.so
+*.dll
+*.a
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
+```
