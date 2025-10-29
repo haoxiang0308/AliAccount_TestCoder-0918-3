@@ -1,14 +1,18 @@
-```
-# Configuration files
-*.yml
-*.yaml
+```go
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dll
+*.exe
 
-# Environment files
-.env
-.env.local
-*.env.*
+# Dependencies
+vendor/
+Godeps/
 
-# Logs and temporary files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
@@ -17,19 +21,17 @@
 .vscode/
 .idea/
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
+# Coverage
+coverage/
+htmlcov/
+*.coverage
 
-# System files
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS generated files
 .DS_Store
 Thumbs.db
 ```
