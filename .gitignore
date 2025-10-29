@@ -1,4 +1,11 @@
 ```
-# Configuration files
-*.hcl
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.backup
+*.lock.hcl
 ```
