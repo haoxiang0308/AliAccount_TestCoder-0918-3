@@ -1,4 +1,1 @@
-```
-# Configuration files
-*.ini
-```
+Nothing to output - the added files are Solidity source code files (.sol) which should not be ignored.
