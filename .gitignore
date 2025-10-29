@@ -1,30 +1,9 @@
 ```
-# Dependencies
-node_modules/
-
-# Build artifacts
-node_modules/@openzeppelin/contracts/build/
-
-# Package lock file
-package-lock.json
-
-# Environment files
-.env
-.env.local
-.env.*
-
-# IDE files
-.vscode/
-.idea/
-
-# Log files
-*.log
-
 # Temporary files
 *.tmp
-*.swp
+tmp.*
 
-# OS files
-.DS_Store
-Thumbs.db
+# PHP specific
+*.php~
+*.php.bak
 ```
