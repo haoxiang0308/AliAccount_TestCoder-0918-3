@@ -4,11 +4,15 @@
 __pycache__/
 *.o
 *.obj
+*.out
 
 # Dependencies
 .venv/
 venv/
 node_modules/
+dist/
+build/
+*.egg-info/
 
 # Logs and temp files
 *.log
@@ -23,36 +27,19 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
 
 # Python specific
-*.pyc
-*.pyo
-*.pyd
-.Python
+*.py[cod]
+*$py.class
 *.so
+.Python
 *.egg-info/
-dist/
-build/
-*.egg
-*.zip
-*.tar.gz
-*.whl
-
-# MyPy
-.mypy_cache/
-
-# Pytest
-.pytest_cache/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# OS generated
-.DS_Store
-Thumbs.db
+.Python
 ```
