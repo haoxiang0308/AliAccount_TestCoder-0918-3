@@ -1,21 +1,9 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.fsx~
-*.fsi~
-# Dependencies
-.paket/
-.packages/
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-# Editors
-.vscode/
-.idea/
-# F# specific
-bin/
-obj/
-out/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 ```
