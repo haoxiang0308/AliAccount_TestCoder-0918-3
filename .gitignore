@@ -1,25 +1,47 @@
-```
-# Compiled and build artifacts
+```haskell
+# Compiled files
+*.hi
 *.o
-*.obj
-*.out
-
-# Dependencies
+*.dyn_o
 *.so
 *.dll
-*.a
+*.exe
+
+# Build artifacts
+dist/
+dist-newstyle/
+build/
+.hie/
+.cabal-sandbox/
+.cabal-sandbox/
+
+# Dependencies
+.stack-work/
+.haskell/
+.cabal/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
+*~
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
 ```
