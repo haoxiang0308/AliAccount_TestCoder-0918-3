@@ -1,10 +1,1 @@
-```toml
-# Configuration files that might contain sensitive data
-*.toml
-```
-
-Wait, I need to reconsider. The TOML files appear to be configuration files that are being added to version control, so they shouldn't be ignored. Since only configuration files (.toml) are being added and no build artifacts, dependencies, or temporary files are present in the changes, the output should be empty.
-
-```toml
-
-```
+Nothing to output - the added files are both Python source files (.py) which should not be ignored.
