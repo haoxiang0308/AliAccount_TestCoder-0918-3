@@ -1,1 +1,6 @@
-Nothing to output - the change list contains only a Dart source file (.dart) which should not be ignored.
+```
+# GraphQL schema files are source code - don't ignore them
+# The added .graphql files appear to be source/schema files
+# No build artifacts, dependencies, or temp files detected in changes
+# Output remains empty as no ignores are needed
+```
