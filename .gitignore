@@ -1,4 +1,7 @@
 ```
-# Compiled and build artifacts
-*.proto
+# Executable files
+max_finder
+
+# Output files
+*.txt
 ```
