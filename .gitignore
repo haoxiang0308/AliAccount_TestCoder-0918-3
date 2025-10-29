@@ -1,39 +1,33 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
-dist/
-build/
-target/
+*.out
+
 # Dependencies
-.venv/
-venv/
-node_modules/
-.julia/
-.zig/
+__pycache__/
+*.pyc
+*.pyo
+
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-# Environment
-.env
-.env.local
-.env.*
+
 # Editors
 .vscode/
 .idea/
-# Coverage reports
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
 coverage/
 htmlcov/
 .coverage
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
+
 # Compressed files
 *.zip
 *.gz
