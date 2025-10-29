@@ -1,37 +1,4 @@
 ```
-# Compiled Java/Scala classes
-*.class
-
-# Scala specific
-*.scala
-
-# Temporary files
-*.tmp
-*.swp
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Build artifacts
-build/
-dist/
-target/
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.gradle/
+# Compiled and build artifacts
+*.fs
 ```
