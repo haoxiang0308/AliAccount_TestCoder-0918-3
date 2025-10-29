@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "age": 30
+      },
+      {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob@example.com",
+        "age": 25
+      },
+      {
+        "id": 3,
+        "name": "Carol Davis",
+        "email": "carol@example.com",
+        "age": 28
+      }
+    ],
+    "total_count": 3,
+    "page": 1,
+    "per_page": 10
+  },
+  "message": "Users retrieved successfully",
+  "timestamp": "2023-10-29T10:30:00Z"
+}
