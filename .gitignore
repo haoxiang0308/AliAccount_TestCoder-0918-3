@@ -1,17 +1,22 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.plc
+*.plx
+*.o
+*.obj
+*.out
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+lib/
+blib/
+_PM_PATCH_DIR_/
+cover_db/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -22,23 +27,9 @@ node_modules/
 .vscode/
 .idea/
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Backup files
-*~
-*.bak
-*.swp
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Distribution and packaging
+MANIFEST
+Makefile
+pm_to_blib
+*.tar.gz
 ```
