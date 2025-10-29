@@ -1,4 +1,42 @@
 ```
-# Database dump files
-*.sql
+# Compiled and build artifacts
+*.mex*
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+*.class
+
+# Dependencies
+*.m
+*.mat
+*.fig
+*.p
+*.m~
+*.sln
+*.vcxproj
+*.vcproj
+*.csproj
+*.fsproj
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MATLAB specific
+*.fig
+*.mat
+*.p
+*.m~
 ```
