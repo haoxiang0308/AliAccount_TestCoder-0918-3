@@ -1,1 +1,4 @@
-(button-style-3f8a2b.css is a source file, so nothing should be ignored)
+```
+# Database dump files
+*.sql
+```
