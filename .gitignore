@@ -1,4 +1,1 @@
-```
-# Compiled and build artifacts
-*.r
-```
+Nothing should be ignored based on the provided file changes. The added file 'qauayhojdc.kt' is a Kotlin source file, which should be tracked in version control. No build artifacts, dependencies, or temporary files are present in the changes.
