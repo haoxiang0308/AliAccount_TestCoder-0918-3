@@ -1,18 +1,23 @@
 ```
 # Compiled and build artifacts
-*.php~
+*.beam
+*.app
+*.o
+*.obj
+
+# Dependencies
+deps/
+_build/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
 # Editors
 .vscode/
 .idea/
+
+# Erlang-specific
+erl_crash.dump
 ```
