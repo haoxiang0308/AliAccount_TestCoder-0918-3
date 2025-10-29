@@ -1,5 +1,22 @@
 ```
-# Backup files
-*.backup.*
-*.sh
+# GraphQL files
+*.graphql
+
+# If this is a GraphQL project, you might want to ignore these common artifacts
+# Uncomment the relevant sections based on your project setup:
+
+# Node.js dependencies (if using GraphQL with Node.js)
+# node_modules/
+
+# Build outputs (if applicable)
+# dist/
+# build/
+
+# IDE files
+# .vscode/
+# .idea/
+
+# Environment files
+# .env
+# .env.local
 ```
