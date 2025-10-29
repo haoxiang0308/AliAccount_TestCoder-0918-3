@@ -1,5 +1,64 @@
 ```
-# Configuration and YAML files
-serverless*.yml
-"serverless_config_*$(openssl*
+# Compiled and build artifacts
+*.plc
+*.plx
+*.o
+*.obj
+
+# Dependencies
+lib/
+blib/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.gcov
+*.profraw
+
+# Distribution
+dist/
+build/
+*.tar.gz
+*.zip
+*.tar
+*.tgz
+
+# Git submodules
+submodule/
+
+# Perl-specific
+*.al
+*.bs
+*.ix
+*.x
+pm_to_blib
+*.un~
+*.bak
+*~
 ```
