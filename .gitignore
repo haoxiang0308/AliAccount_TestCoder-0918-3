@@ -3,7 +3,22 @@
 *.o
 *.obj
 *.out
+max_finder
+result_*.txt
 
 # Dependencies
-*.adb
+# (no dependency directories detected in changes)
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
