@@ -1,32 +1,17 @@
 ```
-# GraphQL files
-*.graphql
-
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
 *.out
+*.ali
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-*.env.*
+*.deps
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Editors
 .vscode/
@@ -36,22 +21,30 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Coverage
+# Coverage and testing
 coverage/
 htmlcov/
 .coverage
+*.coverage
 
 # Build directories
-dist/
 build/
+dist/
 target/
-.gradle/
 
-# Python specific
-.mypy_cache/
-.pytest_cache/
+# Virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
 
-# Compressed files
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Compression files
 *.zip
 *.gz
 *.tar
