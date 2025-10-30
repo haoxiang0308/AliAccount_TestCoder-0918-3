@@ -1,19 +1,4 @@
 ```
-# Compiled and build artifacts
-*.pl~
-
-# Logs and temp files
-*.tmp
-*.log
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment
-.env
-.env.local
-*.env.*
+# Generated from file changes
+*.html
 ```
