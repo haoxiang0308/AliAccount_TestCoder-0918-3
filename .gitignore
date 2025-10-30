@@ -1,1 +1,16 @@
-Nothing to ignore - the change list contains only a markdown file (README_12fe6c08d487aeac.md) which is a source/config file, and no build artifacts, dependencies, or temp files are present.
+```
+# Compiled and build artifacts
+*.asm
+*.o
+*.obj
+*.out
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+```
