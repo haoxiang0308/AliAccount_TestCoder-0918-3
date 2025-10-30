@@ -1,1 +1,15 @@
-(empty)
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Logs and temp files
+*.tmp
+*.log
+
+# Random/temporary files
+random_file_*.txt
+rando.txt*
+*.txtAC*
+```
