@@ -1,1 +1,14 @@
-(circle_area_8472.lua)
+```
+# Zig build artifacts
+zig-cache/
+zig-out/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.dylib
+*.dSYM/
+```
