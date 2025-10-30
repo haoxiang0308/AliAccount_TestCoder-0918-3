@@ -1,16 +1,8 @@
 ```
-# Compiled and build artifacts
+# Assembly build artifacts
 *.o
 *.obj
-*.mod
-*.smod
 *.out
-
-# Dependencies
-*.a
-*.so
-*.dll
-*.dylib
 
 # Logs and temp files
 *.log
@@ -21,8 +13,7 @@
 .vscode/
 .idea/
 
-# Build directories (if any)
-build/
-dist/
-target/
+# System files
+.DS_Store
+Thumbs.db
 ```
