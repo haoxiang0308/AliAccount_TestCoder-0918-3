@@ -1,4 +1,45 @@
-```
+```groovy
 # Compiled and build artifacts
-*.proto
+*.class
+*.jar
+*.war
+*.ear
+*.groovy.class
+
+# Dependencies
+.gradle/
+build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.gcov
+*.lcov
+
+# System files
+.DS_Store
+Thumbs.db
+```
+
+Wait, I need to reconsider this. The added files are just `.groovy` source files, which are source code and should not trigger adding Groovy-specific build artifacts to .gitignore unless those artifacts actually exist in the change list. Since only source files are being added, and no build artifacts are shown in the changes, the output should be empty.
+
+```groovy
+
 ```
