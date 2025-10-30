@@ -1,47 +1,30 @@
 ```
-# System files
-.DS_Store
-Thumbs.db
+# Configuration and environment files
+.env
+.env.local
+.env.*
 
 # Logs
 *.log
 
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Temporary files
 *.tmp
+*.swp
 
-# Dependencies
+# Dependencies and build artifacts
 node_modules/
 venv/
 .venv/
 __pycache__/
-.mypy_cache/
-.pytest_cache/
-.julia/
-zig*/
-julia-*/
-
-# Build artifacts
+*.pyc
+*.pyo
+*.pyd
 dist/
 build/
 target/
-*.o
-*.obj
-*.out
-*.exe
-*.dll
-*.so
-*.a
-
-# Coverage
+.gradle/
+.mypy_cache/
+.pytest_cache/
 coverage/
 htmlcov/
 .coverage
@@ -69,4 +52,14 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
