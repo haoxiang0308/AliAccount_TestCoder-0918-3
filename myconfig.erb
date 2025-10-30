@@ -1,0 +1,14 @@
+# Arquivo de configuração gerado por Chef
+# Aplicação: <%= @app_name %>
+
+[database]
+host = <%= @database_host %>
+port = <%= @database_port %>
+
+[application]
+name = <%= @app_name %>
+debug = <%= @debug_mode ? 'true' : 'false' %>
+
+[logging]
+level = INFO
+path = /var/log/<%= @app_name %>.log
