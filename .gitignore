@@ -1,1 +1,5 @@
-Nothing should be ignored based on the provided file changes. The only added file is `mergeLists.hs` which is a Haskell source file and should not be ignored.
+(menu_nav.html is a source file, so no .gitignore content needed)
+
+```html
+
+```
