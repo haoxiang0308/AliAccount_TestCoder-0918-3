@@ -1,1 +1,41 @@
-Nothing to output - the added file 'RandomController.cs' is a source code file and should not be ignored.
+```
+# Compiled and build artifacts
+*.swiftmodule
+*.swiftdoc
+*.sib
+*.sib~
+*.bc
+*.o
+*.obj
+
+# Dependencies
+.jazzy/
+.swiftpm/
+.Packages/
+.build/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Other common ignores
+.DS_Store
+Thumbs.db
+```
