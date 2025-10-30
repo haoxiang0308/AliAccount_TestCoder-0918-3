@@ -1,1 +1,31 @@
-Nothing should be ignored based on the provided file changes, as they are only Lua source files (.lua).
+```
+# Compiled and build artifacts
+*.ex
+*.exs
+compile_info_*.ex
+demo_macro.exs
+test_compile_info.ex
+
+# Dependencies
+deps/
+_build/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
