@@ -1,4 +1,4 @@
-```
-# PowerShell session files
-*.ps1
+```graphql
+# GraphQL files
+*.graphql
 ```
