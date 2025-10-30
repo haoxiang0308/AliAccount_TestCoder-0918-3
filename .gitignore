@@ -1,35 +1,17 @@
 ```
-# Compiled and build artifacts
-*.plc
-*.plx
-*.o
-*.obj
-*.out
-
-# Dependencies
-lib/
-blib/
-_PM_PATCH_DIR_/
-cover_db/
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
 *.swp
 *.swo
 
-# Environment
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
+# Logs
+*.log
 
-# Distribution and packaging
-MANIFEST
-Makefile
-pm_to_blib
-*.tar.gz
+# Docker-related (if not needed in version control)
+Dockerfile.*
 ```
