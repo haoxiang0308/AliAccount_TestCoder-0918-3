@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 1200,
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Coffee Mug",
+    "price": 15,
+    "category": "Home & Kitchen"
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "price": 100,
+    "category": "Sports"
+  },
+  {
+    "id": 4,
+    "name": "Novel",
+    "price": 20,
+    "category": "Books"
+  },
+  {
+    "id": 5,
+    "name": "Desk Lamp",
+    "price": 40,
+    "category": "Home & Kitchen"
+  }
+]
