@@ -1,1 +1,35 @@
-Nothing to output - the change list contains only a markdown file (84742266.md) which is a source/config file and should not be ignored.
+```
+# Compiled and build artifacts
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+*.o
+*.obj
+
+# Dependencies
+_dbuild/
+.opam/
+esy.lock/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# OCaml-specific
+*.annot
+*.cmt
+*.cmti
+*.merlin
+dune-project~
+*.backup
+```
