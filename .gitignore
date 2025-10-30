@@ -1,1 +1,15 @@
-Nothing should be ignored based on the provided file changes. The added file `GreetingComponent.jsx` is a source code file that should be tracked in version control.
+```
+# Temporary files
+*.tmp
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Process or temporary output files
+running_services_*.txt
+```
