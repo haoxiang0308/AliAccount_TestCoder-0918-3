@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package status;
+
+// 定义状态码枚举
+enum StatusCode {
+  // 通用状态码
+  OK = 200;                    // 成功
+  CREATED = 201;               // 已创建
+  ACCEPTED = 202;              // 已接受
+  NO_CONTENT = 204;            // 无内容
+
+  BAD_REQUEST = 400;           // 错误请求
+  UNAUTHORIZED = 401;          // 未授权
+  FORBIDDEN = 403;             // 禁止访问
+  NOT_FOUND = 404;             // 未找到
+  CONFLICT = 409;              // 冲突
+  INTERNAL_ERROR = 500;        // 内部服务器错误
+  NOT_IMPLEMENTED = 501;       // 未实现
+  BAD_GATEWAY = 502;           // 错误网关
+  SERVICE_UNAVAILABLE = 503;   // 服务不可用
+
+  // 自定义业务状态码
+  INVALID_INPUT = 1000;        // 输入无效
+  VALIDATION_FAILED = 1001;    // 验证失败
+  RESOURCE_LIMIT_EXCEEDED = 1002; // 资源限制超出
+  TIMEOUT = 1003;              // 超时
+  DUPLICATE_ENTRY = 1004;      // 重复条目
+  UNPROCESSABLE_ENTITY = 1005; // 无法处理的实体
+  TOO_MANY_REQUESTS = 1006;    // 请求过多
+}
