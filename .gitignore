@@ -1,18 +1,76 @@
 ```
-# Environment
+# Puppet-related compiled files
+*.pp
+
+# Editor/IDE files
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Dependencies and build artifacts
+node_modules/
+__pycache__/
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+dist/
+build/
+target/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+.julia/
+zig*/
+julia-*/
+.gradle/
 
-# Editors
+# System files
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Editor-specific
 .vscode/
 .idea/
-
-# Original rules preserved
-*.log
 ```
