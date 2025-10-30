@@ -1,1 +1,8 @@
-Nothing should be ignored based on the provided file changes. The added file '5mqy05ya.py' is a source code file that should be tracked in version control.
+```
+# Configuration and compose files
+*.yml
+*.yaml
+
+# Docker
+docker-compose-*.yml
+```
