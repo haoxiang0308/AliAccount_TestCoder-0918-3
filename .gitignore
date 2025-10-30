@@ -1,58 +1,37 @@
-```
+```rust
 # Compiled and build artifacts
-*.pyc
-__pycache__/
 *.o
 *.obj
-*.class
-*.exe
-*.dll
-*.so
 *.a
-*.out
+*.so
+*.dll
+*.exe
+target/
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
+Cargo.lock
+vendor/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Editors
 .vscode/
 .idea/
 
-# System files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Build directories
-dist/
-build/
-target/
-.gradle/
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Compressed files
+# Compression
 *.zip
 *.gz
 *.tar
