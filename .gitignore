@@ -1,8 +1,15 @@
 ```
-# Kubernetes/Deployment files
-*.yaml
-*.yml
-
-# Keep the specific deployment file that was added
-!nodejs-deployment-6861546141.yaml
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
 ```
