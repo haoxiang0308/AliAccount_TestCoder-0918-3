@@ -1,15 +1,1 @@
-```
-# LaTeX build artifacts
-*.aux
-*.log
-*.out
-*.toc
-*.lof
-*.lot
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
-```
+Nothing to ignore - the added file 'tasks_12345.md' is a markdown source file that should be tracked in version control.
