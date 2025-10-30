@@ -1,49 +1,53 @@
 ```
-# Environment files
+# Elixir/Mix specific ignores
+*.beam
+*.ez
+ebin/
+_build/
+deps/
+cover/
+.erlang.cookie
+
+# Compiled files
+*.o
+*.obj
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
 .env
 .env.local
 *.env.*
 
-# Logs and temporary files
-*.log
-*.tmp
-*.swp
-
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-.eggs/
-
-# Build directories
-dist/
-build/
-*.egg
-
-# Virtual environments
-venv/
-.venv/
-env/
-.ENV/
-
-# Compressed files
+# Archives
 *.zip
 *.gz
 *.tar
