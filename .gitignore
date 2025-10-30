@@ -1,42 +1,36 @@
 ```
 # Compiled and build artifacts
-*.mex*
-*.o
-*.obj
-*.dll
-*.so
-*.a
-*.lib
-*.dylib
-*.class
+*.js.map
+*.min.js
+*.bundle.js
+dist/
+build/
 
 # Dependencies
-*.m
-*.mat
-*.fig
-*.p
-*.m~
-*.sln
-*.vcxproj
-*.vcproj
-*.csproj
-*.fsproj
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# MATLAB specific
-*.fig
-*.mat
-*.p
-*.m~
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage and test reports
+coverage/
+htmlcov/
+*.coverage
+.pytest_cache/
+.mypy_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
