@@ -1,4 +1,1 @@
-```
-# Compiled and build artifacts
-*.pp
-```
+Nothing should be ignored based on the provided file changes. The added file `shape_types.ml` is a source code file that should be tracked in version control.
