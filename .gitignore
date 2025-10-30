@@ -1,27 +1,5 @@
-```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.r
+(nodejs-deployment.yaml is a source/config file, so no ignores needed)
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+```yaml
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
 ```
