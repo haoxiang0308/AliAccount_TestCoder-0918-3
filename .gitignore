@@ -1,1 +1,18 @@
-Nothing to output - the added file 'form_handler_128d14f548f1b9e4.php' is a source code file and should not be ignored.
+```
+# System and temp files
+*.tmp
+*.log
+
+# PowerShell and Python artifacts
+*.pyc
+__pycache__/
+*.ps1xml
+
+# Generated system info files
+SystemInfo_*.txt
+
+# Environment files
+.env
+.env.local
+*.env.*
+```
