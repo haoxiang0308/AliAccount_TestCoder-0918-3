@@ -1,1 +1,15 @@
-Nothing to output - the added file 'wxp9bpxs8m.py' is a source code file and should not be ignored.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+```
