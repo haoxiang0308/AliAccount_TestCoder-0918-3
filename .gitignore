@@ -1,14 +1,18 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.out
-# Dependencies
-vendor/
+# Temporary/Docker files
+*Dockerfile.*.tmp
+*Dockerfile.*.random
+
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
 # Editors
 .vscode/
 .idea/
