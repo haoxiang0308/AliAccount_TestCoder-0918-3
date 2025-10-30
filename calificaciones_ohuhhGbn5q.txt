@@ -1,0 +1,5 @@
+Calificaciones:
+Matemáticas: 9.5
+Español: 8.0
+Ciencias: 7.5
+Historia: 9.0
