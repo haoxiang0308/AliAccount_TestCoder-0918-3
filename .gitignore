@@ -1,13 +1,33 @@
 ```
-# Temporary files
+# Compiled and build artifacts
+*.vcd
+*.vvp
+*.bin
+*.out
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
 *.tmp
 *.swp
 *.swo
 
-# Logs
-*.log
-
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
@@ -19,6 +39,11 @@
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -43,7 +68,4 @@ Thumbs.db
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-
-# The specific file from changes
-2wb31ov0ct.cr
 ```
