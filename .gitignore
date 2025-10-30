@@ -1,4 +1,1 @@
-```
-# CI/CD
-.gitlab-ci.yml
-```
+Nothing should be ignored based on the provided file changes. The only added file is `menu.html`, which is a source file and should not be ignored.
