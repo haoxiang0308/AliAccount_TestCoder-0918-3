@@ -1,4 +1,4 @@
 ```
-# CI/CD
-.github/
+# Generated files
+*.json
 ```
