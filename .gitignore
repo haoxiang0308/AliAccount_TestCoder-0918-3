@@ -1,1 +1,4 @@
-Nothing to output - the added files are both Python source files (.py) which should not be ignored.
+```
+# Generated from file changes
+*.json
+```
