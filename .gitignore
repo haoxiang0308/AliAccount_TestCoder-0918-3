@@ -1,1 +1,29 @@
-Nothing needs to be added to .gitignore for this change list. The added file 'date-formatter.pipe.ts' is a source code file that should be tracked in version control.
+```
+# TypeScript/JavaScript build artifacts
+*.js
+*.js.map
+*.tsbuildinfo
+
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+```
