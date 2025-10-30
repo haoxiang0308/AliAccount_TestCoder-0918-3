@@ -1,1 +1,33 @@
-Nothing should be ignored based on the provided file changes, as they are only Lua source files (.lua).
+```
+# Ruby specific
+*.gem
+*.rbc
+coverage/
+InstalledFiles
+pkg/
+*.o
+*.tmp
+.rid
+.bundle
+Gemfile.lock
+
+# Environment
+.env
+.env.local
+.env.
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
