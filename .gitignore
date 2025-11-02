@@ -1,1 +1,4 @@
-Nothing needs to be added to .gitignore for this change list. The added file `ancestor_relations.pl` is a source code file (Prolog file) that should not be ignored.
+```
+# Compiled and build artifacts
+*.ex
+```
