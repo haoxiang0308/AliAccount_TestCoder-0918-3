@@ -4,68 +4,31 @@
 __pycache__/
 *.o
 *.obj
-dist/
-build/
-target/
-*.class
-*.exe
-*.dll
-*.so
-*.a
 *.out
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-.env
-.env.local
-*.env.*
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
 
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 
 # Python specific
 *.pyc
@@ -74,95 +37,36 @@ __pycache__/
 *.pyd
 .Python
 *.so
-.Python
-*.egg-info/
-.eggs/
-.mypy_cache/
-.pytest_cache/
-.tox/
-.coverage
-htmlcov/
 
-# Node.js specific
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Distribution / packaging
+.Python
+*.so
+.Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
 dist/
 build/
+*.egg-info/
+.eggs/
+.installed.cfg
+*.egg
 
-# Java specific
-*.class
-*.jar
-*.war
-*.ear
-target/
-.gradle/
-build/
-
-# C/C++ specific
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.log
-*.tmp
-
-# Go specific
-*.exe
-*.log
-*.tmp
-bin/
-pkg/
-
-# Rust specific
-target/
-*.so
-*.dylib
-*.dll
-
-# Ruby specific
-*.gem
-*.rbc
-coverage/
- InstalledFiles
-pkg/
-spec/reports/
-test/tmp/
-test/version_tmp/
-tmp/
-
-# Web specific
-*.css.map
-*.js.map
-*.min.css
-*.min.js
-
-# IDE specific
-.vscode/
+# IDE
 .idea/
 *.swp
 *.swo
-*~
+.vscode/
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
-
-# Environment and secrets
-.env
-.env.local
-*.env.*
-config.env
-
-# Cache directories
-.cache/
-.cargo/
-.npm/
-.yarn/
-.pip/
-.mypy_cache/
-.pytest_cache/
-.hypothesis/
 ```
