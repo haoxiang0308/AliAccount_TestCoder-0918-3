@@ -1,7 +1,13 @@
 ```
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.o
+*.obj
+*.out
+
+# Dependencies
+vendor/
+*.mod
+*.sum
 
 # Logs and temp files
 *.log
@@ -16,4 +22,14 @@ __pycache__/
 # Editors
 .vscode/
 .idea/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Distribution
+dist/
+build/
+target/
 ```
