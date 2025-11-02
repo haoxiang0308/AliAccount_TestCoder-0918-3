@@ -1,42 +1,41 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+# PowerShell session files
+*.ps1
+!Get-CurrentDateTime.ps1
+
+# Temp files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-.env
-.env.local
-.env.*
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.julia/
+.zig/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
-
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Build artifacts
+dist/
+build/
+target/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Compressed files
 *.zip
@@ -61,4 +60,14 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
 ```
