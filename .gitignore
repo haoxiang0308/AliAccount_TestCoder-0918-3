@@ -1,19 +1,26 @@
-```
+```gitignore
 # Compiled and build artifacts
-*.pl~
+*.pyc
+__pycache__/
+*.o
+*.obj
 
 # Logs and temp files
-*.tmp
 *.log
-
-# Editors
-.vscode/
-.idea/
+*.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# VBA files backup
+*.bak
+*.tmp
+*.~*
 ```
