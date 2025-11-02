@@ -1,69 +1,44 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.fsxproj
-*.fsproj
-*.dll
-*.exe
-*.so
-*.o
-*.obj
-*.out
-*.a
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-packages/
-lib/
-target/
-dist/
-build/
-
-# Logs and temp files
-*.log
+# Temporary files
 *.tmp
 *.swp
 *.swo
 
-# Environment
+# Logs
+*.log
+
+# Environment files
 .env
 .env.local
 *.env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS
-.DS_Store
-Thumbs.db
+# Docker-related (if applicable)
+Dockerfile_*
+*.dockerfile
+docker-compose*.yml
+docker-compose*.yaml
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.Python
+# Build artifacts
+build/
+dist/
+target/
+*.out
+*.exe
+*.dll
 *.so
-*.egg-info/
-.eggs/
+*.a
+*.obj
 
-# F# specific
-bin/
-obj/
-out/
-*.nupkg
-*.userprefs
-*.useros
-*.user
+# Dependencies
+node_modules/
+__pycache__/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.gradle/
 ```
