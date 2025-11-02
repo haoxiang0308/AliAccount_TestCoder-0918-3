@@ -1,70 +1,45 @@
 ```
-# LaTeX build artifacts
-*.aux
-*.log
-*.toc
-*.lof
-*.lot
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 *.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
 
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.backup
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Environment files
+# Dependencies
+.venv/
+venv/
 .env
 .env.local
 *.env.*
 
-# Editor/IDE files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Logs
-*.log
+# System files
+.DS_Store
+Thumbs.db
 
-# Coverage reports
+# Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
 
-# Python cache
-__pycache__/
+# Python specific
 *.pyc
+__pycache__/
 *.pyo
 *.pyd
-
-# Build directories
-dist/
-build/
-target/
-*.class
-
-# Dependency directories
-node_modules/
-.venv/
-venv/
-.env/
-
-# MyPy cache
-.mypy_cache/
-
-# Pytest cache
-.pytest_cache/
+.Python
+*.so
 
 # Compressed files
 *.zip
@@ -85,4 +60,8 @@ venv/
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
