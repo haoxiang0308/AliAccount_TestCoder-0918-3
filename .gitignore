@@ -1,1 +1,28 @@
-Nothing to ignore - the change list contains only a source code file (.rb) and no build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.plc
+*.plx
+*.pmc
+*.p6c
+*.nqp
+
+# Dependencies
+local/lib/perl5/
+*.lock
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+```
