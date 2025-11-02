@@ -1,28 +1,32 @@
 ```
-# Compiled and build artifacts
-*.php~
+# Flutter/Dart specific ignores
+.dart_tool/
+.build/
+*.g.dart
+*.freezed.dart
+*.g.part
+*.freezed.part
 
-# Backup and swap files
-*.bak
-*.swp
-*~
+# Dependencies
+.pub/
+.dart_tool/
+.packages
+
+# Logs
+*.log
+**/logs
 
 # Environment
 .env
 .env.local
 .env.*
+!.env.example
 
-# Logs
-*.log
-
-# Dependencies
-vendor/
-node_modules/
-
-# Editors
+# IDE
 .vscode/
 .idea/
-*.tmp
+*.swp
+*.swo
 
 # OS generated files
 .DS_Store
