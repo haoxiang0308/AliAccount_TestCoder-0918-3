@@ -1,37 +1,28 @@
-```go
+```
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
-*.out
-*.a
-*.so
-*.dll
-*.exe
+dist/
+build/
 
 # Dependencies
-vendor/
-Godeps/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
-# Coverage
-coverage/
-htmlcov/
-*.coverage
-
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Editors
+.vscode/
+.idea/
 ```
