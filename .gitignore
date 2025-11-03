@@ -1,26 +1,24 @@
 ```
-# Jenkins artifacts
-*.log
-*.tmp
+# Compiled and build artifacts
+*.o
+*.obj
 *.out
 
-# Environment files
+# Dependencies
+.julia/
+zig*/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
 .env
 .env.local
 *.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Build artifacts
-build/
-dist/
-target/
 ```
