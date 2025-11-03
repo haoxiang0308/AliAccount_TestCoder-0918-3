@@ -1,6 +1,1 @@
-```
-# CI/CD
-.github/workflows/
-*.yml
-*.yaml
-```
+Nothing needs to be added to .gitignore for this change list. The added file `enum_associado_1762187711.swift` is a Swift source code file and should not be ignored.
