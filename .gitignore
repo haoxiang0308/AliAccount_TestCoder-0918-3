@@ -1,1 +1,61 @@
-Nothing should be ignored based on the provided file changes. The added file `GreetingComponent.jsx` is a source code file that should be tracked in version control.
+```yaml
+# Configuration files
+*.yml
+*.yaml
+
+# Serverless framework
+.serverless/
+.sls/
+.serverless_plugins/
+
+# Environment and secrets
+.env
+.env.local
+*.env.*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+dist/
+build/
+target/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Cache directories
+.mypy_cache/
+.pytest_cache/
+.gradle/
+```
