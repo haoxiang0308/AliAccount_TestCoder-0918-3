@@ -1,16 +1,22 @@
-```rust
+```cpp
 # Compiled and build artifacts
 *.o
 *.obj
-*.a
-*.so
-*.dll
 *.exe
-target/
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
-Cargo.lock
-vendor/
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+target/
+.gradle/
 
 # Logs and temp files
 *.log
@@ -26,12 +32,16 @@ vendor/
 .env.local
 *.env.*
 
+# System files
+.DS_Store
+Thumbs.db
+
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Compression
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -50,8 +60,4 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
