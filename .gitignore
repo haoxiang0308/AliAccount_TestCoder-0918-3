@@ -1,1 +1,8 @@
-Nothing should be ignored based on the provided file changes, as they only contain source code files (.jl files) and no build artifacts, dependencies, or temporary files.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+heranca_cpp_exemplo
+polimorfismo_cpp_exemplo
+```
