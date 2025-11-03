@@ -1,41 +1,4 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
-
-# Model files (if they are large binary files)
-*.model
-model_*.py
-
-# Virtual environments
-.venv/
-venv/
-env/
-
-# Dependencies
-node_modules/
-.Python
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Build directories
-dist/
-build/
+# Compiled and build artifacts
+*.fs
 ```
