@@ -1,22 +1,14 @@
 ```
-# Thrift generated files
-*.thrift.g
-*.thrift.cpp
-*.thrift.h
-*.thrift.js
-*.thrift.py
-*.thrift.rb
-*.thrift.java
-*.thrift.php
-*.thrift.perl
-*.thrift.cocoa
-*.thrift.csharp
-*.thrift.go
-*.thrift.d
-*.thrift.st
-*.thrift.erl
-*.thrift.hs
-*.thrift.html
-*.thrift.md
-*.thrift.txt
+# Temporary shell scripts
+*_*.sh
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
 ```
