@@ -1,4 +1,5 @@
 ```
-# Database dump files
-*.sql
+# Configuration files
+*.yml
+*.yaml
 ```
