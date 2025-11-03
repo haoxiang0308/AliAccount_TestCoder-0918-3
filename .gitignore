@@ -1,26 +1,32 @@
 ```
-# Compiled and build artifacts
-*.o
-*.obj
-*.mod
-*.smod
-*.out
+# Dart/Flutter build outputs
+.dart_tool/
+.packages
+build/
+*.dart.js
+*.map
 
 # Dependencies
-*.mod/
-*.smod/
+pubspec.lock
+packages/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
-.vscode/
-.idea/
-
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
