@@ -1,4 +1,8 @@
 ```
-# Configuration files
-config_*.toml
+# R-specific ignores
+*.rds
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
 ```
