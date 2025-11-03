@@ -1,15 +1,24 @@
 ```
-# LaTeX build artifacts
-*.aux
+# R build artifacts
+*.Rproj.user/
+.Rhistory
+.RData
+*.o
+*.so
+*.dll
+
+# Plots and generated images
+*.png
+
+# Logs and temp files
 *.log
-*.toc
-*.lof
-*.lot
-*.out
-*.bbl
-*.blg
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.pdf
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.Rproj.user/
 ```
