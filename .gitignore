@@ -1,4 +1,7 @@
 ```
-# Compiled and build artifacts
-*.ml
+# R-specific ignores
+*.RData
+*.Rhistory
+.Rproj.user/
+.Rprofile
 ```
