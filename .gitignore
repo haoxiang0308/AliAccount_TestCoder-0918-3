@@ -1,5 +1,7 @@
 ```
-*.sh.swp
-*.sh.swo
-*.tmp
+# R-specific ignores
+*.RData
+*.Rhistory
+*.Rproj.user/
+.Rproj.user/
 ```
