@@ -1,1 +1,19 @@
-Nothing to ignore - the added file '5hlm2eurmd.py' is a source code file that should be tracked in version control.
+```
+# VBA/Excel related temp files
+*.tmp
+*.bak
+*.old
+
+# Generated macro files
+macro_*.vba
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.local
+*.env.*
+```
