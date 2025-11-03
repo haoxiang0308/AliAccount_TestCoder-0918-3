@@ -1,1 +1,5 @@
-Nothing needs to be added to .gitignore for this change list. The added file 'fDkVaGJz7R.jsx' appears to be a source code file that should be tracked in version control, and there are no build artifacts, dependencies, or temporary files in the changes that would warrant adding ignore rules.
+```
+# Temporary files
+*.tmp
+tmp.*
+```
