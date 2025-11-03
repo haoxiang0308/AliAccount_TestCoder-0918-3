@@ -1,1 +1,35 @@
-Nothing should be ignored based on the provided file changes. The added files (`check_even.ml` and `e70656c19d735c2e.ml`) are source code files that should be tracked in version control.
+```
+# Compiled files
+*.cmi
+*.cmo
+*.cma
+*.cmx
+*.cmxa
+*.cmxs
+*.exe
+*.out
+
+# Build artifacts
+_build/
+_dbuild/
+*.native
+*.byte
+
+# Dependencies
+.dune/
+esy.lock/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+```
