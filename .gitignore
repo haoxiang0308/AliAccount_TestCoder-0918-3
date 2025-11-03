@@ -1,9 +1,4 @@
 ```
-# Terraform
-*.tfstate
-*.tfstate.*
-*.tfvars
-*.tfplan
-.terraform/
-.terraform.lock.hcl
+# VBA files
+*.vba
 ```
