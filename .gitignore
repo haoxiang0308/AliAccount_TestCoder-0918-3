@@ -1,23 +1,89 @@
 ```
 # System files
-Thumbs.db
-.DS_Store
+SystemInfo_95427.txt
+
+# PowerShell artifacts
+*.ps1xml
+*.psc1
+*.psd1
+*.psm1
+
+# Python artifacts (if any Python files are added)
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.venv*/
+.ENV/
+.ENV*/
+env.bak/
+venv.bak/
+.venv.bak/
 
 # Logs
 *.log
 
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
 # Environment files
 .env
 .env.local
-*.env.*
+.env.*
+!.env.example
+!.env.sample
 
-# Editor/IDE files
+# Editors/IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
 
-# PowerShell specific
-EPjWWKNkkn.ps1
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Build outputs
+dist/
+build/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.class
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
