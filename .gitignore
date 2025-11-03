@@ -1,6 +1,5 @@
 ```
-*.tmp
-*.swp
-*.log
-tmp.*/
+# PowerShell script backup/swap files
+*.ps1~
+*~
 ```
