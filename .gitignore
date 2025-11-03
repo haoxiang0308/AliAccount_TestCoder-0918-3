@@ -1,1 +1,35 @@
-Nothing to output - the added files are Solidity source code files (.sol) which should not be ignored.
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+target/
+
+# Dependencies
+Cargo.lock
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Rust-specific
+**/target/
+Cargo.lock
+```
