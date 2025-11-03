@@ -1,3 +1,27 @@
 ```
-*.m
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.backup
+*.tmp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Output files
+public_ip_output.txt
+terraform_output.txt
+28f3pe253u.txt
 ```
