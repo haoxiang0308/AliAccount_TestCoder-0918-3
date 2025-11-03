@@ -1,4 +1,3 @@
-```
-# Swap result files
-swap_result_*.txt
-```
+(desv_est_3749.R and std_dev_function.R are R source files, which are not build artifacts, dependencies, or temporary files - they are legitimate source code files that should be tracked in version control)
+
+(empty - output nothing)
