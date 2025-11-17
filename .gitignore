@@ -1,0 +1,18 @@
+```
+# Compiled and build artifacts
+*.beam
+*.o
+*.obj
+
+# Dependencies
+.erlang.cookie
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
+.vscode/
+.idea/
+```
