@@ -1,1 +1,1 @@
-(jsvbrkvpmn.py is a source file, so no .gitignore rules needed)
+Nothing should be ignored since only a single Ada source file (.adb) was added without any build artifacts, dependencies, or temporary files.
