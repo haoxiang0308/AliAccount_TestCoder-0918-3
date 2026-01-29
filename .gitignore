@@ -1,1 +1,23 @@
-Nothing should be ignored based on the provided file changes. The added files (frofmtgxpi.html, hello_world.html, temp_filename.txt) are source/config files that should be tracked in version control.
+```vue
+# Build artifacts
+*.vue.d.ts
+*.vue.js
+*.vue.map
+
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+```
