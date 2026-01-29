@@ -1,1 +1,31 @@
-Nothing to output - the added file 'reverse_list_function.ex' is a source code file (Elixir) and no build artifacts, dependencies, or temporary files are present in the changes.
+```r
+# R-specific ignores
+.Rproj.user/
+.Rhistory
+.RData
+.Rds
+.rds
+.Rapp.history
+.Rbuildignore
+*~
+
+
+# Dependencies
+renv/
+packrat/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.Rproj
+```
