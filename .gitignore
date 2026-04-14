@@ -1,4 +1,1 @@
-```
-# JSON files
-*.json
-```
+Nothing needs to be added to .gitignore since only a single HTML form file was added, which appears to be source code rather than a build artifact, dependency, or temporary file.
