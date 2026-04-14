@@ -1,4 +1,36 @@
 ```
-# JSON files
-*.json
+# Compiled files
+*.nimble
+*.nims
+*.so
+*.dylib
+*.dll
+
+# Build artifacts
+nimcache/
+build/
+dist/
+
+# Dependencies
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
