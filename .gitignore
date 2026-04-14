@@ -1,12 +1,1 @@
-```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Generated files
-profile_pb2.py
-profile_pb2_grpc.py
-profile_service_*.txt
-```
+Nothing should be ignored since only a VBA source file (.bas) was added, which is a source code file.
