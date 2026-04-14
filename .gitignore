@@ -1,31 +1,12 @@
-```r
-# R-specific ignores
-.Rproj.user/
-.Rhistory
-.RData
-.Rds
-.rds
-.Rapp.history
-.Rbuildignore
-*~
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-
-# Dependencies
-renv/
-packrat/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
-.vscode/
-.idea/
-*.Rproj
+# Generated files
+profile_pb2.py
+profile_pb2_grpc.py
+profile_service_*.txt
 ```
