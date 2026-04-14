@@ -1,25 +1,21 @@
 ```
-# Compiled and build artifacts
-*.beam
-*.o
-*.obj
-ebin/
+# Zig build artifacts
+zig-cache/
+zig-out/
 
 # Dependencies
-.rebar3/
-_build/
+deps/
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Editors
-.vscode/
-.idea/
 
 # Environment
 .env
 .env.local
 *.env.*
+
+# Editors
+.vscode/
+.idea/
 ```
